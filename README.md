@@ -80,7 +80,8 @@ flowchart TD
                 file6
             end
         end
-
+    end
+    subgraph dataset2
         subgraph folder3
             direction TB
             subgraph category1
@@ -106,7 +107,8 @@ flowchart TD
                 file12
             end
         end
-
+    end
+    subgraph dataset3
         subgraph folder5
             direction TB
             subgraph category2
@@ -132,7 +134,8 @@ flowchart TD
                 file18
             end
         end
-
+    end
+    subgraph dataset4
         subgraph folder7
             direction TB
             subgraph category2
@@ -158,7 +161,8 @@ flowchart TD
                 file24
             end
         end
-
+    end
+    subgraph dataset5
         subgraph folder9
             direction TB
             subgraph category2
