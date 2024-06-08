@@ -52,7 +52,23 @@
 - [柯基捷径库](https://www.kejicut.com)
 - [iOS快捷指令库](https://www.rcuts.com)
 
-
+```mermaid
+gantt
+    title Roadmap
+    dateFormat  YYYY-MM-DD
+    section Q1 2024
+    完成市场调研           :done,    des1, 2024-01-01,2024-03-31
+    确定产品功能           :active,  des2, 2024-01-01,2024-03-31
+    section Q2 2024
+    开发产品原型           :         des3, 2024-04-01,2024-06-30
+    进行内部测试           :         des4, 2024-04-01,2024-06-30
+    section Q3 2024
+    启动Beta测试           :         des5, 2024-07-01,2024-09-30
+    收集用户反馈           :         des6, 2024-07-01,2024-09-30
+    section Q4 2024
+    正式发布               :         des7, 2024-10-01,2024-12-31
+    启动市场推广活动       :         des8, 2024-10-01,2024-12-31
+```
 
 ## 问题
 
