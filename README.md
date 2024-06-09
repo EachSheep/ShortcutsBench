@@ -71,6 +71,15 @@
 也可以移步快捷指令搜集站，推荐几个，全部网站给个链接。
 
 - 在本仓库中，每个category下只保存了对应的README文件，用于记录该类别的所有文件的主要信息，这里的README结构如下：
+    ```markdown
+    ### Name: Wine Shops # 快捷指令名称
+
+    - URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e #快捷指令iCloud链接
+    
+    - Source: https://shortcutsgallery.com # 快捷指令来源商店
+    
+    - Description: Look for Wine shop near by you # 快捷指令功能描述
+    ```
 
 **如何导入搜索到的快捷指令？**
 
