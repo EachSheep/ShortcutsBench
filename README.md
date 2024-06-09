@@ -68,18 +68,21 @@
 **搜索您想要的快捷指令？**
 
 我们的快捷指令放在哪？怎么在本项目中搜索想要的快捷指令？
-也可以移步快捷指令搜集站，推荐几个，全部网站给个链接。
 
-- 在本仓库中，每个category下只保存了对应的README文件，用于记录该类别的所有文件的主要信息，这里的README结构如下：
+* 在本仓库中，dataset/website/category/README.md文件用于记录该类别的所有文件的主要信息，这里的README结构如下：
     ```markdown
     ### Name: Wine Shops # 快捷指令名称
 
-    - URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e #快捷指令iCloud链接
+    - URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # 快捷指令iCloud链接
     
     - Source: https://shortcutsgallery.com # 快捷指令来源商店
     
     - Description: Look for Wine shop near by you # 快捷指令功能描述
     ```
+* 可以根据快捷指令的名称关键词(不包含空格)，在README文件中进行Ctrl+f进行检索。
+* 您也可以移步快捷指令搜集站，[如](#数据集使用指南（面向快捷指令开发者和研究者）)
+
+也可以移步快捷指令搜集站，推荐几个，全部网站给个链接。
 
 **如何导入搜索到的快捷指令？**
 
