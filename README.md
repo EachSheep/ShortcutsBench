@@ -29,11 +29,11 @@
 快捷指令是快捷指令开发者，在快捷指令App中，通过用户友好的图形化页面，使用快捷指令App中提供的基本动作构建的工作流。[苹果官方](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios)将其称之为“一种可让你使用 App 完成一个或多个任务的快捷方式。”
 
 快捷指令可以帮你做什么？快捷指令可以一键帮你完成各种任务！例如：
-* 日常生活：一键寻找附件酒馆：[Wine Shops](https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e),  节日提醒：[Festival Reminder](https://www.icloud.com/shortcuts/5b3607d300e84e3d99889c7fb0258b92),  百度贴吧签到：[贴吧一键签到](https://www.icloud.com/shortcuts/084dc19b51904a8a98e9135159fd2a61)
-* 购物党：购买PUBG Mobile UC[I want purchase UC](https://www.icloud.com/shortcuts/7234c2d743004377b4c74ea01d160648),  复制淘宝口令：[Parsing Tao command](https://www.icloud.com/shortcuts/e8dabf3b52eb412f9bdfeb6ce163cec3)
-* 学生党：计算器：[Quadratic Equation Solver](https://www.icloud.com/shortcuts/477e692d2646448fb6364539b0fcb608),  放空心灵：[Free mind](https://www.icloud.com/shortcuts/5d1f7e70a3f24493be92be2ed427c070)
-* 文字工作者：翻译器：[Translator](https://www.icloud.com/shortcuts/62f3fd91e29749fda1576f80f62423ed),  制作PDF：[Create PDF](https://www.icloud.com/shortcuts/964373096afc424d90be716ea7a88c6e)
-* 科研工作者：获取 bibtex 条目：[arXiv 获取 bibtex 条目](https://www.icloud.com/shortcuts/2222c346272249ca96e06fb64ba53845)
+* 🏡日常生活🤹：一键寻找附件酒馆：[Wine Shops](https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e),  节日提醒：[Festival Reminder](https://www.icloud.com/shortcuts/5b3607d300e84e3d99889c7fb0258b92),  百度贴吧签到：[贴吧一键签到](https://www.icloud.com/shortcuts/084dc19b51904a8a98e9135159fd2a61)
+* 🛍️购物党🛒：购买PUBG Mobile UC[I want purchase UC](https://www.icloud.com/shortcuts/7234c2d743004377b4c74ea01d160648),  复制淘宝口令：[Parsing Tao command](https://www.icloud.com/shortcuts/e8dabf3b52eb412f9bdfeb6ce163cec3)
+* 🧑‍🎓学生党🧮：计算器：[Quadratic Equation Solver](https://www.icloud.com/shortcuts/477e692d2646448fb6364539b0fcb608),  放空心灵：[Free mind](https://www.icloud.com/shortcuts/5d1f7e70a3f24493be92be2ed427c070)
+* ⌨️文字工作者🔣：翻译器：[Translator](https://www.icloud.com/shortcuts/62f3fd91e29749fda1576f80f62423ed),  制作PDF：[Create PDF](https://www.icloud.com/shortcuts/964373096afc424d90be716ea7a88c6e)
+* 🧑‍🔬科研工作者🏫：获取 bibtex 条目：[arXiv 获取 bibtex 条目](https://www.icloud.com/shortcuts/2222c346272249ca96e06fb64ba53845)
 * ...
 
 想要更多？请在[此]()查看我们已经收集的快捷指令。
