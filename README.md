@@ -80,7 +80,7 @@
 
 **获取数据集**
    
-您可以根据[✨✨数据集描述](#✨✨数据集描述)中的iCloud链接一个一个地下载快捷指令，或直接[百度网盘](https://pan.baidu.com/s/1x3sidPbP3-guZf59QGjd1g?pwd=r2v8)或Google云中[Google Cloud](https://drive.google.com/drive/folders/1hhZXvO6JE3YmlI26Sbh9zrhJYVLBt3-O?usp=drive_link)获取全量数据。
+您可以根据[✨✨数据集描述](#✨✨数据集描述)中的iCloud链接一个一个地下载快捷指令，或直接[百度网盘](https://pan.baidu.com/s/1pQMuMlAuW3Z6PLKP-tumPg?pwd=4nkm)或Google云中[Google Cloud](https://drive.google.com/drive/folders/1hhZXvO6JE3YmlI26Sbh9zrhJYVLBt3-O?usp=drive_link)获取全量数据。
 
 | 数据源 | 包含类别 | 元数据所在位置 | 云盘链接 |
 | :-------: | :----: | :----: | :----: |
