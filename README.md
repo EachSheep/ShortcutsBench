@@ -90,7 +90,7 @@
 
 **获取数据集**
    
-您可以根据[快捷指令使用指南](#快捷指令使用指南面向用户)中的iCloud链接一个一个地下载快捷指令，或直接[百度网盘](https://pan.baidu.com/s/1pQMuMlAuW3Z6PLKP-tumPg?pwd=4nkm)或Google云中[Google Cloud](https://drive.google.com/drive/folders/1hhZXvO6JE3YmlI26Sbh9zrhJYVLBt3-O?usp=drive_link)获取全量数据。
+您可以根据[快捷指令使用指南](#快捷指令使用指南面向用户)中的iCloud链接一个一个地下载快捷指令，或直接[百度网盘](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)或Google云中[Google Cloud](https://drive.google.com/drive/folders/1hhZXvO6JE3YmlI26Sbh9zrhJYVLBt3-O?usp=drive_link)获取全量数据。
 
 | 数据源 | 包含类别 | 元数据所在位置 | 云盘链接 |
 | :-------: | :----: | :----: | :----: |
@@ -100,11 +100,11 @@
 | [ShareShortcuts](https://shareshortcuts.com)| √  | [仓库位置](dataset/shareshortcuts.com) |[源文件](https://drive.google.com/drive/folders/1LdjQYnCrvgKIuPeCBhztxGzbGrIIQk8D?usp=drive_link)|
 | [ShortcutsGallery](https://shortcutsgallery.com)| √  | [仓库位置](dataset/shortcutsgallery.com) |[源文件](https://drive.google.com/drive/folders/1FsUR0DNHfgNJieSfDxPkyfiUBhOYxnLN?usp=drive_link)|
 | [iSpazio](https://shortcuts.ispazio.net)| ×  | [仓库位置](dataset/shortcuts.ispazio.net) | [源文件](https://drive.google.com/drive/folders/1I2XYwjZrk3xuvpD9EnrPZe8AwfaMx92i?usp=drive_link)|
-| [捷径库](https://jiejingku.net)| √  | [仓库位置](dataset/jiejingku.net) |[源文件](https://pan.baidu.com/s/1CH-tQ7PRGSJxdtkdR2TMuA?pwd=tzv8)|
-| [少数派](https://shortcuts.sspai.com)| √  | [仓库位置](dataset/shortcuts.sspai.com) |[源文件](https://pan.baidu.com/s/18AbPTCJjRoI-6tnPtq0Vdw?pwd=q4mi)|
-| [捷径范](https://jiejing.fun)| √  | [仓库位置](dataset/jiejing.fun) |[源文件](https://pan.baidu.com/s/1I8NKqtvLXyTKbkUoP9IBGw?pwd=enr3)|
-| [柯基捷径库](https://www.kejicut.com)| √  | [仓库位置](dataset/www.kejicut.com)|[源文件](https://pan.baidu.com/s/1x3znoUK7QRgg9aoD5m9yjA?pwd=y2ky)|
-| [iOS快捷指令库](https://www.rcuts.com)| √  | [仓库位置](dataset/www.rcuts.com) |[源文件](https://pan.baidu.com/s/1H3BLJqhoNuCLJA2XpnWKTw?pwd=fx7j)|
+| [捷径库](https://jiejingku.net)| √  | [仓库位置](dataset/jiejingku.net) |[源文件]([https://pan.baidu.com/s/1CH-tQ7PRGSJxdtkdR2TMuA?pwd=tzv8](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d))|
+| [少数派](https://shortcuts.sspai.com)| √  | [仓库位置](dataset/shortcuts.sspai.com) |[源文件]([https://pan.baidu.com/s/18AbPTCJjRoI-6tnPtq0Vdw?pwd=q4mi](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi))|
+| [捷径范](https://jiejing.fun)| √  | [仓库位置](dataset/jiejing.fun) |[源文件]([https://pan.baidu.com/s/1I8NKqtvLXyTKbkUoP9IBGw?pwd=enr3](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732))|
+| [柯基捷径库](https://www.kejicut.com)| √  | [仓库位置](dataset/www.kejicut.com)|[源文件]([https://pan.baidu.com/s/1x3znoUK7QRgg9aoD5m9yjA?pwd=y2ky](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p))|
+| [iOS快捷指令库](https://www.rcuts.com)| √  | [仓库位置](dataset/www.rcuts.com) |[源文件]([https://pan.baidu.com/s/1H3BLJqhoNuCLJA2XpnWKTw?pwd=fx7j](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0))|
 
 **快捷指令源数据简介**
 
