@@ -29,11 +29,11 @@
 快捷指令是快捷指令开发者，在快捷指令App中，通过用户友好的图形化页面，使用快捷指令App中提供的基本动作构建的工作流。[苹果官方](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios)将其称之为“一种可让你使用 App 完成一个或多个任务的快捷方式。”
 
 快捷指令可以帮你做什么？快捷指令可以一键帮你完成各种任务！例如：
-* 日常生活：...
-* 购物党：...
-* 学生党：...
-* 文字工作者：...
-* 科研工作者：...
+* 日常生活：[Wine Shops](https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e)
+* 购物党：[I want purchase UC](https://www.icloud.com/shortcuts/7234c2d743004377b4c74ea01d160648)
+* 学生党：[Quadratic Equation Solver](https://www.icloud.com/shortcuts/477e692d2646448fb6364539b0fcb608)
+* 文字工作者：[Translator](https://www.icloud.com/shortcuts/62f3fd91e29749fda1576f80f62423ed)
+* 科研工作者：[arXiv 获取 bibtex 条目](https://www.icloud.com/shortcuts/2222c346272249ca96e06fb64ba53845)
 * ...
 
 想要更多？请在[此]()查看我们已经收集的快捷指令。
@@ -67,7 +67,7 @@
 
 **搜索您想要的快捷指令？**
 
-我们的快捷指令放在哪？怎么在本项目中搜索想要的快捷指令？（放一个你的README的结构，README里面放了啥）。
+我们的快捷指令放在哪？怎么在本项目中搜索想要的快捷指令？
 也可以移步快捷指令搜集站，推荐几个，全部网站给个链接。
 
 - 在本仓库中，每个category下只保存了对应的README文件，用于记录该类别的所有文件的主要信息，这里的README结构如下：
