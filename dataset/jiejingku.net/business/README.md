@@ -8,7 +8,7 @@
 
 - Description: DingTalk intelligently recognizes workday clock-ins (including legal holidays and adjusted days off).
 
-### Name: The translation of '打印' into English is 'print'.
+### Name: print
 
 - URL: https://www.icloud.com/shortcuts/5252146ea46e455e90e7858c33b04b6f
 
