@@ -1,72 +1,58 @@
 # dataset/jiejingku.net/news
 
-### Name: 17D5BFC9-2740-44D6-B09A-F438F6B2D775
+### Name: District
 
 - URL: https://www.icloud.com/shortcuts/17d5bfc9274044d6b09af438f6b2d775
 
-- Description: 识区是由字节跳动旗下团队打造的一款个性化资讯阅读平台，可通过关键词规则、信息订阅源维度来订阅你需要的信息，满足你的个性化阅读需求。识区App的口号是「定义你的阅读宇宙」。简单来说，这是一款让你能够自定义阅读的产品。 网站：https://shiqu.cn/ APP：https://apps.apple.com/cn/app/id1585771587 目前识区还处于内测阶段，你会发现通过手机注册后，需要填入一个邀请码才能正式加入识区。 每位新用户注册成功可以获得3个邀请码，为方便大家尝鲜使用识区APP，捷径库组织了邀请码的互助接力活动。可以通过联系以下微信获得识区邀请码（需好友验证：识区邀请码）。 当然，为保证活动顺利进行，您在注册成功后需返还两个邀请码用于后续接力邀请。识区邀请码分享路径：识区–右上角分享–生成邀请码。 相比于官方所宣称的「智能阅读宇宙」，识区的逻辑更像是传统的论坛。在识区中，所有内容被分为不同的「识区」，也即不同的「贴吧」「小组」。每个「识区」里的内容都是与主题相关的资讯与讨论。 在侧栏底部，你可以找到「发现识区」的入口，这里聚合了官方与用户创建的识区。你可以在无限滑动这个页面，寻找感兴趣的识区并浏览、加入；也可以通过顶部的「搜索识区」检索自己感兴趣的识区。 如果你没有找到自己感兴趣的识区，你还可以在侧栏找到「创建识区」的选项。创建识区的流程也十分简便，只需要填写名称、简介并设置头图即可完成。识区还为初来乍到的「区长」提供了引导，按照指示，可以方便快速地完成识区 Bot 的内容订阅。 识区对于帖子给出了两种浏览方式： 「推荐」与 「最新」。你可以按照需要，选择获取热度最高或者最新鲜的内容。不用担心算法会给你推送无穷无尽的内容，在这里你只会看到被「区长」加入 Bot 订阅列表的内容和用户分享的帖子与链接。 如果你不满足于获取资讯，希望分享内容或观点，识区提供了丰富的参与讨论方式。你可以通过帖子下方进行回帖、在识区中发布帖子和分享链接等方式和订阅了这一识区的用户进行友好的交流。 在推荐栏目里，你能看到一些识区的推荐以及来自不同识区的帖子。在这里，你可以暂时离开自己的兴趣范围，发现更多新的内容与观点。 点亮大约是点赞 + 收藏。这里聚合了你在所有识区中点击过「小灯泡」的内容以及你在点亮时留下的想法（你可以选择是否将想法同步到评论区）。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: "Shi Qu is a personalized news reading platform created by a team under ByteDance, which allows you to subscribe to the information you need through keyword rules and information subscription sources dimensions, satisfying your personalized reading needs. The slogan of the Shi Qu app is 'Define Your Reading Universe.' In simple terms, this is a product that allows you to customize your reading."
 
-### Name: B0B34A7B-A5A4-4396-88CF-94EEAFD4A371
+### Name: Weather Query
 
 - URL: https://www.icloud.com/shortcuts/b0b34a7ba5a4439688cf94eeafd4a371
 
-- Description: 超全的天气状况！！！  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Super comprehensive weather conditions!!! Shortcut Library is a website for creating and sharing Apple shortcuts. All shortcuts published on this site are from enthusiasts and online collections. Shortcut Library respects the rights of original authors, and all shortcuts will be annotated with author information. Shortcut authors are welcome to share your shortcuts in Shortcut Library. The shortcuts on this site are only for personal technical learning and communication. Without the permission of the original author, they are prohibited from being used for any commercial projects or derivative works.
 
-### Name: 1EE3F63A-A5E3-4176-BC87-BBE2CE85225E
+### Name: I want to navigate.
 
 - URL: https://www.icloud.com/shortcuts/1ee3f63aa5e34176bc87bbe2ce85225e
 
-- Description: 简单概要近期新闻，每天都有。默认复制到剪贴板，可每夭获取粘贴到群里  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Brief summary of recent news, every day. Automatically copied to the clipboard, can be pasted into the group every day. Information on privacy permissions and security ratings for shortcuts The Shortcuts Gallery is a website for creating and sharing Apple shortcuts.
 
-### Name: 486DC6C9-7CC4-4E61-BB7A-4EA962CDDA98
+### Name: Technology News
 
 - URL: https://www.icloud.com/shortcuts/486dc6c97cc44e61bb7a4ea962cdda98
 
-- Description: 科技新闻快捷指令版RSS阅读器。内置虎嗅、少数派、36氪、IT之家、V2EX 的 Feed 资源。 点击感兴趣的新闻标题，即可跳转到相关网站阅读。 可自定义阅读来源。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Technology news quick shortcut version RSS reader. Built-in feeds from Huxiu, Pandaily, 36Kr, IT Home, V2EX. Click on the news title of interest to jump to the corresponding website for reading. Customizable source of reading.
 
-### Name: A52AE668-FF3F-4A6F-B775-21952E1241E4
+### Name: Wuhan Apple Store wallpaper.
 
 - URL: https://www.icloud.com/shortcuts/a52ae668ff3f4a6fb77521952e1241e4
 
-- Description: 这里欢迎各种天南海北的碰撞。来 Apple 武汉，创意的大江大湖，随你浪。 武汉 Apple Store 官方壁纸 最全整理包  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Welcome to Apple Wuhan, where creativity flows freely. The official wallpaper collection of Wuhan Apple Store includes all kinds of elements. Regarding privacy permissions and security ratings of shortcuts, Shortcuts Library is a website for creating and sharing Apple shortcuts. All shortcuts published on this site are submitted by enthusiasts and collected online. Shortcuts Library respects the rights of original creators, and all shortcuts will be annotated with author information. Shortcut authors are welcome to share their shortcuts in the Shortcut Library. The shortcuts on this site are for personal technical learning and communication purposes only. Commercial use and derivative actions are prohibited without the permission of the original author. For more shortcuts, please visit the Shortcuts Library: https://jiejingku.net.
 
-### Name: 6E62EC70-ECB5-4D65-81D2-FE3F2887BADD
+### Name: 365 Information Brief.
 
 - URL: https://www.icloud.com/shortcuts/6e62ec70ecb54d6581d2fe3f2887badd
 
-- Description: 获取365资讯简报，每日更新头条资讯。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Get 365 news briefings, with daily headline updates.
 
-### Name: 2DB81C8D-EF48-4154-BFFC-2B92F65B626A
+### Name: Leverage Gold Spear Uncle
 
 - URL: https://www.icloud.com/shortcuts/2db81c8def484154bffc2b92f65b626a
 
-- Description: 《借势》是广告鬼才金枪大叔从业20年实战心得，以弱胜强的128条黄金法则、10大借势思维、千亿品牌操盘的核心秘诀，首次倾囊相授。  “语言是钉子，视觉是锤子”，造多个品牌爆款广告的背后，是他强大的洞察力和与众不同的思维方式。价值500万的知识，一字一句都是金。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: "Borrowing Power" is the practical experience of advertising master Uncle Jinqiang for 20 years, with 128 golden rules of winning over the strong with the weak, 10 powerful borrowing strategies, and the core secrets of operating billion-dollar brands, all shared for the first time. "Language is the nail, vision is the hammer." Behind the creation of multiple explosive brand advertisements lies his strong insight and unique way of thinking. Worth 5 million, every word is gold.
 

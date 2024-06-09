@@ -1,322 +1,258 @@
 # dataset/www.kejicut.com/柯基
 
-### Name: 9139185D-A369-4B6B-BA65-F0813C4CBF73
+### Name: ID photo production.
 
 - URL: https://www.icloud.com/shortcuts/9139185da3694b6bba65f0813c4cbf73
 
-- Description: 支持超清证件照、标准一寸照、二寸照、小一寸照、小二寸照、大一寸照，有红、白、蓝三种背景色。
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Supports ultra-clear ID photos, standard one-inch photos, two-inch photos, small one-inch photos, small two-inch photos, large one-inch photos.
 
-### Name: 1C73EBE2-BB6E-4A88-8376-B2DD52829D19
+### Name: battery life query
 
 - URL: https://www.icloud.com/shortcuts/1c73ebe2bb6e4a888376b2dd52829d19
 
-- Description: 可查询iPhone/iPad电池循环次数、当前寿命、当前容量、设计容量等，可保存查询结果
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Query iPhone/iPad battery cycle count, current lifespan, current capacity, design capacity, etc., and save the query results.
 
-### Name: E3D7E5F7-BA4C-4049-9CEB-B92291DAB34F
+### Name: Live TV.
 
 - URL: https://www.icloud.com/shortcuts/e3d7e5f7ba4c40499cebb92291dab34f
 
-- Description: 内置央视频道18个、卫视频道5个、央视片库，央视听音，均导向官方网站
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: CCTV has 18 channels, 5 satellite channels, CCTV film library, CCTV listening.
 
-### Name: 1ABE91BC-B872-4EC3-BFE1-9F5BB4860227
+### Name: iPhone Camera Watermark
 
 - URL: https://www.icloud.com/shortcuts/1abe91bcb8724ec3bfe19f5bb4860227
 
-- Description: 给照片添加苹果水印，拥有iPhone15～iPhone4之间所有机型，支持中英文，可居中或自定义水印位置
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Add an Apple watermark to photos, compatible with all models between iPhone 15 and iPhone 4, supports both Chinese and English, can be placed in the center or customized watermark position.
 
-### Name: 25D9BF13-E0AC-49E1-BD4A-2143F8E37C12
+### Name: CorgiShortcutLibrary
 
 - URL: https://www.icloud.com/shortcuts/25d9bf13e0ac49e1bd4a2143f8e37c12
 
-- Description: 一键快速访问柯基捷径库
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: One-click quick access to the Corgi Shortcut Library.
 
-### Name: 39EBD166-078E-41A5-BCAD-CF7A9AA66EE7
+### Name: Belongs to your shortcut library.
 
 - URL: https://www.icloud.com/shortcuts/39ebd166078e41a5bcadcf7a9aa66ee7
 
-- Description: 把你的快捷指令中安装的全部规则打包分类，可在 iPhone 桌面运行，使你快速找到并运行所需捷径
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Package and classify all the rules installed in your shortcuts, which can be run on the iPhone desktop, enabling you to quickly find and run the shortcuts you need.
 
-### Name: 16E0B649-72EA-4BF7-A15C-0BE55981D686
+### Name: Cut out the background and replace it.
 
 - URL: https://www.icloud.com/shortcuts/16e0b64972ea4bf7a15c0be55981d686
 
-- Description: 一键自动抠图，抠图效果非常好，可将图片保存为透明PNG、白色背景JPEG，也支持替换成其他背景。
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: One-click automatic cutout, the cutout effect is very good, can save the image as a transparent PNG, white background JPEG, and also support replacing it with other backgrounds.
 
-### Name: 6DB753B2-E98F-4A9A-B86E-4EA452DD5524
+### Name: Quick scan payment.
 
 - URL: https://www.icloud.com/shortcuts/6db753b2e98f4a9ab86e4ea452dd5524
 
-- Description: 聚合了微信扫一扫、支付宝扫一扫 / 乘车码 / 付款码 / 收款码
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Scan using WeChat or Alipay / Transport code / Payment code / Receipt code
 
-### Name: E54A2DAC-DC7A-43FC-AA9C-4E2850F82EE1
+### Name: Good morning.
 
 - URL: https://www.icloud.com/shortcuts/e54a2dacdc7a43fcaa9c4e2850f82ee1
 
-- Description: 一键播报当前日期、距离最近的节日还有几天、当前手机电量以及详细的天气预报
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: One-click broadcast the current date, the number of days until the nearest holiday, the current phone battery level, and detailed weather forecast.
 
-### Name: 770807FE-95C6-4AE8-906C-EFA2D885A8FF
+### Name: Daily take-out coupons.
 
 - URL: https://www.icloud.com/shortcuts/770807fe95c64ae8906cefa2d885a8ff
 
-- Description: 美团外卖、饿了么外卖红包每天都能领，平均3-20元，经常点外卖的小伙伴必备！
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Meituan Takeaway, Ele.me Takeaway red envelopes can be collected every day, averaging 3-20 yuan, essential for friends who often order takeout.
 
-### Name: CF43475C-E848-4F75-97C2-70280CCD7348
+### Name: Nine-grid image cropping.
 
 - URL: https://www.icloud.com/shortcuts/cf43475ce8484f7597c270280ccd7348
 
-- Description: 可以将图片进行九等分，切割之前可选择喜欢的风格，正方形或圆角矩形，发朋友圈必备捷径
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: You can divide the image into nine equal parts, and before cutting, you can choose your favorite style, square or rounded rectangle.
 
-### Name: 68658713-63CD-4576-B0F8-1A80E5DAAB49
+### Name: Corgi Treasure Box
 
 - URL: https://www.icloud.com/shortcuts/6865871363cd4576b0f81a80e5daab49
 
-- Description: 镇站捷径！一个能帮你省钱的百宝箱，聚合美团外卖券、饿了么外卖券、滴滴打车券、特价会员等！
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Township Shortcut! A treasure trove that can help you save money, aggregating Meituan takeaway coupons, Ele.me takeaway coupons, DiDi taxi coupons, special offers for members.
 
-### Name: 9399747F-9F56-4712-98D6-359885709786
+### Name: History price inquiry
 
 - URL: https://www.icloud.com/shortcuts/9399747f9f56471298d6359885709786
 
-- Description: 查询全网商品历史价格、趋势图、隐藏优惠券，目前支持：淘宝、京东两大主流电商平台
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Search for historical prices, trend charts, and hidden coupons for products across the entire web, currently supporting two major mainstream e-commerce platforms: Taobao and JD.
 
-### Name: 3F370C58-145E-4EE8-A805-290E373CF6F4
+### Name: Long image stitching.
 
 - URL: https://www.icloud.com/shortcuts/3f370c58145e4ee8a805290e373cf6f4
 
-- Description: 可将多张图片垂直/水平拼接成单张长图，支持纵向拼接/横向拼接
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Merge multiple images vertically/horizontally into a single long image, supporting both vertical and horizontal merging.
 
-### Name: CF5B625A-F812-421C-8D25-5CD8544BDC3B
+### Name: Change wallpaper with one click.
 
 - URL: https://www.icloud.com/shortcuts/cf5b625af812421c8d255cd8544bdc3b
 
-- Description: 一键切换手机壁纸，手动挑选150张unsplash超高清iPhone壁纸，会长期新增壁纸
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Switch phone wallpaper with one click, manually select from 150 high-definition Unsplash iPhone wallpapers.
 
-### Name: B163042E-7CE3-43CF-B0AB-156F8CE32213
+### Name: Quick Control Center
 
 - URL: https://www.icloud.com/shortcuts/b163042e7ce343cfb0ab156f8ce32213
 
-- Description: 聚合六种开关，彻底关闭蓝牙 / 无线 / 网络，开无线 / 关蜂窝，关无线/  开蜂窝，一键省电出门
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Aggregate six switches, turn off Bluetooth completely, turn on wireless, save power and go out.
 
-### Name: 6902706D-8E0A-4B65-B129-0622365056EB
+### Name: Rainbow Fart Generator
 
 - URL: https://www.icloud.com/shortcuts/6902706d8e0a4b65b1290622365056eb
 
-- Description: 自动生成一段彩虹屁，聊天夸男/女朋友必备的一条捷径
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Generate a rainbow fawn, a shortcut that is essential for praising boyfriends/girlfriends in chat.
 
-### Name: 1FDB6702-3F5F-47B3-9DE2-5D5BD68835FC
+### Name: Share current Wi-Fi.
 
 - URL: https://www.icloud.com/shortcuts/1fdb67023f5f47b39de25d5bd68835fc
 
-- Description: 生成当前Wi-Fi下的二维码，朋友可扫码连接无线网，无需再输入密码，仅支持苹果设备
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Generate a QR code for the current Wi-Fi network, friends can scan the code to connect to the wireless network without the need to enter a password, only supports Apple devices.
 
-### Name: 19B30679-02D7-4C1F-9821-9461ED62FC16
+### Name: One-button recording.
 
 - URL: https://www.icloud.com/shortcuts/19b3067902d74c1f98219461ed62fc16
 
-- Description: 一键快速录制音频，录制完成后可将录音保存在iCloud云盘或者我的iPhone中
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: One-click fast audio recording, after recording is completed, the recording can be saved in iCloud Drive or on my iPhone.
 
-### Name: 0E4BACA6-9194-4BB7-B414-EEFBC7A21F0F
+### Name: Travel assistant
 
 - URL: https://www.icloud.com/shortcuts/0e4baca691944bb7b414eefbc7a21f0f
 
-- Description: 聚合了微信扫一扫、支付宝扫一扫/付款码/乘车码/收款码/健康码、高德地图、滴滴打车、控制中心
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Scan with WeChat, scan with Alipay/Payment Code/Travel Code/Receipt Code/Health Code, Gaode Maps, DiDi Taxi, Control Center
 
-### Name: D3210C21-0D91-46D9-82E1-22FC533A39B1
+### Name: Extract audio from video.
 
 - URL: https://www.icloud.com/shortcuts/d3210c210d9146d982e122fc533a39b1
 
-- Description: 提取视频中的音频，可保存为mp3格式，音频可保存至苹果自带的文件App中
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Extract audio from the video, save it as an mp3 file, and save the audio to the Apple's built-in Files app.
 
-### Name: 748F0A58-F16D-45AC-937A-D2AE9FCEE1B0
+### Name: Convert video to GIF image.
 
 - URL: https://www.icloud.com/shortcuts/748f0a58f16d45ac937ad2ae9fcee1b0
 
-- Description: 可对视频进行粗略剪辑，然后一键转换成高清GIF动图，方便快捷完全免费，无须再借助第三方工具
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Can roughly edit the video, and then convert it into a high-definition GIF animation with one click.
 
-### Name: 836E7DE3-9CD4-4FE1-8E5E-88225E2D6BEF
+### Name: Daily taxi voucher.
 
 - URL: https://www.icloud.com/shortcuts/836e7de39cd44fe18e5e88225e2d6bef
 
-- Description: 每天都能领的官方打车优惠券，里面包含：滴滴打车、花小猪、高德打车等，可以长期使用
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Official taxi coupons that can be claimed daily, including: Didi Chuxing, Huaxiaozhu, Gaode Dache, etc., can be used for a long time.
 
-### Name: C1FD5F9D-7B07-49BD-8131-C7116BC3DDA2
+### Name: Identify songs by listening
 
 - URL: https://www.icloud.com/shortcuts/c1fd5f9d7b0749bd8131c7116bc3dda2
 
-- Description: 快速听歌识曲，识别到歌曲后可一键将歌名拷贝至剪贴板，识别源含：SHAZAM、Midomi（网页识曲）
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Quickly identify songs, and once a song is recognized, you can copy the song name to the clipboard with one click.
 
-### Name: FF6220CD-1321-4C3B-8FFA-95143E2296B8
+### Name: QR Code Generator
 
 - URL: https://www.icloud.com/shortcuts/ff6220cd13214c3b8ffa95143e2296b8
 
-- Description: 将输入的内容一键生成二维码，支持文字、数字、字母、网址等
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Generate QR code with one click, supporting text, numbers, letters, URLs, etc.
 
-### Name: 6E6E6EDA-8A52-4A1F-8866-B11FA96EED1E
+### Name: App Store application icon download
 
 - URL: https://www.icloud.com/shortcuts/6e6e6eda8a524a1f8866b11fa96eed1e
 
-- Description: 快速下载App Store中的应用图标，支持生成圆角矩形、圆形、正方形三种样式的图标
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Quickly download the application icons in the App Store, supporting the generation of icons in three styles: rounded rectangle, circle, and square.
 
-### Name: 4B86657D-3A8B-4CCC-8560-8E0D46B930F7
+### Name: Flash Capsule (Text Version)
 
 - URL: https://www.icloud.com/shortcuts/4b86657d3a8b4ccc85608e0d46b930f7
 
-- Description: 快速记录当下灵感，支持文本输入、录音输入、剪贴板输入三种方式，同时自动标记当前日期
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Quickly record current inspirations, supporting text input, voice input, and clipboard input, while automatically marking the current date.
 
-### Name: C9B1A80C-FF17-46BE-8F75-17D6E762202C
+### Name: positioning switch
 
 - URL: https://www.icloud.com/shortcuts/c9b1a80cff1746be8f7517d6e762202c
 
-- Description: 一键跳转到设置中的定位开关页面
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Jump to the location switch page in settings with one click.
 
-### Name: A25B3F73-E06E-43F7-BA85-37EF7ADE6670
+### Name: Random wallpaper
 
 - URL: https://www.icloud.com/shortcuts/a25b3f73e06e43f7ba8537ef7ade6670
 
-- Description: 随机生成一张unsplash中的精选超清壁纸
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Randomly generate a selected ultra-clear wallpaper from unsplash.
 
-### Name: C2952EE6-C6D7-4AFA-8876-77A9C8E3B0C0
+### Name: Alipay daily red envelopes.
 
 - URL: https://www.icloud.com/shortcuts/c2952ee6c6d74afa887677a9c8e3b0c0
 
-- Description: 每天都能领支付宝红包，9月23日-10月8日红包额外加码，公交、地铁、早餐店等都能使用
-
 - Source: https://www.kejicut.com
 
-- FilePath: 
+- Description: Every day you can receive Alipay red packets, from September 23 to October 8, there will be additional bonuses for red packets, which can be used in buses, subways, and breakfast shops.
 
-### Name: 591D3166-9934-46D7-99C0-D227EFA2D2BC
+### Name: Takeout Coupons Helper.
 
 - URL: https://www.icloud.com/shortcuts/591d3166993446d799c0d227efa2d2bc
 
-- Description: 每天都能领美团外卖、饿了么外卖红包，还有每日滴滴打车券，优惠汇总、提醒功能
+- Source: https://www.kejicut.com
+
+- Description: You can receive Meituan takeaway and Ele.me takeaway red envelopes every day, as well as daily Didi car ride vouchers, summary of discounts, and reminder functions.
+
+### Name: Food delivery red envelope assistant
+
+- URL: https://www.icloud.com/shortcuts/591d3166993446d799c0d227efa2d2bc
 
 - Source: https://www.kejicut.com
 
-- FilePath: 
-
-### Name: D85589E7-6996-4D99-890D-39708A2535C9
-
-- URL: https://www.icloud.com/shortcuts/d85589e769964d99890d39708a2535c9
-
-- Description: 美团外卖、饿了么外卖红包每天都能领，平均3-20元，经常点外卖的小伙伴必备！
-
-- Source: https://www.kejicut.com
-
-- FilePath: 
+- Description: You can receive Meituan takeout and Eleme takeout red envelopes every day, as well as daily DiDi taxi coupons, a summary of discounts, and reminder functions.
 

@@ -1,22 +1,23 @@
 # dataset/jiejingku.net/sports
 
-### Name: B9A5C5D9-3764-4BAA-8C52-54C44DC51814
+### Name: Virtual online fitness
 
 - URL: https://www.icloud.com/shortcuts/b9a5c5d937644baa8c5254c44dc51814
 
-- Description: 一个在线虚拟健身网站，通过在线虚拟健身燃烧你的卡路里。 当然也可以按照网站图例做健身，这个网站也有实用之处。 地址：http://zaixianjianshen.top/  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: An online virtual fitness website that helps you burn calories through virtual workouts. Of course, you can also follow the website's workout examples, making it practical as well. Website address: http://zaixianjianshen.top/
 
-### Name: D5127125-215C-420B-B8A7-F05A5241C59D
+### Name: Sports Assistant 2024 Spring Edition
 
 - URL: https://www.icloud.com/shortcuts/d5127125215c420bb8a7f05a5241c59d
 
-- Description: 运动步数修改 1、下载Zepp Life（原小米运动）2、注册登陆3、登陆后点击右下角【我的】【第三方接入】【选择需要修改的app】4、绑定完成后回到快捷指令，在下方输入app的账号密码即可5、打卡设置set：1为随机步数，2为固定步数  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Modify the number of steps in the exercise:
+1. Download Zepp Life (formerly Xiaomi Sports).
+2. Register and log in.
+3. After logging in, click on the bottom right corner [Mine][Third-party Access][Select the app you need to modify].
+4. After completing the binding, return to the quick shortcut, enter the app's account password below, and you're good to go.
+5. Check-in settings set: 1 for random steps, 2 for fixed steps.
 

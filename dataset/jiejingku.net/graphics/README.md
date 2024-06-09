@@ -1,1502 +1,1208 @@
 # dataset/jiejingku.net/graphics
 
-### Name: 2557BF8E-8A3E-4B9B-BCBC-952EB8C46115
+### Name: Friend Circle Nine-grid Crop Image V2.0
 
 - URL: https://www.icloud.com/shortcuts/2557bf8e8a3e4b9bbcbc952eb8c46115
 
-- Description: 朋友圈炫酷神技，最新图片九宫格切图，不限制图片尺寸，小白也可轻松上手，快来惊艳你的朋友们吧！ 使用方法 方法①：首先在「相簿」中找到需要切九宫格的图片，接着点击左下角“分享图标”，在菜单中找到「朋友圈九宫格切图 V2.0」点击即可。 方法②：在快捷指令APP中点击运行，选取需要切九宫格的图片即可。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Friends circle cool magical skills, the latest picture grid cutting, no restriction on picture size, even novices can easily get started, come and amaze your friends! Usage Method 1: First, find the picture that needs to be cut into a grid in the "Album", then click the "Share" icon in the lower-left corner, find "Friends Circle Grid Cut V2.0" in the menu and click to proceed. Method 2: In the Shortcuts app, click to run, select the picture that needs to be cut into a grid.
 
-### Name: B58EF03B-730C-4D59-8256-02B7E1244B41
+### Name: little red book watermark
 
 - URL: https://www.icloud.com/shortcuts/b58ef03b730c4d59825602b7e1244b41
 
-- Description: 小红书帖子分享一复制链接一点击运行指令。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Sharing a Little Red Book post is as simple as copying the link and clicking the run command.
 
-### Name: C28AA753-E228-4181-A3A1-B70FD7130D13
+### Name: grid image post
 
 - URL: https://www.icloud.com/shortcuts/c28aa753e2284181a3a1b70fd7130d13
 
-- Description: 将照片裁剪为九张发布，可用于发朋友圈九宫图。 注意：原始照片需要是是正方形。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Crop the photo into nine pieces for posting, can be used for posting a nine-grid photo on Moments.
 
-### Name: 651CCC18-6E5E-4A87-BAFF-2274762A060B
+### Name: Replace background by cutting out.
 
 - URL: https://www.icloud.com/shortcuts/651ccc186e5e4a87baff2274762a060b
 
-- Description: 抠图换背景  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Replace background by cutting out the subject.
 
-### Name: 3C414F54-3706-45B2-8087-13A8481F4EAA
-
-- URL: https://www.icloud.com/shortcuts/3c414f54370645b2808713a8481f4eaa
-
-- Description: 最新版支持20种水印 支持徕卡索尼尼康佳能苹果富士理光哈苏诺基亚三星华为小米摩托罗拉  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: 65F1258B-CFF9-48EA-9369-37F7CF69337E
+### Name: Stitch image.
 
 - URL: https://www.icloud.com/shortcuts/65f1258bcff948ea936937f7cf69337e
 
-- Description: 长截图工具  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Long screenshot tool
 
-### Name: F82EAA46-63C4-43C3-83BF-780BA78842E9
+### Name: Multiple images stitching
 
 - URL: https://www.icloud.com/shortcuts/f82eaa4663c443c383bf780ba78842e9
 
-- Description: 在相册中选中想要拼接的图片，然后使用快捷指令打开即可拼接为长图。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Select the pictures you want to stitch together in the album, then use the shortcut to open and stitch them into a long image.
 
-### Name: 7BC506B7-E97F-408F-84E6-7EE13DE811E6
+### Name: Six cameras watermark Leica.
 
 - URL: https://www.icloud.com/shortcuts/7bc506b7e97f408f84e67ee13de811e6
 
-- Description: 相机照片添加水印徕卡，佳能，尼康，富士等等。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Add watermark to camera photos like Leica, Canon, Nikon, Fujifilm, and so on.
 
-### Name: C921F3B0-5087-4104-9FEA-5C274203A055
+### Name: Camera Logo Watermark Adder.
 
 - URL: https://www.icloud.com/shortcuts/c921f3b0508741049fea5c274203a055
 
-- Description: 最新版支持20种水印 支持徕卡，索尼，尼康，佳能，苹果，诺基亚，三星，华为小米，摩托罗拉等。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
+- Source: https://jiejingku.net
+
+- Description: The latest version supports 20 types of watermarks, including Leica, Sony, Nikon, Canon, Apple, Nokia, Samsung, Huawei, Xiaomi, Motorola, etc.
+
+### Name: Camera logo watermark adder
+
+- URL: https://www.icloud.com/shortcuts/c921f3b0508741049fea5c274203a055
 
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: The latest version supports 20 types of watermarks, including Leica, Sony, Nikon, Canon, Apple, Nokia, Samsung, Huawei, Xiaomi, Motorola, etc.
 
-### Name: 9989460F-04C2-4E37-8BA2-89D4525A7EF8
+### Name: Long screenshot V 2.0
 
 - URL: https://www.icloud.com/shortcuts/9989460f04c24e378ba289d4525a7ef8
 
-- Description: 本快捷方式简单易上手，操作只需要按照提示就可！新手也可轻松实现iPhone长截屏。 该快捷指令为本人原创并可免费使用，可在捷径库中下载到，请勿将该快捷指令用于商业项目。 使用方法：运行此快捷方式后，打开需要长截图的APP，按照提示操作就可以了。当弹出来获取权限窗口时，请点击允许！ 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut is simple and easy to use, just follow the prompts! Even beginners can easily achieve long screenshots on iPhone. This shortcut is original and free to use, available for download in the Shortcuts Gallery, please do not use this shortcut for commercial projects. To use: run this shortcut, open the app you want to take a long screenshot of, follow the prompts. When asked for permission, click Allow! Visit Shortcuts Gallery for more: https://jiejingku.net
 
-### Name: CFD64A12-D9AE-4A0B-9C64-1F6E3CB65319
+### Name: Image Generation AI (No Key)
 
 - URL: https://www.icloud.com/shortcuts/cfd64a12d9ae4a0b9c641f6e3cb65319
 
-- Description: 输入文字描述，可以自动生成图片，描述越详细，图片细节越多，但是不要文字不要超过1000kb。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: By entering text descriptions, you can automatically generate images. The more detailed the description, the more details in the image, but keep the text under 1000kb.
 
-### Name: 7DAEE9A4-FA34-4D8E-AB77-B01BE8884386
+### Name: Stitch long picture with one click.
 
 - URL: https://www.icloud.com/shortcuts/7daee9a4fa344d8eab77b01be8884386
 
-- Description: 选择照片后一件拼接，注意‼️一定要选择一张以上的图片！  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: After selecting a photo, you can proceed to collage. Attention‼️ Be sure to select more than one image!
 
-### Name: B69F5349-C07B-4E33-B3CF-ADFE2B6E7399
+### Name: AM+Call interface example template 2.0
 
 - URL: https://www.icloud.com/shortcuts/b69f5349c07b4e33b3cfadfe2b6e7399
 
-- Description: OpenAi所提供 api，可以通过 siri唤醒，让它为你生成你想要的图片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: OpenAI provides an API that can be awakened by Siri to generate the images you want.
 
-### Name: 7A206E4E-98C6-4FD0-A16F-4EF381645A79
+### Name: Scan+Pay
 
 - URL: https://www.icloud.com/shortcuts/7a206e4e98c64fd0a16f4ef381645a79
 
-- Description: 博主是IOS15，建议升级到15，因为指令更便捷 内容包括支付宝扫一扫，收/付款码，支付宝行程码，健康码 微信扫一扫，目前没有微信收付款码，貌似官方没有提供URL 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: The blogger is using iOS 15 and recommends upgrading to iOS 15 because the commands are more convenient. The content includes Alipay scan, payment codes for receiving/sending money, Alipay travel codes, health codes. For WeChat scan, currently there is no WeChat payment code available, and it seems that the official URL is not provided.
 
-### Name: B23BB5C2-1110-40AD-84B6-981DEC2D6269
+### Name: Spliced image
 
 - URL: https://www.icloud.com/shortcuts/b23bb5c2111040ad84b6981dec2d6269
 
-- Description: 拼接手机相册照片，有三种模式可以选择。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Splice mobile album photos, with three modes to choose from.
 
-### Name: 215FD161-3AEE-445A-BCC4-A9FD56D316FD
+### Name: Enhanced status bar.
 
 - URL: https://www.icloud.com/shortcuts/215fd1613aee445abcc4a9fd56d316fd
 
-- Description: 状态栏品示电量百分比 日期  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Display battery percentage and date in the status bar.
 
-### Name: 3D2D5B2A-8892-4F7A-A729-C8263541F742
+### Name: Automatic Horizontal Puzzle
 
 - URL: https://www.icloud.com/shortcuts/3d2d5b2a88924f7aa729c8263541f742
 
-- Description: 背景：有些时候需要对一些照片（截屏）进行水平拼图，然而还得使用第三方app，拼图之后还得删除原来的照片（截屏）。为节省时间、手机空间，不必下载不常用的app，特制定本快捷指令。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Need to horizontally combine some photos (screenshots), however, you still have to use a third-party app to merge the photos and then delete the original photos (screenshots). In order to save time and phone space, there is no need to download rarely used apps, a custom shortcut has been developed.
 
-### Name: 064E31A9-00A7-49CC-AA29-152B32189B07
+### Name: Universal Image Processing 1.0
 
 - URL: https://www.icloud.com/shortcuts/064e31a900a749ccaa29152b32189b07
 
-- Description: 裁剪照片，设置大小，制作GIF，拼图，剪辑视频等功能合集。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Trim photos, set size, create GIFs, collage, edit videos, and other functions in one collection.
 
-### Name: 4C3207D9-9E9B-4AE2-8EF1-FA5DB030BB3C
+### Name: iPhone 13 Pro Max screenshot with case
 
 - URL: https://www.icloud.com/shortcuts/4c3207d99e9b4ae28ef1fa5db030bb3c
 
-- Description: 带壳截图  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Capture with Shell
 
-### Name: 13E82CF0-2D7F-445A-8A67-C6CD17729862
+### Name: The translation of "Skyline" in English, without any prefix or suffix, is "Skyline".
 
 - URL: https://www.icloud.com/shortcuts/13e82cf02d7f445a8a67c6cd17729862
 
-- Description: 根据随机种子生成一张漂亮的城市天际线图片，根据时间不同改变背景，配合自动化体验最佳.纯本地实现，无需网络  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Generate a beautiful city skyline image based on a random seed, change the background according to different times, and provide the best automated experience. Implemented purely locally, no internet required.
 
-### Name: 7044AA1B-C2F4-4E80-9C0A-8EB972806ED7
+### Name: Download videos from Bilibili2.2
 
 - URL: https://www.icloud.com/shortcuts/7044aa1bc2f44e809c0a8eb972806ed7
 
-- Description: 下载小破站视频，可选高清或试看分辨率。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Download videos from Xpov video platform, optional high-definition or preview resolution.
 
-### Name: 5AC37D91-0997-442F-BF07-6F875E9ADEFB
+### Name: Download videos from Bilibili1.3
 
 - URL: https://www.icloud.com/shortcuts/5ac37d910997442fbf076f875e9adefb
 
-- Description: 下载小破站视频  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Download videos from xiaopo site.
 
-### Name: 7CC883FE-95A9-46CC-9178-A517A4AE854B
+### Name: April 29th beautiful healing wallpaper
 
 - URL: https://www.icloud.com/shortcuts/7cc883fe95a946cc9178a517a4ae854b
 
-- Description: 好看超级治愈的壁纸分享下载，转存下载即可获取高清图  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Share and download beautiful and super soothing wallpapers, simply save and download to get high-quality images.
 
-### Name: 848F46F5-CF9A-4CC1-85B4-691641CF7D06
+### Name: Beloved Beauty Wallpaper
 
 - URL: https://www.icloud.com/shortcuts/848f46f5cf9a4cc185b4691641cf7d06
 
-- Description: 快捷壁纸，随机尤物，看看有没有合你眼缘的，数据来自爱思壁纸。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Quick wallpaper, random beauty, see if there is one that catches your eye, data comes from Love Thought Wallpaper.
 
-### Name: FF1D859B-7102-483C-89B4-96B1FCABFF46
+### Name: Merge photos.
 
 - URL: https://www.icloud.com/shortcuts/ff1d859b7102483c89b496b1fcabff46
 
-- Description: 用来合并照片的快捷指令。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Shortcut for merging photos.
 
-### Name: 808E122A-788D-41E0-BD33-4355BC94CB8A
+### Name: Video becomes long picture.
 
 - URL: https://www.icloud.com/shortcuts/808e122a788d41e0bd334355bc94cb8a
 
-- Description: 能将视频提取为长图，并保存至 iPhone相薄 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Be able to extract videos into long images and save them to the iPhone photo album.
 
-### Name: C19E16E6-7F3B-45F8-A7DD-65B3B9086205
+### Name: Create WeChat transparent nickname/signature/background image/avatar.
 
 - URL: https://www.icloud.com/shortcuts/c19e16e67f3b45f8a7dd65b3b9086205
 
-- Description: 微信透明昵称/签名/背景图/头像制作，如标题。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: WeChat transparent nickname/signature/background image/avatar creation, as the title suggests.
 
-### Name: 568D72A5-4848-43D9-BABE-443475B3CBCD
+### Name: Lock Screen Weather  N 1.
 
 - URL: https://www.icloud.com/shortcuts/568d72a5484843d9babe443475b3cbcd
 
-- Description: 2种风格4种图标，还在持续更新中。图标跟随日出日落变化，更加精准。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: 2 styles, 4 icons, still in continuous updates. Icons change with sunrise and sunset, more accurate.
 
-### Name: 32B7EBFB-112F-4C86-B52A-400237B25D65
+### Name: Qiao Biluo Mirror of Truth
 
 - URL: https://www.icloud.com/shortcuts/32b7ebfb112f4c86b52a400237b25d65
 
-- Description: 复制链接发送给需要查看的人，授权相机了就可以查看了。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Copy the link and send it to the person who needs to view it, they can view it once the camera is authorized.
 
-### Name: B606146D-65E4-4777-8019-CB5E55CA53A5
+### Name: Tencent ARC
 
 - URL: https://www.icloud.com/shortcuts/b606146d65e447778019cb5e55ca53a5
 
-- Description: 腾讯ARC技术研究中心出品的图像处理工具。 可以进行人像修复、人像抠图、动漫增强三种图片处理功能。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Image processing tool produced by Tencent's ARC Technology Research Center. It can perform three image processing functions: portrait restoration, portrait clipping, and anime enhancement.
 
-### Name: 336E7C33-A38A-40B1-888B-F1A39E0ED164
+### Name: Automatically capture three screenshots.
 
 - URL: https://www.icloud.com/shortcuts/336e7c33a38a40b1888bf1a39e0ed164
 
-- Description: 自动截三图，行程码、同行码、健康码并自动拼图 1.需已安装支付宝、通讯行程卡app。 2.因通讯行程卡 app设计问题容易闪退，因此截图时间稍长 3.拼图后会自动打开微信（微信限制不能自动发送图片）需手动发送 4.等待15秒后自动提示删除图片 5.需拼图后自动叠加文本的，在捷径里文本框内自行输入内容  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Automatically capture three screenshots, including the itinerary code, companions code, and health code, and automatically stitch them together. 1. Requires Alipay and Communication Travel Card app to be installed. 2. Due to the design issue of the Communication Travel Card app, it is prone to crashing, hence the screenshot process may take longer. 3. After stitching, WeChat will be opened automatically (as WeChat does not allow automatic image sending), and manual sending is required. 4. Automatically prompts to delete images after 15 seconds of waiting. 5. Text overlay is required after stitching; input the content manually in the text box in Shortcuts.
 
-### Name: 7DD2A018-016A-4506-93C7-B54788E73C2E
+### Name: Photo album
 
 - URL: https://www.icloud.com/shortcuts/7dd2a018016a450693c7b54788e73c2e
 
-- Description: 相册的密码锁，给相册添密码。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Add a password lock to the album.
 
-### Name: 9D93F091-4C3F-42EC-BBD1-AE22B55180D1
+### Name: Weibo Images Bulk Download
 
 - URL: https://www.icloud.com/shortcuts/9d93f0914c3f42ecbbd1ae22b55180d1
 
-- Description: 微博图片批量下载  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Batch download Weibo images.
 
-### Name: 3CE3F34D-F225-4121-8CC0-3A971AE1BDCA
+### Name: Three-screen wallpaper
 
 - URL: https://www.icloud.com/shortcuts/3ce3f34df22541218cc03a971ae1bdca
 
-- Description: 一键将图片垂直拼接三次，适合墙纸使用，横图效果最佳。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: One-click vertically splice the image three times, suitable for wallpaper use, with the best effect for landscape images.
 
-### Name: D7191FC6-8718-4A04-A2EF-BF0EED39A2E5
+### Name: Extract image text
 
 - URL: https://www.icloud.com/shortcuts/d7191fc687184a04a2efbf0eed39a2e5
 
-- Description: 提取照片内所有文字，并保存到剪贴板。 采用 Apple 官方ORC图片扫描接口，准确率极高。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Extract all text in the photo and save it to the clipboard. Using the Apple official OCR image scanning interface, with extremely high accuracy.
 
-### Name: B2BF20A3-5C24-4AB1-B29E-635ED3BFF03C
+### Name: Convert image
 
 - URL: https://www.icloud.com/shortcuts/b2bf20a35c244ab1b29e635ed3bff03c
 
-- Description: 适用于ios15.4以上，支持Safari整页pdf转换  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Compatible with iOS 15.4 and above, supports converting full-page PDF in Safari.
 
-### Name: 3FB71EFB-50B0-4546-90E5-B72FF5D70B41
+### Name: Pimeyes
 
 - URL: https://www.icloud.com/shortcuts/3fb71efb50b0454690e5b72ff5d70b41
 
-- Description: 上传面部图像，即可开启你的隐私泄露黑历史。 PimEyes 是一个在线面部搜索引擎，它通过互联网查找包含给定面部的图片。PimEyes 使用人脸识别搜索技术来执行反向图像搜索。 找到一张脸并检查该图像在网上出现的位置。PimEyes 脸部查找器可帮助您找到脸部并保护您的隐私。人脸识别在线系统允许您通过图像进行搜索。 PimEyes 是一款人人可用的人脸图片搜索和照片搜索引擎，它是审计版权侵权的好工具。 网站地址：https://pimeyes.com/en  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Upload a facial image, and you can uncover your history of privacy leaks. PimEyes is an online facial search engine that searches the internet for images containing a given face. PimEyes uses facial recognition search technology to perform reverse image searches. Find a face and check where that image appears online. The PimEyes face finder can help you find faces and protect your privacy. The online facial recognition system allows you to search through images. PimEyes is a facial image search and photo search engine that is available to everyone, making it a useful tool for auditing copyright infringement.
 
-### Name: EAA167E8-8E44-47AD-B979-7252B794AE18
+### Name: Leica watermark v2.0
 
 - URL: https://www.icloud.com/shortcuts/eaa167e88e4447adb9797252b794ae18
 
-- Description: 最近超火的小米徕卡水印，添加快捷指令赶紧体验吧！ 注意：快捷指令通过照片元数据信息来获取时间及相机参数等，所以最好请使用原相机照片进行添加水印，一切网图都不可使用。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: The recently popular Xiaomi Leica watermark, add shortcuts quickly to experience it! Note: Shortcuts obtain time and camera parameters through photo metadata information, so it is best to use original camera photos to add watermarks, and not use any web images.
 
-### Name: 2F94F017-D509-4AEA-84D8-83F3483BF202
+### Name: Signature camera
 
 - URL: https://www.icloud.com/shortcuts/2f94f017d5094aea84d883f3483bf202
 
-- Description: 为照片添加自己的签名  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Add your own signature to the photo.
 
-### Name: B195E6A5-CF19-4075-9012-9DD568EA0936
+### Name: Colorful border
 
 - URL: https://www.icloud.com/shortcuts/b195e6a5cf19407590129dd568ea0936
 
-- Description: 壁纸  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: 'Wallpaper'
 
-### Name: 0E790B2F-1BEA-46E2-9481-2D7182BEC2F2
+### Name: Create GIF
 
 - URL: https://www.icloud.com/shortcuts/0e790b2f1bea46e294812d7182bec2f2
 
-- Description: 将图片创建为GIF。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Create a GIF from a picture.
 
-### Name: 4A079268-D4D5-48EC-A880-206D828BD48C
+### Name: Where was this taken?
 
 - URL: https://www.icloud.com/shortcuts/4a079268d4d548eca880206d828bd48c
 
-- Description: 选择照片查看照片是在哪拍摄的。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: View the selected photos to see where they were taken.
 
-### Name: 87CD41F5-C469-4A24-8FAB-11085214D04E
+### Name: App changes its name and icon.
 
 - URL: https://www.icloud.com/shortcuts/87cd41f5c4694a248fab11085214d04e
 
-- Description: 可更改 App图标名称，无缝切至 App。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Change the app icon name seamlessly switch to the app.
 
-### Name: FE1CE822-9F27-44D7-B5EB-6F9C491907FC
+### Name: Organize photo album
 
 - URL: https://www.icloud.com/shortcuts/fe1ce8229f2744d7b5eb6f9c491907fc
 
-- Description: 在下面添加过滤条件，过滤出想要整理的照片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Add filtering conditions below to filter out the photos you want to organize.
 
-### Name: 43583894-30AE-4B63-BC3F-8B7B691E3921
+### Name: Collection of Widgets 1
 
 - URL: https://www.icloud.com/shortcuts/4358389430ae4b63bc3f8b7b691e3921
 
-- Description: 翻译，扬声器清理，违法词汇检测，等使用小工具合集。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Translation, speaker cleaning, illegal vocabulary detection, and other tools for use.
 
-### Name: 28E1D61E-8016-4F61-BAC3-806B92E5B2F8
+### Name: Web Image Crawler
 
 - URL: https://www.icloud.com/shortcuts/28e1d61e80164f61bac3806b92e5b2f8
 
-- Description: 爬取网页图片，方便快捷 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Crawling website images, convenient and quick.
 
-### Name: 0DDC8BE8-E64A-4FDC-AF87-3743F5C1175A
+### Name: Merge screenshot and share.
 
 - URL: https://www.icloud.com/shortcuts/0ddc8be8e64a4fdcaf873743f5c1175a
 
-- Description: 选择要合并的最近截屏的数量，然后生成并排排列的图像。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Select the number of recent screenshots to merge, then generate and arrange the images side by side.
 
-### Name: 8F778916-0D0F-4C9A-A95E-0117ED68B75B
+### Name: BIGJPG
 
 - URL: https://www.icloud.com/shortcuts/8f7789160d0f4c9aa95e0117ed68b75b
 
-- Description: AI人工智能图片放大，BIGJPG使用最新人工智能深度学习技术——深度卷积神经网络。它会将噪点和锯齿的部分进行补充，实现图片的无损放大。支持WIN，MacOS，iOS，Android ，小程序多种客户端使用。 官网地址：https://bigjpg.com/zh 使用其他的放大方法如PS或PhotoZoom，放大的图片后依然有明显的模糊感，边缘的重影以及噪点。我们产品的工作原理，是通过神经网络，针对放大图片的线条、颜色、网点等特点，做特殊的算法调整，所以放大效果非常出色, 色彩保留较好, 图片边缘也不会有毛刺和重影,。更重要的是，影响画质的噪点基本在放大的图片上看不出来。 动漫、插画图片的放大几乎可以说是完美的。将小图片放大后，无论是色彩、细节、边缘，效果都很出色。同时也兼容普通的照片放大。 目前免费版3000x3000px, 5M; 付费版50M。 开始放大后会显示预估的处理时间。依据不同的放大倍数和图片尺寸，放大时间会有不同，从几分钟到几十分钟不等。一般实际放大的时间比预估的时间要稍短。 受到网络环境和服务器同时使用人数的影响，有很小几率会出现放大失败的情况。如果你碰到这种情况，请过几分钟再试试。 如果你没有登录，那么需要一直保持浏览器打开，否则将丢失放大的图片。如果你已经登录了，那么可以关闭浏览器，我们支持离线放大，过一段时间再来下载就可以啦。 登录后即可记录和查看自己的历史记录。 请放心，用户上传的图片和放大后的图片会在5天后自动删除。图片地址链接都是加密保存，除非你主动分享，否则其他人是无法查看到该图片的。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: AI artificial intelligence image enlargement, BIGJPG uses the latest artificial intelligence deep learning technology - deep convolutional neural network. It supplements the parts with noise and jagged edges to achieve lossless image enlargement. It supports WIN, MacOS, iOS, Android, mini-program and multiple client uses. Official website address: https://bigjpg.com/zh. There is an obvious sense of blur, edge ghosting, and noise. The working principle of our product is to adjust the line, color, dot, and other characteristics of the enlarged image through neural networks, so the enlargement effect is very outstanding, color retention is good, and there are no jaggies or ghosting at the image edges. More importantly, the noise that affects the image quality is hardly visible in the enlarged image. The enlargement of cartoon and illustration images can be said to be almost perfect. After enlarging small images, the color, details, and edges are all excellent. It is also compatible with enlarging normal photos. Currently, the free version is 3000x3000px, 5M; the paid version is 50M. After starting the enlargement, the estimated processing time will be displayed. Depending on the enlargement factor and image size, the enlargement time will vary from a few minutes to tens of minutes. Due to the impact of network environment and the number of users simultaneously using the server, there is a very small chance of enlargement failure. If you encounter this situation, please try again in a few minutes. If you are not logged in, you need to keep the browser open all the time, otherwise the enlarged image will be lost. If you have already logged in, you can close the browser. We support offline enlargement, so you can download it later. After logging in, you can record and view your own history. Rest assured, the images uploaded by users and the enlarged images will be automatically deleted after 5 days. Image addresses are encrypted and saved, so unless you actively share them, others cannot view the images.
 
-### Name: FD96E3E3-DDD2-4E87-8538-6043E3B5B963
+### Name: Randomly update wallpaper
 
 - URL: https://www.icloud.com/shortcuts/fd96e3e3ddd24e8785386043e3b5b963
 
-- Description: 可以随机设置各种类型的随机壁纸到主屏幕。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Can randomly set various types of random wallpapers to the main screen.
 
-### Name: 56CF9270-D8A6-4DEF-834A-2E965596BCDC
+### Name: Image Blurring处理
 
 - URL: https://www.icloud.com/shortcuts/56cf9270d8a64def834a2e965596bcdc
 
-- Description: 选择一张图片，设定模糊强度便会生成一张模糊后的图片，并自动保存到相簿。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Select a picture, set the blur intensity, and it will generate a blurred image automatically saved to the album.
 
-### Name: 42F0C6D8-A6ED-484D-8993-72A0BAB0EB79
+### Name: Creative Polaroid V2.0
 
 - URL: https://www.icloud.com/shortcuts/42f0c6d8a6ed484d899372a0bab0eb79
 
-- Description: 将输入的照片生成为拍立得样式，可带标题和日期 具体详情可查看快捷指令注释 世界上有许多种遇见，最美好的，莫过于，在我最美的时光里与你相遇。 能帮你留住此刻的幸福，是我的荣幸！ 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Generate the input photo into a Polaroid style, with the option to include a title and date.
 
-### Name: BDB6C5AD-E25A-43C7-BAC4-1794E10CFED1
+### Name: Mihoyo Coin Check-in 1.2
 
 - URL: https://www.icloud.com/shortcuts/bdb6c5ade25a43c7bac41794e10cfed1
 
-- Description: 使用之前请先填写脚本中的手机号、密码，且账号密码必须是小米运动手机号注册的，小米运动注册完了绑定微信就可以刷步数  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Before using it, please fill in the mobile phone number and password in the script, and the account password must be registered with Xiaomi Sports mobile phone number. After registering Xiaomi Sports, you can bind WeChat to track your steps.
 
-### Name: DC4E4B51-2C9A-43CE-98DC-1B80A22D5FF9
+### Name: Wallpaper
 
 - URL: https://www.icloud.com/shortcuts/dc4e4b512c9a43ce98dc1b80a22d5ff9
 
-- Description: 此快捷指令可以下载最近 7 天的 Bing 高清壁纸并保存。 该快捷指令在 iOS 和 macOS 上测试通过。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can download the latest 7 days of Bing high-definition wallpapers and save them. The shortcut has been tested on iOS and macOS.
 
-### Name: 3B4C5F71-7D5F-469D-8614-E75BF580FC36
+### Name: package and send
 
 - URL: https://www.icloud.com/shortcuts/3b4c5f717d5f469d8614e75bf580fc36
 
-- Description: 选择多张照片 (也支持文件) 打包为zip压缩包，一次性发送出去!  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Select multiple photos (also supports files) and package them into a zip compressed file, then send them all at once!
 
-### Name: 812D590F-8F6E-4D1D-8AAB-72EFF8A29189
+### Name: Pornhub Icon Generator
 
 - URL: https://www.icloud.com/shortcuts/812d590f8f6e4d1d8aab72eff8a29189
 
-- Description: 快速生成 PB 图标。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Quickly generate PB icons.
 
-### Name: 2728C065-DCEE-4055-8CBE-32ACEE22B2D9
+### Name: Create QR code.
 
 - URL: https://www.icloud.com/shortcuts/2728c065dcee40558cbe32acee22b2d9
 
-- Description: 可将网址、文字、数字等内容一键生成二维码。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Can generate QR codes with one click for URLs, text, numbers, and other content.
 
-### Name: 17AC7FC8-9A9D-4F5C-A864-3AE2978C5B59
+### Name: Pixian
 
 - URL: https://www.icloud.com/shortcuts/17ac7fc89a9d4f5ca8643ae2978c5b59
 
-- Description: 这个免费的在线一键抠图网站太好用了，只需上传图片到网站即可实现一键抠图。 目前支持 JPEG、PNG、BMP、GIF 和 WebP 作为输入，并生成 PNG 作为输出。 Pixian.AI 可以很好地处理各种图像类型，包括人物照片、物品、艺术品、标志和扫描件上脱颖而出。 网址：https://pixian.ai  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This free online one-click cutout website is very easy to use. Just upload the image to the website to achieve one-click cutout. Currently supports JPEG, PNG, BMP, GIF, and WebP as inputs, and generates PNG as output. Pixian.AI can handle various types of images well, including portraits, objects, artworks, logos, and standout on scans. Website: https://pixian.ai
 
-### Name: EF3DFF5B-4CBC-49ED-87E3-25D25803C3C2
+### Name: Shortcut image hosting
 
 - URL: https://www.icloud.com/shortcuts/ef3dff5b4cbc49ed87e325d25803c3c2
 
-- Description: 捷径图床工具。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Shortcut image hosting tool.
 
-### Name: 155A1CCF-A49D-48BE-9E28-9E01FB6F3B93
+### Name: Sideways splicing
 
 - URL: https://www.icloud.com/shortcuts/155a1ccfa49d48be9e289e01fb6f3b93
 
-- Description: 图片横向拼接，默认间距80px。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: 'Images are horizontally stitched together with a default spacing of 80px.'
 
-### Name: D4B155C1-C4E8-4E82-9690-6A1D19F73020
+### Name: Multi-engine search
 
 - URL: https://www.icloud.com/shortcuts/d4b155c1c4e84e8296906a1d19f73020
 
-- Description: 多引擎搜索  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Multi-engine search.
 
-### Name: 7A5A5127-9E89-4499-AAC5-1B4CAA86656A
+### Name: Payment QR code.
 
 - URL: https://www.icloud.com/shortcuts/7a5a51279e894499aac51b4caa86656a
 
-- Description: 结合HTML制作的收款二维码，显示工具(只写了微信和支付宝的画面)  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Combined with HTML to create a payment QR code display tool (only designed for WeChat and Alipay interfaces).
 
-### Name: 901D226B-57C5-445B-8755-43DFC1D96478
+### Name: Package and send photos.
 
 - URL: https://www.icloud.com/shortcuts/901d226b57c5445b875543dfc1d96478
 
-- Description: 可以将照片压缩成zip格式的文件，进行发送。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: You can compress photos into zip files for sending.
 
-### Name: D86F91A6-DC63-4416-A761-14E6535B5EAB
+### Name: Photo deletion plan
 
 - URL: https://www.icloud.com/shortcuts/d86f91a6dc634416a76114e6535b5eab
 
-- Description: 截屏，照片删除  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Screenshot, delete photo
 
-### Name: 8A4666BC-E3B0-441E-9438-6D1CC30298CA
+### Name: Apple zodiac wallpaper.
 
 - URL: https://www.icloud.com/shortcuts/8a4666bce3b0441e94386d1cc30298ca
 
-- Description: 「新年属你猛。」 ​Apple 虎年十二生肖限定 iPhone 墙纸。 背景为喜庆的大红色，搭配金色创意的生肖动物头像。壁纸下方还有苹果logo以及祝福语，年味特别浓。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Apple limited edition iPhone wallpaper for the Year of the Tiger zodiac. The background is festive bright red, paired with golden creative zodiac animal avatars. Below the wallpaper, there is the Apple logo and blessings, adding a strong New Year atmosphere.
 
-### Name: D6968950-6BDC-4336-B142-B18F4C0D6606
+### Name: Random Wallpaper Mobile Version
 
 - URL: https://www.icloud.com/shortcuts/d69689506bdc4336b142b18f4c0d6606
 
-- Description: 一个简单的获取随机壁纸的IOS快捷指令。 可以随机获取 1170 X 2532px 尺寸的高品质手机壁纸。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: A simple iOS shortcut to get random wallpapers. You can randomly get high-quality mobile wallpapers in 1170 X 2532px size.
 
-### Name: ABC3C85D-B1CD-4B7C-91FD-16B7BA66317A
+### Name: VIP stands for "Very Important Person".
 
 - URL: https://www.icloud.com/shortcuts/abc3c85db1cd4b7c91fd16b7ba66317a
 
-- Description: 为手机壁纸加一个彩色的边框。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Add a colorful border to the phone wallpaper.
 
-### Name: 19549A56-ADB6-445A-993E-5BCB9886A0C5
+### Name: translate extract.pics
 
 - URL: https://www.icloud.com/shortcuts/19549a56adb6445a993e5bcb9886a0c5
 
-- Description: Extract.pics 是一个易于使用的网站图片下载工具。允许您从任何公共网站提取、查看和下载图像。只需将网站的 URL 粘贴到输入到搜索框，然后单击“提取”即可开始该过程。 提取过程需要几秒钟，以确保找到尽可能多的图像。完成后，您将在有组织的网格中看到所有图像。 您现在可以通过按大小、宽度、高度或它们所在位置的顺序对找到的图像进行排序来探索找到的图像。此外，您可以按图像的名称、大小或类型/文件格式搜索图像。这使得准确找到您需要的图像变得非常容易。 您现在可以使用缩放工具在浅色或深色背景下检查图像，下载单张图像并复制图像的URL 。如果您想 一次 下载多个图像，您可以选择所有需要的图像，然后将它们全部下载到一个ZIP 存档中。 网址：https://extract.pics/ 是的，extract.pics 是完全免费的！ 每次启动提取过程时，服务器都会启动一个新的Google Chrome浏览器实例。该浏览器然后导航到您输入的网站并检测所有图像（可见和不可见）。 之后，网站上的跟踪像素和其他无用图像将被删除。然后分析剩余的图像以显示有用的信息，如类型和大小。 是的。每个网站的浏览方式就像您在浏览器中浏览它们一样。我们使用最新版本的 Google Chrome 浏览器来处理您提供的网站。加载您的网站后，我们会执行 JavaScript 并等待所有请求完成，然后再开始提取过程。 服务器导航到您提供的网站后，它会 非常快速地向下滚动几秒钟，以找到尽可能多的图像。网站在前 10 秒内加载的每张图片都会发送回给您。跟踪像素和丢失的图像会自动删除。 提取过程完成后，您将找到在您输入的 URL 上找到的所有图像的列表。然后您可以使用 按钮下载单个图像。 如果您想一次 下载多个图像，您可以通过单击图像来选择它们，然后使用绿色按钮“下载所选图像”将所有选定的图像下载到一个 ZIP 文件中。这可能需要几秒钟（甚至几分钟），具体取决于您选择的图像数量。 在某些情况下，它甚至可能会失败。如果发生这种情况，请尝试一次下载较少的图像。 如果提取失败，发生的原因有几个。请先检查您输入的网址是否正确。如果它仍然不起作用，请检查是否存在以下任何问题：  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Extract.pics is an easy-to-use online image download tool. It allows you to extract, view, and download images from any public website. Simply paste the website URL into the search box and click "Extract" to start the process. The extraction process takes a few seconds to ensure it finds as many images as possible. Once complete, you will see all the images in an organized grid. You can now explore the images by sorting them by size, width, height, or their order on the page. Additionally, you can search for images by name, size, or type/file format, making it easy to find the image you need. You can use the zoom tool to inspect images on light or dark backgrounds, download single images, and copy the image URL. If you want to download multiple images at once, you can select all the images you need and download them all into a ZIP archive. The website is completely free to use. Each time the extraction process is initiated, a new Google Chrome browser instance is launched on the server. The browser then navigates to the entered website and detects all images (visible and invisible). Tracking pixels and other useless images on the website are removed. The remaining images are analyzed to display useful information like type and size. The browsing of each website is done as if you were browsing it in your browser. The latest version of Google Chrome browser is used to process the provided website. After loading your website, JavaScript is executed, and all requests are awaited before starting the extraction process. After navigating to your provided website, the server scrolls down rapidly for a few seconds to find as many images as possible. Every image loaded within the first 10 seconds is sent back to you. Tracking pixels and missing images are automatically deleted. Once the extraction process is complete, you will find a list of all images found on the URL you entered. You can then use the button to download single images. If you want to download multiple images at once, you can select them by clicking on the images and then use the green button "Download Selected Images" to download all selected images into a ZIP file. This process may take a few seconds (or even minutes) depending on the number of images chosen. In some cases, it may even fail. If this happens, try downloading fewer images at a time. If the extraction fails, there are several reasons it could occur. First, check if the URL you entered is correct. If it still doesn't work, check for any of the following issues:
 
-### Name: 73960F50-F468-482B-BB62-F6D544CC04C8
+### Name: Delete screenshot photo.
 
 - URL: https://www.icloud.com/shortcuts/73960f50f468482bbb62f6d544cc04c8
 
-- Description: 运行捷径，自动识别截屏照片，默认全选，可以取消勾选。一键删除截屏照片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Run the shortcut, automatically identify the screenshot photos, select all by default, and allow deselecting. One-click to delete screenshot photos.
 
-### Name: D1565E9A-037F-4380-BE7D-185C67947B50
+### Name: Batch rotate photos 1
 
 - URL: https://www.icloud.com/shortcuts/d1565e9a037f4380be7d185c67947b50
 
-- Description: 批量旋转照片  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Batch rotate photos.
 
-### Name: F151D40A-D870-43A9-BF03-4867772311CF
+### Name: Random wallpaper.
 
 - URL: https://www.icloud.com/shortcuts/f151d40ad87043a9bf034867772311cf
 
-- Description: 从 Unsplash 获取高质量壁纸并自动设置，而旦根据外观模式（深色/浅色）获取不同主题壁纸可根据喜好更改关键词。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Get high-quality wallpapers from Unsplash and automatically set them. You can change keywords according to preferences to obtain different themed wallpapers based on the appearance mode (dark/light).
 
-### Name: 35E1EEB4-F546-4CB8-B49E-A2E19C992279
+### Name: Shoot GIF.
 
 - URL: https://www.icloud.com/shortcuts/35e1eeb4f5464cb8b49ea2e19c992279
 
-- Description: 用相机拍摄三张照片，然后将其接合成动画 GIF。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Shoot three photos with the camera, then stitch them together into an animated GIF.
 
-### Name: 622E0343-3E1E-4BD3-897C-0D4A73FF7482
+### Name: Screenshot clean.
 
 - URL: https://www.icloud.com/shortcuts/622e03433e1e4bd3897c0d4a73ff7482
 
-- Description: 作用: 按照日、周、月、年或者自定义时间范围清理。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Clean according to day, week, month, year, or custom time range.
 
-### Name: BE2EC995-8A0A-42E4-B5EB-4318530FBE4B
+### Name: OOCR text recognition
 
 - URL: https://www.icloud.com/shortcuts/be2ec9958a0a42e4b5eb4318530fbe4b
 
-- Description: 读取图片上的文字，采用百度技术文字精准扫描识别。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Extract text from images using Baidu's advanced text accurate scanning and recognition technology.
 
-### Name: BBDE4D12-CE35-4D39-80F8-8B232A7D742C
+### Name: Make QR code
 
 - URL: https://www.icloud.com/shortcuts/bbde4d12ce354d3980f88b232a7d742c
 
-- Description: 创建二维码以打开网站，发送邮件以及添加日程等。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Create QR codes to open websites, send emails, and add events, etc.
 
-### Name: 4E7AD099-2E46-4CA8-8D9B-6B889E977B73
+### Name: quick take photo
 
 - URL: https://www.icloud.com/shortcuts/4e7ad0992e464ca88d9b6b889e977b73
 
-- Description: 该快捷指令搭配iphone“轻点背面”功能，可实现便捷化自拍并预览，适合13PROMAX等大机型，方便单手操作。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut is paired with the iPhone's "tap on the back" feature to enable convenient selfies and previews, suitable for large models like the 13 Pro Max, allowing for easy one-handed operation.
 
-### Name: 034B18B1-1168-40E9-90C5-72FF69588AD4
+### Name: Blurry wallpaper.
 
 - URL: https://www.icloud.com/shortcuts/034b18b1116840e990c572ff69588ad4
 
-- Description: 模糊图片当作壁纸，可以设置锁屏以及背景图  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Blurry images can be set as wallpaper, for both lock screen and background.
 
-### Name: 9A7D81D2-F0E1-46E8-9F0C-5A1C951D6F59
+### Name: Scan QR code.
 
 - URL: https://www.icloud.com/shortcuts/9a7d81d2f0e146e89f0c5a1c951d6f59
 
-- Description: 扫描二维码，查看其包含的内容。结果会拷贝到剪贴板中，如果是URL,则会在Safari 浏览器中打开网站。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Scan the QR code to view its content. The result will be copied to the clipboard, and if it's a URL, the website will be opened in Safari browser.
 
-### Name: 067DC734-C6EA-4C86-813E-122A322B5C8E
+### Name: Unsplash wallpaper
 
 - URL: https://www.icloud.com/shortcuts/067dc734c6ea4c86813e122a322b5c8e
 
-- Description: 自动获取Unsplash壁纸，根据设备类型自动获取iphone壁纸或者Mac壁纸，自适应屏幕尺寸，完美！！！使用前请更新到i0$ 14 及以上版本最佳。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Automatically get Unsplash wallpapers, automatically obtain iPhone wallpapers or Mac wallpapers based on device type, adaptive screen size, perfect! Update to iOS 14 or above before use for best results.
 
-### Name: 102D93FE-264C-4E19-BD0D-D88525A55E0C
+### Name: Batch rotate photos.
 
 - URL: https://www.icloud.com/shortcuts/102d93fe264c4e19bd0dd88525a55e0c
 
-- Description: 批量旋转照片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Batch rotate photos.
 
-### Name: 16A317B9-3F10-4862-AEA4-F0C75C06731E
+### Name: Image hosting
 
 - URL: https://www.icloud.com/shortcuts/16a317b93f104862aea4f0c75c06731e
 
-- Description: 支持多个云存储的图床指令。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Supports image hosting commands with multiple cloud storage options.
 
-### Name: 4D4A14B5-6DA8-474F-B4CE-F1B1A89B6F52
+### Name: Baidu OCR recognition.
 
 - URL: https://www.icloud.com/shortcuts/4d4a14b56da8474fb4cef1b1a89b6f52
 
-- Description: 百度识别中图像处理快速获取文字，精准度98%，识别比苹果自带的更精准，支持 APP内共享选择图片或捷径内选择图片两种模式。捷径视频演示：https://vid.midii.tech/sharecuts/screenshots/4b222526-4b3c-4681-a04e2c786fac9e79/screenshot.MOV。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Baidu's recognition can quickly extract text from images with an accuracy of 98%, which is more accurate than Apple's built-in recognition. It supports two modes: sharing images within the app or selecting images within shortcuts.
 
-### Name: A7470A48-CB18-468A-98E1-33C95A471443
+### Name: Baidu image download.
 
 - URL: https://www.icloud.com/shortcuts/a7470a48cb18468a98e133c95a471443
 
-- Description: 只需粘贴百度图片预览链接，即可暴力破解出图片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Just paste the Baidu image preview link, and you can brute force the image.
 
-### Name: 07E08BBA-889F-4CA3-B475-ACB2C2B1D8B0
+### Name: Orange Cat Random Wallpaper
 
 - URL: https://www.icloud.com/shortcuts/07e08bba889f4ca3b475acb2c2b1d8b0
 
-- Description: 一键随机换主屏幕和锁屏的壁纸。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: One-click to randomly change the wallpaper of the home and lock screens.
 
-### Name: 6E968084-DD3E-4BCD-9244-C26C186B9094
+### Name: System Update Tool A15 (Beta Version)
 
 - URL: https://www.icloud.com/shortcuts/6e968084dd3e4bcd9244c26c186b9094
 
-- Description: iOS更新工具，是快捷的刷机小工具，里面有AppleOS，Android，windows，deepin的更新小程序，全心全意为你服务  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: iOS update tool, is a quick flashing tool, with update programs for AppleOS, Android, Windows, Deepin, dedicated to serving you wholeheartedly.
 
-### Name: F0C845C9-76C5-4F74-947C-7E0487A73022
+### Name: "DJG Lock Screen Weather" 🔆
 
 - URL: https://www.icloud.com/shortcuts/f0c845c976c54f74947c7e0487a73022
 
-- Description: 壁纸自动选取“壁纸”相簿中最新一张。其他需求请自行调整。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Automatically select the latest wallpaper from the "Wallpaper" album.
 
-### Name: 19D677BB-CA64-418E-BF69-57D141148804
+### Name: Full-screen screenshot
 
 - URL: https://www.icloud.com/shortcuts/19d677bbca64418ebf6957d141148804
 
-- Description: Mac 全屏截图快捷指令。 在 Mac 菜单栏鼠标点击此快捷指令，即可对 Mac 全屏幕内容进行截屏。 Mac窗口截屏快捷指令：https://jiejingku.net/10627.html 注：此快捷指令仅可在 Mac 端使用。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Mac full screen screenshot shortcut. Click this shortcut in the Mac menu bar with the mouse to capture the contents of the Mac full screen. Mac window screenshot shortcut.
 
-### Name: B84DBF06-1A64-4512-986D-492F515F7311
+### Name: Take a break.
 
 - URL: https://www.icloud.com/shortcuts/b84dbf061a644512986d492f515f7311
 
-- Description: 不用计时就可提醒你，还会自动播放音乐。祝你休息快乐。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: You will be reminded without setting a timer, and music will start playing automatically. Wish you a happy rest.
 
-### Name: 5C2FD47A-2990-42A5-A19A-2412674ED7BE
+### Name: Time Machine
 
 - URL: https://www.icloud.com/shortcuts/5c2fd47a299042a5a19a2412674ed7be
 
-- Description: 查看你一年前拍摄的照片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: View photos you took a year ago.
 
-### Name: C003A3C3-995F-49FC-B408-B4106ACA612D
+### Name: Upload images to image hosting service.
 
 - URL: https://www.icloud.com/shortcuts/c003a3c3995f49fcb408b4106aca612d
 
-- Description: 该捷径简化了图片上传的过程，自动上传，注意：不能上传视频，以及太大的图片，否则会失败。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut simplifies the process of uploading images, automatically uploading them. Note: videos cannot be uploaded, nor can images that are too large, otherwise it will fail.
 
-### Name: BBD213C8-34D6-44E2-B775-3D5717060E78
+### Name: Cat's Eye Preview Batch Download
 
 - URL: https://www.icloud.com/shortcuts/bbd213c834d644e2b7753d5717060e78
 
-- Description: 步骤：任意影片进入页面，进入页面后点击右上角分享点击复制链接或者更多后选择本捷径即可批量下载视频至相册。 猫眼app的分享链接有时效，若已复制链接运行本指令提示未检测到链接，请关闭猫眼重新打开即可正常。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Steps: Enter any video page, click on the top right corner to share, then copy the link or select more options and choose this shortcut to batch download videos to the album. The sharing link of the Maoyan app has a time limit. If you have copied the link and run this command but it prompts that no link is detected, please close Maoyan and reopen it to resolve the issue.
 
-### Name: 7A465543-0D64-423B-A671-E7E86F7161D1
+### Name: Get weather icon
 
 - URL: https://www.icloud.com/shortcuts/7a4655430d64423ba671e7e86f7161d1
 
-- Description: 天气壁纸 pro max的依赖  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Dependency on Weather Wallpaper Pro Max.
 
-### Name: 0EF811CA-38C9-461B-982D-7830661A199B
+### Name: iPhone X multiple styles case.
 
 - URL: https://www.icloud.com/shortcuts/0ef811ca38c9461b982d7830661a199b
 
-- Description: 本快捷指令类似于小兽加壳  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut is similar to Little Beast Shell.
 
-### Name: B0633945-B0AF-4684-A9F6-F578AA8ACF77
+### Name: iOS system update tool
 
 - URL: https://www.icloud.com/shortcuts/b0633945b0af4684a9f6f578aa8acf77
 
-- Description: iOS系统更新工具。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: iOS system update tool.
 
-### Name: FA7362D4-64C5-4997-826A-BE366E95C627
+### Name: floor avatar generator
 
 - URL: https://www.icloud.com/shortcuts/fa7362d464c54997826abe366e95c627
 
-- Description: 魔都防疫拼团头像生成器，可制作楼层和房间号的头像。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Magic City Epidemic Prevention Group Avatar Generator, can create avatars for building floors and room numbers.
 
-### Name: 4507FACC-4329-478B-B3ED-D1B27D8F43A7
+### Name: Animal Park
 
 - URL: https://www.icloud.com/shortcuts/4507facc4329478bb3edd1b27d8f43a7
 
-- Description: 动物乐园可以查看相应的动物图片 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: The animal park can view corresponding pictures of animals.
 
-### Name: 01BF8274-17CB-420C-B645-588DD1CF05CB
+### Name: iOS Update Tool 24R
 
 - URL: https://www.icloud.com/shortcuts/01bf827417cb420cb645588dd1cf05cb
 
-- Description: 系统更新工具，可以更新至最新版本。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: System update tool, can update to the latest version.
 
-### Name: 7D17BC54-B9BD-4912-876C-3D4A79FB2FA3
+### Name: Read photo name.
 
 - URL: https://www.icloud.com/shortcuts/7d17bc54b9bd4912876c3d4a79fb2fa3
 
-- Description: 朗读照片名称  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Read aloud the name of the photo.
 
-### Name: ED6EFE8A-6E20-44F3-8E83-C2B3F4AE4E85
+### Name: Accelerate GitHub download.
 
 - URL: https://www.icloud.com/shortcuts/ed6efe8a6e2044f38e83c2b3f4ae4e85
 
-- Description: 众所周知，github在国内甚至无法正常访问，文件下载也是慢到姥姥家。所以这款快捷指令只需要输入下载链接，就可以进行加速下载了（肯定需要联网）。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: As we all know, GitHub cannot be accessed normally even in China, and file downloads are as slow as a snail. Therefore, this shortcut only requires entering the download link to speed up the download (definitely requires an internet connection).
 
-### Name: 3386BCCB-B7F3-4E5A-B453-EF34B2886507
+### Name: OSSKING
 
 - URL: https://www.icloud.com/shortcuts/3386bccbb7f34e5ab453ef34b2886507
 
-- Description: 一个免费的在线图床网站，其特点如下。 以下图片来源于该图床，可测试其联通情况。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: A free online image hosting website, with the following features. The images below are from this image hosting site, you can test its connectivity.
 
-### Name: D5127125-215C-420B-B8A7-F05A5241C59D
+### Name: Sports Assistant 2024 New Year Edition
 
 - URL: https://www.icloud.com/shortcuts/d5127125215c420bb8a7f05a5241c59d
 
-- Description: 运动步数修改 1、下载Zepp Life（原小米运动）2、注册登陆3、登陆后点击右下角【我的】【第三方接入】【选择需要修改的app】4、绑定完成后回到快捷指令，在下方输入app的账号密码即可5、打卡设置set：1为随机步数，2为固定步数  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Modify the number of steps in exercise:
 
-### Name: 6AED168A-FC31-4F6B-B6AE-D77008F71B08
+1. Download Zepp Life (formerly known as Xiaomi Sports).
+2. Register and login.
+3. After logging in, click on the bottom right corner [Mine] [Third-party Access] [Select the app you want to modify].
+4. Once the binding is completed, return to the shortcuts, enter the app's account and password at the bottom.
+5. Punch card settings: Set 1 for random steps, 2 for fixed steps.
+
+### Name: Get photos from Little Red Book.
 
 - URL: https://www.icloud.com/shortcuts/6aed168afc314f6bb6aed77008f71b08
 
-- Description: 使用方法：拷贝笔记链接，运行此快捷指令，下载无水印照片至相册。 调用原理：直接调用链接源码内meta标签og:image链接抓取，无需post请求。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Usage: Copy the note link, run this shortcut, and download watermark-free photos to the album. Call principle: Directly call the meta tag og:image link extraction in the link source code, no post request required.
 
-### Name: 27882C33-3733-4E80-B855-D7F12D7895D6
+### Name: XT System Tool1.3
 
 - URL: https://www.icloud.com/shortcuts/27882c3337334e80b855d7f12d7895d6
 
-- Description: 一个可以快速管理系统设置，并且带有各种工具的快捷指令。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: A shortcut that allows for quick management of system settings and comes with various tools.
 
-### Name: 98729CF7-750C-4A93-AC89-44AA21CD68FB
+### Name: 2024 latest automation Jingdong Jingdong beans check-in
 
 - URL: https://www.icloud.com/shortcuts/98729cf7750c4a93ac8944aa21cd68fb
 
-- Description: 可设置静默状态下京东京东豆自动化签到  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Automatic sign-in for Jingdong JD Beans can be set up in silent mode.
 
-### Name: E15ABC84-A779-4DBF-95C4-8334CF249A27
+### Name: Background remover
 
 - URL: https://www.icloud.com/shortcuts/e15abc84a7794dbf95c48334cf249a27
 
-- Description: 该快捷指令可去除图片背景。 可以在“共享”表单中运行，从而获取图片；也可以在相册中获取图片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can remove the background of an image. It can be run in the "Share" form to obtain an image; It can also obtain images in the album.
 
-### Name: 24217ED6-FCCB-4605-961D-2747CAFD4409
+### Name: Battery health Lite
 
 - URL: https://www.icloud.com/shortcuts/24217ed6fccb4605961d2747cafd4409
 
-- Description: 精简版的电池健。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Simplified version of battery health.
 
-### Name: 0376147B-8618-434C-B4F4-6706B742A0FC
-
-- URL: https://www.icloud.com/shortcuts/0376147b8618434cb4f46706b742a0fc
-
-- Description: 设置当前Bing壁纸为手机墙纸。设置墙纸时，不会将Bing壁纸保存到手机相册。 如果将本快捷方式设置为自动化可以实现每日自动更换手机墙纸。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: EABB56D9-1DAD-4D9E-8C8E-6DB744C573CB
-
-- URL: https://www.icloud.com/shortcuts/eabb56d91dad4d9e8c8e6db744c573cb
-
-- Description: 多功能快捷指令集成手机常用功能。 快捷支付、扫一扫、相机、乘车码、手电筒、蓝牙热点等。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: 6058B219-0431-485B-B610-B686E8F421A7
-
-- URL: https://www.icloud.com/shortcuts/6058b2190431485bb610b686e8f421a7
-
-- Description: 记录喝了多少水并记录到健康  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: B5D63C8A-7475-4CCE-81E2-2D0E044F59D8
-
-- URL: https://www.icloud.com/shortcuts/b5d63c8a74754cce81e22d0e044f59d8
-
-- Description: 将常见的联系人或服务号码导入到手机通讯录，包含规范化的头像与名称，从而实现美化短信列表的功能。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: FE362938-2454-48B7-B11A-06FBFEA05E74
-
-- URL: https://www.icloud.com/shortcuts/fe362938245448b7b11a06fbfea05e74
-
-- Description: 照片编辑工具合集。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: 81BDDC95-1935-466E-8F38-E24B5927C88B
-
-- URL: https://www.icloud.com/shortcuts/81bddc951935466e8f38e24b5927c88b
-
-- Description: 为了更好的体验，请先到商店安装免费的VLC播放器，安装完毕后再使用。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: 4DBE77AC-74A3-45B8-B747-5320C16D8875
-
-- URL: https://www.icloud.com/shortcuts/4dbe77ac74a345b8b7475320c16d8875
-
-- Description: 此快捷指令可以把手机相册截图拼接，制作成长截图。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: 5CB44C1A-2212-44CB-9B01-48FC76135650
-
-- URL: https://www.icloud.com/shortcuts/5cb44c1a221244cb9b0148fc76135650
-
-- Description: 文本转语音、语音转文本和图片转格式都有  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
-- Source: https://jiejingku.net
-
-- FilePath: 
-
-### Name: 3ECA9EC7-96ED-45B3-BC38-922A37C6B6BD
+### Name: Bing wallpaper
 
 - URL: https://www.icloud.com/shortcuts/3eca9ec796ed45b3bc38922a37c6b6bd
 
-- Description: 该快捷指令可获取最新必应壁纸。 文本框输入提示: 下方文本框为运行后的执行操作指令，如需自动设置壁纸请填入“自动设置”， 不需要自动设置壁纸留空。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
+- Source: https://jiejingku.net
+
+- Description: This shortcut can get the latest Bing wallpaper.
+
+### Name: Multi-function command
+
+- URL: https://www.icloud.com/shortcuts/eabb56d91dad4d9e8c8e6db744c573cb
 
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Multi-functional quick shortcuts integrate common functions used on mobile phones. Quick payments, scanning, camera, transportation code, flashlight, Bluetooth hotspot, etc.
 
-### Name: 1355F0F7-57A5-4BDD-924D-D871B9BF0400
+### Name: Drink Water
+
+- URL: https://www.icloud.com/shortcuts/6058b2190431485bb610b686e8f421a7
+
+- Source: https://jiejingku.net
+
+- Description: Record how much water you have drunk and log it into your health.
+
+### Name: Skyfire
+
+- URL: https://www.icloud.com/shortcuts/b5d63c8a74754cce81e22d0e044f59d8
+
+- Source: https://jiejingku.net
+
+- Description: Import common contacts or service numbers into the mobile phone contacts, including standardized avatars and names, to achieve the function of beautifying the SMS list.
+
+### Name: About Photo Editing 1
+
+- URL: https://www.icloud.com/shortcuts/fe362938245448b7b11a06fbfea05e74
+
+- Source: https://jiejingku.net
+
+- Description: Collection of photo editing tools.
+
+### Name: Anime Club Share Kiev
+
+- URL: https://www.icloud.com/shortcuts/81bddc951935466e8f38e24b5927c88b
+
+- Source: https://jiejingku.net
+
+- Description: For a better experience, please go to the store to install the free VLC media player before using it.
+
+### Name: Long picture stitching.
+
+- URL: https://www.icloud.com/shortcuts/4dbe77ac74a345b8b7475320c16d8875
+
+- Source: https://jiejingku.net
+
+- Description: This shortcut can stitch screenshots from the phone gallery to create a long screenshot.
+
+### Name: Convert format.
+
+- URL: https://www.icloud.com/shortcuts/5cb44c1a221244cb9b0148fc76135650
+
+- Source: https://jiejingku.net
+
+- Description: Text-to-speech, speech-to-text, and image-to-format conversion are all available.
+
+### Name: Bing Wallpaper_a216ce2a
+
+- URL: https://www.icloud.com/shortcuts/3eca9ec796ed45b3bc38922a37c6b6bd
+
+- Source: https://jiejingku.net
+
+- Description: This shortcut can get the latest Bing wallpapers.
+
+### Name: Retro SMS Image
 
 - URL: https://www.icloud.com/shortcuts/1355f0f757a54bdd924dd871b9bf0400
 
-- Description: 模拟诺基亚1100复古手机短信图片。短信内容随意编辑。以图片结果展示。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Simulate the Nokia 1100 retro mobile phone SMS image. Edit the SMS content as needed. Display the result as an image.
 
-### Name: B03F0FD3-2807-4298-96AB-4C3C523DB44F
+### Name: Convert video to GIF
 
 - URL: https://www.icloud.com/shortcuts/b03f0fd32807429896ab4c3c523db44f
 
-- Description: 用相机胶卷中的视频制作动画 GIF。此快捷指令允许你在制作 GIF 前修剪视频。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Create an animated GIF from videos in the camera roll. This shortcut allows you to trim the video before creating the GIF.
 
-### Name: 0C7A0D61-0E7F-4EF8-A324-67CC1C27B062
+### Name: Simple Twitter video download.
 
 - URL: https://www.icloud.com/shortcuts/0c7a0d610e7f4ef8a32467cc1c27b062
 
-- Description: 复制链接运行指令即可。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Simply copy the link and run the command.
 
-### Name: A9D6E8D3-62A2-497D-B6C1-BC26D9BE5D61
+### Name: Batch edit contact avatars.
 
 - URL: https://www.icloud.com/shortcuts/a9d6e8d362a2497db6c1bc26d9be5d61
 
-- Description: 批量添加，删除联系人的头像图片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Batch add or delete contact avatars.
 
-### Name: 6409F761-921D-421B-B416-2D84F90D7C3F
+### Name: Curved screen.
 
 - URL: https://www.icloud.com/shortcuts/6409f761921d421bb4162d84f90d7c3f
 
-- Description: 模仿曲面屏处理照片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Imitate curved screen to process photos.
 
-### Name: 64383B71-7701-4FF8-B602-0D3755A24ED9
+### Name: TikTok Image Collection Analysis
 
 - URL: https://www.icloud.com/shortcuts/64383b7177014ff8b6020d3755a24ed9
 
-- Description: 去除抖音图集水印  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Remove watermark from TikTok photo album.
 
-### Name: 77EE4F89-3421-45AF-AD49-A87F255D397F
+### Name: Jingdong Task, Jingdou, Fruit Duck.
 
 - URL: https://www.icloud.com/shortcuts/77ee4f89342145afad49a87f255d397f
 
-- Description: 自动京东任务，水果，撸豆  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Automatic JD tasks, fruit, bean sprouts
 
-### Name: CDDA99D4-B5DE-4C20-BF09-12EE233F978D
+### Name: iPhone 14 casing
 
 - URL: https://www.icloud.com/shortcuts/cdda99d4b5de4c20bf0912ee233f978d
 
-- Description: 给截图加上ihone 14 pro灵动岛外壳  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Add the dynamic island shell to the screenshot of iPhone 14 Pro.
 
-### Name: 1D651B8D-261C-4F58-8125-2F0F531A1927
+### Name: Super text recognition
 
 - URL: https://www.icloud.com/shortcuts/1d651b8d261c4f5881252f0f531a1927
 
-- Description: 使用百度OCR文字识别接口+搜题（作业帮/青夏教育） 哔哩哔哩作品链接：https://b23.tv/g9NmfTq  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Use Baidu OCR text recognition interface + search for questions (study help / Qingxia Education) Bilibili work link: https://b23.tv/g9NmfTq.
 
-### Name: 00CD8E83-4AB4-400F-8D55-697F6F580CF5
+### Name: Watermark Camera Part (Multiple choice)
 
 - URL: https://www.icloud.com/shortcuts/00cd8e834ab4400f8d55697f6f580cf5
 
-- Description: 【捷径库独家快捷指令】 最近徕卡水印火了？只有徕卡水印？ No，现在有了Apple，小米，徕卡，华为，三星，索尼，尼康（后续还会添加）等水印可制作，更快捷，无需任何网络即可将手机里的原图，相机原图添加上水印！ *注：本捷径是根据每张照片的元数据信息获取对应的数据，若您在网络上面下载下来的图片有可能会添加不了。（经纬度只有带有定位的照片才会显示该照片的经纬度）  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Leica watermark recently became popular? Only Leica watermark? No, now there are Apple, Xiaomi, Leica, Huawei, Samsung, Sony, Nikon (more to be added later) and other watermarks that can be created, faster and without the need for any network to add watermarks to the original images in the phone, camera original images! *Note: This shortcut obtains corresponding data based on the metadata information of each photo. If you download images from the internet, it may not be able to add watermarks. (The latitude and longitude will only be displayed for photos with location information.)
 
-### Name: DAE58B3A-99CC-4941-B610-485B50E3A214
+### Name: Leica watermark (select version)
 
 - URL: https://www.icloud.com/shortcuts/dae58b3a99cc4941b610485b50e3a214
 
-- Description: 网传小米将于知名影像厂商徕卡展开合作，据推测首款合作机型很可能是小米12系列。 此快捷指令一键创作含有小米12s手机风格的徕卡水印照片。 需要注意所选照片需要含有EXIF信息，只能是手机拍的照片，不能使用网络图片。 快捷指令作者信息：CopyRight：XiaoMi ；Code & WeChat：WarmEpoch；Psd：ZwE_W & 魔蝎 徕卡简介： 徕卡（Leica）是一家著名的德国公司生产的相机的品牌，由莱茨（Leitz）和相机（camera）的前音节组成。公司专注于生产相机器械及专业级望远设备。 从1913年，照相机设计师奥斯卡·巴尔纳克(Oskar Barnack)，从德国恩斯特·莱茨光学工厂制造出第一台徕卡相机原型Ur-Leica起。在很多人眼中，莱卡就是一直是德国品质的杰出代表。设计、质量、经典是莱卡永恒的代名词。徕卡相机，从上世纪制造开始，是世界上第一个35mm相机。以它为标杆，确立了最早的24mmX36mm软片格式。 如果您翻看老照片就会发现，几乎每一位战地记者，都人手一个徕卡相机。徕卡相机的质量上乘，手动的机型，在没电的情况下也能使用，电子类相机惧怕的低温环境，徕卡依然能使。 虽然日系单反相机在市场销量和智能方面被大众市场占有。但是徕卡相机，一直在百年来保持着少量精作的最初品质，这一点，任何智能单反，都无可比拟。优秀的光学素质和精湛的设计工艺，让徕卡的旁轴相机(也有单反)代表着一种人文气息。把徕卡的旁轴相机和日系性价比的单反比较，就像是把一位有品位的英伦绅士和一个新贵极客、一个奢侈品和一个新科技对比。这显然是没有可比性的，有句话说的好：“认真，你就输了。” 不管世界如何，徕卡坚持不量产。质优且量少，再加上经典的设计，让徕卡成为一种相机的文化符号，一个大写的奢侈品。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: It is rumored online that Xiaomi will cooperate with the well-known imaging manufacturer Leica, and it is speculated that the first cooperative model is likely to be the Xiaomi 12 series. This shortcut creates Leica watermarked photos with the style of the Xiaomi 12s phone with one click. Please note that the selected photos need to contain EXIF information, must be photos taken by the phone, and cannot use internet images. Shortcut author information: CopyRight: XiaoMi; Code & WeChat: WarmEpoch; Psd: ZwE_W & 魔蝎 Leica Introduction: Leica is a famous German company that produces cameras. The brand name is composed of the first syllables of Leitz and camera. Design, quality, and classic are eternal synonyms of Leica. Leica cameras, which began manufacturing in the last century, were the world's first 35mm cameras. Using it as a benchmark, the earliest 24mmX36mm full-frame format was established. The quality of Leica cameras is excellent, with manual models that can still be used even without power. While electronic cameras fear low temperatures, Leica can still operate in such conditions. There is a saying: "If you take it seriously, you lose." Regardless of how the world changes, Leica insists on not mass-producing. With high quality and low quantity, together with its classic design, Leica has become a cultural symbol of cameras, a luxury item.
 
-### Name: A6828BB1-FF7C-4968-B766-231724D3D0A0
+### Name: System update tool OWN (development version).
 
 - URL: https://www.icloud.com/shortcuts/a6828bb1ff7c4968b766231724d3d0a0
 
-- Description: 系统更新工具。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: System update tool.
 
-### Name: 7351F449-B78E-49C1-9F60-F827179E27EF
+### Name: AppleOS update tool Rv
 
 - URL: https://www.icloud.com/shortcuts/7351f449b78e49c19f60f827179e27ef
 
-- Description: 更新内容，1.增加了＂更多＂这个项目，2.修复了若干个bug，3.添加介绍选项。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Updated content, 1. Added the "More" item, 2. Fixed several bugs, 3. Added introduction option.
 
-### Name: 86CEE3CC-FB43-4F99-B691-1201C6965EEC
+### Name: Photo Editing Lite
 
 - URL: https://www.icloud.com/shortcuts/86cee3ccfb434f99b6911201c6965eec
 
-- Description: 简洁地编辑的照片  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Concisely edited photo
 
-### Name: 6DA816FB-DD72-4452-BAB7-7F1E58A33285
+### Name: Recording and packaging lite version.
 
 - URL: https://www.icloud.com/shortcuts/6da816fbdd724452bab77f1e58a33285
 
-- Description: 精简版加壳录屏工具。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Simplified version of the screen recording tool.
 
-### Name: 0E1B65F9-4E4A-4A29-98E7-E0358A78F2BD
+### Name: Add Image App Icon
 
 - URL: https://www.icloud.com/shortcuts/0e1b65f94e4a4a2998e7e0358a78f2bd
 
-- Description: 在图片的右下角添加一个App图标。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Add an app icon to the bottom right corner of the image.
 
-### Name: FDBC3B37-C587-4BDF-8291-9FC4D0373EBD
+### Name: iPhone Notch Enhancement
 
 - URL: https://www.icloud.com/shortcuts/fdbc3b37c5874bdf82919fc4d0373ebd
 
-- Description: 显示日期 星期 电量运营商 天气  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Display date, day of the week, battery level, operator, and weather.
 
-### Name: EB76A9C9-1C87-4C4A-88BE-695FED7CCF60
+### Name: Video Long Picture 1
 
 - URL: https://www.icloud.com/shortcuts/eb76a9c91c874c4a88be695fed7ccf60
 
-- Description: 将选中的视频变成想要的长图。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Turn the selected video into the desired long image.
 
-### Name: 23D41FDB-964C-4882-883D-7D47A8C1AD4A
+### Name: Send screenshot.
 
 - URL: https://www.icloud.com/shortcuts/23d41fdb964c4882883d7d47a8c1ad4a
 
-- Description: 自动获取最新截图，并隔空投送给附近朋友。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Automatically capture the latest screenshot and send it to nearby friends via AirDrop.
 
-### Name: C6386B1F-B964-450F-9F2C-171C70C69841
+### Name: Fortune-telling tool
 
 - URL: https://www.icloud.com/shortcuts/c6386b1fb964450f9f2c171c70c69841
 
-- Description: 运用数字，测试运气  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Using numbers, test your luck Privacy permissions and security star ratings for shortcuts.
 
-### Name: 504429B0-F03E-4207-A358-3BFF972C4298
+### Name: Friend circle picture comment 1.
 
 - URL: https://www.icloud.com/shortcuts/504429b0f03e4207a3583bff972c4298
 
-- Description: 解决朋友圈不能图片评论！直接到朋友圈评论区域粘贴即可！  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Solve the problem of being unable to comment with pictures in Moments! Simply paste it directly into the comments section of Moments!
 
-### Name: 4501BC78-3170-473A-82DB-5EE926B7FD52
+### Name: Random Avatar Collection.
 
 - URL: https://www.icloud.com/shortcuts/4501bc783170473a82db5ee926b7fd52
 
-- Description: 帅哥美女动漫头像大全。可随机获取美女、帅哥、动漫等类型头像。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Handsome and beautiful anime avatar complete collection. You can randomly acquire avatar of beauties, handsome guys, cartoons, and other types.
 
-### Name: A52AE668-FF3F-4A6F-B775-21952E1241E4
+### Name: Apple Store Wallpaper in Wuhan.
 
 - URL: https://www.icloud.com/shortcuts/a52ae668ff3f4a6fb77521952e1241e4
 
-- Description: 这里欢迎各种天南海北的碰撞。来 Apple 武汉，创意的大江大湖，随你浪。 武汉 Apple Store 官方壁纸 最全整理包  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Welcome to all kinds of collisions from all over the world. Come to Apple Wuhan, where creativity flows freely. The most comprehensive collection of official wallpapers from Wuhan Apple Store.
 
-### Name: 37AB7426-0F16-4651-BBB2-CAE451B7F477
+### Name: WWDC22 wallpaper
 
 - URL: https://www.icloud.com/shortcuts/37ab74260f164651bbb2cae451b7f477
 
-- Description: WWDC22壁纸 @Vincent制作（转载标注）  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: WWDC22 wallpaper made by @Vincent.
 
-### Name: 3B29FF59-516C-458C-B23D-A9CAB2C0C47C
+### Name: Random anime avatar
 
 - URL: https://www.icloud.com/shortcuts/3b29ff59516c458cb23da9cab2c0c47c
 
-- Description: 运行此快捷指令随机获取一个动漫头像，可用于各网站注册使用。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Run this shortcut to randomly get an anime avatar, which can be used for various website registrations.
 
-### Name: 1D896B36-547D-457D-966F-16A6AFA8E8F5
+### Name: Save app screenshot
 
 - URL: https://www.icloud.com/shortcuts/1d896b36547d457d966f16a6afa8e8f5
 
-- Description: 在 App Store 中搜索应用,并将截图从产品页面保存到手机照片中。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Search for the app in the App Store and save the screenshots from the product page to the phone's photos.
 
-### Name: 3D79D886-4B48-4EDF-B0D6-5F79B367BCD6
+### Name: Beauty broadcast
 
 - URL: https://www.icloud.com/shortcuts/3d79d8864b484edfb0d65f79b367bcd6
 
-- Description: 此快捷指令采用API可随机获取一张图片，图片主题包括：美女、动漫、风景、随机四种分类，喜欢的图片可以保存到手机。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut uses an API to randomly fetch an image, with themes including: beauty, anime, scenery, and random categories. Users can save their favorite images to their phones.
 
-### Name: D019CE77-376A-47A8-9621-ECBAD7FC09E1
+### Name: oneself动
 
 - URL: https://www.icloud.com/shortcuts/d019ce77376a47a89621ecbad7fc09e1
 
-- Description: 小米刷步数 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Xiaomi step count.
 
-### Name: 78FC670A-46BC-4232-ADB9-D21EE525CEB9
+### Name: Set off fireworks.
 
 - URL: https://www.icloud.com/shortcuts/78fc670a46bc4232adb9d21ee525ceb9
 
-- Description: 通过视频转音频实现放烟花效果 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Achieve the fireworks effect through converting video to audio.
 
-### Name: AD21C483-BF1D-416E-BD27-CBEFCE69A5C4
+### Name: Screenshot
 
 - URL: https://www.icloud.com/shortcuts/ad21c483bf1d416ebd27cbefce69a5c4
 
-- Description: Mac 屏幕截图快捷指令。 在 Mac 菜单栏鼠标点击此快捷指令，鼠标变为相机后，即可对 Mac 屏幕内的任意窗口进行截屏。 Mac全屏截图快捷指令：https://jiejingku.net/10627.html 注：此快捷指令仅可在 Mac 端使用。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Mac screen capture shortcut. Click this shortcut in the Mac menu bar with the mouse. After the mouse turns into a camera, you can take a screenshot of any window on the Mac screen. Mac full screen capture shortcut.
 
-### Name: B2E08AEB-A5E8-4FE1-82A8-C2909424755D
+### Name: Anime Rankings (TOP20) 1.
 
 - URL: https://www.icloud.com/shortcuts/b2e08aeba5e84fe182a8c2909424755d
 
-- Description: 创建人：Essence 实时动漫排行榜前20位，数据源自中国最大的数据中心百度数据库，不知道看什么？来看看热门的动漫作品吧，点击详情可跳转到正版视频网站。 2022年3月15日更新 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Essence real-time top 20 anime ranking, data is sourced from China's largest data center Baidu database. Not sure what to watch? Come and check out the popular anime works, click for details to redirect to legitimate video websites.
 
-### Name: 0FE22486-3D2D-4786-AB89-A75ECC9A350F
+### Name: OCR text recognition
 
 - URL: https://www.icloud.com/shortcuts/0fe224863d2d4786ab89a75ecc9a350f
 
-- Description: ①.支持自动转换可识别格式 ②.支持试卷手写文字自动去除功能； ③.支持自定义分隔符 ④.文字识别结果自动保存icloud捷径目录FuFuOcr内， 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Support automatic conversion of recognizable formats ②. Support automatic removal of handwritten text in exam papers; ③. Support custom delimiters ④. Automatically save text recognition results in the iCloud shortcut directory FuFuOcr.
 
-### Name: 3B454EF0-7E4A-49E3-9CAC-4AA7216BDDC4
+### Name: Rabbit holding a sign.
 
 - URL: https://www.icloud.com/shortcuts/3b454ef07e4a49e39cac4aa7216bddc4
 
-- Description: 制作只有文字+笔画生成的图案，就像 ：） 一样。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Create patterns made up of only text + strokes, just like :) as well.
 
-### Name: FF46EDF1-4093-4EB1-80AB-5E0994B70D43
+### Name: iPhone camera watermark.
 
 - URL: https://www.icloud.com/shortcuts/ff46edf140934eb180ab5e0994b70d43
 
-- Description: 可在照片上添加任何型号的iPhone手机的水印。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: You can add a watermark of any model of iPhone on the photo.
 
-### Name: CD4D380D-968D-4086-8BE5-BDD0628B131A
+### Name: Anime club sharing list
 
 - URL: https://www.icloud.com/shortcuts/cd4d380d968d40868be5bdd0628b131a
 
-- Description: 动漫分享榜，快速获取最新动漫，你总有你喜欢的一款。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Anime sharing list, quickly get the latest anime, you always have one that you like.
 
-### Name: F91E6C52-1676-4EA0-BA69-B747B0C9E656
+### Name: Bingdundun Image
 
 - URL: https://www.icloud.com/shortcuts/f91e6c5216764ea0ba69b747b0c9e656
 
-- Description: 冰墩墩太可爱了吧！ 网上搜集来的冰墩墩图片资源，可以用于头像和表情包制作。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Bing Dwen Dwen is so cute! Ice Dwen Dwen image resources collected from the internet can be used for making avatars and emojis.
 

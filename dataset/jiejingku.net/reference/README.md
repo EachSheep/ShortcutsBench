@@ -1,762 +1,629 @@
 # dataset/jiejingku.net/reference
 
-### Name: FE1B33BC-8343-4327-806D-79D024A66576
+### Name: Apple Toolbox
 
 - URL: https://www.icloud.com/shortcuts/fe1b33bc83434327806d79d024a66576
 
-- Description: 融合了25个杂乱小工具，功能强大。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Integrated 25 miscellaneous small tools, powerful functionality.
 
-### Name: 2F237D91-FEF3-485A-A5E5-598C3046BA8F
+### Name: Jarvis
 
 - URL: https://www.icloud.com/shortcuts/2f237d91fef3485aa5e5598c3046ba8f
 
-- Description: 将chatGPT 3.5 API对接到 Siri，支持国内直连与连续对话，支持 prompt调教，更新中。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Integrate the chatGPT 3.5 API with Siri, support direct connection and continuous conversation in China, support prompt training, in progress.
 
-### Name: 7BF4D7A9-97CD-4E13-B871-A01E9C50B5E0
+### Name: Rainbow Brush SVIP Member
 
 - URL: https://www.icloud.com/shortcuts/7bf4d7a997cd4e13b871a01e9c50b5e0
 
-- Description: 运行快捷指令填写你的彩云天气邀请码，在重复次数中选择要刷新的次数。同一IP建议不要超过8次，每次间隔时间最好在15秒以上。IP的话可以飞行模式更换，或者使用代理更换。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Run the shortcut, fill in your Weather Caixun invitation code, and select the number of times to refresh in the repeat count. It is recommended not to exceed 8 times for the same IP, and the interval time should be at least 15 seconds. For the IP, you can switch to flight mode or use a proxy to change it.
 
-### Name: E5AB9944-5B59-415D-BF4C-64452E2D4E48
+### Name: lock screen with a single key
 
 - URL: https://www.icloud.com/shortcuts/e5ab99445b59415dbf4c64452e2d4e48
 
-- Description: 运行此快捷指令可实现一键锁屏，防熊孩子抢手机观看近视。 设置流程： 1-先打开闹钟-右下角计时器-正中央「计时结束时启用」-滚动到最下方「停止播放」。 2-运行此快捷指令，即可实现一键锁屏。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Running this shortcut can achieve one-click screen lock to prevent children from grabbing the phone to watch nearsightedness. Setting process: 1-First open the alarm clock-lower right corner timer-"Enable when timer ends" in the center-Scroll to the bottom "Stop playing". 2-Running this shortcut will achieve one-click screen lock.
 
-### Name: 474E10C0-5C0D-44C9-96AB-58C578A9DACC
+### Name: The translation of "文案公众号" into English is "Copywriting Official Account".
 
 - URL: https://www.icloud.com/shortcuts/474e10c05c0d44c996ab58c578a9dacc
 
-- Description: 文案聚集地，可以查找你想要的文案，你也可以投稿你的文案  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Copywriting gathering place, where you can find the copy you want, and you can also submit your own copy.
 
-### Name: 97A98234-2D39-4617-B862-E729F90994F1
+### Name: Battery percentage.
 
 - URL: https://www.icloud.com/shortcuts/97a982342d394617b862e729f90994f1
 
-- Description: 获取当前iOS设备电池电量百分比。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Get the current battery percentage of the iOS device.
 
-### Name: 85D65227-F8B9-4C7C-A19A-EB39260C1DAE
+### Name: Battery Life 1.0 Professional Edition
 
 - URL: https://www.icloud.com/shortcuts/85d65227f8b94c7ca19aeb39260c1dae
 
-- Description: 查询电池寿命、容量 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Check battery life and capacity.
 
-### Name: 1C82F165-847A-44FF-8ADD-0694FA810C46
+### Name: Device comprehensive inspection.
 
 - URL: https://www.icloud.com/shortcuts/1c82f165847a44ff8add0694fa810c46
 
-- Description: 方便快捷的设备检测小工具。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Convenient and quick device detection tool.
 
-### Name: 9A714986-7D54-4CDB-A75B-BA8E45E2E815
+### Name: Air Defense Drill (Stand-alone Version)
 
 - URL: https://www.icloud.com/shortcuts/9a7149867d544cdba75bba8e45e2e815
 
-- Description: 下载小红书的文案。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Download the copy from Xiaohongshu.
 
-### Name: 8AA0E5ED-9DF5-4003-98FF-D898065009C5
+### Name: Switch to automatic 5G.
 
 - URL: https://www.icloud.com/shortcuts/8aa0e5ed9df5400398ffd898065009c5
 
-- Description: 苹果12/13一键切换手机网络为5G。 需要网络信号支持 和 iOS1 4.5 版本以上使用。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Switching the iPhone 12/13 to 5G network with one click. Requires network signal support and iOS 14.5 or later.
 
-### Name: 24A2756C-F156-4A11-97A3-05EBE93BD952
+### Name: Workday clock-in
 
 - URL: https://www.icloud.com/shortcuts/24a2756cf1564a1197a305ebe93bd952
 
-- Description: 该快捷指令可以实现正常工作日和法定加班日自动钉钉打卡。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can automatically clock in on normal workdays and legal overtime days.
 
-### Name: BD5654FC-04EB-4FEC-9F85-843448EE06F6
+### Name: Verification code module.
 
 - URL: https://www.icloud.com/shortcuts/bd5654fc04eb4fec9f85843448ee06f6
 
-- Description: 验证码模块  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Verification code module Privacy permissions and security star rating instructions for shortcuts.
 
-### Name: 056748E7-846D-4E87-B138-A188387D5C3D
+### Name: Alibaba Cloud Drive Expert
 
 - URL: https://www.icloud.com/shortcuts/056748e7846d4e87b138a188387d5c3d
 
-- Description: 阿里云盘达人招募活动，通报名活动参与分享最高可获得50TB容量。 活动玩法：分享带来的新用户和转存都可提升达人等级，等级越高，权益越多 享有权益：成功参与活动你将获得延期卡、最高50TB容量、专属粉丝福利码、官方认证、订阅功能开放、流量曝光等等;云盘达人等级越高、权益越多 报名方式 ：点击下方链接报名即可。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Alibaba Cloud Drive is recruiting experts. The recruitment event offers up to 50TB of storage capacity for sharing and participating. The gameplay is based on increasing expert level through sharing with new users and transferring files. The higher the level, the more benefits you'll have. Benefits include: extension cards, up to 50TB capacity, exclusive fan benefits, official certification, subscription feature access, traffic exposure, etc. The higher the level of the expert, the more benefits they will have. To sign up, simply click on the link below.
 
-### Name: 24183801-6135-4636-91D9-37EF34876329
+### Name: Weather report
 
 - URL: https://www.icloud.com/shortcuts/241838016135463691d937ef34876329
 
-- Description: 获取本地天气状况（是否下雨，温度等），并生成报告显示。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Obtain local weather conditions (rainfall, temperature, etc.), and generate a report for display.
 
-### Name: 427013E3-35A8-4030-B1C9-BA51CD2292A3
+### Name: App Store tools
 
 - URL: https://www.icloud.com/shortcuts/427013e335a84030b1c9ba51cd2292a3
 
-- Description: 「功能」1.获取App图标；2.获取App的各类信息；3.翻译App描述；4.获取其它国家/地区 App的信息。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Functionality: 1. Obtain the app icon; 2. Obtain various information about the app; 3. Translate the app description; 4. Obtain information about apps from other countries/regions.
 
-### Name: 219B1F9C-8341-468E-96EB-6BD8B6108906
+### Name: Check prices on the Appstore in multiple regions at 🐝
 
 - URL: https://www.icloud.com/shortcuts/219b1f9c8341468e96eb6bd8b6108906
 
-- Description: 主要用于查询 AppStore 多个国家 App的价格(带汇率可查内购) 用于对比，省去切换的烦恼。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Mainly used for querying the prices of apps in multiple countries in the AppStore (with exchange rates for in-app purchases), used for comparison, eliminating the hassle of switching.
 
-### Name: 4712A0E0-8765-4107-A856-6FFA41C56867
+### Name: Remove background.
 
 - URL: https://www.icloud.com/shortcuts/4712a0e087654107a8566ffa41c56867
 
-- Description: 支持离线移除视频背景  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Support offline removal of video background.
 
-### Name: 201173C8-9297-4093-B958-52A7FE23B6D5
+### Name: Generate robot voice
 
 - URL: https://www.icloud.com/shortcuts/201173c892974093b95852a7fe23b6d5
 
-- Description: 生成机器人朗读的语音  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Generate speech read by robots.
 
-### Name: B660CB68-A3D9-4698-8883-1F004A81A91D
+### Name: Voice Note
 
 - URL: https://www.icloud.com/shortcuts/b660cb68a3d9469888831f004a81a91d
 
-- Description: 快速将语音转到文字，推荐添加到主屏幕使用  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Quickly convert voice to text, recommended to add to the main screen for use.
 
-### Name: B9BC636A-4AD2-40CE-93BE-8C669156777A
+### Name: Low battery mode
 
 - URL: https://www.icloud.com/shortcuts/b9bc636a4ad240ce93be8c669156777a
 
-- Description: 此快捷指令可以快速开启/关闭 Mac 低电量模式。 MacBook 有多种节能模式，用户可以在这些模式之间进行切换。默认情况下 Mac 是“自动”模式，以平衡能耗和性能。 低电量模式可以降低能耗，从而延长电池续航能力。低电量模式会通过降低系统时钟速度和显示屏亮度，从而进一步延长电池寿命。 如果你在做一些强度较小的任务，比如看视频或浏览网页，你可以开启低电量模式更充分地利用 Mac 的电池电量。 注：此快捷指令对 Mac 生效。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can quickly enable/disable Low Power Mode on Mac. MacBook has multiple power-saving modes, and users can switch between these modes. By default, Mac is in "Automatic" mode to balance power consumption and performance. Low Power Mode can reduce power consumption, thereby extending battery life. Low Power Mode achieves this by lowering the system clock speed and screen brightness, further prolonging battery life. If you are doing less intensive tasks like watching videos or browsing the web, you can enable Low Power Mode to make more efficient use of your Mac's battery power. Note: This shortcut is effective for Mac.
 
-### Name: 95450159-2D7F-4562-BC66-8E5E7A91AAF5
+### Name: Google Translate
 
 - URL: https://www.icloud.com/shortcuts/954501592d7f4562bc668e5e7a91aaf5
 
-- Description: 将文本或网页翻译为中文  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Translate into English: 
+"Privacy permissions and security star rating instructions for shortcuts."
 
-### Name: 426DAA98-C579-4E15-AD51-418F1861F71E
+### Name: Gaode Taxi Discount Coupons
 
 - URL: https://www.icloud.com/shortcuts/426daa98c5794e15ad51418f1861f71e
 
-- Description: 高德打车推广活动，输入手机获取验证码，立即获取100元打车优惠券，新用户首次使用立减10元。 注意：优惠券有效期为7天，领取后请尽快使用。 1.参与城市:开通高德打车的城市 2.适用车型:请在使用前仔细查看券适用的车型名称，仅当乘坐该车型时可抵扣车费 3.领取限制:同类型领券渠道下，用户扫码可获得1次优惠券，且在该券未使用前不可重复领取 4.活动版本要求:需安装V8.16.0及以上版本的高德地图APP 5.活动流程: 1)领券打车流程:点击领券活动页面→获取相应打车优惠券→使用优惠券打车;2)如已持有本次活动的有效优惠券，需使用后方可继续参与本活动;3)可在出行卡优惠后叠加使用，同一订单最多可使用3张券，同一用户每天最多可使用8张券;4)查看奖励路径:打开”高德打车”微信小程序-点击左下角“我的卡券”或打开高德地图APP→点击路线→点击打车→点击提示条;5)打车优惠券的有效期。以订单被接单时间为准，只要订单被接单时间在券有效期内。则券可用，反之不可用;若取消订单，券不退回；6)用户需在券规定的有效期内使用奖券，超期未使用的，视为放弃; 6.其他条件: 1)严禁作弊:活动期间，用户若存在违规或作弊行为，包括但不限于作弊领取、虚假操作、机器刷奖、恶意套取奖品、黑客工具等，高德地图有权终止其参与活动的资格，并有权收回用户通过活动所获得的奖励，并保留必要时追究法律责任的权利;2)您的使用将有助于我们进一步提升服务质量;3)用户参与本活动即视为理解并同意本活动规则。对于活动规则如有任何疑问请致电高德地图客服热线400-880-2252进行咨询；4)高德地图有权在法律法规许可的范围内对本次活动进行解释。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Promotion for Gaode Taxi: Enter your phone number to receive a verification code, and immediately get a 100 yuan taxi coupon. New users will get a 10 yuan discount on their first ride. The coupon is valid for 7 days, so please use it as soon as possible after claiming. Participating cities: Cities where Gaode Taxi is available. Applicable vehicle types: Before using, please carefully check the coupon for the applicable vehicle type. It can only be used for the specified vehicle type. Restrictions on claiming: Users can only receive the coupon once by scanning the QR code under the same type of coupon channel, and cannot claim it repeatedly until the previous one is used. Activity version requirement: You need to install Gaode Maps APP version 8.16.0 or above. Activity process: To use the coupon for a ride, click on the coupon activity page, claim the relevant taxi coupon, and then use the coupon for your ride. If you already have a valid coupon from this promotion, you must use it before participating in this one. The coupon can be combined with other discounts. A maximum of 3 coupons can be used on one order, and a maximum of 8 coupons can be used per user per day. To view reward details: Open the "Gaode Taxi" WeChat mini program, click on "My Coupons" in the bottom left corner, or open the Gaode Maps APP, click on a route, choose a taxi, and click on the prompt bar. The validity of the taxi coupon is based on when the order is accepted. As long as the order is accepted within the coupon's validity period, it can be used; otherwise, it cannot. If an order is canceled, the coupon will not be returned. Users must use the coupon within the specified validity period, and if not used in time, it will be considered forfeited. Other terms: Cheating is strictly prohibited. During the activity, if a user engages in violations or cheating behaviors such as cheating in claiming, false operations, using tools to trick the system, maliciously obtaining prizes, or hacking, Gaode Maps reserves the right to disqualify them from participating in the activity, revoke any rewards gained through the activity, and take legal action if necessary. Your feedback will help us improve our services. By participating in this activity, users are deemed to understand and agree to the rules. If there are any questions about the rules, please contact Gaode Maps Customer Service Hotline at 400-880-2252. Gaode Maps reserves the right to interpret this activity within the limits permitted by law.
 
-### Name: 5CB44C1A-2212-44CB-9B01-48FC76135650
+### Name: Convert format
 
 - URL: https://www.icloud.com/shortcuts/5cb44c1a221244cb9b0148fc76135650
 
-- Description: 文本转语音、语音转文本和图片转格式都有  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Text-to-speech, speech-to-text, and image-to-format conversion are all available.
 
-### Name: 3D79D886-4B48-4EDF-B0D6-5F79B367BCD6
+### Name: Meitu Live
 
 - URL: https://www.icloud.com/shortcuts/3d79d8864b484edfb0d65f79b367bcd6
 
-- Description: 此快捷指令采用API可随机获取一张图片，图片主题包括：美女、动漫、风景、随机四种分类，喜欢的图片可以保存到手机。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut uses an API to randomly fetch an image. The themes of the images include: beauty, anime, scenery, and random categories. You can save the images you like to your phone.
 
-### Name: 23A7BE05-9B0C-4276-89E0-5632F03BD79A
+### Name: Memory training voice input
 
 - URL: https://www.icloud.com/shortcuts/23a7be059b0c427689e05632f03bd79a
 
-- Description: 记忆力训练2来袭,不用繁琐的打字,语音代替一切  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Memory training 2 is coming, no need for tedious typing, voice replaces everything.
 
-### Name: AEFF3C98-7256-4A52-AECD-7904851F9227
+### Name: WatchOS latest version detection
 
 - URL: https://www.icloud.com/shortcuts/aeff3c9872564a52aecd7904851f9227
 
-- Description: 一个可以检测你的 Apple Watch 系统版本最新的快捷指令（V0.0.1），也可以在Apple Watch上边的快捷指令使用。 作者前几个月刚入手Apple Watch 因为平时也比较关心iOS版本最新 然后到了 Apple Watch上边也会有这种情况，所以说也就开发了这款快捷指令。因为是目前是 0.0.1版本 会有些简陋 我将会在之后的版本慢慢完善的 —-2022/11/17 本快捷指令的API来源于捷径库，请勿滥用 以后将会开放给大家使用！  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: A shortcut that can detect the latest system version of your Apple Watch (V0.0.1) and can also be used on the Apple Watch. The author just got an Apple Watch a few months ago and is usually concerned about the latest iOS versions, which also happens on the Apple Watch. That's why this shortcut was developed. Since it is currently version 0.0.1, it may be a bit rudimentary, but I will gradually improve it in future versions.
 
-### Name: 68DCB521-23F5-444B-AB04-667B7033FF12
+### Name: Edge
 
 - URL: https://www.icloud.com/shortcuts/68dcb52123f5444bab04667b7033ff12
 
-- Description: Microsoft Edge浏览器 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Microsoft Edge browser Shortcut Library is a website for creating and sharing Apple shortcuts.
 
-### Name: 28DAC33C-E0D8-450F-B258-973C0FA4DC44
+### Name: MC Module Mini Tool
 
 - URL: https://www.icloud.com/shortcuts/28dac33ce0d8450fb258973c0fa4dc44
 
-- Description: 我的世界模组制作小工具。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: My World Mod-making Tool.
 
-### Name: 47F98F14-0084-4E73-9D3C-7FED680168BD
+### Name: Train Arrival Time Checker 1.0
 
 - URL: https://www.icloud.com/shortcuts/47f98f1400844e739d3c7fed680168bd
 
-- Description: 火车到站时间实时查询1.0  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Real-time query of train arrival time 1.0
 
-### Name: 3B454EF0-7E4A-49E3-9CAC-4AA7216BDDC4
+### Name: Rabbit holding a sign
 
 - URL: https://www.icloud.com/shortcuts/3b454ef07e4a49e39cac4aa7216bddc4
 
-- Description: 制作只有文字+笔画生成的图案，就像 ：） 一样。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Create patterns that consist only of text + strokes, just like :) emoji.
 
-### Name: A43C2519-8EEF-4924-AA2D-3786849D452D
+### Name: Export tag group as Chrome html.
 
 - URL: https://www.icloud.com/shortcuts/a43c25198eef4924aa2d3786849d452d
 
-- Description: 在i0S15+ 系统里苹果为 Safari添加了标签组功能，长按标签组可以拷贝链接，这个捷径需要用到的就是拷贝后的链接。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: In iOS 15 and above, Apple has added tab grouping functionality to Safari. Long press on a tab group can copy the link, which is what this shortcut requires the use of.
 
-### Name: 5089DBD2-8DC0-4E0C-B116-91CBA61F2DB0
+### Name: Show Clipboard
 
 - URL: https://www.icloud.com/shortcuts/5089dbd28dc04e0cb11691cba61f2db0
 
-- Description: 此快捷指令可以检测剪贴板是复制有内容。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can detect if the clipboard contains copied content.
 
-### Name: 6D43B967-9F3D-4C75-89F4-072CC48AE754
+### Name: Orange Cat Weather
 
 - URL: https://www.icloud.com/shortcuts/6d43b9679f3d4c7589f4072cc48ae754
 
-- Description: 必须的前置设置：（所有的音乐软件类似）1、安装网易云音乐，打开网易云音乐-左上角三个横杠-往下拉到其它-添加Siri捷径-添加每日推荐；2、添加后打开快捷指令，点击网易云的播放日推左上角的三个点，打开设置，关闭运行时显示；3、确保快捷指令可以联网并获取位置。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Necessary pre-settings: (applies to all music apps) 1. Install NetEase Cloud Music, open NetEase Cloud Music - top left corner three horizontal bars - scroll down to Other - add Siri shortcuts - add Daily Recommendation; 2. After adding, open Shortcuts, click on the three dots in the top left corner of NetEase Cloud's Play Daily Recommendations, open settings, turn off Show at Runtime; 3. Ensure that Shortcuts can connect to the internet and obtain location.
 
-### Name: 8BCBCE0E-2147-4B3D-A4AD-C0141F900EFC
+### Name: National 5A-level scenic spot query.
 
 - URL: https://www.icloud.com/shortcuts/8bcbce0e21474b3da4adc0141f900efc
 
-- Description: 国5A级景区查询，创建自动化，随机抽取全国 299个5A级景区推送。节假日必备。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: 5A National Tourist Attraction Search, automated creation, randomly select and push 299 5A-level tourist attractions nationwide. Essential for holidays.
 
-### Name: AFF1ECCE-E97C-43A9-8192-D543AAEE339E
+### Name: Ultra Browser Chinese Version v1.12.3
 
 - URL: https://www.icloud.com/shortcuts/aff1eccee97c43a98192d543aaee339e
 
-- Description: 由Moriyu团队开发的快捷指令：极简浏览器。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Shortcut developed by the Moriyu team: Minimalist browser.
 
-### Name: F600BFB4-F70C-4017-A112-A3C48FA8BD9F
+### Name: Reverse dictionary
 
 - URL: https://www.icloud.com/shortcuts/f600bfb4f70c4017a112a3c48fa8bd9f
 
-- Description: 可以查询词语的意思，或者你也可以通过描述意思来查询想要的词语。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: You can look up the meanings of words, or you can also search for the words you want by describing their meanings.
 
-### Name: 04D8D966-9F2B-4D96-A912-5338E9861A1E
+### Name: Short link generation
 
 - URL: https://www.icloud.com/shortcuts/04d8d9669f2b4d96a9125338e9861a1e
 
-- Description: 1.自动获取剪切板长链接2.可以自定义短域，限制四位(无输入则随机生成)3.加密链接的话，需要输入密码访问(无输入则没有密码)4.短链接类型：http://d.jiek.top/jjku 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Automatically fetch long URLs from the clipboard. You can customize a short domain, limited to four characters (randomly generated if no input). For encrypted links, password input is required to access (no input means no password). Short link type: http://d.jiek.top/jjku.
 
-### Name: CD82D1EB-70EF-4924-B436-F2B937CA52F2
+### Name: YUQUEShortcut Version
 
 - URL: https://www.icloud.com/shortcuts/cd82d1eb70ef4924b436f2b937ca52f2
 
-- Description: 半成品，有需要的可以自行修改。使用语雀官方api。支持功能。新建、删除、查看知识库，新建、删除、查看文档。还可实现自动化更新文档内容，比较有用。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Semi-finished product, you can modify it by yourself if needed. Using the official API of Yuque. Supporting functions. Create, delete, and view knowledge base, create, delete, and view documents. It can also automatically update document content, which is quite useful.
 
-### Name: 22068547-8AF3-40B1-97C0-BE2C18C18A04
+### Name: Copy and paste
 
 - URL: https://www.icloud.com/shortcuts/220685478af340b197c0be2c18c18a04
 
-- Description: 此快捷指令可以为剪贴板输入内容，提供文本/数字/URL/日期/时间几种格式输入。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can provide text/number/URL/date/time input for clipboard content.
 
-### Name: 80336411-40CF-4DA0-A650-7FCDF8F7B37D
+### Name: Memory Training 1.
 
 - URL: https://www.icloud.com/shortcuts/8033641140cf4da0a6507fcdf8f7b37d
 
-- Description: 通过记忆汉字，数字，英文，符号等进行记忆力训练。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Train your memory by memorizing Chinese characters, numbers, English, symbols, etc.
 
-### Name: 253D12A3-8E87-46DD-B3DB-26B6FBD8AEC2
+### Name: Estimated arrival time 1
 
 - URL: https://www.icloud.com/shortcuts/253d12a38e8746ddb3db26b6fbd8aec2
 
-- Description: 预计到家时间  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Estimated time of arrival.
 
-### Name: F0F8C17E-7CE5-4763-A228-3BAA2314DB34
+### Name: Backup all files to the cloud.
 
 - URL: https://www.icloud.com/shortcuts/f0f8c17e7ce54763a2283baa2314db34
 
-- Description: 捷径功能如标题，备份所有的文件到云端。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Backup all files to the cloud.
 
-### Name: 79294FC2-D8A1-490C-813A-4D26534C0BCE
+### Name: College Entrance Examination Guide
 
 - URL: https://www.icloud.com/shortcuts/79294fc2d8a1490c813a4d26534c0bce
 
-- Description: 可快捷查看所在地区的所有大学。以及查看该学校的介绍。下一步将加入往年招生的分数线。api数据取至：https://gkcx.eol.cn/（中国教育在线）  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: You can quickly view all universities in your area. As well as check the introduction of the school. The next step will be to add the previous year's admission scores.
 
-### Name: 9287E323-FDD3-42EA-BF1B-DDCDF3B4B73D
+### Name: Health check-in
 
 - URL: https://www.icloud.com/shortcuts/9287e323fdd342eabf1bddcdf3b4b73d
 
-- Description: 每日健康打卡  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Daily health check-in.
 
-### Name: 674F79D3-5680-4391-96E9-EF03E858348E
+### Name: Open fast charge port
 
 - URL: https://www.icloud.com/shortcuts/674f79d35680439196e9ef03e858348e
 
-- Description: 小鹏汽车APP支持的快捷指令指令操作，可以将相关指令添加到手机中，便捷化的操作用车。 功能列表： 小鹏汽车解锁车门快捷指令：https://jiejingku.net/13764.html 小鹏汽车上车锁门快捷指令：https://jiejingku.net/13767.html 小鹏汽车打开后备箱快捷指令：https://jiejingku.net/13769.html 小鹏汽车打开快充口快捷指令：https://jiejingku.net/13771.html 使用说明： 1-需要下载小鹏汽车APP。 2-获取相关指令添加到快捷指令APP。 3-不支持安卓设备使用。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Xiaopeng Motors' app supports quick command operations, allowing users to add related commands to their phones for convenient vehicle operation. Function list: Xiaopeng Motors unlock door quick command, Xiaopeng Motors lock car door quick command, Xiaopeng Motors open trunk quick command, Xiaopeng Motors open fast charging port quick command. Instructions for use: 1- Download the Xiaopeng Motors app. 2- Obtain related commands and add them to the quick command app. 3- Not compatible with Android devices.
 
-### Name: A41EFE57-4718-43AF-89B9-443FD38C6574
+### Name: Unlock door
 
 - URL: https://www.icloud.com/shortcuts/a41efe57471843af89b9443fd38c6574
 
-- Description: 小鹏汽车APP支持的快捷指令指令操作，可以将相关指令添加到手机中，便捷化的操作用车。 功能列表： 小鹏汽车解锁车门快捷指令：https://jiejingku.net/13764.html 小鹏汽车上车锁门：https://jiejingku.net/13767.html 小鹏汽车打开后备箱：https://jiejingku.net/13769.html 小鹏汽车打开快充口：https://jiejingku.net/13771.html 使用说明： 1-需要下载小鹏汽车APP。 2-获取相关指令添加到快捷指令APP。 3-不支持安卓设备使用。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Xpeng Motors app supports quick command operations, which can be added to the phone for convenient vehicle operations. Function list: Xpeng Motors unlock door quick command, Xpeng Motors lock door when getting on, Xpeng Motors open trunk, Xpeng Motors open fast charging port. Instructions: 1- Download the Xpeng Motors app. 2- Add relevant commands to the quick command app. 3- Not compatible with Android devices.
 
-### Name: D2EEE26B-0BFE-4577-A4F0-44CCACBC2A24
+### Name: Set End Time
 
 - URL: https://www.icloud.com/shortcuts/d2eee26b0bfe4577a4f044ccacbc2a24
 
-- Description: 获取最新日程，把结束时间改成现在。配合计时日程，可以用自带的日历做复盘  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Get the latest schedule, change the end time to now. With the timed schedule, you can use the built-in calendar for review.
 
-### Name: 8433F529-CEBA-4176-8F77-9B49355C0A48
+### Name: Lock the door.
 
 - URL: https://www.icloud.com/shortcuts/8433f529ceba41768f779b49355c0a48
 
-- Description: 小鹏汽车APP支持的快捷指令指令操作，可以将相关指令添加到手机中，便捷化的操作用车。 功能列表： 小鹏汽车解锁车门快捷指令：https://jiejingku.net/13764.html 小鹏汽车上车锁门快捷指令：https://jiejingku.net/13767.html 小鹏汽车打开后备箱快捷指令：https://jiejingku.net/13769.html 小鹏汽车打开快充口快捷指令：https://jiejingku.net/13771.html 使用说明： 1-需要下载小鹏汽车APP。 2-获取相关指令添加到快捷指令APP。 3-不支持安卓设备使用。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Xpeng Motors app supports quick command operations, which can be added to the phone for convenient car operations. Function list: Xpeng Motors unlock door quick command Xpeng Motors lock door quick command Xpeng Motors open trunk quick command Xpeng Motors open fast charging port quick command Instructions for use: 1- Download Xpeng Motors app. 2- Add relevant commands to the quick command app. 3- Not supported for Android devices.
 
-### Name: 3F34B3B2-5982-4DD3-935D-A9E61AB11E02
+### Name: Open trunk.
 
 - URL: https://www.icloud.com/shortcuts/3f34b3b259824dd3935da9e61ab11e02
 
-- Description: 小鹏汽车APP支持的快捷指令指令操作，可以将相关指令添加到手机中，便捷化的操作用车。 功能列表： 小鹏汽车解锁车门快捷指令：https://jiejingku.net/13764.html 小鹏汽车上车锁门快捷指令：https://jiejingku.net/13767.html 小鹏汽车打开后备箱快捷指令：https://jiejingku.net/13769.html 小鹏汽车打开快充口快捷指令：https://jiejingku.net/13771.html 使用说明： 1-需要下载小鹏汽车APP。 2-获取相关指令添加到快捷指令APP。 3-不支持安卓设备使用。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Xiaopeng Motors app supports quick command operations, which allows users to add related instructions to their phones for convenient car operation.
 
-### Name: B8153ED2-9CB1-41AD-B16F-A1B2C5B888CF
+Function list:
+- Xiaopeng Motors unlock door quick command
+- Xiaopeng Motors lock door quick command when getting in the car
+- Xiaopeng Motors open trunk quick command
+- Xiaopeng Motors open fast charging port quick command
+
+Instructions for use:
+1. Download the Xiaopeng Motors app.
+2. Add related commands to the quick command app.
+3. Not compatible with Android devices.
+
+### Name: Walk to the coffee shop.
 
 - URL: https://www.icloud.com/shortcuts/b8153ed29cb141adb16fa1b2c5b888cf
 
-- Description: 获取前往附近咖啡馆的步行路线。 提示: 可自定此快捷指令!例如，将“咖啡”更改为“煎饼”以查找煎饼店，或更改为“加油站”以查找最近的加油站。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Get walking directions to the nearest coffee shop.
 
-### Name: ED6EFE8A-6E20-44F3-8E83-C2B3F4AE4E85
+### Name: github download speed up
 
 - URL: https://www.icloud.com/shortcuts/ed6efe8a6e2044f38e83c2b3f4ae4e85
 
-- Description: 众所周知，github在国内甚至无法正常访问，文件下载也是慢到姥姥家。所以这款快捷指令只需要输入下载链接，就可以进行加速下载了（肯定需要联网）。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: As is well known, GitHub is not accessible in China and even file downloads are as slow as grandma's house. So this shortcut only requires entering the download link to speed up the download (definitely need to be connected to the internet).
 
-### Name: D7DD7710-DBDC-42F3-BA0E-E2A67421A7C6
+### Name: Send to Google Chrome.
 
 - URL: https://www.icloud.com/shortcuts/d7dd7710dbdc42f3ba0ee2a67421a7c6
 
-- Description: 用于默认浏览器非Chrome的用户偶尔需要快速用Chrome打开当前网页的需求。 设备需求：只支持macOS 快捷键配置：Command + B（推荐） 更新日期：2024-02-13  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: For users who do not use Chrome as their default browser, there is occasionally a need to quickly open the current webpage in Chrome. Device requirement: macOS only. Keyboard shortcut setup: Command + B (recommended).
 
-### Name: 3386BCCB-B7F3-4E5A-B453-EF34B2886507
+### Name: The translation of "OSSKING" into English without any prefix or suffix would be "KING".
 
 - URL: https://www.icloud.com/shortcuts/3386bccbb7f34e5ab453ef34b2886507
 
-- Description: 一个免费的在线图床网站，其特点如下。 以下图片来源于该图床，可测试其联通情况。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: A free online image hosting website, with the following features.
 
-### Name: D5127125-215C-420B-B8A7-F05A5241C59D
+### Name: Sports Assistant 2024 Spring Edition
 
 - URL: https://www.icloud.com/shortcuts/d5127125215c420bb8a7f05a5241c59d
 
-- Description: 运动步数修改 1、下载Zepp Life（原小米运动）2、注册登陆3、登陆后点击右下角【我的】【第三方接入】【选择需要修改的app】4、绑定完成后回到快捷指令，在下方输入app的账号密码即可5、打卡设置set：1为随机步数，2为固定步数  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Modify the exercise steps:
+1. Download Zepp Life (formerly Xiaomi Sports).
+2. Register and log in.
+3. After logging in, click on the bottom right corner [Mine] [Third-party access] [Select the app that needs to be modified].
+4. After binding is completed, go back to the shortcut instructions, enter the app's account and password at the bottom, and you're all set.
+5. Check-in settings set: 1 for random steps, 2 for fixed steps.
 
-### Name: 6AED168A-FC31-4F6B-B6AE-D77008F71B08
+### Name: Get the photos of Little Red Book.
 
 - URL: https://www.icloud.com/shortcuts/6aed168afc314f6bb6aed77008f71b08
 
-- Description: 使用方法：拷贝笔记链接，运行此快捷指令，下载无水印照片至相册。 调用原理：直接调用链接源码内meta标签og:image链接抓取，无需post请求。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Usage: Copy the note link, run this shortcut, and download watermark-free photos to the album. 
+Principle of calling: Directly call the meta tag og:image link in the link source code for capture, no post request required.
 
-### Name: 27882C33-3733-4E80-B855-D7F12D7895D6
+### Name: XT System Toolbox 1.3
 
 - URL: https://www.icloud.com/shortcuts/27882c3337334e80b855d7f12d7895d6
 
-- Description: 一个可以快速管理系统设置，并且带有各种工具的快捷指令。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: A quick shortcut for managing system settings efficiently with various tools.
 
-### Name: 98729CF7-750C-4A93-AC89-44AA21CD68FB
+### Name: 2024 latest automation Jingdong Jingdong bean sign-in
 
 - URL: https://www.icloud.com/shortcuts/98729cf7750c4a93ac8944aa21cd68fb
 
-- Description: 可设置静默状态下京东京东豆自动化签到  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Automated check-in for JD JD Beans can be set in silent mode.
 
-### Name: 611C1417-6415-4759-98DC-AFE7CDD13980
+### Name: Generate zip compressed file.
 
 - URL: https://www.icloud.com/shortcuts/611c14176415475998dcafe7cdd13980
 
-- Description: 对手机相片和文件压缩，一键生成压缩包。 支持储存、分享和更新。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Compress mobile photos and files, generate a compressed package with one click. Supports storage, sharing, and updating.
 
-### Name: E15ABC84-A779-4DBF-95C4-8334CF249A27
+### Name: Background remover.
 
 - URL: https://www.icloud.com/shortcuts/e15abc84a7794dbf95c48334cf249a27
 
-- Description: 该快捷指令可去除图片背景。 可以在“共享”表单中运行，从而获取图片；也可以在相册中获取图片。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can remove the background of images. It can be run in the "Share" sheet to get images; or images can be obtained from the album.
 
-### Name: 3A98D96D-6B2A-4D48-9E7C-9DCEC8D1AA27
+### Name: Bluetooth automation
 
 - URL: https://www.icloud.com/shortcuts/3a98d96d6b2a4d489e7c9dcec8d1aa27
 
-- Description: 前提条件：手机系统蓝牙与目标设备蓝牙已配对设置蓝牙执行总次数，修改执行的app，蓝牙当前每次断开重连是6s，执行5次发送通知，修改微信接受人。主要适用于依赖蓝牙秒连的APP，压力测试。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Prerequisite: The mobile phone system Bluetooth is paired with the target device Bluetooth, set the total number of Bluetooth executions, modify the app being executed, the current Bluetooth reconnect time is 6s each time, send notifications 5 times, modify the WeChat recipient. Mainly used for apps that rely on instant Bluetooth connections, for stress testing.
 
-### Name: 24217ED6-FCCB-4605-961D-2747CAFD4409
+### Name: Battery Health Lite
 
 - URL: https://www.icloud.com/shortcuts/24217ed6fccb4605961d2747cafd4409
 
-- Description: 精简版的电池健。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Simplified version of battery health.
 
-### Name: EABB56D9-1DAD-4D9E-8C8E-6DB744C573CB
+### Name: multifunction command
 
 - URL: https://www.icloud.com/shortcuts/eabb56d91dad4d9e8c8e6db744c573cb
 
-- Description: 多功能快捷指令集成手机常用功能。 快捷支付、扫一扫、相机、乘车码、手电筒、蓝牙热点等。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Integration of common mobile functions in a multifunctional shortcut. Quick payment, scan QR code, camera, transportation code, flashlight, Bluetooth hotspot, etc.
 
-### Name: AC01F56F-BFA2-457F-9311-F3B771A6EFA1
+### Name: Jingdong
 
 - URL: https://www.icloud.com/shortcuts/ac01f56fbfa2457f9311f3b771a6efa1
 
-- Description: 通过URL Scheme 一键打开京东APP，屏蔽开屏广告。 需要iPhone安装京东app  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Open the JD app with one click through the URL Scheme, and block the splash screen ads. Requires the JD app to be installed on iPhone.
 
-### Name: 5D1F7E70-A3F2-4493-BE92-BE2ED427C070
+### Name: Freemind
 
 - URL: https://www.icloud.com/shortcuts/5d1f7e70a3f24493be92be2ed427c070
 
-- Description: FreeMind – 以大自然的声音为灵感，轻松创建专注或放松的音乐氛围。 无需账户，无需麻烦——只有纯粹的宁静。无论是在繁忙的办公室，还是在家中的安静角落，FreeMind将简约与宁静相结合，为您提供一个没有干扰的空间。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: FreeMind - Inspired by the sounds of nature, effortlessly create a focused or relaxing music atmosphere. No account needed, no hassle - just pure tranquility. Whether in a busy office or a quiet corner at home, FreeMind combines simplicity with serenity to provide you with a distraction-free space.
 
-### Name: 4DBE77AC-74A3-45B8-B747-5320C16D8875
+### Name: Long picture stitching.
 
 - URL: https://www.icloud.com/shortcuts/4dbe77ac74a345b8b7475320c16d8875
 
-- Description: 此快捷指令可以把手机相册截图拼接，制作成长截图。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can stitch screenshots from the phone's album to create a long screenshot.
 
-### Name: 5B3607D3-00E8-4E3D-9988-9C7FB0258B92
+### Name: Festival reminder.
 
 - URL: https://www.icloud.com/shortcuts/5b3607d300e84e3d99889c7fb0258b92
 
-- Description: 常用节日倒计时提示，每天0点设置自动化运行即可，还可设置节日提示壁纸  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Countdown reminders for common holidays, simply set to run automatically at midnight each day, and you can also set holiday reminder wallpapers.
 
-### Name: 40D5499A-C132-487D-B784-0E7AEA72E68D
+### Name: Weather Music V4.0
 
 - URL: https://www.icloud.com/shortcuts/40d5499ac132487db7840e7aea72e68d
 
-- Description: 每天报告天气日程等，一系列快节指令应用合辑。 更新日志：  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Report the weather schedule and more every day, a collection of quick command applications.
 
-### Name: 3ECA9EC7-96ED-45B3-BC38-922A37C6B6BD
+### Name: Bing wallpapers
 
 - URL: https://www.icloud.com/shortcuts/3eca9ec796ed45b3bc38922a37c6b6bd
 
-- Description: 该快捷指令可获取最新必应壁纸。 文本框输入提示: 下方文本框为运行后的执行操作指令，如需自动设置壁纸请填入“自动设置”， 不需要自动设置壁纸留空。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This shortcut can get the latest Bing wallpapers.
 
-### Name: 62DDC56D-4B18-42A2-92F2-E80C195E7FFB
+### Name: Memory game-3.0
 
 - URL: https://www.icloud.com/shortcuts/62ddc56d4b1842a292f2e80c195e7ffb
 
-- Description: 如果你想锻炼你的脑力，记忆力游戏-3.0-OfficialVersion是一个很好的选择。 他有着稳定、强大、实用的优点，并且没有Bug。而且还有超多形式记忆：字母（不是单词）、字符、数字、汉字（没有规则），多少位数随意定，主打的是随心所欲。 锻炼大脑，健康生活。如果觉得不错，请给个赞，关注支持一下作者。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: If you want to exercise your brain power, Memory Game-3.0-OfficialVersion is a great choice. It has the advantages of stability, strength, practicality, and no bugs. It also offers a variety of memory forms: letters (not words), characters, numbers, Chinese characters (no rules), the number of digits can be freely set, and the main focus is on personal preference. Exercise your brain, live a healthy life.
 
-### Name: 6A4371EC-88E5-4521-9F56-2783B44E41F8
+### Name: Weather Music V4.1.1
 
 - URL: https://www.icloud.com/shortcuts/6a4371ec88e545219f562783b44e41f8
 
-- Description: 天气音乐V4.1 by iPadOS17.2。天气，空气，日程等联动自动化快捷指令。 V4.1.1  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Weather Music V4.1 by iPadOS 17.2. Weather, air, schedule and other linkage automatic shortcut commands. V4.1.1
 
-### Name: 0CB54E35-1C0F-48C1-B75E-C1D1410F1A91
+### Name: Smart Calculator.
 
 - URL: https://www.icloud.com/shortcuts/0cb54e351c0f48c1b75ec1d1410f1a91
 
-- Description: 这是一个多功能计算器，可运行除了数学之外的一些功能，并在备忘录中自动创建报告，计算器后半部分包含评价功能（没什么卵用，为了好玩）。此快捷指令版权归属于作者所有！  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: This is a multi-functional calculator that can perform functions beyond mathematics and automatically generate reports in the notes.
 
-### Name: 86E7A26D-8E04-4353-B837-F8D352403E4A
+### Name: QWERT
 
 - URL: https://www.icloud.com/shortcuts/86e7a26d8e044353b837f8d352403e4a
 
-- Description: 简单实用的网页版外语词汇拼写学习工具。 软件设计的目标群体为以英语作为主要工作语言的键盘工作者。部分人会出现输入母语时的打字速度快于英语的情况，因为多年的母语输入练就了非常坚固的肌肉记忆 ，而英语输入的肌肉记忆相对较弱，易出现输入英语时“提笔忘字”的现象。 同时为了巩固英语技能，也需要持续的背诵单词 ，本软件将英语单词的记忆与英语键盘输入的肌肉记忆的锻炼相结合，可以在背诵单词的同时巩固肌肉记忆。 为了避免造成错误的肌肉记忆，设计上如果用户单词输入错误则需要重新输入单词，尽可能确保用户维持正确的肌肉记忆。软件也对需要机考英语的人群有一定的帮助。 内置了程序员工作常用单词的词库，方便练习工作中常用的单词、提高输入速度。也内置了诸多语言的 API 的练习，帮助以程序员快速熟悉常用的 API，更多语言的 API 正在逐步添加中… 网址：https://qwerty.kaiyi.cool/  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: A simple and practical web-based foreign language vocabulary spelling learning tool. The software is designed for keyboard users whose main working language is English. Some people may type faster in their native language than in English because years of input in their native language have developed very strong muscle memory, while muscle memory for English input is relatively weaker, making it easier to forget words when typing in English. To improve English skills, continuous vocabulary memorization is also needed. This software combines the memorization of English words with the muscle memory training for English keyboard input, helping to strengthen muscle memory while memorizing words. To avoid incorrect muscle memory, if a user inputs a word incorrectly, they will need to retype it, as much as possible to ensure that the user maintains the correct muscle memory. The software also provides some assistance to individuals who need to take English exams. It includes a library of commonly used words in programmer's work, making it easy to practice common words used in work and improve typing speed. It also includes exercises for APIs in various languages to help programmers quickly become familiar with common APIs, with more languages' APIs gradually being added...
 
-### Name: E364AE68-8A34-4A8F-9B6D-E59DEC21A361
+### Name: Digital library
 
 - URL: https://www.icloud.com/shortcuts/e364ae688a344a8f9b6de59dec21a361
 
-- Description: 可以选择对应的图书馆寻找相关书源!！（由于有些网站是镜像站的原因，可能打不开或者需要等待。你可以稍后再试，或者自行百度相关关键字，寻找新的镜像站）  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: You can choose to search for relevant book sources in the corresponding library!
 
-### Name: BFEAB85D-A1E3-458D-912E-670F07A5FE30
+### Name: Soda music
 
 - URL: https://www.icloud.com/shortcuts/bfeab85da1e3458d912e670f07a5fe30
 
-- Description: 抖音近日已经在国内开始小范围低调测试其首款独立音乐 App“汽水音乐”，主打小众好音乐，播放器界面类似抖音 App，其他方面与腾讯音乐系和网易云音乐相差不大，可以根据用户和品味相似的人的听歌偏好为用户推荐感兴趣的歌曲。 汽水音乐是抖音出品官方音乐 App，帮用户发现更多好音乐。虽然汽水音乐含有“千万曲库”，但目前来看其内容主要还是以小众歌曲为主，而且部分歌曲需要开通会员才能听。 汽水音乐下载：https://music.douyin.com/qishui 抖音新App「汽水音乐」内测邀请码，需要的自取，每个邀请码可以重复使用，如失效可以换一个。  关于快捷指令的隐私权限和安全星级说明 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Recently, Douyin has quietly started testing its first independent music app "Qishui Music" on a small scale in China. It focuses on niche good music, with a player interface similar to Douyin app. In other aspects, it is not much different from Tencent Music and NetEase Cloud Music. It can recommend songs of interest to users based on the music preferences of users and people with similar tastes. Qishui Music is an official music app produced by Douyin, helping users discover more good music. Although Qishui Music boasts a "library of tens of millions of songs," at present, its content mainly consists of niche songs, and some songs require a membership to listen. Download Qishui Music.
 
-### Name: 69F9119C-622F-4D07-9472-1F688F0D81A5
+### Name: Free Book Bar
 
 - URL: https://www.icloud.com/shortcuts/69f9119c622f4d0794721f688f0d81a5
 
-- Description: 数十万本电子书在线阅读和下载，全程无广告无充值，享受清爽的阅读体验。 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net 
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Hundreds of thousands of e-books available for online reading and download, completely ad-free and free of charge, enjoy a clean reading experience.
 
-### Name: 7E4C0CEA-B69E-403C-964B-CF02861D315B
+### Name: Empty Thundercloud Notes
 
 - URL: https://www.icloud.com/shortcuts/7e4c0ceab69e403c964bcf02861d315b
 
-- Description: 快速清空迅雷云盘用作下载链接的笔记。因涉及账户，先获取你自己的Authorization，填入账户空白处即可，获取方法可以用抓包，也可以用浏览器的开发者模式查询，迅雷的Authorization有时效性的哦！ 捷径库是苹果快捷指令的制作和分享网站。本站发布的所有快捷指令，均来自在爱好者投递和网上搜集。 捷径库尊重原创作者权益， 所有捷径均会在注释标明作者信息，欢迎捷径作者在捷径库分享您的快捷指令。 本站快捷指令仅用于个人技术学习和交流，未经原创作者允许，禁止用于任何商业项目和演绎行为。 获取更多快捷指令，欢迎访问捷径库： https://jiejingku.net
-
 - Source: https://jiejingku.net
 
-- FilePath: 
+- Description: Quickly clear the notes used as download links in Xunlei cloud. Due to involving account, first obtain your own Authorization, fill in the blank space of the account, the acquisition method can be packet capturing, or query through the developer mode of the browser, Xunlei's Authorization is temporary!
+
 
