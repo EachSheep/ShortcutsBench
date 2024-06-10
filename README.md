@@ -24,127 +24,161 @@
 
 *Read this in [English](README_EN.md).*
 
-快捷指令（Shortcuts）是什么？
+**快捷指令（Shortcuts）是什么？**
 
-快捷指令是快捷指令开发者，在快捷指令App中，通过用户友好的图形化页面，使用快捷指令App中提供的基本动作构建的工作流。[苹果官方](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios)将其称之为“一种可让你使用 App 完成一个或多个任务的快捷方式。”
+快捷指令是由开发者在快捷指令App中，通过用户友好的图形化界面🖼️，利用提供的基本动作构建的工作流🔄。[苹果官方](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios)称其为“一种可让你使用 App 完成一个或多个任务的快捷方式。”📱✨
 
-快捷指令可以帮你做什么？快捷指令可以一键帮你完成各种任务！例如：
-* 🏡日常生活🤹：一键寻找附件酒馆：[Wine Shops](https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e),  节日提醒：[Festival Reminder](https://www.icloud.com/shortcuts/5b3607d300e84e3d99889c7fb0258b92),  百度贴吧签到：[贴吧一键签到](https://www.icloud.com/shortcuts/084dc19b51904a8a98e9135159fd2a61)
-* 🛍️购物党🛒：购买PUBG Mobile UC[I want purchase UC](https://www.icloud.com/shortcuts/7234c2d743004377b4c74ea01d160648),  复制淘宝口令：[Parsing Tao command](https://www.icloud.com/shortcuts/e8dabf3b52eb412f9bdfeb6ce163cec3)
-* 🧑‍🎓学生党🧮：计算器：[Quadratic Equation Solver](https://www.icloud.com/shortcuts/477e692d2646448fb6364539b0fcb608),  放空心灵：[Free mind](https://www.icloud.com/shortcuts/5d1f7e70a3f24493be92be2ed427c070)
-* ⌨️文字工作者🔣：翻译器：[Translator](https://www.icloud.com/shortcuts/62f3fd91e29749fda1576f80f62423ed),  制作PDF：[Create PDF](https://www.icloud.com/shortcuts/964373096afc424d90be716ea7a88c6e)
-* 🧑‍🔬科研工作者🏫：获取 bibtex 条目：[arXiv 获取 bibtex 条目](https://www.icloud.com/shortcuts/2222c346272249ca96e06fb64ba53845)
-* ...
+## 快捷指令可以帮你做什么？
 
-想要更多？请在[此]()查看我们已经收集的快捷指令。
+快捷指令可以一键帮你完成各种任务！例如：
 
-[苹果开发者大会 WWDC'24]()在苹果设备上引入大量AI功能，我们十分关注苹果将如何把以ChatGPT为代表大语言模型与苹果设备结合，给用户带来更智能的体验，快捷指令一定会在此过程中发挥重要作用！
-
-## 该数据集对您有什么帮助？
-
-* 作为快捷指令用户：
-  * 您可以在此数据集提供的海量快捷指令中找到您最心仪的快捷指令。
-  * 您可以通过在苹果设备上引入更多的快捷指令，让Siri可以使用快捷指令完成复杂的任务。
-* 作为快捷指令爱好者：
-  * 您可以使用该数据集中海量的快捷指令链接（以及对应的源文件）研究如何编写快捷指令，为您自己的工作流量身定制快捷指令。
-  * 您可以为此项目贡献更多的快捷指令。
-* 作为研究者：
-  * 研究自动化工作流的构建。快捷指令本质上是由一些列API调用（动作）构成的工作流。这些API由苹果和第三方App共同提供。
-  * 研究低代码编程。快捷指令包含分支、循环、变量赋值等代码特征，也拥有用户友好的图形化用户界面，。
-  * 研究基于API的智能体。基于API调用的智能体本质上是让大语言模型根据用户查询（任务）自主决定用不用API、什么时候用API、怎么用API。
-  * 研究利用快捷指令微调大语言模型，从而促进大语言模型和手机/电脑/智能手表更紧密的结合。让“基于大语言模型的操作系统”真正成为现实。
+* 🏡 **日常生活** 🤹
+  * [一键寻找附近酒馆](https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e)
+  * [节日提醒](https://www.icloud.com/shortcuts/5b3607d300e84e3d99889c7fb0258b92)
+  * [百度贴吧签到](https://www.icloud.com/shortcuts/084dc19b51904a8a98e9135159fd2a61)
   * ......
 
-## 此项目任务清单（持续更新ing）
+* 🛍️ **购物党** 🛒
+  * [购买PUBG Mobile UC](https://www.icloud.com/shortcuts/7234c2d743004377b4c74ea01d160648)
+  * [复制淘宝口令](https://www.icloud.com/shortcuts/e8dabf3b52eb412f9bdfeb6ce163cec3)
+  * ......
 
-- [x] [快捷指令数据集]()，包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。
-- [ ] 快捷指令所涉及的API，包含API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称, ......）和App本身。
-- [ ] 快捷指令如何促进智能体的发展？欢迎大家关注我们即将放出的工作！
+* 🧑‍🎓 **学生党** 🧮
+  * [计算器](https://www.icloud.com/shortcuts/477e692d2646448fb6364539b0fcb608)
+  * [放空心灵](https://www.icloud.com/shortcuts/5d1f7e70a3f24493be92be2ed427c070)
+  * ......
 
-可以先赏个Star吗 ~~~
+* ⌨️ **文字工作者** 🔣
+  * [翻译器](https://www.icloud.com/shortcuts/62f3fd91e29749fda1576f80f62423ed)
+  * [制作PDF](https://www.icloud.com/shortcuts/964373096afc424d90be716ea7a88c6e)
+  * ......
 
-## 快捷指令使用指南（面向用户）
+* 🧑‍🔬 **科研工作者** 🏫
+  * [获取 arXiv bibtex 条目](https://www.icloud.com/shortcuts/2222c346272249ca96e06fb64ba53845)
+  * ......
 
-**搜索您想要的快捷指令？**
+* .....
 
-我们的快捷指令放在哪？怎么在本项目中搜索想要的快捷指令？
 
-* 在本仓库中，dataset/website/category/README.md文件用于记录该类别的所有文件的主要信息，这里的README结构如下：
+## 想要更多？✨
+
+请查看我们在此项目中收集的快捷指令📂。
+
+[苹果开发者大会 WWDC'24](https://developer.apple.com/wwdc24/)在苹果设备上引入了大量AI功能🤖。我们非常关注苹果如何将以ChatGPT为代表的大语言模型与设备结合，为用户带来更智能的体验📱💡。在这个过程中，快捷指令一定会发挥重要作用！🚀
+
+## 该数据集对您有什么帮助？📊
+
+* **作为快捷指令用户：**
+  * 您可以在此数据集中找到您最心仪的快捷指令📱。
+  * 您可以通过在苹果设备上引入更多快捷指令，让Siri完成复杂任务🗣️。
+  * ......
+
+* **作为快捷指令爱好者：**
+  * 您可以使用该数据集中的海量快捷指令链接（以及对应的源文件）研究如何编写快捷指令，定制您自己的工作流💡。
+  * 您可以为此项目贡献更多的快捷指令📤。
+  * ......
+
+* **作为研究者：**
+  * 研究自动化工作流的构建：快捷指令本质上是由一系列API调用（动作）构成的工作流，这些API由苹果和第三方App提供🔍。
+  * 研究低代码编程：快捷指令包含分支、循环、变量赋值等代码特征，同时拥有用户友好的图形化界面🖥️。
+  * 研究基于API的智能体：让大语言模型根据用户查询（任务）自主决定是否、何时以及如何使用API🔧。
+  * 研究利用快捷指令微调大语言模型，促进大语言模型与手机、电脑、智能手表的紧密结合，实现“基于大语言模型的操作系统”的愿景📈。
+  * ......
+
+**如果这个项目对您有帮助，请给我们一个Star吧⭐️！感谢支持！🙏**
+
+## 此项目任务清单（持续更新中）📋
+
+- [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。
+- [ ] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱。
+- [ ] 快捷指令如何促进智能体的发展？欢迎大家关注我们即将发布的工作！🚀
+
+## 快捷指令使用指南（面向用户）📱
+
+**搜索您想要的快捷指令🔍**
+
+想知道我们的快捷指令在哪里？如何在本项目中搜索到您需要的快捷指令？请按照以下步骤操作：
+
+1. 在本仓库中，`dataset/${website name}/${category name}/README.md`文件用于记录该类别的所有快捷指令的元信息，包括名称、描述、iCloud下载链接等。每一个`README.md`文件的结构如下：
     ```markdown
     ### Name: Wine Shops # 快捷指令名称
-
     - URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # 快捷指令iCloud链接
-    
     - Source: https://shortcutsgallery.com # 快捷指令来源商店
-    
     - Description: Look for Wine shop near by you # 快捷指令功能描述
     ```
-* 可以根据快捷指令的名称关键词(不包含空格)，在README文件中进行Ctrl+f进行检索。
-* 您也可以移步快捷指令搜集站，[如](#数据集使用指南面向快捷指令开发者和研究者)这里列出的快捷指令搜集站
+2. 使用快捷键`Ctrl+F`，根据快捷指令的名称关键词直接在浏览器中进行检索🔎。
 
-**如何导入搜索到的快捷指令？**
+您也可以访问[快捷指令搜集站](#数据集使用指南面向快捷指令开发者和研究者📚)搜索您想要的快捷指令🌐。
 
-使用苹果设备，点击URL中的iCloud链接后会自动在快捷指令中打开。
+**如何导入搜索到的快捷指令📥**
 
-## 数据集使用指南（面向快捷指令开发者和研究者）
+在苹果设备上，点击URL中的iCloud链接后，快捷指令将会自动打开并导入到您的快捷指令App中📲。
 
-**获取数据集**
-   
-您可以根据[快捷指令使用指南](#快捷指令使用指南面向用户)中的iCloud链接一个一个地下载快捷指令，或直接[百度网盘](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)或Google云中[Google Cloud](https://drive.google.com/drive/folders/171d_iiyBpQSfC-nLFpFDBq2P0Y7Tqw_m?usp=sharing)获取全量数据。
+## 数据集使用指南（面向快捷指令开发者和研究者）📚
 
-| 数据源 | 包含类别 | 元数据所在位置 | 云盘链接 |
+### 获取数据集
+
+您可以根据[快捷指令使用指南](#快捷指令使用指南面向用户📱)中的iCloud链接逐一下载快捷指令，或直接从以下链接获取完整数据：
+
+- [百度网盘](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)
+- [Google云盘](https://drive.google.com/drive/folders/171d_iiyBpQSfC-nLFpFDBq2P0Y7Tqw_m?usp=sharing)
+
+### 数据源与链接
+
+| 数据源 | 包含类别 | 元数据位置 | 云盘链接 |
 | :-------: | :----: | :----: | :----: |
-| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | × | [仓库位置](dataset/matthewcassinelli.com_sirishortcuts_library_free) | [源文件](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link)|
-| [Routinehub](https://routinehub.co)| √  | [仓库位置](dataset/routinehub.co)| [源文件](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link)|
-| [MacStories](https://www.macstories.net/shortcuts)| √  | [仓库位置](dataset/www.macstories.net_shortcuts) |[源文件](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link)|
-| [ShareShortcuts](https://shareshortcuts.com)| √  | [仓库位置](dataset/shareshortcuts.com) |[源文件](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link)|
-| [ShortcutsGallery](https://shortcutsgallery.com)| √  | [仓库位置](dataset/shortcutsgallery.com) |[源文件](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link)|
-| [iSpazio](https://shortcuts.ispazio.net)| ×  | [仓库位置](dataset/shortcuts.ispazio.net) | [源文件](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link)|
-| [捷径库](https://jiejingku.net)| √  | [仓库位置](dataset/jiejingku.net) |[源文件](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d)|
-| [少数派](https://shortcuts.sspai.com)| √  | [仓库位置](dataset/shortcuts.sspai.com) |[源文件](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi)|
-| [捷径范](https://jiejing.fun)| √  | [仓库位置](dataset/jiejing.fun) |[源文件](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732)|
-| [柯基捷径库](https://www.kejicut.com)| √  | [仓库位置](dataset/www.kejicut.com)|[源文件](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p)|
-| [iOS快捷指令库](https://www.rcuts.com)| √  | [仓库位置](dataset/www.rcuts.com) |[源文件](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0)|
+| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | × | [仓库位置](dataset/matthewcassinelli.com_sirishortcuts_library_free) | [源文件](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) |
+| [Routinehub](https://routinehub.co) | √ | [仓库位置](dataset/routinehub.co) | [源文件](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) |
+| [MacStories](https://www.macstories.net/shortcuts) | √ | [仓库位置](dataset/www.macstories.net_shortcuts) | [源文件](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) |
+| [ShareShortcuts](https://shareshortcuts.com) | √ | [仓库位置](dataset/shareshortcuts.com) | [源文件](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) |
+| [ShortcutsGallery](https://shortcutsgallery.com) | √ | [仓库位置](dataset/shortcutsgallery.com) | [源文件](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) |
+| [iSpazio](https://shortcuts.ispazio.net) | × | [仓库位置](dataset/shortcuts.ispazio.net) | [源文件](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) |
+| [捷径库](https://jiejingku.net) | √ | [仓库位置](dataset/jiejingku.net) | [源文件](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d) |
+| [少数派](https://shortcuts.sspai.com) | √ | [仓库位置](dataset/shortcuts.sspai.com) | [源文件](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi) |
+| [捷径范](https://jiejing.fun) | √ | [仓库位置](dataset/jiejing.fun) | [源文件](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732) |
+| [柯基捷径库](https://www.kejicut.com) | √ | [仓库位置](dataset/www.kejicut.com) | [源文件](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p) |
+| [iOS快捷指令库](https://www.rcuts.com) | √ | [仓库位置](dataset/www.rcuts.com) | [源文件](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0) |
 
-**快捷指令源数据简介**
+**快捷指令源文件简介 📂**
 
-* 每一个文件代表一个快捷指令。文件名为快捷指令名称经过简单处理后得到，处理代码如下：
-    ```python
-    file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
-    ```
-* 我们提供的快捷指令源文件为json格式，而从苹果设备中直接导出的快捷指令为iCloud链接（以链接形式分享）或是受到苹果加密后的快捷指令文件（以.shortcut为后缀）。
-* 若您希望将某个快捷指令源文件导入快捷指令App，您需要在MacOS上进行以下操作：
-  * 将json文件格式转化为plist文件格式。
-  * 对该plist文件进行签名。
-  * 将签名后的文件导入快捷指令App。
-
-网盘中的快捷指令源数据以以下方式组织：
-
+网盘中的快捷指令源数据以以下目录结构组织：
 ```
 dataset/
 ├── matthewcassinelli.com_sirishortcuts_library_free # 网站名称
-│ ├── file1
-│ ├── file2
-│ └── file3
+│   ├── file1
+│   ├── file2
+│   └── file3
 
 或
 
 dataset/
 ├── jiejingku.net # 网站名称
-│ ├── category1 # 类型 
-│ │ ├── file1 # 每一个具体的快捷指令
-│ │ └── file2
-│ ├── category2
-│ │ └── file3
+│   ├── category1 # 类别 
+│   │   ├── file1 # 每一个具体的快捷指令
+│   │   └── file2
+│   ├── category2
+│   │   └── file3
 ```
 
-## 许可声明
+* 每个文件代表一个快捷指令。文件名由快捷指令名称简单处理后生成，处理代码如下：
+  ```python
+  file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
+  ```
 
-本项目中的所有代码和数据集均依据Apache License 2.0进行许可。这意味着您可以自由地使用、复制、修改和分发本项目的内容，但需遵守以下条件：
+* 我们提供的快捷指令源文件为`JSON`格式，而从苹果设备中导出的快捷指令为`iCloud`链接（以链接形式分享）或是受到苹果加密的快捷指令文件（以`.shortcut`为后缀）。
+* 若您希望将某个快捷指令源文件导入快捷指令App，请在MacOS上进行以下操作：
+  * 将`JSON`文件格式转换为`PLIST`文件格式📑。
+  * 对该`PLIST`文件进行签名🔏。
+  * 将签名后的文件导入快捷指令App📲。
 
-- **版权声明**：您必须在项目的所有副本中保留原始版权声明和许可证声明。
-- **状态声明**：如果您对代码进行了修改，您必须在任何修改文件中标明您所做的更改。
-- **商标使用**：本许可并不授予您使用项目的商标、服务标志或商品名称的权利。
+## 许可声明 📜
+
+本项目中的所有代码和数据集均依据`Apache License 2.0`进行许可。这意味着您可以自由地使用、复制、修改和分发本项目的内容，但需遵守以下条件：
+
+- **版权声明**：必须在项目的所有副本中保留原始版权声明和许可证声明。
+- **状态声明**：如果对代码进行了修改，必须在任何修改文件中标明所做的更改。
+- **商标使用**：本许可不授予使用项目商标、服务标志或商品名称的权利。
 
 完整的许可证文本请见[LICENSE](./LICENSE)。
 
+此外，您还需遵守本项目数据来源，各个快捷指令分享站的许可协议。
