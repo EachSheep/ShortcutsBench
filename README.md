@@ -90,16 +90,16 @@
 
 **获取数据集**
    
-您可以根据[快捷指令使用指南](#快捷指令使用指南面向用户)中的iCloud链接一个一个地下载快捷指令，或直接[百度网盘](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)或Google云中[Google Cloud](https://drive.google.com/drive/folders/1hhZXvO6JE3YmlI26Sbh9zrhJYVLBt3-O?usp=drive_link)获取全量数据。
+您可以根据[快捷指令使用指南](#快捷指令使用指南面向用户)中的iCloud链接一个一个地下载快捷指令，或直接[百度网盘](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)或Google云中[Google Cloud](https://drive.google.com/drive/folders/171d_iiyBpQSfC-nLFpFDBq2P0Y7Tqw_m?usp=sharing)获取全量数据。
 
 | 数据源 | 包含类别 | 元数据所在位置 | 云盘链接 |
 | :-------: | :----: | :----: | :----: |
-| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | × | [仓库位置](dataset/matthewcassinelli.com_sirishortcuts_library_free) | [源文件](https://drive.google.com/drive/folders/1nJzaE72VSoNf_r1335WCR9Uv_NlvOjV_?usp=drive_link)|
-| [Routinehub](https://routinehub.co)| √  | [仓库位置](dataset/routinehub.co)| [源文件](https://drive.google.com/drive/folders/1BzcFM9wMfDDGbCjL3uWDrYh-5p9YL7do?usp=drive_link)|
-| [MacStories](https://www.macstories.net/shortcuts)| √  | [仓库位置](dataset/www.macstories.net_shortcuts) |[源文件](https://drive.google.com/drive/folders/1_MsiwqHNZVAPJGzURZ4lrMz7nSpKz-Sc?usp=drive_link)|
-| [ShareShortcuts](https://shareshortcuts.com)| √  | [仓库位置](dataset/shareshortcuts.com) |[源文件](https://drive.google.com/drive/folders/1LdjQYnCrvgKIuPeCBhztxGzbGrIIQk8D?usp=drive_link)|
-| [ShortcutsGallery](https://shortcutsgallery.com)| √  | [仓库位置](dataset/shortcutsgallery.com) |[源文件](https://drive.google.com/drive/folders/1FsUR0DNHfgNJieSfDxPkyfiUBhOYxnLN?usp=drive_link)|
-| [iSpazio](https://shortcuts.ispazio.net)| ×  | [仓库位置](dataset/shortcuts.ispazio.net) | [源文件](https://drive.google.com/drive/folders/1I2XYwjZrk3xuvpD9EnrPZe8AwfaMx92i?usp=drive_link)|
+| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | × | [仓库位置](dataset/matthewcassinelli.com_sirishortcuts_library_free) | [源文件](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link)|
+| [Routinehub](https://routinehub.co)| √  | [仓库位置](dataset/routinehub.co)| [源文件](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link)|
+| [MacStories](https://www.macstories.net/shortcuts)| √  | [仓库位置](dataset/www.macstories.net_shortcuts) |[源文件](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link)|
+| [ShareShortcuts](https://shareshortcuts.com)| √  | [仓库位置](dataset/shareshortcuts.com) |[源文件](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link)|
+| [ShortcutsGallery](https://shortcutsgallery.com)| √  | [仓库位置](dataset/shortcutsgallery.com) |[源文件](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link)|
+| [iSpazio](https://shortcuts.ispazio.net)| ×  | [仓库位置](dataset/shortcuts.ispazio.net) | [源文件](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link)|
 | [捷径库](https://jiejingku.net)| √  | [仓库位置](dataset/jiejingku.net) |[源文件](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d)|
 | [少数派](https://shortcuts.sspai.com)| √  | [仓库位置](dataset/shortcuts.sspai.com) |[源文件](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi)|
 | [捷径范](https://jiejing.fun)| √  | [仓库位置](dataset/jiejing.fun) |[源文件](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732)|
