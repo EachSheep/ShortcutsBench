@@ -149,35 +149,4 @@ This dataset includes various shortcut metadata:
 
 Click on the iCloud link in the URL to automatically import the shortcut into your Shortcuts app📲.
 
-## How to Contribute 🛠️
 
-### For Developers
-
-* **To add new shortcuts**:
-  * Fork the repository 🍴
-  * Add the shortcut metadata to the appropriate category's `README.md` file🖋️
-  * Submit a pull request with your changes🔄
-
-### For Researchers
-
-* **To contribute research**:
-  * Fork the repository 🍴
-  * Add your research work in the appropriate section🖋️
-  * Submit a pull request with your changes🔄
-
-## How to Cite
-
-If you use this project in your research, please cite it as follows:
-
-```markdown
-@misc{ShortcutsBench2024,
-  author = {Author, Name},
-  title = {ShortcutsBench: A Benchmark for Apple Shortcuts},
-  year = {2024},
-  url = {https://github.com/hiyoungshen/ShortcutsBench},
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
