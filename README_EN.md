@@ -109,7 +109,7 @@ Wondering where our shortcuts are? How to search for the shortcuts you need in t
     ```
 2. Use `Ctrl+F` to search directly in the browser based on shortcut name keywords🔎.
 
-You can also visit [Shortcut Collection Sites](#user-guide-for-shortcuts-users) to search for the shortcuts you want🌐.
+You can also visit [Shortcut Collection Sites](#data-sources-and-links-) to search for the shortcuts you want🌐.
 
 **How to Import the Shortcuts You Found📥**
 
