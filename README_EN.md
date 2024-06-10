@@ -119,7 +119,7 @@ On an Apple device, clicking the iCloud link in the URL will automatically open 
 
 ### Obtain the Dataset
 
-You can download shortcuts one by one from the iCloud links in the [User Guide](#user-guide-for-shortcuts-users📱) or get the complete data from the following links:
+You can download shortcuts one by one from the iCloud links in the [User Guide](#user-guide-for-shortcuts-users) or get the complete data from the following links:
 
 - [Baidu Netdisk](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)
 - [Google Drive](https://drive.google.com/drive/folders/171d_iiyBpQSfC-nLFpFDBq2P0Y7Tqw_m?usp=sharing)
