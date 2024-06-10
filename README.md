@@ -1,5 +1,5 @@
 <div align= "center">
-    <h1> 🤖ShortcutsBench🛠️</h1>
+    <h1> 🔧ShortcutsBench📱</h1>
 </div>
 
 <div align="center">
@@ -28,9 +28,34 @@
 
 快捷指令是由开发者在快捷指令App中，通过用户友好的图形化界面🖼️，利用提供的基本动作构建的工作流🔄。[苹果官方](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios)称其为“一种可让你使用 App 完成一个或多个任务的快捷方式。”📱✨
 
+**该项目对您有什么帮助？**
+
+[苹果开发者大会 WWDC'24](https://developer.apple.com/wwdc24/)在苹果设备上引入了大量AI功能🤖。我们非常关注苹果如何将以ChatGPT为代表的大语言模型与设备结合，为用户带来更智能的体验📱💡。在这个过程中，快捷指令一定会发挥重要作用！🚀
+
+* 作为快捷指令用户📱：
+  * 您可以在此数据集中找到您最心仪的快捷指令📱。
+  * 您可以通过在苹果设备上引入更多快捷指令，让Siri完成复杂任务🗣️。
+  * ......
+
+* 作为快捷指令爱好者💡：
+  * 您可以使用该数据集中的海量快捷指令链接（以及对应的源文件）研究如何编写快捷指令，定制您自己的工作流💡。
+  * 您可以为此项目贡献更多的快捷指令📤。
+  * ......
+
+* 作为研究者🔬：
+  * 研究自动化工作流的构建：快捷指令本质上是由一系列API调用（动作）构成的工作流，这些API由苹果和第三方App提供🔍。
+  * 研究低代码编程：快捷指令包含分支、循环、变量赋值等代码特征，同时拥有用户友好的图形化界面🖥️。
+  * 研究基于API的智能体：让大语言模型根据用户查询（任务）自主决定是否、何时以及如何使用API🔧。
+  * 研究利用快捷指令微调大语言模型，促进大语言模型与手机、电脑、智能手表的紧密结合，实现“基于大语言模型的操作系统”的愿景📈。
+  * ......
+
+**如果这个项目对您有帮助，请给我们一个Star吧⭐️！感谢支持！🙏**
+
+**关键词**：快捷指令, 苹果, WWDC'24, Siri, iOS, macOS, watchOS, 工作流, API调用, 低代码编程, 智能体, 大语言模型
+
 ## 快捷指令可以帮你做什么？
 
-快捷指令可以一键帮你完成各种任务！例如：
+快捷指令可以一键帮你完成各种复杂任务！例如：
 
 * 🏡 **日常生活** 🤹
   * [一键寻找附近酒馆](https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e)
@@ -60,32 +85,9 @@
 * .....
 
 
-## 想要更多？✨
+**想要更多？✨**
 
-请查看我们在此项目中收集的快捷指令📂。
-
-[苹果开发者大会 WWDC'24](https://developer.apple.com/wwdc24/)在苹果设备上引入了大量AI功能🤖。我们非常关注苹果如何将以ChatGPT为代表的大语言模型与设备结合，为用户带来更智能的体验📱💡。在这个过程中，快捷指令一定会发挥重要作用！🚀
-
-## 该数据集对您有什么帮助？📊
-
-* **作为快捷指令用户：**
-  * 您可以在此数据集中找到您最心仪的快捷指令📱。
-  * 您可以通过在苹果设备上引入更多快捷指令，让Siri完成复杂任务🗣️。
-  * ......
-
-* **作为快捷指令爱好者：**
-  * 您可以使用该数据集中的海量快捷指令链接（以及对应的源文件）研究如何编写快捷指令，定制您自己的工作流💡。
-  * 您可以为此项目贡献更多的快捷指令📤。
-  * ......
-
-* **作为研究者：**
-  * 研究自动化工作流的构建：快捷指令本质上是由一系列API调用（动作）构成的工作流，这些API由苹果和第三方App提供🔍。
-  * 研究低代码编程：快捷指令包含分支、循环、变量赋值等代码特征，同时拥有用户友好的图形化界面🖥️。
-  * 研究基于API的智能体：让大语言模型根据用户查询（任务）自主决定是否、何时以及如何使用API🔧。
-  * 研究利用快捷指令微调大语言模型，促进大语言模型与手机、电脑、智能手表的紧密结合，实现“基于大语言模型的操作系统”的愿景📈。
-  * ......
-
-**如果这个项目对您有帮助，请给我们一个Star吧⭐️！感谢支持！🙏**
+请查看我们在此项目中收集的快捷指令[📂](#快捷指令使用指南面向用户📱)。
 
 ## 此项目任务清单（持续更新中）📋
 
@@ -123,23 +125,24 @@
 - [百度网盘](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)
 - [Google云盘](https://drive.google.com/drive/folders/171d_iiyBpQSfC-nLFpFDBq2P0Y7Tqw_m?usp=sharing)
 
-### 数据源与链接
+### 数据源与链接 🌐
 
-| 数据源 | 包含类别 | 元数据位置 | 云盘链接 |
-| :-------: | :----: | :----: | :----: |
-| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | × | [仓库位置](dataset/matthewcassinelli.com_sirishortcuts_library_free) | [源文件](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) |
-| [Routinehub](https://routinehub.co) | √ | [仓库位置](dataset/routinehub.co) | [源文件](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) |
-| [MacStories](https://www.macstories.net/shortcuts) | √ | [仓库位置](dataset/www.macstories.net_shortcuts) | [源文件](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) |
-| [ShareShortcuts](https://shareshortcuts.com) | √ | [仓库位置](dataset/shareshortcuts.com) | [源文件](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) |
-| [ShortcutsGallery](https://shortcutsgallery.com) | √ | [仓库位置](dataset/shortcutsgallery.com) | [源文件](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) |
-| [iSpazio](https://shortcuts.ispazio.net) | × | [仓库位置](dataset/shortcuts.ispazio.net) | [源文件](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) |
-| [捷径库](https://jiejingku.net) | √ | [仓库位置](dataset/jiejingku.net) | [源文件](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d) |
-| [少数派](https://shortcuts.sspai.com) | √ | [仓库位置](dataset/shortcuts.sspai.com) | [源文件](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi) |
-| [捷径范](https://jiejing.fun) | √ | [仓库位置](dataset/jiejing.fun) | [源文件](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732) |
-| [柯基捷径库](https://www.kejicut.com) | √ | [仓库位置](dataset/www.kejicut.com) | [源文件](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p) |
-| [iOS快捷指令库](https://www.rcuts.com) | √ | [仓库位置](dataset/www.rcuts.com) | [源文件](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0) |
+| 数据源 | 元数据位置 | 云盘链接 |
+| :-------: | :----: | :----: |
+| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | [ 在本仓库的位置](dataset/matthewcassinelli.com_sirishortcuts_library_free) | [Google云盘链接](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1Wru9TC_1MPqX26Ua6IzPQQ?pwd=3zwl) |
+| [Routinehub](https://routinehub.co) | [ 在本仓库的位置](dataset/routinehub.co) | [Google云盘链接](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1WFZw-G_w9QZQDyAdcYe-Yg?pwd=lp6d) |
+| [MacStories](https://www.macstories.net/shortcuts) | [ 在本仓库的位置](dataset/www.macstories.net_shortcuts) | [Google云盘链接](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1qfeCKUtTnO4gihSydfbYlg?pwd=u9p2) |
+| [ShareShortcuts](https://shareshortcuts.com) | [ 在本仓库的位置](dataset/shareshortcuts.com) | [Google云盘链接](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/13M6PSPXhSMwAhDuRLlqbIw?pwd=j7gn) |
+| [ShortcutsGallery](https://shortcutsgallery.com) | [ 在本仓库的位置](dataset/shortcutsgallery.com) | [Google云盘链接](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1knXrn_OwPqUxaDvqSZQ1ag?pwd=ux9x) |
+| [iSpazio](https://shortcuts.ispazio.net) | [ 在本仓库的位置](dataset/shortcuts.ispazio.net) | [Google云盘链接](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1l2IIrcpK7WTYuT3Ec57SxA?pwd=0l0u) |
+| [捷径库](https://jiejingku.net) | [ 在本仓库的位置](dataset/jiejingku.net) | [Google云盘链接](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d) \| [百度网盘链接](https://pan.baidu.com/s/1n0pxGttbsCttDZkVkOZiag?pwd=0yzg) |
+| [少数派](https://shortcuts.sspai.com) | [ 在本仓库的位置](dataset/shortcuts.sspai.com) | [Google云盘链接](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi) \| [百度网盘链接](https://pan.baidu.com/s/1M2tR9lOFr-6rIeKoB7T8PQ?pwd=22fn) |
+| [捷径范](https://jiejing.fun) | [ 在本仓库的位置](dataset/jiejing.fun) | [Google云盘链接](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732) \| [百度网盘链接](https://pan.baidu.com/s/16oSRINZK-gyy38x51QO7dQ?pwd=2fj4) |
+| [柯基捷径库](https://www.kejicut.com) | [ 在本仓库的位置](dataset/www.kejicut.com) | [Google云盘链接](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p) \| [百度网盘链接](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
+| [iOS快捷指令库](https://www.rcuts.com) | [ 在本仓库的位置](dataset/www.rcuts.com) | [Google云盘链接](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0) \| [百度网盘链接](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
 
-**快捷指令源文件简介 📂**
+
+**快捷指令源文件简介**
 
 网盘中的快捷指令源数据以以下目录结构组织：
 ```
@@ -160,16 +163,17 @@ dataset/
 │   │   └── file3
 ```
 
-* 每个文件代表一个快捷指令。文件名由快捷指令名称简单处理后生成，处理代码如下：
-  ```python
-  file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
-  ```
+每个文件代表一个快捷指令。文件名由快捷指令名称简单处理后生成，处理代码如下：
+```python
+file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
+```
 
-* 我们提供的快捷指令源文件为`JSON`格式，而从苹果设备中导出的快捷指令为`iCloud`链接（以链接形式分享）或是受到苹果加密的快捷指令文件（以`.shortcut`为后缀）。
-* 若您希望将某个快捷指令源文件导入快捷指令App，请在MacOS上进行以下操作：
-  * 将`JSON`文件格式转换为`PLIST`文件格式📑。
-  * 对该`PLIST`文件进行签名🔏。
-  * 将签名后的文件导入快捷指令App📲。
+我们提供的快捷指令源文件为`JSON`格式，而从苹果设备中导出的快捷指令为`iCloud`链接（以链接形式分享）或是受到苹果加密的快捷指令文件（以`.shortcut`为后缀）。
+
+若您希望将某个快捷指令源文件导入快捷指令App，请在`macOS`上进行以下操作：
+* 将`JSON`文件格式转换为`PLIST`文件格式📑。
+* 对该`PLIST`文件进行签名🔏。
+* 将签名后的文件导入快捷指令App📲。
 
 ## 许可声明 📜
 
