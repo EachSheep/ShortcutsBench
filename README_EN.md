@@ -140,17 +140,47 @@ You can download shortcuts one by one from the iCloud links in the [User Guide](
 | [kejicut](https://www.kejicut.com) | [Location in our Repo](dataset/www.kejicut.com) | [Google Cloud](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p) \| [Baidu Netdisk](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
 | [rcuts](https://www.rcuts.com) | [Location in our Repo](dataset/www.rcuts.com) | [Google Cloud](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0) \| [Baidu Netdisk](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
 
-### Dataset Composition
+**Source File Structure of Shortcuts**
 
-This dataset includes various shortcut metadata:
+The source data of shortcuts in the cloud disk is organized in the following directory structure:
+```
+dataset/
+├── matthewcassinelli.com_sirishortcuts_library_free # Website name
+│   ├── file1
+│   ├── file2
+│   └── file3
 
-```markdown
-### Name: Wine Shops # Shortcut name
-- URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # Shortcut iCloud link
-- Source: https://shortcutsgallery.com # Shortcut source store
-- Description: Look for Wine shop near by you # Shortcut function description
+or
+
+dataset/
+├── jiejingku.net # Website name
+│   ├── category1 # Category 
+│   │   ├── file1 # Each specific shortcut
+│   │   └── file2
+│   ├── category2
+│   │   └── file3
 ```
 
-Click on the iCloud link in the URL to automatically import the shortcut into your Shortcuts app📲.
+Each file represents a shortcut. The file name is generated from the shortcut name after simple processing, with the following code:
+```python
+file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
+```
 
+The shortcut source files we provide are in `JSON` format. Shortcuts exported from Apple devices are either `iCloud` links (shared as links) or encrypted shortcut files (with the `.shortcut` suffix).
 
+If you wish to import a shortcut source file into the Shortcuts app, please follow these steps on `macOS`:
+* Convert the `JSON` file format to `PLIST` file format 📑.
+* Sign the `PLIST` file 🔏.
+* Import the signed file into the Shortcuts app 📲.
+
+## License Statement 📜
+
+All code and datasets in this project are licensed under the `Apache License 2.0`. This means you are free to use, copy, modify, and distribute the contents of this project, but must comply with the following conditions:
+
+- **Copyright Notice**: The original copyright notice and license statement must be retained in all copies of the project.
+- **State Changes**: If you modify the code, you must indicate the changes made in any modified files.
+- **Trademark Use**: This license does not grant the right to use trademarks, service marks, or trade names of the project.
+
+For the full license text, see [LICENSE](./LICENSE).
+
+Additionally, you must comply with the license agreements of the data sources from each shortcut sharing site.
