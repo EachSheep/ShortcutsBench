@@ -51,6 +51,10 @@
 
 **如果这个项目对您有帮助，请给我们一个Star吧⭐️！感谢支持！🙏**
 
+**该项目对比现有数据集的优势**
+
+![Example Image](./assets/Comparison.png)
+
 **关键词**：快捷指令, 苹果, WWDC'24, Siri, iOS, macOS, watchOS, 工作流, API调用, 低代码编程, 智能体, 大语言模型
 
 ## 快捷指令可以帮你做什么？
