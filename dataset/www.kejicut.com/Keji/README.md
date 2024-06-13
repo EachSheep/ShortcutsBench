@@ -1,4 +1,4 @@
-# dataset/www.kejicut.com/柯基
+# dataset/www.kejicut.com/Keji
 
 ## Read in [中文](README_ZH.md)
 
