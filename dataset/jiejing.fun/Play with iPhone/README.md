@@ -1,4 +1,4 @@
-# dataset/jiejing.fun/玩转 iPhone
+# dataset/jiejing.fun/Play with iPhone
 
 ## Read in [中文](README_ZH.md)
 
