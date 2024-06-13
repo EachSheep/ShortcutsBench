@@ -47,6 +47,19 @@ At [Apple's WWDC'24](https://developer.apple.com/wwdc24/), many AI features were
   * Study API-based agents: Allow large language models to autonomously decide if, when, and how to use APIs based on user queries (tasks)🔧.
   * Study how to fine-tune large language models with shortcuts to closely integrate language models with phones, computers, and smartwatches, realizing the vision of an "LLM-based operating system"📈.
   * ......
+ 
+🌟**Advantages**🌟
+
+* Data Scale and Quality: Our dataset covers 88 apps and 1414 types of APIs. All data is collected from real shortcut collection stations.
+* User Queries:
+  * Diversity of Difficulty: Constructing a dataset with diverse APIs and user queries helps to distinguish the capabilities of different agents. Our dataset includes a variety of user queries, totaling 7628 queries, with an average of 7.86 APIs per query and an average action sequence length of 21.46.
+  * Reflecting Real User Needs: We use natural language workflow descriptions of shortcuts to construct prompts, inputting them into large language models to generate accurate queries.
+  * Comprehensive Content: Our user queries include the basic data types required for API calls, which helps to comprehensively evaluate the capabilities of the agents.
+* Multi-dimensional Evaluation Angles
+  * Accuracy of Parameter Filling: Effective and accurate parameter selection is crucial for task completion. Our user queries include the basic data types required for API calls, allowing for the evaluation of the agent's parameter filling ability.
+  * Ability to Ask for Missing Information: Agents should be able to ask the system or user for missing information from the queries.
+  * Accuracy of API Selection: API selection is the most fundamental decision-making ability of an agent.
+![Example Image](./assets/Comparison.png)
 
 **If you find this project helpful, please give us a star⭐️! Thank you for your support!🙏**
 
