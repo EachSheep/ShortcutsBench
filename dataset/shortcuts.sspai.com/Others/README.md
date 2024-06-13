@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/其它
+# dataset/shortcuts.sspai.com/Others
 
 ## Read in [中文](README_ZH.md)
 
