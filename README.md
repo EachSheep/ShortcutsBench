@@ -21,7 +21,7 @@
 
 </div>
 
-*Read this in [中文](README.md).*
+*Read this in [中文](README_ZH.md).*
 
 **What are Shortcuts?**
 
