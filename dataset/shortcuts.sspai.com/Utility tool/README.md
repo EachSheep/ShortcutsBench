@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/实用工具
+# dataset/shortcuts.sspai.com/Utility tool
 
 ## Read in [中文](README_ZH.md)
 
