@@ -1,4 +1,4 @@
-# dataset/www.rcuts.com/暗影GK
+# dataset/www.rcuts.com/Shadow GK
 
 ## Read in [中文](README_ZH.md)
 
