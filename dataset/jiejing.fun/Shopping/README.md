@@ -1,4 +1,4 @@
-# dataset/jiejing.fun/购物相关
+# dataset/jiejing.fun/Shopping
 
 ## Read in [中文](README_ZH.md)
 
