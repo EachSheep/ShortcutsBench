@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/音乐
+# dataset/shortcuts.sspai.com/Music
 
 ## Read in [中文](README_ZH.md)
 
