@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/翻译
+# dataset/shortcuts.sspai.com/Translation
 
 ## Read in [中文](README_ZH.md)
 
