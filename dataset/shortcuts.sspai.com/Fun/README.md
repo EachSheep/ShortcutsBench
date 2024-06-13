@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/趣味
+# dataset/shortcuts.sspai.com/Fun
 
 ## Read in [中文](README_ZH.md)
 
