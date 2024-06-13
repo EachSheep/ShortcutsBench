@@ -1,4 +1,4 @@
-# dataset/jiejing.fun/新冠疫情
+# dataset/jiejing.fun/COVID-19 pandemic
 
 ## Read in [中文](README_ZH.md)
 
