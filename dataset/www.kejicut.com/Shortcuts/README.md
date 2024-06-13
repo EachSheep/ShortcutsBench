@@ -1,4 +1,4 @@
-# dataset/www.kejicut.com/快捷指令
+# dataset/www.kejicut.com/Shortcuts
 
 ## Read in [中文](README_ZH.md)
 
