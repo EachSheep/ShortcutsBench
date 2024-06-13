@@ -1,4 +1,4 @@
-# dataset/www.rcuts.com/阿卡麦奇
+# dataset/www.rcuts.com/Akamach
 
 ## Read in [中文](README_ZH.md)
 
