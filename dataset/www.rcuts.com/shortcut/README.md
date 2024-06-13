@@ -1,4 +1,4 @@
-# dataset/www.rcuts.com/捷径
+# dataset/www.rcuts.com/shortcut
 
 ## Read in [中文](README_ZH.md)
 
