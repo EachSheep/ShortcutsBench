@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/图片
+# dataset/shortcuts.sspai.com/Picture
 
 ## Read in [中文](README_ZH.md)
 
