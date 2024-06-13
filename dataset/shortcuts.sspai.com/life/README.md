@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/生活
+# dataset/shortcuts.sspai.com/life
 
 ## Read in [中文](README_ZH.md)
 
