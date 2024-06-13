@@ -1,4 +1,6 @@
 <div align= "center">
+
+## Read in [中文](README_ZH.md)
     <h1> 🔧ShortcutsBench📱</h1>
 </div>
 
