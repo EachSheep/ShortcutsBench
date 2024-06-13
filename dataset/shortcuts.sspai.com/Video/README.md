@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/视频
+# dataset/shortcuts.sspai.com/Video
 
 ## Read in [中文](README_ZH.md)
 
