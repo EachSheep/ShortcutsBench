@@ -1,4 +1,4 @@
-# dataset/jiejing.fun/热门必备
+# dataset/jiejing.fun/Hot must-have
 
 ## Read in [中文](README_ZH.md)
 
