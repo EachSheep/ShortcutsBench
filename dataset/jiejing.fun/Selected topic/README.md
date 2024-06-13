@@ -1,4 +1,4 @@
-# dataset/jiejing.fun/精选专题
+# dataset/jiejing.fun/Selected topic
 
 ## Read in [中文](README_ZH.md)
 
