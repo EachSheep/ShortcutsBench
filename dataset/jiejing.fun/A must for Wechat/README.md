@@ -1,4 +1,4 @@
-# dataset/jiejing.fun/微信聊天必备
+# dataset/jiejing.fun/A must for Wechat
 
 ## Read in [中文](README_ZH.md)
 
