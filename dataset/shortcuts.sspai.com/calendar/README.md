@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/日历
+# dataset/shortcuts.sspai.com/calendar
 
 ## Read in [中文](README_ZH.md)
 
