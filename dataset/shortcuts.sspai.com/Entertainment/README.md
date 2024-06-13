@@ -1,4 +1,4 @@
-# dataset/shortcuts.sspai.com/休闲娱乐
+# dataset/shortcuts.sspai.com/Entertainment
 
 ## Read in [中文](README_ZH.md)
 
