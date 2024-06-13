@@ -1,4 +1,4 @@
-# dataset/jiejing.fun/图片视频音乐相关
+# dataset/jiejing.fun/Pictures, videos and music
 
 ## Read in [中文](README_ZH.md)
 
