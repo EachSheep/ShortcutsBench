@@ -22,7 +22,7 @@
 
 </div>
 
-*Read this in [English](README_EN.md).*
+*Read this in [English](README.md).*
 
 **快捷指令（Shortcuts）是什么？**
 
