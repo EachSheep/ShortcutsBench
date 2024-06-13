@@ -1,4 +1,4 @@
-# dataset/jiejing.fun/支持 iOS 12
+# dataset/jiejing.fun/Support iOS 12
 
 ## Read in [中文](README_ZH.md)
 
