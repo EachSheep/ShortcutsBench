@@ -48,7 +48,7 @@ At [Apple's WWDC'24](https://developer.apple.com/wwdc24/), many AI features were
   * Study how to fine-tune large language models with shortcuts to closely integrate language models with phones, computers, and smartwatches, realizing the vision of an "LLM-based operating system"📈.
   * ......
  
-🌟Advantages of ShortcutsBench Compared to Existing API-Based Agent Datasets🌟
+**🌟Advantages of ShortcutsBench Compared to Existing API-Based Agent Datasets🌟**
 
 SHORTCUTSBENCH has a great advantage in the realness, richness, and complexity of APIs, queries, and corresponding action sequences, the validity of action sequences, accurate parameter value filling, the awareness for asking information from the system or the users, and the overall scale.
 
