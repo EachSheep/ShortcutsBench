@@ -194,6 +194,7 @@ Additionally, you must comply with the license agreements of the data sources fr
 
 # Citation
 
+If you find this work useful, please consider citing our work:
 ```latex
 @misc{shen2024shortcutsbenchlargescalerealworldbenchmark,
       title={ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents}, 

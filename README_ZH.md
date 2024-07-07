@@ -197,6 +197,7 @@ file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
 
 # 引用
 
+如果您觉得有用，请考虑引用我们的工作：
 ```latex
 @misc{shen2024shortcutsbenchlargescalerealworldbenchmark,
       title={ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents}, 
