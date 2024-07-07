@@ -27,6 +27,12 @@
 
 Shortcuts are workflows🔄 created by developers in the Shortcuts app using a user-friendly graphical interface🖼️. According to [Apple](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios), they are "a quick way to get one or more tasks done with your apps."📱✨
 
+**Project Task List (Continuously Updating)📋**
+
+- [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Includes shortcut metadata (title, description, source, etc.), iCloud links, and shortcut source files.
+- [x] [ShortcutsBench main paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132Z](https://arxiv.org/pdf/2407.00132)
+- [ ] APIs involved in shortcuts: Including API metadata (function description, name, parameter names, parameter types, parameter default values, return value names, etc.) and the app itself📱.
+
 **How can this project help you?**
 
 At [Apple's WWDC'24](https://developer.apple.com/wwdc24/), many AI features were introduced to Apple devices🤖. We're very interested in how Apple integrates large language models, such as ChatGPT, with devices to provide a smarter user experience📱💡. In this process, shortcuts will certainly play a crucial role!🚀
@@ -94,12 +100,6 @@ Shortcuts can help you complete various complex tasks with one click! For exampl
 **Want more?✨**
 
 Check out the shortcuts we collected in this project [📂](#user-guide-for-shortcuts-users📱).
-
-## Project Task List (Continuously Updating)📋
-
-- [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Includes shortcut metadata (title, description, source, etc.), iCloud links, and shortcut source files.
-- [x] [ShortcutsBench main paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132Z](https://arxiv.org/pdf/2407.00132)
-- [ ] APIs involved in shortcuts: Including API metadata (function description, name, parameter names, parameter types, parameter default values, return value names, etc.) and the app itself📱.
 
 ## User Guide for Shortcuts Users📱
 

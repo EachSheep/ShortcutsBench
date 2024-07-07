@@ -28,6 +28,12 @@
 
 快捷指令是由开发者在快捷指令App中，通过用户友好的图形化界面🖼️，利用提供的基本动作构建的工作流🔄。[苹果官方](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios)称其为“一种可让你使用 App 完成一个或多个任务的快捷方式。”📱✨
 
+**此项目任务清单（持续更新中）📋**
+
+- [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。
+- [x] [ShortcutsBench论文](https://arxiv.org/pdf/2407.00132Z), [https://arxiv.org/pdf/2407.00132Z](https://arxiv.org/pdf/2407.00132)
+- [ ] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱。
+
 **该项目对您有什么帮助？**
 
 [苹果开发者大会 WWDC'24](https://developer.apple.com/wwdc24/)在苹果设备上引入了大量AI功能🤖。我们非常关注苹果如何将以ChatGPT为代表的大语言模型与设备结合，为用户带来更智能的体验📱💡。在这个过程中，快捷指令一定会发挥重要作用！🚀
@@ -96,12 +102,6 @@ SHORTCUTSBENCH 在 API 的真实性、丰富性和复杂性，查询和相应动
 **想要更多？✨**
 
 请查看我们在此项目中收集的快捷指令[📂](#快捷指令使用指南面向用户📱)。
-
-## 此项目任务清单（持续更新中）📋
-
-- [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。
-- [x] [ShortcutsBench论文](https://arxiv.org/pdf/2407.00132Z), [https://arxiv.org/pdf/2407.00132Z](https://arxiv.org/pdf/2407.00132Z)
-- [ ] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱。
 
 ## 快捷指令使用指南（面向用户）📱
 
