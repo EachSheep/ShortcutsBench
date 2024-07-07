@@ -191,3 +191,17 @@ All code and datasets in this project are licensed under the `Apache License 2.0
 For the full license text, see [LICENSE](./LICENSE).
 
 Additionally, you must comply with the license agreements of the data sources from each shortcut sharing site.
+
+# Citation
+
+```latex
+@misc{shen2024shortcutsbenchlargescalerealworldbenchmark,
+      title={ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents}, 
+      author={Haiyang Shen and Yue Li and Desong Meng and Dongqi Cai and Sheng Qi and Li Zhang and Mengwei Xu and Yun Ma},
+      year={2024},
+      eprint={2407.00132},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2407.00132}, 
+}
+```
