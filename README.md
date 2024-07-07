@@ -48,17 +48,11 @@ At [Apple's WWDC'24](https://developer.apple.com/wwdc24/), many AI features were
   * Study how to fine-tune large language models with shortcuts to closely integrate language models with phones, computers, and smartwatches, realizing the vision of an "LLM-based operating system"📈.
   * ......
  
-🌟**Advantages**🌟
+🌟Advantages of ShortcutsBench Compared to Existing API-Based Agent Datasets🌟
 
-* Data Scale and Quality: Our dataset covers 88 apps and 1414 types of APIs. All data is collected from real shortcut collection stations.
-* User Queries:
-  * Diversity of Difficulty: Constructing a dataset with diverse APIs and user queries helps to distinguish the capabilities of different agents. Our dataset includes a variety of user queries, totaling 7628 queries, with an average of 7.86 APIs per query and an average action sequence length of 21.46.
-  * Reflecting Real User Needs: We use natural language workflow descriptions of shortcuts to construct prompts, inputting them into large language models to generate accurate queries.
-  * Comprehensive Content: Our user queries include the basic data types required for API calls, which helps to comprehensively evaluate the capabilities of the agents.
-* Multi-dimensional Evaluation Angles
-  * Accuracy of Parameter Filling: Effective and accurate parameter selection is crucial for task completion. Our user queries include the basic data types required for API calls, allowing for the evaluation of the agent's parameter filling ability.
-  * Ability to Ask for Missing Information: Agents should be able to ask the system or user for missing information from the queries.
-  * Accuracy of API Selection: API selection is the most fundamental decision-making ability of an agent.
+SHORTCUTSBENCH has a great advantage in the realness, richness, and complexity of APIs, queries, and corresponding action sequences, the validity of action sequences, accurate parameter value filling, the awareness for asking information from the system or the users, and the overall scale.
+
+To our best known, SHORTCUTSBENCH is the first large-scale real API-based agent benchmark considering APIs, queries, and corresponding action sequences. SHORTCUTSBENCH provides rich real APIs, queries with various difficulties and task types, high-quality human-annotated action sequences by shortcuts developers, along queries from real user demands. Moreover, it also provides precise values for parameter filling, including primitive data types, enum types, and the use of output from previous actions for parameter values, as well as evaluations of the agent’s awareness in requesting necessary information from the system or user. Furthermore, the scale of APIs, queries, and the corresponding action sequences in SHORTCUTSBENCH is comparable or even better to benchmarks and datasets created by LLM or modified by existing datasets. The overall comparison between SHORTCUTSBENCH and existing benchmarks / datasets is listed below.
 ![Example Image](./assets/Comparison.png)
 
 **If you find this project helpful, please give us a star⭐️! Thank you for your support!🙏**
@@ -104,8 +98,8 @@ Check out the shortcuts we collected in this project [📂](#user-guide-for-shor
 ## Project Task List (Continuously Updating)📋
 
 - [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Includes shortcut metadata (title, description, source, etc.), iCloud links, and shortcut source files.
+- [x] [ShortcutsBench main paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132Z](https://arxiv.org/pdf/2407.00132)
 - [ ] APIs involved in shortcuts: Including API metadata (function description, name, parameter names, parameter types, parameter default values, return value names, etc.) and the app itself📱.
-- [ ] How do shortcuts promote the development of intelligent agents? Stay tuned for our upcoming work!🚀
 
 ## User Guide for Shortcuts Users📱
 
