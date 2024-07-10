@@ -31,7 +31,7 @@
 **此项目任务清单（持续更新中）📋**
 
 - [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。
-- [x] [ShortcutsBench论文](https://arxiv.org/pdf/2407.00132Z), [https://arxiv.org/pdf/2407.00132Z](https://arxiv.org/pdf/2407.00132)
+- [x] [ShortcutsBench论文](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
 - [ ] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱。
 
 **该项目对您有什么帮助？**
