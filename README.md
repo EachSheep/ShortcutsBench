@@ -108,7 +108,7 @@ Check out the shortcuts we collected in this project [📂](#user-guide-for-shor
 
 Wondering where our shortcuts are? How to search for the shortcuts you need in this project? Follow these steps:
 
-1. In this repository, `dataset/${website name}/${category name}/README.md` files record the metadata of all shortcuts in that category, including name, description, iCloud download link, etc. Each `README.md` file is structured as follows:
+1. In this repository, `users_dataset/${website name}/${category name}/README.md` files record the metadata of all shortcuts in that category, including name, description, iCloud download link, etc. Each `README.md` file is structured as follows:
     ```markdown
     ### Name: Wine Shops # Shortcut name
     - URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # Shortcut iCloud link
@@ -136,23 +136,23 @@ You can download shortcuts one by one from the iCloud links in the [User Guide](
 
 | Data Source | Metadata Location | Cloud Drive Link |
 | :-------: | :----: | :----: |
-| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | [Location in our Repo](dataset/matthewcassinelli.com_sirishortcuts_library_free) | [Google Cloud](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1Wru9TC_1MPqX26Ua6IzPQQ?pwd=3zwl) |
-| [Routinehub](https://routinehub.co) | [Location in our Repo](dataset/routinehub.co) | [Google Cloud](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1WFZw-G_w9QZQDyAdcYe-Yg?pwd=lp6d) |
-| [MacStories](https://www.macstories.net/shortcuts) | [Location in our Repo](dataset/www.macstories.net_shortcuts) | [Google Cloud](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1qfeCKUtTnO4gihSydfbYlg?pwd=u9p2) |
-| [ShareShortcuts](https://shareshortcuts.com) | [Location in our Repo](dataset/shareshortcuts.com) | [Google Cloud](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/13M6PSPXhSMwAhDuRLlqbIw?pwd=j7gn) |
-| [ShortcutsGallery](https://shortcutsgallery.com) | [Location in our Repo](dataset/shortcutsgallery.com) | [Google Cloud](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1knXrn_OwPqUxaDvqSZQ1ag?pwd=ux9x) |
-| [iSpazio](https://shortcuts.ispazio.net) | [Location in our Repo](dataset/shortcuts.ispazio.net) | [Google Cloud](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1l2IIrcpK7WTYuT3Ec57SxA?pwd=0l0u) |
-| [Jiejingku](https://jiejingku.net) | [Location in our Repo](dataset/jiejingku.net) | [Google Cloud](https://drive.google.com/drive/folders/15gcsYfBx51YTCoYnphyEUjuGhjRVp4dK?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1n0pxGttbsCttDZkVkOZiag?pwd=0yzg) |
-| [Sspai](https://shortcuts.sspai.com) | [Location in our Repo](dataset/shortcuts.sspai.com) | [Google Cloud](https://drive.google.com/drive/folders/13FdtNltK9yRnSsV5Lc751RDMZ2n6vPMJ?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1M2tR9lOFr-6rIeKoB7T8PQ?pwd=22fn) |
-| [Jiejing.Fun](https://jiejing.fun) | [Location in our Repo](dataset/jiejing.fun) | [Google Cloud](https://drive.google.com/drive/folders/1Zf0-ZkXnP8O8UqPGHWByfkBi6OjD6gdI?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/16oSRINZK-gyy38x51QO7dQ?pwd=2fj4) |
-| [kejicut](https://www.kejicut.com) | [Location in our Repo](dataset/www.kejicut.com) | [Google Cloud](https://drive.google.com/drive/folders/1_CJg_vCZ17m3D2pW11Itjeko572yl3F5?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
-| [rcuts](https://www.rcuts.com) | [Location in our Repo](dataset/www.rcuts.com) | [Google Cloud](https://drive.google.com/drive/folders/1ko3exifKczLMOOakFPWwuFrv221kXUMg?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
+| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | [Location in our Repo](users_dataset/matthewcassinelli.com_sirishortcuts_library_free) | [Google Cloud](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1Wru9TC_1MPqX26Ua6IzPQQ?pwd=3zwl) |
+| [Routinehub](https://routinehub.co) | [Location in our Repo](users_dataset/routinehub.co) | [Google Cloud](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1WFZw-G_w9QZQDyAdcYe-Yg?pwd=lp6d) |
+| [MacStories](https://www.macstories.net/shortcuts) | [Location in our Repo](users_dataset/www.macstories.net_shortcuts) | [Google Cloud](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1qfeCKUtTnO4gihSydfbYlg?pwd=u9p2) |
+| [ShareShortcuts](https://shareshortcuts.com) | [Location in our Repo](users_dataset/shareshortcuts.com) | [Google Cloud](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/13M6PSPXhSMwAhDuRLlqbIw?pwd=j7gn) |
+| [ShortcutsGallery](https://shortcutsgallery.com) | [Location in our Repo](users_dataset/shortcutsgallery.com) | [Google Cloud](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1knXrn_OwPqUxaDvqSZQ1ag?pwd=ux9x) |
+| [iSpazio](https://shortcuts.ispazio.net) | [Location in our Repo](users_dataset/shortcuts.ispazio.net) | [Google Cloud](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1l2IIrcpK7WTYuT3Ec57SxA?pwd=0l0u) |
+| [Jiejingku](https://jiejingku.net) | [Location in our Repo](users_dataset/jiejingku.net) | [Google Cloud](https://drive.google.com/drive/folders/15gcsYfBx51YTCoYnphyEUjuGhjRVp4dK?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1n0pxGttbsCttDZkVkOZiag?pwd=0yzg) |
+| [Sspai](https://shortcuts.sspai.com) | [Location in our Repo](users_dataset/shortcuts.sspai.com) | [Google Cloud](https://drive.google.com/drive/folders/13FdtNltK9yRnSsV5Lc751RDMZ2n6vPMJ?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1M2tR9lOFr-6rIeKoB7T8PQ?pwd=22fn) |
+| [Jiejing.Fun](https://jiejing.fun) | [Location in our Repo](users_dataset/jiejing.fun) | [Google Cloud](https://drive.google.com/drive/folders/1Zf0-ZkXnP8O8UqPGHWByfkBi6OjD6gdI?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/16oSRINZK-gyy38x51QO7dQ?pwd=2fj4) |
+| [kejicut](https://www.kejicut.com) | [Location in our Repo](users_dataset/www.kejicut.com) | [Google Cloud](https://drive.google.com/drive/folders/1_CJg_vCZ17m3D2pW11Itjeko572yl3F5?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
+| [rcuts](https://www.rcuts.com) | [Location in our Repo](users_dataset/www.rcuts.com) | [Google Cloud](https://drive.google.com/drive/folders/1ko3exifKczLMOOakFPWwuFrv221kXUMg?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
 
 **Source File Structure of Shortcuts**
 
 The source data of shortcuts in the cloud disk is organized in the following directory structure:
 ```
-dataset/
+users_dataset/
 ├── matthewcassinelli.com_sirishortcuts_library_free # Website name
 │   ├── file1
 │   ├── file2
@@ -160,7 +160,7 @@ dataset/
 
 or
 
-dataset/
+users_dataset/
 ├── jiejingku.net # Website name
 │   ├── category1 # Category 
 │   │   ├── file1 # Each specific shortcut

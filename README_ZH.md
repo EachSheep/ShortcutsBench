@@ -110,7 +110,7 @@ SHORTCUTSBENCH 在 API 的真实性、丰富性和复杂性，查询和相应动
 
 想知道我们的快捷指令在哪里？如何在本项目中搜索到您需要的快捷指令？请按照以下步骤操作：
 
-1. 在本仓库中，`dataset/${website name}/${category name}/README.md`文件用于记录该类别的所有快捷指令的元信息，包括名称、描述、iCloud下载链接等。每一个`README.md`文件的结构如下：
+1. 在本仓库中，`users_dataset/${website name}/${category name}/README.md`文件用于记录该类别的所有快捷指令的元信息，包括名称、描述、iCloud下载链接等。每一个`README.md`文件的结构如下：
     ```markdown
     ### Name: Wine Shops # 快捷指令名称
     - URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # 快捷指令iCloud链接
@@ -146,24 +146,24 @@ ShortcutsBench包括：
 
 | 数据源 | 元数据位置 | 云盘链接 |
 | :-------: | :----: | :----: |
-| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | [ 在本仓库的位置](dataset/matthewcassinelli.com_sirishortcuts_library_free) | [Google云盘链接](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1Wru9TC_1MPqX26Ua6IzPQQ?pwd=3zwl) |
-| [Routinehub](https://routinehub.co) | [ 在本仓库的位置](dataset/routinehub.co) | [Google云盘链接](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1WFZw-G_w9QZQDyAdcYe-Yg?pwd=lp6d) |
-| [MacStories](https://www.macstories.net/shortcuts) | [ 在本仓库的位置](dataset/www.macstories.net_shortcuts) | [Google云盘链接](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1qfeCKUtTnO4gihSydfbYlg?pwd=u9p2) |
-| [ShareShortcuts](https://shareshortcuts.com) | [ 在本仓库的位置](dataset/shareshortcuts.com) | [Google云盘链接](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/13M6PSPXhSMwAhDuRLlqbIw?pwd=j7gn) |
-| [ShortcutsGallery](https://shortcutsgallery.com) | [ 在本仓库的位置](dataset/shortcutsgallery.com) | [Google云盘链接](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1knXrn_OwPqUxaDvqSZQ1ag?pwd=ux9x) |
-| [iSpazio](https://shortcuts.ispazio.net) | [ 在本仓库的位置](dataset/shortcuts.ispazio.net) | [Google云盘链接](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1l2IIrcpK7WTYuT3Ec57SxA?pwd=0l0u) |
-| [捷径库](https://jiejingku.net) | [ 在本仓库的位置](dataset/jiejingku.net) | [Google云盘链接](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d) \| [百度网盘链接](https://pan.baidu.com/s/1n0pxGttbsCttDZkVkOZiag?pwd=0yzg) |
-| [少数派](https://shortcuts.sspai.com) | [ 在本仓库的位置](dataset/shortcuts.sspai.com) | [Google云盘链接](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi) \| [百度网盘链接](https://pan.baidu.com/s/1M2tR9lOFr-6rIeKoB7T8PQ?pwd=22fn) |
-| [捷径范](https://jiejing.fun) | [ 在本仓库的位置](dataset/jiejing.fun) | [Google云盘链接](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732) \| [百度网盘链接](https://pan.baidu.com/s/16oSRINZK-gyy38x51QO7dQ?pwd=2fj4) |
-| [柯基捷径库](https://www.kejicut.com) | [ 在本仓库的位置](dataset/www.kejicut.com) | [Google云盘链接](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p) \| [百度网盘链接](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
-| [iOS快捷指令库](https://www.rcuts.com) | [ 在本仓库的位置](dataset/www.rcuts.com) | [Google云盘链接](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0) \| [百度网盘链接](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
+| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | [ 在本仓库的位置](users_dataset/matthewcassinelli.com_sirishortcuts_library_free) | [Google云盘链接](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1Wru9TC_1MPqX26Ua6IzPQQ?pwd=3zwl) |
+| [Routinehub](https://routinehub.co) | [ 在本仓库的位置](users_dataset/routinehub.co) | [Google云盘链接](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1WFZw-G_w9QZQDyAdcYe-Yg?pwd=lp6d) |
+| [MacStories](https://www.macstories.net/shortcuts) | [ 在本仓库的位置](users_dataset/www.macstories.net_shortcuts) | [Google云盘链接](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1qfeCKUtTnO4gihSydfbYlg?pwd=u9p2) |
+| [ShareShortcuts](https://shareshortcuts.com) | [ 在本仓库的位置](users_dataset/shareshortcuts.com) | [Google云盘链接](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/13M6PSPXhSMwAhDuRLlqbIw?pwd=j7gn) |
+| [ShortcutsGallery](https://shortcutsgallery.com) | [ 在本仓库的位置](users_dataset/shortcutsgallery.com) | [Google云盘链接](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1knXrn_OwPqUxaDvqSZQ1ag?pwd=ux9x) |
+| [iSpazio](https://shortcuts.ispazio.net) | [ 在本仓库的位置](users_dataset/shortcuts.ispazio.net) | [Google云盘链接](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) \| [百度网盘链接](https://pan.baidu.com/s/1l2IIrcpK7WTYuT3Ec57SxA?pwd=0l0u) |
+| [捷径库](https://jiejingku.net) | [ 在本仓库的位置](users_dataset/jiejingku.net) | [Google云盘链接](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d) \| [百度网盘链接](https://pan.baidu.com/s/1n0pxGttbsCttDZkVkOZiag?pwd=0yzg) |
+| [少数派](https://shortcuts.sspai.com) | [ 在本仓库的位置](users_dataset/shortcuts.sspai.com) | [Google云盘链接](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi) \| [百度网盘链接](https://pan.baidu.com/s/1M2tR9lOFr-6rIeKoB7T8PQ?pwd=22fn) |
+| [捷径范](https://jiejing.fun) | [ 在本仓库的位置](users_dataset/jiejing.fun) | [Google云盘链接](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732) \| [百度网盘链接](https://pan.baidu.com/s/16oSRINZK-gyy38x51QO7dQ?pwd=2fj4) |
+| [柯基捷径库](https://www.kejicut.com) | [ 在本仓库的位置](users_dataset/www.kejicut.com) | [Google云盘链接](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p) \| [百度网盘链接](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
+| [iOS快捷指令库](https://www.rcuts.com) | [ 在本仓库的位置](users_dataset/www.rcuts.com) | [Google云盘链接](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0) \| [百度网盘链接](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
 
 
 **快捷指令源文件简介**
 
 网盘中的快捷指令源数据以以下目录结构组织：
 ```
-dataset/
+users_dataset/
 ├── matthewcassinelli.com_sirishortcuts_library_free # 网站名称
 │   ├── file1
 │   ├── file2
@@ -171,7 +171,7 @@ dataset/
 
 或
 
-dataset/
+users_dataset/
 ├── jiejingku.net # 网站名称
 │   ├── category1 # 类别 
 │   │   ├── file1 # 每一个具体的快捷指令
