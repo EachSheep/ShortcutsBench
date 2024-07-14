@@ -31,6 +31,7 @@ Shortcuts are workflows🔄 created by developers in the Shortcuts app using a u
 
 - [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Includes shortcut metadata (title, description, source, etc.), iCloud links, and shortcut source files.
 - [x] [ShortcutsBench main paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
+- [ ] [ShortcutsBench Appendix](), []()
 - [ ] APIs involved in shortcuts: Including API metadata (function description, name, parameter names, parameter types, parameter default values, return value names, etc.) and the app itself📱.
 
 **How can this project help you?**
@@ -124,7 +125,7 @@ On an Apple device, clicking the iCloud link in the URL will automatically open 
 
 ## User Guide for Developers and Researchers📚
 
-### Obtain the Dataset
+### Obtain the Shortcut Dataset
 
 You can download shortcuts one by one from the iCloud links in the [User Guide](#user-guide-for-shortcuts-users) or get the complete data from the following links:
 

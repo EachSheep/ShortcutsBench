@@ -31,7 +31,8 @@
 **此项目任务清单（持续更新中）📋**
 
 - [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。
-- [x] [ShortcutsBench论文](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
+- [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
+- [ ] [ShortcutsBench论文附录](), []()
 - [ ] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱。
 
 **该项目对您有什么帮助？**
@@ -126,14 +127,22 @@ SHORTCUTSBENCH 在 API 的真实性、丰富性和复杂性，查询和相应动
 
 ## 数据集使用指南（面向快捷指令开发者和研究者）📚
 
-### 获取数据集
+### ShortcutsBench
+
+ShortcutsBench包括：
+
+1. 查询。
+2. 动作序列（即快捷指令源文件）。
+3. APIs。
+
+#### 获取快捷指令数据集
 
 您可以根据[快捷指令使用指南](#快捷指令使用指南面向用户📱)中的iCloud链接逐一下载快捷指令，或直接从以下链接获取完整数据：
 
 - [百度网盘](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)
 - [Google云盘](https://drive.google.com/drive/folders/171d_iiyBpQSfC-nLFpFDBq2P0Y7Tqw_m?usp=sharing)
 
-### 数据源与链接 🌐
+#### 数据源与链接 🌐
 
 | 数据源 | 元数据位置 | 云盘链接 |
 | :-------: | :----: | :----: |
@@ -182,6 +191,49 @@ file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
 * 将`JSON`文件格式转换为`PLIST`文件格式📑。
 * 对该`PLIST`文件进行签名🔏。
 * 将签名后的文件导入快捷指令App📲。
+
+**ShortcutsBench详细构建指南**
+
+![数据获取流程](./assets/DatasetAcquisition.drawio.png)
+我们在论文正文中详细阐述了ShortcutsBench的构建流程，详情请参见我们的论文[https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)，以下补充一些细节。
+
+如何使用快捷指令？如何分享快捷指令？如何查看快捷指令的源文件？
+
+1. 导入快捷指令到快捷指令App。
+
+   可以通过在苹果设备上点击iCloud链接将快捷指令导入快捷指令app从而作为普通用户使用该快捷指令。
+
+2. 分享快捷指令。
+   * 可以通过`macOS`或`iOS`上的快捷指令App的`Share`将该快捷指令转换成iCloud链接进行分享。
+   * 可以通过`macOS`上的快捷指令App的`Share`将该快捷指令以源文件的形式分享，分享得到的快捷指令以`.shortcut`为文件名后缀。注意：分享的源文件为苹果加密过后的源文件，无法直接使用`python`的`plist`包解析。
+
+3. 解密单个或多个快捷指令。
+   如希望对某个快捷指令进行解密，可以使用如下快捷指令对别的快捷指令进行解密，解密后的文件为`plist`格式的文件。
+   * [Get Plist，解析单个shortcut为plist格式的文件](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
+   * [Get Plist Loop，解析快捷指令App中的所有shortcut为plist格式的文件并保存](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
+
+   为了方便阅读，您可以选择将该`plist`格式的文件转化为`json`格式的文件，我们提供的shortcut源文件均为`json`格式。
+
+4. 如何大规模的获取快捷指令源头文件？
+
+   相比使用`Get Plist`和`Get Plist Loop`从快捷指令中解析出快捷指令，为了更快捷高效的大量获取快捷指令的源文件，我们遵循了以下两个步骤：
+   1. 获取形如[https://www.icloud.com/shortcuts/${unique_id}](https://www.icloud.com/shortcuts/8fa07dea82cf413c81732dca5f15323f)的iCloud链接。
+   2. 从[https://www.icloud.com/shortcuts/api/records/${unique_id}](https://www.icloud.com/shortcuts/api/records/8fa07dea82cf413c81732dca5f15323f)中请求快捷指令的部分元信息，该元信息包括快捷指令的名称和快捷指令源文件的下载链接。
+   3. 从上一步骤中获得的数据`cur_dict`中（可转化为`json`格式），拿到快捷指令源文件的下载链接`cur_dict["fields"]["shortcut"]["value"]["downloadURL"]`，再次请求该下载链接下载快捷指令的源文件。注意：该下载链接会很快过期，您需要尽快使用该链接。
+
+   直接下载得到的源文件为`plist`文件格式，你可以选择将`plist`格式的文件专户为`json`格式的文件。
+
+
+   以下代码（已简化）展示了上述所有过程，最终的`response_json`即为`json`格式的快捷指令源文件:
+   ```python
+   response = requests.get(f"https://www.icloud.com/shortcuts/api/records/{unique_id}")
+
+   cur_dict = response.json()
+   downloadURL = cur_dict["fields"]["shortcut"]["value"]["downloadURL"]
+   new_response = requests.get(downloadURL)
+   # 使用plist包转换为json存储在response_json中
+   response_json = biplist.readPlistFromString(new_response.content)
+   ```
 
 ## 许可声明 📜
 
