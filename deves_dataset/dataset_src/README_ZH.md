@@ -4,6 +4,10 @@
 
 如果您想进一步了解我们是如何得到`1_final_detailed_records_remove_repeat.json`文件的，请阅读以下内容。
 
+**我们提供的所有在云盘上的文件，为了防止数据污染，我们设置了解压密码，所有的解码密码均为`shortcutsbench`**。
+
+`1_final_detailed_records_remove_repeat.json`文件，可从[Google云盘](https://drive.google.com/file/d/1oijSStXYGcmv6-THYVb6j0oCIfto_bVh/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1VJMDcWv3diRzecQisA80bQ?pwd=4wv1)获取。
+
 ## 数据文件介绍
 
 前期，我们收集了最流行的一些快捷指令站，然后使用爬虫获取了大量快捷指令的元数据，每个收集站对应的文件为：
@@ -38,7 +42,7 @@
 
 发送请求的同时，会同时获取shortcut的源文件，并用`biplist`包解析存下。
 
-我们得到的`all_detailed_records.json`文件，可从Google云盘[https://drive.google.com/file/d/1AkadeE8d737DyikPmqogjVnzyt0zxkwT/view?usp=sharing](https://drive.google.com/file/d/1AkadeE8d737DyikPmqogjVnzyt0zxkwT/view?usp=sharing)或百度网盘[https://pan.baidu.com/s/1aLAHDP0__VH6EDvSBz3NMQ?pwd=v3zw](https://pan.baidu.com/s/1aLAHDP0__VH6EDvSBz3NMQ?pwd=v3zw)获取。
+我们得到的`all_detailed_records.json`文件，可从[Google云盘](https://drive.google.com/file/d/1KZf3mTCDuOimwbZY7wJ-2R_tDmASMB-V/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1xx-C-w5aah7Mi04hXT47ZA?pwd=jkvp)获取。
 
 **最终**：获得的`all_detailed_records.json`文件
 
@@ -202,7 +206,7 @@
 
 最终我们得到 `final_detailed_records.json` 文件：
 
-我们得到的`final_detailed_records.json`文件，可从Google云盘[https://drive.google.com/file/d/1uC8DAu2KZMEPRUE1K9J-hfn1ILTJWyuf/view?usp=sharing](https://drive.google.com/file/d/1uC8DAu2KZMEPRUE1K9J-hfn1ILTJWyuf/view?usp=sharing)或百度网盘[https://pan.baidu.com/s/1RkuRb4_jLXjJnIjZSvkJzw?pwd=k62y](https://pan.baidu.com/s/1RkuRb4_jLXjJnIjZSvkJzw?pwd=k62y)获取。
+我们得到的`final_detailed_records.json`文件，可从[Google云盘](https://drive.google.com/file/d/1MwFyVdS1HmZvesl7AcgJaGcP1ghAk4J6/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/10lMA2--9WJQS5x7CnjNhkw?pwd=ioqv)获取。
 
 ```json
 {
@@ -227,4 +231,4 @@
 
 最终，我们得到了`1_final_detailed_records_remove_repeat.json`。
 
-我们得到的`1_final_detailed_records_remove_repeat.json`文件，可从Google云盘[https://drive.google.com/file/d/1njIVhC1NTT4LZcD_E6Ffjlzoz6gU2I03/view?usp=sharing](https://drive.google.com/file/d/1njIVhC1NTT4LZcD_E6Ffjlzoz6gU2I03/view?usp=sharing)或百度网盘[https://pan.baidu.com/s/1YspACJZyrU0fj5R7sI2d1Q?pwd=iyi6](https://pan.baidu.com/s/1YspACJZyrU0fj5R7sI2d1Q?pwd=iyi6)获取。
+我们得到的`1_final_detailed_records_remove_repeat.json`文件，可从[Google云盘](https://drive.google.com/file/d/1oijSStXYGcmv6-THYVb6j0oCIfto_bVh/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1VJMDcWv3diRzecQisA80bQ?pwd=4wv1)获取。

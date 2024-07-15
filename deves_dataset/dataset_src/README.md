@@ -4,6 +4,10 @@ If you only want to use the final shortcut dataset (a comprehensive dataset with
 
 If you want to understand how we generated the `1_final_detailed_records_remove_repeat.json` file, please read the following content.
 
+**All files we provide on the cloud drive are password-protected to prevent data corruption. The password for all files is `shortcutsbench`.**
+
+The `1_final_detailed_records_remove_repeat.json` file can be downloaded from [Google Drive](https://drive.google.com/file/d/1oijSStXYGcmv6-THYVb6j0oCIfto_bVh/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1VJMDcWv3diRzecQisA80bQ?pwd=4wv1).
+
 ## Data File Introduction
 
 Initially, we collected metadata for numerous shortcuts from some of the most popular shortcut sites using web crawlers. The corresponding files for each collection site are:
@@ -38,7 +42,7 @@ For all data in `all_wo_repeat.json` and `others.json` (merging and deduplicatin
 
 During the request process, the shortcut source files are also retrieved and parsed using the biplist package.
 
-We have obtained the `all_detailed_records.json` file, which can be accessed via [Google Drive](https://drive.google.com/file/d/1AkadeE8d737DyikPmqogjVnzyt0zxkwT/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1aLAHDP0__VH6EDvSBz3NMQ?pwd=v3zw).
+We have obtained the `all_detailed_records.json` file, which can be accessed via [Google Drive](https://drive.google.com/file/d/1KZf3mTCDuOimwbZY7wJ-2R_tDmASMB-V/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1xx-C-w5aah7Mi04hXT47ZA?pwd=jkvp).
 
 **Final**: The resulting `all_detailed_records.json` file
 
@@ -202,7 +206,7 @@ Before using `merge_results.py`, you need to set the `SHORTCUT_DATA` environment
 
 The final result is the `final_detailed_records.json` file:
 
-The `final_detailed_records.json` file we obtained can be downloaded from [Google Drive](https://drive.google.com/file/d/1uC8DAu2KZMEPRUE1K9J-hfn1ILTJWyuf/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1RkuRb4_jLXjJnIjZSvkJzw?pwd=k62y).
+The `final_detailed_records.json` file we obtained can be downloaded from [Google Drive](https://drive.google.com/file/d/1MwFyVdS1HmZvesl7AcgJaGcP1ghAk4J6/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/10lMA2--9WJQS5x7CnjNhkw?pwd=ioqv).
 
 ```json
 {
@@ -227,4 +231,4 @@ In `final_detailed_records.json`, there may be multiple entries for the `NameInS
 
 Finally, we get `1_final_detailed_records_remove_repeat.json`。
 
-The `1_final_detailed_records_remove_repeat.json` file we obtained can be downloaded from [Google Drive](https://drive.google.com/file/d/1njIVhC1NTT4LZcD_E6Ffjlzoz6gU2I03/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1YspACJZyrU0fj5R7sI2d1Q?pwd=iyi6).
+The `1_final_detailed_records_remove_repeat.json` file we obtained can be downloaded from [Google Drive](https://drive.google.com/file/d/1oijSStXYGcmv6-THYVb6j0oCIfto_bVh/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1VJMDcWv3diRzecQisA80bQ?pwd=4wv1).
