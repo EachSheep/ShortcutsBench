@@ -38,6 +38,8 @@
 
 发送请求的同时，会同时获取shortcut的源文件，并用`biplist`包解析存下。
 
+我们得到的`all_detailed_records.json`文件，可从Google云盘[https://drive.google.com/file/d/1AkadeE8d737DyikPmqogjVnzyt0zxkwT/view?usp=sharing](https://drive.google.com/file/d/1AkadeE8d737DyikPmqogjVnzyt0zxkwT/view?usp=sharing)或百度网盘[https://pan.baidu.com/s/1aLAHDP0__VH6EDvSBz3NMQ?pwd=v3zw](https://pan.baidu.com/s/1aLAHDP0__VH6EDvSBz3NMQ?pwd=v3zw)获取。
+
 **最终**：获得的`all_detailed_records.json`文件
 
 `all_detailed_records.json`文件形如：
@@ -200,6 +202,8 @@
 
 最终我们得到 `final_detailed_records.json` 文件：
 
+我们得到的`final_detailed_records.json`文件，可从Google云盘[https://drive.google.com/file/d/1uC8DAu2KZMEPRUE1K9J-hfn1ILTJWyuf/view?usp=sharing](https://drive.google.com/file/d/1uC8DAu2KZMEPRUE1K9J-hfn1ILTJWyuf/view?usp=sharing)或百度网盘[https://pan.baidu.com/s/1RkuRb4_jLXjJnIjZSvkJzw?pwd=k62y](https://pan.baidu.com/s/1RkuRb4_jLXjJnIjZSvkJzw?pwd=k62y)获取。
+
 ```json
 {
     "Source": ["https://matthewcassinelli.com/sirishortcuts/library/free"],
@@ -221,4 +225,6 @@
 
 `final_detailed_records.json`中的文件的`NameINStore`字段和`DescriptionInStore`字段可能存在多个，我们进行了手动去重，只保留了一个。
 
-最终，我们得到了`1_final_detailed_records_remove_repeat.json`
+最终，我们得到了`1_final_detailed_records_remove_repeat.json`。
+
+我们得到的`1_final_detailed_records_remove_repeat.json`文件，可从Google云盘[https://drive.google.com/file/d/1njIVhC1NTT4LZcD_E6Ffjlzoz6gU2I03/view?usp=sharing](https://drive.google.com/file/d/1njIVhC1NTT4LZcD_E6Ffjlzoz6gU2I03/view?usp=sharing)或百度网盘[https://pan.baidu.com/s/1YspACJZyrU0fj5R7sI2d1Q?pwd=iyi6](https://pan.baidu.com/s/1YspACJZyrU0fj5R7sI2d1Q?pwd=iyi6)获取。

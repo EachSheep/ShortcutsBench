@@ -38,6 +38,8 @@ For all data in `all_wo_repeat.json` and `others.json` (merging and deduplicatin
 
 During the request process, the shortcut source files are also retrieved and parsed using the biplist package.
 
+We have obtained the `all_detailed_records.json` file, which can be accessed via [Google Drive](https://drive.google.com/file/d/1AkadeE8d737DyikPmqogjVnzyt0zxkwT/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1aLAHDP0__VH6EDvSBz3NMQ?pwd=v3zw).
+
 **Final**: The resulting `all_detailed_records.json` file
 
 The `all_detailed_records.json` file is structured as follows:
@@ -200,6 +202,8 @@ Before using `merge_results.py`, you need to set the `SHORTCUT_DATA` environment
 
 The final result is the `final_detailed_records.json` file:
 
+The `final_detailed_records.json` file we obtained can be downloaded from [Google Drive](https://drive.google.com/file/d/1uC8DAu2KZMEPRUE1K9J-hfn1ILTJWyuf/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1RkuRb4_jLXjJnIjZSvkJzw?pwd=k62y).
+
 ```json
 {
     "Source": ["https://matthewcassinelli.com/sirishortcuts/library/free"],
@@ -222,3 +226,5 @@ The final result is the `final_detailed_records.json` file:
 In `final_detailed_records.json`, there may be multiple entries for the `NameInStore` and `DescriptionInStore` fields. We manually deduplicated these entries, retaining only one.
 
 Finally, we get `1_final_detailed_records_remove_repeat.json`。
+
+The `1_final_detailed_records_remove_repeat.json` file we obtained can be downloaded from [Google Drive](https://drive.google.com/file/d/1njIVhC1NTT4LZcD_E6Ffjlzoz6gU2I03/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1YspACJZyrU0fj5R7sI2d1Q?pwd=iyi6).
