@@ -6,7 +6,7 @@
 
 **我们提供的所有在云盘上的文件，为了防止数据污染，我们设置了解压密码，所有的解码密码均为`shortcutsbench`**。
 
-`1_final_detailed_records_filter_apis.json`文件，可从[Google云盘](https://drive.google.com/file/d/15MkcmZiXZKgO1tsaUX6YvKwdMuBjWend/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1tihm2wkKPd5pz9uIc-44GA?pwd=am1q)获取。
+`1_final_detailed_records_filter_apis.json`文件，可从[Google云盘（待更新）]()或[百度网盘](https://pan.baidu.com/s/12cAPTPsdzE4DBSESXCOAoA?pwd=j0p8)获取。
 
 注：我们在整理数据和处理脚本时，进行了大量重构以简化流程方便更好的理解（例如省略了对脏数据的手动清洗的过程描述），您按照以下步骤进行的处理得到的文件和我们的难免会有不同，我们尽力确保最小的不同。
 
@@ -267,7 +267,7 @@ ToGetAPIs/
 
 由于提取出的API文件存在大量重复的API定义文件，我们进行了**初步**的去重，依据对应的api定义文件（即json文件）是否完全相同进行了初步去重，得到了`4_api_json_filter.json`文件。
 
-著：此处的去重大大减小了API文件的大小，但依旧存在许多同名的API文件，在后续实验时，我们按照以下规则提取API文件：
+注：此处的去重大大减小了API文件的大小，但依旧存在许多同名的API文件，在后续实验时，我们按照以下规则提取API文件：
 1. 优先先择`.actionsdata`指示的文件。存在多个`.actionsdata`文件的，我们选择第一个。
 2. 如果没有`.actionsdata`文件，我们选择`.intentdefinition`文件。存在多个`.intentdefinition`文件的，我们选择第一个。
 我们确保了相同名字的API，我们只保留一个。
@@ -275,3 +275,15 @@ ToGetAPIs/
 `4_api_json.json`文件可从[Google云盘](https://drive.google.com/file/d/1clvUZ8MOcziy9rCg5ugj5V9O0kg7-iCK/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1uM3gJPBr_JRPw9SaZVzXSg?pwd=ghsl)获取。
 
 `4_api_json_filter.json`文件可从[Google云盘](https://drive.google.com/file/d/1ZFk6IybvUq8BY8uF06ckqMii-dVV5-lF/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1uEYXnTbFz7Nvaunvv8F6_w?pwd=zpft)获取。
+
+**注：此时，我们拥有的API为`4_api_json_filter.json`指示的API + `WFActions.json`指示的API**。
+
+## 依据提取出的API对快捷指令文件即`1_final_detailed_records_remove_repeat`进行筛选
+
+我们获得的API由于App的更新、废弃等原因，可能存在诸多遗漏，为了保证所有快捷指令中的API都具有对应的API描述，我们依据提取出的API对快捷指令文件即`1_final_detailed_records_remove_repeat`进行筛选，筛掉那些在快捷指令中存在，但是没有API描述的快捷指令。
+
+筛选的规则是：只要快捷指令中存在一个API不存在，即筛除掉这个快捷指令。我们手动筛选出了不存在的API，对应的处理脚本如`deves_dataset/dataset_src_valid_apis/4_check_apis_intersection.py`所示。
+
+最终我们筛除掉的API如`deves_dataset/dataset_src_valid_apis/APIs_to_be_filtered_out.py`所示。
+
+依据`deves_dataset/dataset_src_valid_apis/APIs_to_be_filtered_out.py`筛选快捷指令，生成`1_final_detailed_records_filter_apis.json`的处理代码如`deves_dataset/dataset_src_valid_apis/4_remove_shortcuts_indicated_in_filter_apis.py`所示。
