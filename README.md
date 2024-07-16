@@ -29,9 +29,9 @@ Shortcuts are workflows🔄 created by developers in the Shortcuts app using a u
 
 **Project Task List (Continuously Updating)📋**
 
-- [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Contains metadata (title, description, source, etc.), iCloud links, and source files for shortcuts.
+- [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Includes metadata (title, description, source, etc.), iCloud links, and source files for shortcuts. The dataset has three versions: (1) A bilingual dataset for regular users, with metadata indicated by `users_dataset/${website name}/${category name}/README.md` and source data as described in [Fetching the Shortcuts Dataset](#### Fetching the Shortcuts Dataset), allowing users to find suitable shortcuts for their needs; (2) For convenience, all shortcuts from version (1) are compiled into a single file, `1_final_detailed_records_remove_repeat.json`, available for download as described in `deves_dataset/dataset_src/README.md`; (3) A cleaned version of the dataset from (2), excluding shortcuts with inaccessible APIs, described in `1_final_detailed_records_filter_apis.json` within `deves_dataset/dataset_src/README.md`.
 - [x] [ShortcutsBench Paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
-- [x] APIs involved in the shortcuts: Includes API metadata (function description, name, parameter names, parameter types, default values, return values, etc.) and the app itself 📱.
+- [x] APIs involved in the shortcuts: Includes API metadata (function description, name, parameter names, parameter types, default values, return value names, etc.) and the app itself 📱. For detailed information, refer to the description in `deves_dataset/dataset_src_valid_apis/README.md`.
 - [ ] Explanation of shortcut fields.
 - [ ] Explanation of API fields.
 - [ ] Experimental code and logs.
