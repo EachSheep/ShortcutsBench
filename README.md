@@ -29,10 +29,13 @@ Shortcuts are workflows🔄 created by developers in the Shortcuts app using a u
 
 **Project Task List (Continuously Updating)📋**
 
-- [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Includes shortcut metadata (title, description, source, etc.), iCloud links, and shortcut source files.
-- [x] [ShortcutsBench main paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
-- [ ] [ShortcutsBench Appendix](), []()
-- [ ] APIs involved in shortcuts: Including API metadata (function description, name, parameter names, parameter types, parameter default values, return value names, etc.) and the app itself📱.
+- [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Contains metadata (title, description, source, etc.), iCloud links, and source files for shortcuts.
+- [x] [ShortcutsBench Paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
+- [x] APIs involved in the shortcuts: Includes API metadata (function description, name, parameter names, parameter types, default values, return values, etc.) and the app itself 📱.
+- [ ] Explanation of shortcut fields.
+- [ ] Explanation of API fields.
+- [ ] Experimental code and logs.
+- [ ] [ShortcutsBench Paper Appendix](), []()
 
 **How can this project help you?**
 

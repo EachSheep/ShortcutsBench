@@ -32,8 +32,12 @@
 
 - [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。
 - [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
+- [x] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱。
+- [ ] 快捷指令的字段解释。
+- [ ] API的字段解释。
+- [ ] 实验代码和日志。
 - [ ] [ShortcutsBench论文附录](), []()
-- [ ] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱。
+
 
 **该项目对您有什么帮助？**
 

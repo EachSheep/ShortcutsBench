@@ -6,7 +6,7 @@ If you want to understand how we generated the `1_final_detailed_records_filter_
 
 **All the files we provide on the cloud drive are password-protected to prevent data contamination. The password for all files is `shortcutsbench`.**
 
-You can obtain the `1_final_detailed_records_filter_apis.json` file from [Google Drive (to be updated)]() or [Baidu Cloud](https://pan.baidu.com/s/12cAPTPsdzE4DBSESXCOAoA?pwd=j0p8).
+You can obtain the `1_final_detailed_records_filter_apis.json` file from [Google Drive](https://drive.google.com/file/d/12DJ7kWe8oRgVgdLyfr1VItETyCrpO-7O/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/12cAPTPsdzE4DBSESXCOAoA?pwd=j0p8).
 
 Note: We have performed extensive restructuring of data and processing scripts to simplify the process and enhance understanding (for example, omitting the manual cleaning of dirty data). The files you generate by following the steps below might differ from ours, but we have endeavored to minimize these differences.
 

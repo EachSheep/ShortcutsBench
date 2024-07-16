@@ -6,7 +6,7 @@
 
 **我们提供的所有在云盘上的文件，为了防止数据污染，我们设置了解压密码，所有的解码密码均为`shortcutsbench`**。
 
-`1_final_detailed_records_filter_apis.json`文件，可从[Google云盘（待更新）]()或[百度网盘](https://pan.baidu.com/s/12cAPTPsdzE4DBSESXCOAoA?pwd=j0p8)获取。
+`1_final_detailed_records_filter_apis.json`文件，可从[Google云盘](https://drive.google.com/file/d/12DJ7kWe8oRgVgdLyfr1VItETyCrpO-7O/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/12cAPTPsdzE4DBSESXCOAoA?pwd=j0p8)获取。
 
 注：我们在整理数据和处理脚本时，进行了大量重构以简化流程方便更好的理解（例如省略了对脏数据的手动清洗的过程描述），您按照以下步骤进行的处理得到的文件和我们的难免会有不同，我们尽力确保最小的不同。
 
