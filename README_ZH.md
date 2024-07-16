@@ -30,7 +30,7 @@
 
 **此项目任务清单（持续更新中）📋**
 
-- [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。快捷指令数据集有三个版本：（1）为方便普通用户使用构建的双语数据集，即`users_dataset/${website name}/${category name}/README.md`指示的快捷指令元数据和[获取快捷指令数据集](#### 获取快捷指令数据集)所指示的快捷指令源数据，普通用户可依据自己的需求寻找合适的快捷指令使用；（2）为了方便下载，我们将（1）所述的所有快捷指令统一在一个文件中，即文件`1_final_detailed_records_remove_repeat.json`，可以按照`deves_dataset/dataset_src/README.md`的描述下载；（3）把（2）所述数据集清洗后的快捷指令数据，即`deves_dataset/dataset_src/README.md`所描述的`1_final_detailed_records_filter_apis.json`，我们清洗了快捷指令中包含我们没有获取到的API的快捷指令。
+- [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。快捷指令数据集有三个版本：（1）为方便普通用户使用构建的双语数据集，即`users_dataset/${website name}/${category name}/README.md`指示的快捷指令元数据和[获取快捷指令数据集](#获取快捷指令数据集)所指示的快捷指令源数据，普通用户可依据自己的需求寻找合适的快捷指令使用；（2）为了方便下载，我们将（1）所述的所有快捷指令统一在一个文件中，即文件`1_final_detailed_records_remove_repeat.json`，可以按照`deves_dataset/dataset_src/README.md`的描述下载；（3）把（2）所述数据集清洗后的快捷指令数据，即`deves_dataset/dataset_src/README.md`所描述的`1_final_detailed_records_filter_apis.json`，我们清洗了快捷指令中包含我们没有获取到的API的快捷指令。
 - [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
 - [x] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱，详细信息可参考`deves_dataset/dataset_src_valid_apis/README.md`的介绍。
 - [ ] 快捷指令的字段解释。
