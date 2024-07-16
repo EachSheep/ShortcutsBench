@@ -225,7 +225,7 @@
 
 我们在`macOS Sonoma`的`/Applications/`, `/System/Application/`搜集到了大部分苹果第一方的App。
 
-**最终**：我们整理到的App可从[Google云盘（待更新）]()或者[百度网盘](https://pan.baidu.com/s/1UxBiOdncrS6dxLzvL5__GQ?pwd=h5b7)访问。
+**最终**：我们整理到的App可从[Google云盘](https://drive.google.com/file/d/1Xks3TXyVOWmMgoXui69CombPqJT6wbj4/view?usp=sharing)或者[百度网盘](https://pan.baidu.com/s/1UxBiOdncrS6dxLzvL5__GQ?pwd=h5b7)访问。
 
 ```
 ToGetAPIs/
