@@ -36,9 +36,9 @@
   3. 把（2）所述数据集清洗后的快捷指令数据，即`deves_dataset/dataset_src/README.md`所描述的`1_final_detailed_records_filter_apis.json`，我们清洗了快捷指令中包含我们没有获取到的API的快捷指令。
 - [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
 - [x] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱，详细信息可参考`deves_dataset/dataset_src_valid_apis/README.md`的介绍。
+- [x] 实验代码和日志。
 - [ ] 快捷指令的字段解释。
 - [ ] API的字段解释。
-- [ ] 实验代码和日志。
 - [ ] [ShortcutsBench论文附录](), []()
 
 
