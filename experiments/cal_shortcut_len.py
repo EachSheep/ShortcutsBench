@@ -265,7 +265,8 @@ def useless_data_analysis(shortcut2len, shortcut2avgAPIs):
         ax.tick_params(axis='both', which='major', labelsize=14) # Set axis tick labels with larger font sizes
 
         plt.tight_layout()
-        plt.savefig("tmp/length_distribution.png")
+        save_path = os.path.join(SHORTCUT_DATA, "length_distribution.png")
+        plt.savefig(save_path)
         return fig, ax
 
     fig, ax = plot_length_distribution(shortcut_lens) # Draw a bar chart.
@@ -305,7 +306,8 @@ def useless_data_analysis(shortcut2len, shortcut2avgAPIs):
         ax.grid(True, which="both", ls="--") # Set y-axis to logarithmic scale
         
         plt.tight_layout()
-        plt.savefig("tmp/custom_length_distribution.png")
+        save_path = os.path.join(SHORTCUT_DATA, "custom_length_distribution.png")
+        plt.savefig(save_path)
 
         return fig, ax
 
@@ -384,8 +386,8 @@ if __name__ == "__main__":
         shortcut2len[URL] = WFWorkflowActions_len
         shortcut2avgAPIs[URL] = avgAPIs
 
-    """save the final_detailed_records_filter_apis_leq_30 to a json file"""
-    with open(os.path.join(SHORTCUT_DATA, "1_final_detailed_records_filter_apis_leq_30.json"), "w") as wp:
-        json.dump(final_detailed_records_filter_apis_leq_30, wp, indent=4, ensure_ascii=False)
+    # """save the final_detailed_records_filter_apis_leq_30 to a json file"""
+    # with open(os.path.join(SHORTCUT_DATA, "1_final_detailed_records_filter_apis_leq_30.json"), "w") as wp:
+    #     json.dump(final_detailed_records_filter_apis_leq_30, wp, indent=4, ensure_ascii=False)
     
     useless_data_analysis(shortcut2len, shortcut2avgAPIs) # Draw the distribution of the number of action sequences in the shortcuts

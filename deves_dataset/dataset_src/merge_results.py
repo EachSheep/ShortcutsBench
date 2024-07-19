@@ -1,4 +1,4 @@
-"""Merge duplicate data based on `all_detailed_records.json`, retaining only unique iCloud data entries. The final data is saved as `final_detailed_records.json`.
+"""Merge duplicate data based on `1_all_detailed_records.json`, retaining only unique iCloud data entries. The final data is saved as `1_final_detailed_records.json`.
 
 This involves merging entries such as:
 
@@ -26,8 +26,8 @@ SHORTCUT_DATA = os.getenv("SHORTCUT_DATA", "")
 if SHORTCUT_DATA == "":
     raise Exception("The SHORTCUT_DATA environment variable is not set.")
 
-all_detailed_records_path = os.path.join(SHORTCUT_DATA, "all_detailed_records.json")
-dump_file_path = os.path.join(SHORTCUT_DATA, "final_detailed_records.json")
+all_detailed_records_path = os.path.join(SHORTCUT_DATA, "1_all_detailed_records.json")
+dump_file_path = os.path.join(SHORTCUT_DATA, "1_final_detailed_records.json")
 
 with open(all_detailed_records_path, "r") as f:
     all_detailed_records = json.load(f)
@@ -125,8 +125,8 @@ for (record, next_record) in zip(all_detailed_records, all_detailed_records[1:])
         if cnt % 100 == 0:
             print(f"{cnt} records have been processed.")
 
-with open(dump_file_path, "w") as f:
-    json.dump(cur_dicts, f, indent=2)
+# with open(dump_file_path, "w") as f:
+#     json.dump(cur_dicts, f, indent=4)
 
 print(f"The data contained {before_cnt} records before merging.")
 print(f"The merged data is saved in {dump_file_path}, containing a total of {cnt} records.")

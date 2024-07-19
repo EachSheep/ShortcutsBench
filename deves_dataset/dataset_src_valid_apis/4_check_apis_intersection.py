@@ -9,9 +9,6 @@ no_apps_or_apis.extend(mobile_only_apis)
 no_apps_or_apis.extend(paid_apps)
 no_apps_or_apis.extend(discoverable_false_apis)
 
-SHORTCUT_PROJECT = os.getenv("SHORTCUT_PROJECT", "")
-if SHORTCUT_PROJECT == "":
-    raise Exception("The SHORTCUT_PROJECT environment variable is not set.")
 SHORTCUT_DATA = os.getenv("SHORTCUT_DATA", "")
 if SHORTCUT_DATA == "":
     raise Exception("The SHORTCUT_DATA environment variable is not set.")
@@ -68,19 +65,22 @@ for cur_record in final_detailed_records:
 api_names_in_shortcuts = list(set(api_names_in_shortcuts))
 print(f"Number of APIs in shortcuts: {len(api_names_in_shortcuts)}")
 
-succ_api_json_path = os.path.join(SHORTCUT_DATA, "4_success_api_json_filter.json")
-with open(succ_api_json_path, "r") as f:
-    succ_api_json = json.load(f)
-fail_list_json_actionsdata_path = os.path.join(SHORTCUT_DATA, "4_fail_api_json_filter.json")
-with open(fail_list_json_actionsdata_path, "r") as f:
-    fail_api_json = json.load(f)
-succ_api_json.extend(fail_api_json)
+# succ_api_json_path = os.path.join(SHORTCUT_DATA, "4_success_api_json_filter.json")
+# with open(succ_api_json_path, "r") as f:
+#     succ_api_json = json.load(f)
+# fail_list_json_actionsdata_path = os.path.join(SHORTCUT_DATA, "4_fail_api_json_filter.json")
+# with open(fail_list_json_actionsdata_path, "r") as f:
+#     fail_api_json = json.load(f)
+# succ_api_json.extend(fail_api_json)
+api_json_path = os.path.join(SHORTCUT_DATA, "4_api_json_filter.json")
+with open(api_json_path, "r") as f:
+    api_json = json.load(f)
 
 # Extract all actionsData and intentDefinition from success_list_json_actionsdata to form a set of api_names.
 valid_names_actionsdata = []
 all_names_actionsdata = []
 valid_names_intentdefinition = []
-for cur_json in succ_api_json:
+for cur_json in api_json:
     AppName = cur_json["AppName"]
     keys = list(cur_json.keys())
     for cur_key in keys:

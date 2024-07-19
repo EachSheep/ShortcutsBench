@@ -14,7 +14,7 @@
 
 我们首先依据`1_final_detailed_records_remove_repeat.json`文件提取了App的唯一标识符并进行了手动标注，得到了`2_all_detailed_identifiers.json`。
 
-`2_all_detailed_identifiers.json`文件，可从[Google云盘](https://drive.google.com/file/d/1BkbjVKSPv2dHn16xTAhh0LNk2iVQEb-0/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1j0d1VDNWx3K5TTS4smM4Ug?pwd=z636)获取。
+`2_all_detailed_identifiers.json`文件，可从[Google云盘](../../data/2_all_detailed_identifiers.json)获取。
 
 `2_all_detailed_identifiers.json`的每一个元素形如：
 ```json

@@ -9,7 +9,7 @@ if SHORTCUT_PROJECT == "":
     raise Exception("The SHORTCUT_PROJECT environment variable is not set.")
 src1_dir = os.path.join(SHORTCUT_PROJECT, "deves_dataset/dataset_src/")
 
-excluded_names = ["example.com.json", "all_wo_repeat.json", "others.json", "all_detailed_records.json"]
+excluded_names = ["example.com.json", "all_wo_repeat.json", "others.json", "1_all_detailed_records.json"]
 
 file_names = os.listdir(src1_dir)
 file_names = [i for i in file_names if i.endswith(".json") and i not in excluded_names]
@@ -111,5 +111,5 @@ for URL in all_data_dict:
 		all_data.extend(all_data_dict[URL])
 
 all_wo_repeat_path = os.path.join(src1_dir, "all_wo_repeat.json")
-with open(all_wo_repeat_path, "w", encoding="utf-8") as f:
-	json.dump(all_data, f, ensure_ascii=False, indent=2)
+# with open(all_wo_repeat_path, "w", encoding="utf-8") as f:
+# 	json.dump(all_data, f, ensure_ascii=False, indent=2)

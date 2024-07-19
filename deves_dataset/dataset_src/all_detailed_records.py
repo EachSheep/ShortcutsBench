@@ -4,7 +4,7 @@
 2. Request https://www.icloud.com/shortcuts/api/records/aa2b4bbbd4bb44ad8d8eb4f7d530ea61
 3. Request the downloadURL from https://www.icloud.com/shortcuts/api/records/aa2b4bbbd4bb44ad8d8eb4f7d530ea61
 4. The file obtained from the downloadURL in https://www.icloud.com/shortcuts/api/records/aa2b4bbbd4bb44ad8d8eb4f7d530ea61 is a binary file. Convert it to JSON format using the biplist package.
-5. Save the result to all_detailed_records.json
+5. Save the result to 1_all_detailed_records.json
 
 Each final saved shortcut appears as follows:
 {
@@ -165,7 +165,10 @@ import biplist
 SHORTCUT_PROJECT = os.getenv("SHORTCUT_PROJECT", "")
 if SHORTCUT_PROJECT == "":
     raise Exception("The SHORTCUT_PROJECT environment variable is not set.")
-src_1_path = os.path.join(SHORTCUT_PROJECT, "deves_dataset/dataset_src/")
+SHORTCUT_DATA = os.getenv("SHORTCUT_DATA", "")
+if SHORTCUT_DATA == "":
+    raise Exception("The SHORTCUT_DATA environment variable is not set.")
+src_1_path = os.path.join(SHORTCUT_DATA)
 
 def merge():
     """Merge data from all_wo_repeat.json and others.json, removing duplicates based on the URL, with priority given to data from all_wo_repeat.json."""
@@ -197,9 +200,9 @@ def merge():
         else:
             del all_wo_repeat[i]
 
-    all_detailed_records_path = os.path.join(src_1_path, "all_detailed_records.json")
-    with open(all_detailed_records_path, "w", encoding="utf-8") as f:
-        json.dump(all_wo_repeat, f, ensure_ascii=False, indent=2)
+    all_detailed_records_path = os.path.join(src_1_path, "1_all_detailed_records.json")
+    # with open(all_detailed_records_path, "w", encoding="utf-8") as f:
+    #     json.dump(all_wo_repeat, f, ensure_ascii=False, indent=2)
 
 def my_default(obj):
     return str(obj)
@@ -211,12 +214,13 @@ def send_request():
     """
 
     # Read the successfully retrieved file.
-    all_detailed_records_path = os.path.join(src_1_path, "all_detailed_records.json")
+    all_detailed_records_path = os.path.join(src_1_path, "1_all_detailed_records.json")
     if os.path.exists(all_detailed_records_path):
         with open(all_detailed_records_path, "r", encoding="utf-8") as f:
             all_detailed_records = json.load(f)
     else:
-        raise Exception("The all_detailed_records.json file does not exist. Please run the merge function first.")
+        print(all_detailed_records_path)
+        raise Exception("The 1_all_detailed_records.json file does not exist. Please run the merge function first.")
 
     fail_urls = []
     store_num = 0
@@ -262,7 +266,6 @@ def send_request():
             try:
                 # Convert to JSON using the plist package and store in response_json.
                 response_json = biplist.readPlistFromString(new_response.content)
-                # str_json = json.dumps(response_json, ensure_ascii=False)
                 cur_dict["shortcut"] = response_json
             except:
                 cur_num += 1
@@ -284,23 +287,23 @@ def send_request():
                     cur_num += 1
             if store_num % 100 == 0:
                 print("Saving file, please do not interrupt.")
-                all_detailed_records_path = os.path.join(src_1_path, "all_detailed_records.json")
-                with open(all_detailed_records_path, "w", encoding="utf-8") as f:
-                    json.dump(all_detailed_records, f, ensure_ascii=False, indent=2, default=my_default)
+                all_detailed_records_path = os.path.join(src_1_path, "1_all_detailed_records.json")
+                # with open(all_detailed_records_path, "w", encoding="utf-8") as f:
+                #     json.dump(all_detailed_records, f, ensure_ascii=False, indent=2, default=my_default)
                 print("File saved successfully.")
         else:
             cur_num += 1
             continue
 
-    all_detailed_records_path = os.path.join(src_1_path, "all_detailed_records.json")
-    with open(all_detailed_records_path, "w", encoding="utf-8") as f:
-        json.dump(all_detailed_records, f, ensure_ascii=False, indent=2, default=my_default)
+    all_detailed_records_path = os.path.join(src_1_path, "1_all_detailed_records.json")
+    # with open(all_detailed_records_path, "w", encoding="utf-8") as f:
+    #     json.dump(all_detailed_records, f, ensure_ascii=False, indent=2, default=my_default)
 
     fail_url_path = os.path.join(src_1_path, "fail_urls.txt")
-    with open(fail_url_path, "w", encoding="utf-8") as f:
-        for url in fail_urls:
-            f.write(url + "\n")
+    # with open(fail_url_path, "w", encoding="utf-8") as f:
+    #     for url in fail_urls:
+    #         f.write(url + "\n")
 
 if __name__=="__main__":
-    # merge() # Running this will clear all files in all_detailed_records.json. Proceed with caution.
+    # merge() # Running this will clear all files in 1_all_detailed_records.json. Proceed with caution.
     send_request()

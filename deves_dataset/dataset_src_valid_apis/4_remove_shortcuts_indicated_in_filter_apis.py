@@ -1,4 +1,4 @@
-"""筛掉那些在filter_apis.py中指定的需要筛除的APIs。
+"""Filter out the APIs specified for exclusion in `filter_apis.py`.
 """
 
 import os
@@ -43,7 +43,7 @@ for i, cur_shortcut in enumerate(final_detailed_records):
     unique_id2file_name[unique_id] = file_name
     file_names.add(file_name)
     
-# 记录每一个快捷指令的长度
+# Record the length of each shortcut.
 filter_because_of_lacking_related_shortcuts = 0
 continue_num = 0
 no_WFWorkflowName_num = 0
@@ -51,7 +51,7 @@ new_final_detailed_records = []
 for i, cur_shortcut in enumerate(final_detailed_records):
     URL = cur_shortcut["URL"]
     if (i + 1) % 100 == 0:
-        print(f"正在处理第 {i + 1} 个文件, URL为 {URL}.")
+        print(f"Processing file {i + 1}, URL: {URL}.")
 
     shortcut = cur_shortcut["shortcut"]
     if shortcut is None:
@@ -98,10 +98,10 @@ for i, cur_shortcut in enumerate(final_detailed_records):
 
 print("filter_because_of_lacking_related_shortcuts:", filter_because_of_lacking_related_shortcuts)
 print("no_WFWorkflowName_num:", no_WFWorkflowName_num)
-print(f"筛选后剩余的快捷指令数量：{len(new_final_detailed_records)}")
+print(f"Number of shortcuts remaining after filtering: {len(new_final_detailed_records)}")
 
-# 保存筛选后的结果
-ignore_in_judge_WFWorkflowActionIdentifier_list = [  # 不计算在评测结果中的动作
+# Save the filtered results
+ignore_in_judge_WFWorkflowActionIdentifier_list = [  # Actions not included in the evaluation results
     "is.workflow.actions.conditional",
     "is.workflow.actions.choosefrommenu",
     "is.workflow.actions.repeat.each",
@@ -113,7 +113,7 @@ ignore_in_judge_WFWorkflowActionIdentifier_list = [  # 不计算在评测结果�
     "is.workflow.actions.gettext",
     "is.workflow.actions.ask"
 ]
-filter_WFWorkflowActionIdentifier_list = [  # 直接剔除，既不计算在评测结果，也不作为智能体的输入的快捷指令（智能体看不到这个comment）
+filter_WFWorkflowActionIdentifier_list = [  # Directly exclude shortcuts that are neither included in the evaluation results nor used as input for the agent (the agent cannot see this comment).
     "is.workflow.actions.comment",
     "is.workflow.actions.alert"
 ]
@@ -139,10 +139,10 @@ for i, cur_shortcut in enumerate(new_final_detailed_records):
     avg_APIs.append(len(APIs))
     avg_Actions.append(len(Actions))
 
-print(f"筛选后的结果中，每个快捷指令涉及的APIs的平均个数为：{sum(avg_APIs) / len(avg_APIs)}")
-print(f"筛选后的结果中，每个快捷指令涉及的Actions的平均个数为：{sum(avg_Actions) / len(avg_Actions)}") # 21.46
-print(f"筛选后的结果中，涉及的APIs的个数为：{len(API_set)}")
+print(f"Average number of APIs involved per shortcut in the filtered results: {sum(avg_APIs) / len(avg_APIs)}")
+print(f"Average number of Actions involved per shortcut in the filtered results: {sum(avg_Actions) / len(avg_Actions)}")  # 21.46
+print(f"Number of APIs involved in the filtered results: {len(API_set)}")
 
-# 保存筛选后的结果
+# Save the filtered results.
 with open(dump_detailed_records_path, "w") as wp:
     json.dump(new_final_detailed_records, wp, indent=4, ensure_ascii=False)

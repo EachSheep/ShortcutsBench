@@ -3,9 +3,6 @@ import json
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-SHORTCUT_PROJECT = os.getenv("SHORTCUT_PROJECT", "")
-if SHORTCUT_PROJECT == "":
-    raise Exception("The SHORTCUT_PROJECT environment variable is not set.")
 SHORTCUT_DATA = os.getenv("SHORTCUT_DATA", "")
 if SHORTCUT_DATA == "":
     raise Exception("The SHORTCUT_DATA environment variable is not set.")
@@ -145,8 +142,8 @@ def main():
                     app.update(intentdata_dict)
 
     # Write the data to a file.
-    with open(succ_api_json_path, 'w') as f:
-        json.dump(succ_api_json, f, indent=4, ensure_ascii=False)
+    # with open(succ_api_json_path, 'w') as f:
+    #     json.dump(succ_api_json, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()

@@ -26,11 +26,6 @@
 * [iOS快捷指令库](https://www.rcuts.com)：`deves_dataset/dataset_src/www.rcuts.com.json`
 * Shortcuts from Reddit/Quora：`deves_dataset/dataset_src/others.json`
 
-## 配置环境变量
-
-需要首先配置`export SHORTCUT_PROJECT=你的项目的绝对路径`。
-比如我的项目目录为`$HOME/Source/shortcuts/`，则配置为`export SHORTCUT_PROJECT=$HOME/Source/shortcuts/`。
-
 ## 运行 `all_wo_repeat.py`
 
 对所有从商店获取的数据进行去重处理（不包括`others.json`）。存在一些虽然URL相同，但是描述不同的数据，全部保留下来，`multiple`字段标识为`true`。
@@ -38,15 +33,15 @@
 
 ## 运行`all_detailed_records.py`
 
-对所有`all_wo_repeat.json`和`others.json`中的数据（会对`all_wo_repeat.json`和`others.json`中的数据做合并去重，优先保留`all_wo_repeat.json`中的数据），向类似`https://www.icloud.com/shortcuts/api/records/cc2283b9eaa947e6a049b2020755fad1`的URL发送请求进一步获得相关数据，并存在`all_detailed_records.json`中。
+对所有`all_wo_repeat.json`和`others.json`中的数据（会对`all_wo_repeat.json`和`others.json`中的数据做合并去重，优先保留`all_wo_repeat.json`中的数据），向类似`https://www.icloud.com/shortcuts/api/records/cc2283b9eaa947e6a049b2020755fad1`的URL发送请求进一步获得相关数据，并存在`1_all_detailed_records.json`中。
 
 发送请求的同时，会同时获取shortcut的源文件，并用`biplist`包解析存下。
 
-我们得到的`all_detailed_records.json`文件，可从[Google云盘](https://drive.google.com/file/d/1KZf3mTCDuOimwbZY7wJ-2R_tDmASMB-V/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1xx-C-w5aah7Mi04hXT47ZA?pwd=jkvp)获取。
+我们得到的`1_all_detailed_records.json`文件，可从[Google云盘](https://drive.google.com/file/d/1KZf3mTCDuOimwbZY7wJ-2R_tDmASMB-V/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1xx-C-w5aah7Mi04hXT47ZA?pwd=jkvp)获取。
 
-**最终**：获得的`all_detailed_records.json`文件
+**最终**：获得的`1_all_detailed_records.json`文件
 
-`all_detailed_records.json`文件形如：
+`1_all_detailed_records.json`文件形如：
 
 ```json
 {
@@ -200,13 +195,13 @@
 
 ## 运行merge_results.py
 
-于是我们使用 `merge_results.py` 依据 `all_detailed_records.json` 文件生成 `final_detailed_records.json` 文件，这大大减小了文件体积，并去除了大量重复的快捷指令
+于是我们使用 `merge_results.py` 依据 `1_all_detailed_records.json` 文件生成 `1_final_detailed_records.json` 文件，这大大减小了文件体积，并去除了大量重复的快捷指令
 
-使用`merge_results.py`前需要配置`SHORTCUT_DATA`环境变量，指示`all_detailed_records.json`存储的目录。
+使用`merge_results.py`前需要配置`SHORTCUT_DATA`环境变量，指示`1_all_detailed_records.json`存储的目录。
 
-最终我们得到 `final_detailed_records.json` 文件：
+最终我们得到 `1_final_detailed_records.json` 文件：
 
-我们得到的`final_detailed_records.json`文件，可从[Google云盘](https://drive.google.com/file/d/1MwFyVdS1HmZvesl7AcgJaGcP1ghAk4J6/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/10lMA2--9WJQS5x7CnjNhkw?pwd=ioqv)获取。
+我们得到的`1_final_detailed_records.json`文件，可从[Google云盘](https://drive.google.com/file/d/1MwFyVdS1HmZvesl7AcgJaGcP1ghAk4J6/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/10lMA2--9WJQS5x7CnjNhkw?pwd=ioqv)获取。
 
 ```json
 {
@@ -227,7 +222,7 @@
 
 ## 手动去重
 
-`final_detailed_records.json`中的文件的`NameINStore`字段和`DescriptionInStore`字段可能存在多个，我们进行了手动去重，只保留了一个。
+`1_final_detailed_records.json`中的文件的`NameINStore`字段和`DescriptionInStore`字段可能存在多个，我们进行了手动去重，只保留了一个。
 
 最终，我们得到了`1_final_detailed_records_remove_repeat.json`。
 

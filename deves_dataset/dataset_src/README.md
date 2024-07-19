@@ -38,15 +38,15 @@ All deduplicated data is stored in `all_wo_repeat.json`.
 
 ## Run `all_detailed_records.py`
 
-For all data in `all_wo_repeat.json` and `others.json` (merging and deduplicating data from both files, prioritizing data from `all_wo_repeat.json`), send requests to URLs like `https://www.icloud.com/shortcuts/api/records/cc2283b9eaa947e6a049b2020755fad1` to further obtain related data, and store the results in `all_detailed_records.json`.
+For all data in `all_wo_repeat.json` and `others.json` (merging and deduplicating data from both files, prioritizing data from `all_wo_repeat.json`), send requests to URLs like `https://www.icloud.com/shortcuts/api/records/cc2283b9eaa947e6a049b2020755fad1` to further obtain related data, and store the results in `1_all_detailed_records.json`.
 
 During the request process, the shortcut source files are also retrieved and parsed using the biplist package.
 
-We have obtained the `all_detailed_records.json` file, which can be accessed via [Google Drive](https://drive.google.com/file/d/1KZf3mTCDuOimwbZY7wJ-2R_tDmASMB-V/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1xx-C-w5aah7Mi04hXT47ZA?pwd=jkvp).
+We have obtained the `1_all_detailed_records.json` file, which can be accessed via [Google Drive](https://drive.google.com/file/d/1KZf3mTCDuOimwbZY7wJ-2R_tDmASMB-V/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1xx-C-w5aah7Mi04hXT47ZA?pwd=jkvp).
 
-**Final**: The resulting `all_detailed_records.json` file
+**Final**: The resulting `1_all_detailed_records.json` file
 
-The `all_detailed_records.json` file is structured as follows:
+The `1_all_detailed_records.json` file is structured as follows:
 
 ```json
 {
@@ -200,13 +200,13 @@ We discovered that some shortcuts have `"multiple" = true`, indicating identical
 
 ## Run `merge_results.py`
 
-Thus, we used `merge_results.py` to generate the `final_detailed_records.json` file based on `all_detailed_records.json`. This significantly reduced the file size and removed numerous duplicate shortcuts.
+Thus, we used `merge_results.py` to generate the `1_final_detailed_records.json` file based on `1_all_detailed_records.json`. This significantly reduced the file size and removed numerous duplicate shortcuts.
 
-Before using `merge_results.py`, you need to set the `SHORTCUT_DATA` environment variable to indicate the directory where `all_detailed_records.json` is stored.
+Before using `merge_results.py`, you need to set the `SHORTCUT_DATA` environment variable to indicate the directory where `1_all_detailed_records.json` is stored.
 
-The final result is the `final_detailed_records.json` file:
+The final result is the `1_final_detailed_records.json` file:
 
-The `final_detailed_records.json` file we obtained can be downloaded from [Google Drive](https://drive.google.com/file/d/1MwFyVdS1HmZvesl7AcgJaGcP1ghAk4J6/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/10lMA2--9WJQS5x7CnjNhkw?pwd=ioqv).
+The `1_final_detailed_records.json` file we obtained can be downloaded from [Google Drive](https://drive.google.com/file/d/1MwFyVdS1HmZvesl7AcgJaGcP1ghAk4J6/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/10lMA2--9WJQS5x7CnjNhkw?pwd=ioqv).
 
 ```json
 {
@@ -227,7 +227,7 @@ The `final_detailed_records.json` file we obtained can be downloaded from [Googl
 
 ## Manual Deduplication
 
-In `final_detailed_records.json`, there may be multiple entries for the `NameInStore` and `DescriptionInStore` fields. We manually deduplicated these entries, retaining only one.
+In `1_final_detailed_records.json`, there may be multiple entries for the `NameInStore` and `DescriptionInStore` fields. We manually deduplicated these entries, retaining only one.
 
 Finally, we get `1_final_detailed_records_remove_repeat.json`。
 

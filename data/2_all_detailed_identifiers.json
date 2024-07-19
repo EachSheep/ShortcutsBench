@@ -1,0 +1,3880 @@
+[
+    {
+        "AppName": "AsheKube.app.a-Shell-mini",
+        "APIs": [
+            {
+                "APIName": "AsheKube.app.a-Shell-mini.ExecuteCommandIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "AsheKube.app.a-Shell-mini.GetFileIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "AsheKube.app.a-Shell-mini.PutFileIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "AsheKube.app.a-Shell",
+        "APIs": [
+            {
+                "APIName": "AsheKube.app.a-Shell.ExecuteCommandIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "AsheKube.app.a-Shell.GetFileIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "AsheKube.app.a-Shell.PutFileIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "ai.perplexity",
+        "APIs": [
+            {
+                "APIName": "ai.perplexity.app.QueryPerplexity",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "app.cyan",
+        "APIs": [
+            {
+                "APIName": "app.cyan.taio.SaveClippingIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "app.surfed",
+        "APIs": [
+            {
+                "APIName": "app.surfed.app.OpenURLIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "br.com.marcosatanaka.play",
+        "APIs": [
+            {
+                "APIName": "br.com.marcosatanaka.play.GetVideoIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "br.com.marcosatanaka.play.RemoveTagIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "ch.marcela",
+        "APIs": [
+            {
+                "APIName": "ch.marcela.ada.LibTerm.RunCommandIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "codes.rambo.AirBuddyHelper",
+        "APIs": [
+            {
+                "APIName": "codes.rambo.AirBuddyHelper.ConnectHeadsetIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "codes.rambo.AirBuddyHelper.GetDeviceStatusIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "codes.rambo.AirBuddyHelper.GetDevicesListIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.6X",
+        "APIs": [
+            {
+                "APIName": "com.6X.LockLauncher.RefreshActivityIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.7Z88K9GUU8",
+        "APIs": [
+            {
+                "APIName": "com.7Z88K9GUU8.com.rileytestut.AltStore.RefreshAllIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.Christopher-Hannah",
+        "APIs": [
+            {
+                "APIName": "com.Christopher-Hannah.Text-Case.ReplaceIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.Christopher-Hannah.Text-Case.TextCaseIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.Matter",
+        "APIs": [
+            {
+                "APIName": "com.Matter.MatterApp.SaveToMatterIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.ZoZoApp",
+        "APIs": [
+            {
+                "APIName": "com.ZoZoApp.ZoZoApp.CopyContentsToClipboard",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.adguard",
+        "APIs": [
+            {
+                "APIName": "com.adguard.ios.AdGuardVPN.VpnStateIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.agiletortoise",
+        "APIs": [
+            {
+                "APIName": "com.agiletortoise.Drafts5.CaptureIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.agiletortoise.Drafts5.OpenDraftIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.agiletortoise.Drafts5.QueryDraftsIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.agiletortoise.Drafts5.QueryWorkspaceIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.alexhay.Console",
+        "APIs": [
+            {
+                "APIName": "com.alexhay.Console.ClearMessagesIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.Console.LogItemsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.Console.OutputMessagesIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.Console.StartLoggingIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.MenuBox.ChooseMenuSetIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxPro2.GenerateTextIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.AddPhotoAlbumIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.AddToListIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.AuthenticateIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.AverageColourIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.BatteryStatusIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.BlurImagesIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CheckForUpdatesIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CheckGVIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CheckIfInstalledIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.ConvertCurrencyIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CreateEventIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CreateIconIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CreateMatteIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CreateMenuIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CreateTextImageIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.CropIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.DetectFacesIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.DeviceDetailsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.DeviceLanguageIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.DeviceStorageIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.EditReminderIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.FindAlbumsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.FindMovies2Intent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.FindMoviesIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.FindSongsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.FindTvShowsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.FormatDateExtendedIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GenerateUUIDIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetDetailFromTextIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetMenuItemIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetMovieDetails2Intent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetMovieDetailsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetPhotoAlbumsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetReminderIDIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetReminderListsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetTextFromImageIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetTextFromImagesIAIHIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetTvShowDetailsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GetWorkoutsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.GlobalVariablesIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.HapticFeedbackIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.HomeIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.InternetConnectionIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.IsPremiumUnlockedIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.IsVPNConnectedIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.PerformCalculationIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.QuickLookExtendedIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.QuickMenu2Intent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.QuickMenuIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.RecogniseObjectsInImageIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.RemoveDuplicatesIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.RemoveEmojiIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.ReverseListIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.ScanDocumentIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.ShowNotificationIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.SortListIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.SwitchCaseIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.TrimTextIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.alexhay.ToolboxProForShortcuts.ViewMapIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.amazon",
+        "APIs": [
+            {
+                "APIName": "com.amazon.Lassen.BookOpenSiriDonationIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts",
+        "APIs": [
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXSetBackgroundSoundIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXSetBackgroundSoundVolumeIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXSetLargeTextIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXSetLeftRightBalanceIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXSetSoundDetectorIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartGuidedAccessIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartMagnifierIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartRemoteWatchScreenIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXStartSpeakScreenIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleAssistiveTouchIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleAudioDescriptionsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleBackgroundSoundsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleCaptionsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleClassicInvertIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleColorFiltersIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleContrastIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleLEDFlashIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleLiveCaptionsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleMonoAudioIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleReduceMotionIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleSmartInvertIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleSoundDetectionIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleSwitchControlIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleTransparencyIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleVoiceControlIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleVoiceOverIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleWhitePointIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.AccessibilityUtilities.AXSettingsShortcuts.AXToggleZoomIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.DocumentsApp",
+        "APIs": [
+            {
+                "APIName": "com.apple.DocumentsApp.ScanDocument",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.DocumentsApp.SearchFile",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.Keynote",
+        "APIs": [
+            {
+                "APIName": "com.apple.Keynote.KNDocumentPlayIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.NanoSettings",
+        "APIs": [
+            {
+                "APIName": "com.apple.NanoSettings.NPRFPingMyPhoneIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.NanoSettings.NPRFSetAlwaysOnIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.NanoSettings.NPRFSetAutoLaunchAudioAppsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.NanoSettings.NPRFSetFlashLightIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.NanoSettings.NPRFSetSchoolTimeIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.NanoSettings.NPRFSetSilentModeIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.NanoSettings.NPRFSetTheaterModeIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.NanoSettings.NPRFSetWakeOnWristRaiseIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.NanoSettings.NPRFSetWaterLockIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.Notes",
+        "APIs": [
+            {
+                "APIName": "com.apple.Notes.ChangeSettingLinkAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.Notes.ICNotesFolderIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.Notes.OpenAccountLinkAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.Notes.OpenAppLocationLinkAction",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.Numbers",
+        "APIs": [
+            {
+                "APIName": "com.apple.Numbers.TNiOSAddValueIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.apple.Numbers.TNiOSAddValuesToFormIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.apple.Numbers.TNiOSAddValuesToSpreadsheetIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.apple.Numbers.TNiOSOpenAnyDocumentIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.PBBridgeSupport",
+        "APIs": [
+            {
+                "APIName": "com.apple.PBBridgeSupport.BridgeIntents.COSSetGizmoFaceIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.Pages",
+        "APIs": [
+            {
+                "APIName": "com.apple.Pages.TSADocumentCreateIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.Pages.TSADocumentOpenIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.ShortcutsActions",
+        "APIs": [
+            {
+                "APIName": "com.apple.ShortcutsActions.CellularPlanEntity",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.ShortcutsActions.OpenCameraAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.ShortcutsActions.SetDefaultCellularPlanAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.ShortcutsActions.SetSilentModeAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.ShortcutsActions.TranscribeAudioAction",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.TVRemoteUIService",
+        "APIs": [
+            {
+                "APIName": "com.apple.TVRemoteUIService.LaunchApplicationIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.LaunchRemoteIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.LaunchScreenSaverIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.PauseContentIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.ReduceLoudSoundsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.SkipContentIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.SleepAppleTVIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.SwitchUserAccountIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.ToggleCaptionsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.ToggleSystemAppearanceIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.TVRemoteUIService.WakeAppleTVIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.VoiceMemos",
+        "APIs": [
+            {
+                "APIName": "com.apple.VoiceMemos.ChangeRecordingPlaybackSetting",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.VoiceMemos.CreateFolder",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.VoiceMemos.OpenFolder",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.VoiceMemos.PlaybackVoiceMemoIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.VoiceMemos.RecordVoiceMemoIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.VoiceMemos.SearchRecordings",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.VoiceMemos.SelectRecording",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.VoiceMemos.StopRecording",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.clock",
+        "APIs": [
+            {
+                "APIName": "com.apple.clock.OpenTab",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.facetime",
+        "APIs": [
+            {
+                "APIName": "com.apple.facetime.facetime",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.freeform",
+        "APIs": [
+            {
+                "APIName": "com.apple.freeform.CRLiOSCreateBoardIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.apple.freeform.CRLiOSOpenBoardIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.iBooks",
+        "APIs": [
+            {
+                "APIName": "com.apple.iBooks.BookReaderChangePageNavigationIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iBooks.BookReaderNavigatePagesIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iBooks.openin",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.iBooksX",
+        "APIs": [
+            {
+                "APIName": "com.apple.iBooksX.BookReaderChangeThemeIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iBooksX.BookReaderNavigatePagesIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iBooksX.OpenBookIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iBooksX.OpenDefaultCollectionIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iBooksX.OpenTabBarItemIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iBooksX.PlayAudiobookIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iBooksX.SearchBooksIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.iWork.Keynote",
+        "APIs": [
+            {
+                "APIName": "com.apple.iWork.Keynote.KNDocumentPlayIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iWork.Keynote.KNDocumentRehearseIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iWork.Keynote.TSADocumentCreateIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iWork.Keynote.TSADocumentOpenIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.iWork.Numbers",
+        "APIs": [
+            {
+                "APIName": "com.apple.iWork.Numbers.TNiOSAddValuesToSpreadsheetIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.apple.iWork.Numbers.TSADocumentCreateIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iWork.Numbers.TSADocumentOpenIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.iWork.Pages",
+        "APIs": [
+            {
+                "APIName": "com.apple.iWork.Pages.TSADocumentCreateIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.iWork.Pages.TSADocumentOpenIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.mobilemail",
+        "APIs": [
+            {
+                "APIName": "com.apple.mobilemail.OpenMailboxEntityAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilemail.SearchMessagesAction",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.mobilenotes",
+        "APIs": [
+            {
+                "APIName": "com.apple.mobilenotes.AddTagsToNotesLinkAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilenotes.CreateFolderLinkAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilenotes.DeleteNotesLinkAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilenotes.ICNotesFolderIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilenotes.SharingExtension",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.mobilephone",
+        "APIs": [
+            {
+                "APIName": "com.apple.mobilephone.call",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.mobilesafari",
+        "APIs": [
+            {
+                "APIName": "com.apple.mobilesafari.BookmarkEntity",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilesafari.CloseTab",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilesafari.CreateNewPrivateTab",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilesafari.CreateNewTabGroup",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilesafari.ListenToPage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilesafari.OpenView",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobilesafari.TabEntity",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.mobileslideshow",
+        "APIs": [
+            {
+                "APIName": "com.apple.mobileslideshow.OpenCollectionIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.mobiletimer-framework",
+        "APIs": [
+            {
+                "APIName": "com.apple.mobiletimer-framework.MobileTimerIntents.MTCreateAlarmIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer-framework.MobileTimerIntents.MTGetAlarmsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer-framework.MobileTimerIntents.MTToggleAlarmIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.mobiletimer",
+        "APIs": [
+            {
+                "APIName": "com.apple.mobiletimer.CancelTimerIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer.DeleteAlarmIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer.GetCurrentTimerDetailsIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer.LapStopwatchIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer.PauseTimerIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer.ResetStopwatchIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer.ResumeTimerIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer.StartStopwatchIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.mobiletimer.StopStopwatchIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.musicrecognition",
+        "APIs": [
+            {
+                "APIName": "com.apple.musicrecognition.RecognizeMusicIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.news",
+        "APIs": [
+            {
+                "APIName": "com.apple.news.TagIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.news.TodayIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.printcenter",
+        "APIs": [
+            {
+                "APIName": "com.apple.printcenter.PrintDocuments",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.reminders",
+        "APIs": [
+            {
+                "APIName": "com.apple.reminders.TTRCreateListAppIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.reminders.TTRSearchRemindersAppIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.shortcuts",
+        "APIs": [
+            {
+                "APIName": "com.apple.shortcuts.CreateWorkflowAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.shortcuts.DeleteWorkflowAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.shortcuts.OpenNavigationDestinationAction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.apple.shortcuts.SearchShortcutsAction",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.apple.weather",
+        "APIs": [
+            {
+                "APIName": "com.apple.weather.WeatherIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.appliedphasor",
+        "APIs": [
+            {
+                "APIName": "com.appliedphasor.working-copy.CloneRepositoryIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.appliedphasor.working-copy.CommitRepositoryIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.appliedphasor.working-copy.PushRepositoryIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.appliedphasor.working-copy.WriteFileIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.atlassian",
+        "APIs": [
+            {
+                "APIName": "com.atlassian.jira.app.CreateIssueIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.atlassian.jira.app.OpenIssueIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.atlassian.jira.app.RunJQLIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.atow.LaunchCuts",
+        "APIs": [
+            {
+                "APIName": "com.atow.LaunchCuts.GetFolderIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.atow.LaunchCuts.GetFoldersIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.bloombuilt.dayone-ios",
+        "APIs": [
+            {
+                "APIName": "com.bloombuilt.dayone-ios.CreateEntryIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.bloombuilt.dayone-ios.ShowEntriesIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.bloombuilt.dayone-mac",
+        "APIs": [
+            {
+                "APIName": "com.bloombuilt.dayone-mac.CreateEntryIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.brogrammers",
+        "APIs": [
+            {
+                "APIName": "com.brogrammers.charty.AddAverageIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.brogrammers.charty.AddSeriesToChartIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.brogrammers.charty.ExportChartAsImageIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.brogrammers.charty.NewChartIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.brogrammers.charty.StyleAxisIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.brogrammers.charty.StyleBarSeriesIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.brogrammers.charty.StyleChartIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.brogrammers.charty.StyleLineSeriesIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.burbn",
+        "APIs": [
+            {
+                "APIName": "com.burbn.instagram.openin",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.charliemchapman",
+        "APIs": [
+            {
+                "APIName": "com.charliemchapman.dark-noise.StartNoiseWithDurationIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.charliemonroe.Downie-4",
+        "APIs": [
+            {
+                "APIName": "com.charliemonroe.Downie-4.XUDownloadURLsInTextIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.christianselig",
+        "APIs": [
+            {
+                "APIName": "com.christianselig.Apollo.OpenSubredditIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.christianselig.Apollo.OpenUserIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.culturedcode.ThingsMac",
+        "APIs": [
+            {
+                "APIName": "com.culturedcode.ThingsMac.TAIAddTodo2",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.TAIItemEntity",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.TINAddTodoIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.TINShowListIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.TINShowTodoIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIAddHeading",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIAddProject",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIAddTodo2",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIAddTodoWithQuickEntry",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIEditItems",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIGetSelectedItems",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIItemEntity",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIShowItems2",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TAIShowList2",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsMac.beta.TINRunThingsURLIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsTouch.addtask",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsiPad.TINAddTodoIntent",
+                "macOrIos": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsiPad.TINShowListIntent",
+                "macOrIos": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsiPhone.TINAddTodoIntent",
+                "macOrIos": null
+            },
+            {
+                "APIName": "com.culturedcode.ThingsiPhone.TINRunThingsURLIntent",
+                "macOrIos": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.dayonelog.dayoneiphone",
+        "APIs": [
+            {
+                "APIName": "com.dayonelog.dayoneiphone.post",
+                "macOrIos": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.fandango",
+        "APIs": [
+            {
+                "APIName": "com.fandango.fandango.UpcomingOrderIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.fifteenjugglers",
+        "APIs": [
+            {
+                "APIName": "com.fifteenjugglers.solarwatch.ComputeSolarEventTimeIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.flexibits.fantastical2",
+        "APIs": [
+            {
+                "APIName": "com.flexibits.fantastical2.addevent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.flexibits.fantastical2.iphone",
+        "APIs": [
+            {
+                "APIName": "com.flexibits.fantastical2.iphone.FKRChangeCalendarSetIntent",
+                "macOrIos": "macOS"
+            },
+            {
+                "APIName": "com.flexibits.fantastical2.iphone.FKRChangeCalendarViewIntent",
+                "macOrIos": "macOS"
+            },
+            {
+                "APIName": "com.flexibits.fantastical2.iphone.FKRCreateFromInputIntent",
+                "macOrIos": "macOS"
+            },
+            {
+                "APIName": "com.flexibits.fantastical2.iphone.FKROpenOnDateIntent",
+                "macOrIos": "macOS"
+            },
+            {
+                "APIName": "com.flexibits.fantastical2.iphone.FKRShowScheduleIntent",
+                "macOrIos": "macOS"
+            },
+            {
+                "APIName": "com.flexibits.fantastical2.iphone.FKRUpcomingCalendarItemIntent",
+                "macOrIos": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.getcardpointers",
+        "APIs": [
+            {
+                "APIName": "com.getcardpointers.app.ShortcutsOfferEntity",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.google.OPA",
+        "APIs": [
+            {
+                "APIName": "com.google.OPA.OPAAskGoogleIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.google.chrome.ios",
+        "APIs": [
+            {
+                "APIName": "com.google.chrome.ios.OpenInChromeIncognitoIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.google.chrome.ios.OpenInChromeIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.google.chrome.ios.SearchInChromeIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.google.chrome.ios.openurl",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.grailr",
+        "APIs": [
+            {
+                "APIName": "com.grailr.CARROTweather.CurrentForecastIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.guidedways.2Do",
+        "APIs": [
+            {
+                "APIName": "com.guidedways.2Do.add",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.hegenberg.BetterTouchTool",
+        "APIs": [
+            {
+                "APIName": "com.hegenberg.BetterTouchTool.SendKeyboardShortcutIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.iconfactory.Tot",
+        "APIs": [
+            {
+                "APIName": "com.iconfactory.Tot.QueryDotIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.iconfactory.Tot.SetDotIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.iconfactory.TotMobile",
+        "APIs": [
+            {
+                "APIName": "com.iconfactory.TotMobile.GetDotIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.iconfactory.TotMobile.QueryDotIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.iconfactory.TotMobile.SetDotIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.ideasoncanvas.mindnode.ios",
+        "APIs": [
+            {
+                "APIName": "com.ideasoncanvas.mindnode.ios.MNCExportDocumentIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.ideasoncanvas.mindnode.ios.MNCExportTasksIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.ideasoncanvas.mindnode.ios.MNCExportToThingsIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.ideasoncanvas.mindnode.ios.MNCNewDocumentIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.ideasoncanvas.mindnode.ios.MNCQuickEntryIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.ideasoncanvas.mindnode.ios.MNCViewDocumentIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.ideasoncanvas.mindnode.macos",
+        "APIs": [
+            {
+                "APIName": "com.ideasoncanvas.mindnode.macos.MNCNewDocumentIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.jiejinghe.luke",
+        "APIs": [
+            {
+                "APIName": "com.jiejinghe.luke.ShortcutUpdateCheckIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.joehribar",
+        "APIs": [
+            {
+                "APIName": "com.joehribar.toggl.AddProjectIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.joehribar.toggl.AddTimeEntryIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.joehribar.toggl.CheckProjectTimeTrackedIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.joehribar.toggl.CheckTimeEntryIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.joehribar.toggl.CheckTimeLoggedIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.joehribar.toggl.ContinueTimeEntryIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.joehribar.toggl.FormatDurationIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.joehribar.toggl.StartTimeEntryIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.joehribar.toggl.StopTimeEntryIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.jonny.spring",
+        "APIs": [
+            {
+                "APIName": "com.jonny.spring.KJYGetTweetIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.leomehlig",
+        "APIs": [
+            {
+                "APIName": "com.leomehlig.today.AddTaskIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.lifx.lifx",
+        "APIs": [
+            {
+                "APIName": "com.lifx.lifx.LFXLightSceneIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.lukilabs",
+        "APIs": [
+            {
+                "APIName": "com.lukilabs.lukiapp.OpenCraftIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.lukilabs.lukiapp.QuickAddIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.microsoft.bing",
+        "APIs": [
+            {
+                "APIName": "com.microsoft.bing.OpenSydneyIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.microsoft.msedge",
+        "APIs": [
+            {
+                "APIName": "com.microsoft.msedge.OpenInChromeIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.microsoft.to-do",
+        "APIs": [
+            {
+                "APIName": "com.microsoft.to-do.WLAddTaskIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.ngocluu.goodlinks",
+        "APIs": [
+            {
+                "APIName": "com.ngocluu.goodlinks.AddLinkIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.ngocluu.goodlinks.GetCurrentLink",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.ngocluu.goodlinks.GetCurrentSelection",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.ngocluu.goodlinks.GetLinksInTagIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.ngocluu.goodlinks.GetTagsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.ngocluu.goodlinks.OpenLinkIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.omnigroup.OmniFocus2.iPhone",
+        "APIs": [
+            {
+                "APIName": "com.omnigroup.OmniFocus2.iPhone.newitem",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.omnigroup.OmniFocus2.iPhone.pastetaskpaper",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.omnigroup.OmniFocus3.MacAppStore",
+        "APIs": [
+            {
+                "APIName": "com.omnigroup.OmniFocus3.MacAppStore.AddTaskIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.omnigroup.OmniFocus3.MacAppStore.ShowFromChoiceIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.omnigroup.OmniFocus3.iOS",
+        "APIs": [
+            {
+                "APIName": "com.omnigroup.OmniFocus3.iOS.AddTaskIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.omz-software",
+        "APIs": [
+            {
+                "APIName": "com.omz-software.Pythonista.editscript",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.omz-software.Pythonista.runscript",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.omz-software.Pythonista3.PA3RunScriptIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.openai",
+        "APIs": [
+            {
+                "APIName": "com.openai.chat.AskIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.openai.chat.OpenVoiceModeIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.overdesigned",
+        "APIs": [
+            {
+                "APIName": "com.overdesigned.Cheatsheet.CSAddCheatIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.pcalc.mobile",
+        "APIs": [
+            {
+                "APIName": "com.pcalc.mobile.CalcRunFunctionWithOneParameterIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.pcalc.mobile.CalcRunFunctionWithTwoParametersIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.pcalc.mobile.CalcSetRegisterWithValueIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.phocusllp.due",
+        "APIs": [
+            {
+                "APIName": "com.phocusllp.due.add",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.pixelmatorteam.pixelmator.x",
+        "APIs": [
+            {
+                "APIName": "com.pixelmatorteam.pixelmator.x.CropImageToAspectRatioIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.pixelmatorteam.pixelmator.x.IncreaseImageResolutionIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.pixelmatorteam.pixelmator.x.OptimizeImageForWebIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.pixelmatorteam.pixelmator.x.hockey.ConvertImageIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.pixelmatorteam.pixelmator.x.hockey.ResizeImageIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.reederapp.5",
+        "APIs": [
+            {
+                "APIName": "com.reederapp.5.iOS.GetReadLaterIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.reederapp.5.iOS.OpenReadLaterIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.reederapp.5.iOS.ReadLaterIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.reederapp.5.macOS.GetReadLaterContentIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.reederapp.5.macOS.GetReadLaterIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.reederapp.5.macOS.GetReadLaterTagsIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.reederapp.5.macOS.OpenReadLaterIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.reederapp.5.macOS.ReadLaterIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.reederapp.iOS.GetReadLaterContentIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.reederapp.iOS.GetReadLaterIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.rivian",
+        "APIs": [
+            {
+                "APIName": "com.rivian.ios.consumer.CloseFrunkIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.rivian.ios.consumer.CloseLiftgateIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.rivian.ios.consumer.LockDoorsIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.rivian.ios.consumer.OpenFrunkIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.rivian.ios.consumer.OpenLiftgateIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "com.rivian.ios.consumer.UnlockDoorsIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.sindresorhus.Actions",
+        "APIs": [
+            {
+                "APIName": "com.sindresorhus.Actions.AddToListIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.AskForText",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.Authenticate",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.BlurImages",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.CreateColorImageIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.FilterListIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GenerateCSVIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetActionsVersion",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetAudioPlaybackDestinationIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetAverageColorOfImage",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetBatteryStateIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetDeviceDetailsExtended",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetDeviceOrientationIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetFilePathIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetUniformTypeIdentifierIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GetUnsplashImageIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GlobalVariableGetText",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.GlobalVariableSetText",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsAudioPlayingIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsBluetoothOnIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsCellularDataOn",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsConnectedToVPNIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsDarkModeIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsLowPowerModeIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsOnlineIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsReachableIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.IsSilentModeOnIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.OverwriteFile",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.PrettyPrintDictionariesIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.RandomColorIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.RandomTextIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.RemoveDuplicateLinesIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.RemoveDuplicatesFromListIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.RemoveEmojiIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.RemoveEmptyLinesIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.RemoveFromListIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.RemoveNonPrintableCharactersIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.ScanQRCodesInImageIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.SetUniformTypeIdentifier",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.TransformTextIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.Actions.TrimWhitespaceIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.One-Thing.GetTextIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.sindresorhus.One-Thing.SetTextIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.sindresorhus.One-Thing",
+        "APIs": [
+            {
+                "APIName": "com.sindresorhus.One-Thing.GetTextIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.sindresorhus.One-Thing.SetTextIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.skype",
+        "APIs": [
+            {
+                "APIName": "com.skype.skype.call",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.soulmen.pad",
+        "APIs": [
+            {
+                "APIName": "com.soulmen.ulysses.pad.attach",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "com.soulmen.ulysses.pad.new-sheet",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.tapbots.Ivory",
+        "APIs": [
+            {
+                "APIName": "com.tapbots.Ivory.PTHIvoryOpenIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "com.tapbots.Ivory.PTHIvoryPostStatusIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.tijo.opener",
+        "APIs": [
+            {
+                "APIName": "com.tijo.opener.Opener.show-options",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "com.todoist",
+        "APIs": [
+            {
+                "APIName": "com.todoist.ios.CreateTaskIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.tplink",
+        "APIs": [
+            {
+                "APIName": "com.tplink.kasa-ios.KasaRunSceneIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.ulyssesapp.mac",
+        "APIs": [
+            {
+                "APIName": "com.ulyssesapp.mac.ULNewSheetIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "com.ulyssesapp.mac.ULOpenIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "com.wiheads",
+        "APIs": [
+            {
+                "APIName": "com.wiheads.paste.GetItemAtIndexIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "dk.simonbs.DataJar",
+        "APIs": [
+            {
+                "APIName": "dk.simonbs.DataJar.CheckIfValueExistsIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.DataJar.DeleteValueIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.DataJar.GetChildCountIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.DataJar.GetKeysIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.DataJar.GetTypeOfValueIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.DataJar.GetValueIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.DataJar.InsertValueInArrayIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.DataJar.SetValueIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.DataJar.ViewValueIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "dk.simonbs.Jayson",
+        "APIs": [
+            {
+                "APIName": "dk.simonbs.Jayson.PrettifyJSONIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "dk.simonbs.Scriptable",
+        "APIs": [
+            {
+                "APIName": "dk.simonbs.Scriptable.CreateFileBookmarkIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.Scriptable.ParameterizedRunScriptIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "dk.simonbs.Scriptable.RunScriptInlineIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "fm.overcast",
+        "APIs": [
+            {
+                "APIName": "fm.overcast.overcast.OCCurrentEpisodeInfoIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "fm.overcast.overcast.OCPlayIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "fm.overcast.overcast.add",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "fyi.lunar.Lunar",
+        "APIs": [
+            {
+                "APIName": "fyi.lunar.Lunar.ConnectSidecarIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "fyi.lunar.Lunar.HorizontalMonitorLayoutIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "fyi.lunar.Lunar.HorizontalMonitorThreeLayoutIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "fyi.lunar.Lunar.RotateScreenIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "fyi.lunar.Lunar.Screen",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "fyi.lunar.Lunar.ThreeAboveOneMonitorLayoutIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "fyi.lunar.Lunar.TwoAboveOneMonitorLayoutIntent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "fyi.lunar.Lunar.VerticalMonitorLayoutIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "in.muditbhargava",
+        "APIs": [
+            {
+                "APIName": "in.muditbhargava.LookUp.AddToCollectionIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "in.muditbhargava.LookUp.ClipboardSearchIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "in.muditbhargava.LookUp.FindCollectedWordsIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "io.pushcut",
+        "APIs": [
+            {
+                "APIName": "io.pushcut.Pushcut.ShowNotificationIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "io.robbie",
+        "APIs": [
+            {
+                "APIName": "io.robbie.HomeAssistant.CallServiceIntent",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "io.robbie.HomeAssistant.RenderTemplateIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "is.workflow.actions",
+        "APIs": [
+            {
+                "APIName": "is.workflow.actions.addframetogif",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.addmusictoupnext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.addnewcalendar",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.addnewcontact",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.addnewevent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.addnewreminder",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.address",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.addtoplaylist",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.adjustdate",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.airdropdocument",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.airplanemode.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.alarm.create",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.alarm.toggle",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.alert",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.announcenotifications.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.appearance",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.appendnote",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.appendvariable",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.ask",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.avairyeditphoto",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.base64encode",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.bluetooth.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.calculateexpression",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.cellular.rat.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.cellulardata.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.choosefromlist",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.choosefrommenu",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.clearupnext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.cloudapp.upload",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.comment",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.conditional",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.contacts",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.converttimezone",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.correctspelling",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.count",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.createplaylist",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.date",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.delay",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.deletephotos",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.address",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.contacts",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.date",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.dictionary",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.emailaddress",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.images",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.link",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.number",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.phonenumber",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detect.text",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.detectlanguage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.dictatetext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.dictionary",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.dismisssiri",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.displaysleep",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.dnd.getfocus",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.dnd.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.documentpicker.open",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.documentpicker.save",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.downloadurl",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.dropbox.appendfile",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.dropbox.open",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.dropbox.savefile",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.email",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.encodemedia",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.evernote.append",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.evernote.get",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.evernote.getlink",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.evernote.new",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.exit",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.exportsong",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.extracttextfromimage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.append",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.createfolder",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.delete",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.getfoldercontents",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.getlink",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.move",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.rename",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.reveal",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.file.select",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.apps",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.articles",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.calendarevents",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.contacts",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.files",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.health.quantity",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.images",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.locations",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.music",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.notes",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.photos",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.reminders",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.filter.windows",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.finder.getselectedfiles",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.flashlight",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.folder",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.format.date",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.format.filesize",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.format.number",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.generatebarcode",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.get.playlist",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getarticle",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getbatterylevel",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getclassaction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getclipboard",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getcurrentlocation",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getcurrentsong",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getdevicedetails",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getdirections",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getdistance",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getepisodesforpodcast",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getframesfromimage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.gethalfwaypoint",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.gethomeaccessorystate",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.gethtmlfromrichtext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getipaddress",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getitemfromlist",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getitemname",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getitemtype",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getlastphoto",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getlastscreenshot",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getlastvideo",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getlatestbursts",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getlatestlivephotos",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getlatestphotoimport",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getmapslink",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getmarkdownfromrichtext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getmyworkflows",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getnameofemoji",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getonscreencontent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getparentdirectory",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getparkedcarlocation",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getpodcastsfromlibrary",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getrichtextfromhtml",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getrichtextfrommarkdown",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.gettext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.gettextfrompdf",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.gettimebetweendates",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.gettraveltime",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.gettypeaction",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getupcomingevents",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getupcomingreminders",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.geturlcomponent",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getvalueforkey",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getvariable",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getwebpagecontents",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.getwifi",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.giphy",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.handoff",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.handoffplayback",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.hash",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.health.quantity.log",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.health.workout.log",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.hide.app",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.homeaccessory",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.image.combine",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.image.convert",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.image.crop",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.image.flip",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.image.mask",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.image.removebackground",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.image.resize",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.image.rotate",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.imgur.upload",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.instapaper.add",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.intercom",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.lightroom.import",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.list",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.listeningmode.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.location",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.lockscreen",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.logout",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.lowpowermode.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.makegif",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.makeimagefrompdfpage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.makeimagefromrichtext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.makepdf",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.makespokenaudiofromtext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.makevideofromgif",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.makezip",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.math",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.measurement.convert",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.measurement.create",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.movewindow",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.nightshift.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.nothing",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.notification",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.number",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.number.random",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.openapp",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.openin",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.openpasswords",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.openurl",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.openworkflow",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.openxcallbackurl",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.orientationlock.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.output",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.overlayimageonimage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.overlaytext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.pausemusic",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.personalhotspot.password.get",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.personalhotspot.password.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.personalhotspot.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.phonenumber",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.photos.createalbum",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.pinboard.add",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.pinboard.get",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.playmusic",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.playpodcast",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.playsound",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.pocket.add",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.pocket.get",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.podcasts.subscribe",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.posters.get",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.posters.switch",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.postonfacebook",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.previewdocument",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.print",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.appearance",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.appstore",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.articles",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.calendarevents",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.contacts",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.files",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.health.quantity",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.images",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.itunesartist",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.itunesstore",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.locations",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.music",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.note",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.parkedcar",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.podcast",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.podcastshow",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.reminders",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.safariwebpage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.shazam",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.weather.conditions",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.properties.workflow",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.quit.app",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.readinglist",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.reboot",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.recordaudio",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.reminders.showlist",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.removeevents",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.removefromalbum",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.removereminders",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.repeat.count",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.repeat.each",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.resizewindow",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.returntohomescreen",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.ride.requestride",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.round",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.rss",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.rss.extract",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.runapplescript",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.runextension",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.runjavascriptonwebpage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.runscene",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.runshellscript",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.runsshscript",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.runworkflow",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.safari.geturl",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.savetocameraroll",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.scanbarcode",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.searchappstore",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.searchitunes",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.searchlocalbusinesses",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.searchmaps",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.searchpodcasts",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.searchweb",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.seek",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.selectcontacts",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.selectemail",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.selectphone",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.selectphoto",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.sendemail",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.sendmessage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setairdropreceiving",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setbrightness",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setclipboard",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setitemname",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setparkedcar",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setplaybackdestination",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setters.calendarevents",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setters.contacts",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setters.reminders",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setvalueforkey",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setvariable",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.setvolume",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.share",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.shazamMedia",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.showdefinition",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.showincalendar",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.showinstore",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.shownote",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.showresult",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.showwebpage",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.sirikit.donation.handle",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.skipback",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.skipforward",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.sleep",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.speaktext",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.splitpdf",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.splitscreen",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.stagemanager.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.startscreensaver",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.statistics",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.takephoto",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.takescreenshot",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.takevideo",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.text.changecase",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.text.combine",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.text.match",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.text.match.getgroup",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.text.replace",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.text.split",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.text.translate",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.timer.start",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.todoist.add",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.trello.add.board",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.trello.add.card",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.trello.add.list",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.trello.get",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.trimvideo",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.truetone.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.tweet",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.unzip",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.url",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.url.expand",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.url.getheaders",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.urlencode",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.useractivity.open",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.venmo.pay",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.venmo.request",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.vibrate",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.viewresult",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.vpn.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.waittoreturn",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.wallpaper.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.weather.currentconditions",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.weather.forecast",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.wifi.set",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.wordpress.post",
+                "iOS_or_macOS": "macOS"
+            },
+            {
+                "APIName": "is.workflow.actions.workout.start",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "ke.bou.GizmoPack",
+        "APIs": [
+            {
+                "APIName": "ke.bou.GizmoPack.UniversalVariablesIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "ke.bou.WidgetPack",
+        "APIs": [
+            {
+                "APIName": "ke.bou.WidgetPack.ImageFileIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "ke.bou.WidgetPack.LinkIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "ke.bou.WidgetPack.ModifierRelativeFrameIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "ke.bou.WidgetPack.PreviewWidgetIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "ke.bou.WidgetPack.UpdateWidgetIntent",
+                "iOS_or_macOS": null
+            },
+            {
+                "APIName": "ke.bou.WidgetPack.VerbatimTextIntent",
+                "iOS_or_macOS": null
+            }
+        ]
+    },
+    {
+        "AppName": "maccatalyst.com",
+        "APIs": [
+            {
+                "APIName": "maccatalyst.com.Christopher-Hannah.Text-Case.TextCaseIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "me.damir",
+        "APIs": [
+            {
+                "APIName": "me.damir.dropover-mac.AddToShelfIntent",
+                "iOS_or_macOS": "macOS"
+            }
+        ]
+    },
+    {
+        "AppName": "net.shinyfrog",
+        "APIs": [
+            {
+                "APIName": "net.shinyfrog.bear-iOS.add",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "net.shinyfrog.bear-iOS.contents",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "net.shinyfrog.bear-iOS.create",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "net.shinyfrog.bear-iOS.grab",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "net.shinyfrog.bear-iOS.open",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "net.shinyfrog.bear-iOS.search",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "net.shinyfrog.bear-iOS.SFCreateNoteIntent",
+                "macOrIos": "iOS"
+            },
+            {
+                "APIName": "net.shinyfrog.bear-iOS.SFOpenNoteIntent",
+                "macOrIos": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "net.whatsapp",
+        "APIs": [
+            {
+                "APIName": "net.whatsapp.WhatsApp.openin",
+                "iOS_or_macOS": "iOS"
+            },
+            {
+                "APIName": "net.whatsapp.WhatsApp.send",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    },
+    {
+        "AppName": "org.joinmastodon",
+        "APIs": [
+            {
+                "APIName": "org.joinmastodon.app.SendPostIntent",
+                "iOS_or_macOS": "iOS"
+            }
+        ]
+    }
+]
