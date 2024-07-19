@@ -83,3 +83,19 @@ ShortcutsBench包括三个部分：
 
 ## 智能体能力评测
 
+随后我们进行如[ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132)所述的智能体能力评测，相关代码如[`all_experiments.py`](./all_experiments.py)所示。
+该代码生成：
+- `experiment_res_deepseek-chat.jsonl`
+- `experiment_res_deepseek-coder.jsonl`
+- `experiment_res_gemini-1.5-flash.jsonl`
+- `experiment_res_gemini-1.5-pro.jsonl`
+- `experiment_res_GLM-4-Air.jsonl`
+- `experiment_res_gpt-3.5-turbo.jsonl`
+- `experiment_res_meta-llama_Llama-3-70b-chat-hf.jsonl`
+- `experiment_res_qwen2-57b-a14b-instruct.jsonl`
+- `experiment_res_qwen2-72b-instruct.jsonl`
+文件，这些文件即为结果。
+
+这些文件可以从[Google云盘](https://drive.google.com/file/d/1jnJj5DhMy7Pat7TeVpA1USZWBmyjIWUo/view?usp=sharing)或者[百度网盘](https://pan.baidu.com/s/1zahYXa96dN6ZfPHlakAyIw?pwd=uwqh)下载，解压密码为`shortcutsbench`。
+
+随后我们使用[`all_experiments_res.py`](./all_experiments_res.py)进行绘图和分析。

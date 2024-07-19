@@ -118,7 +118,7 @@ if __name__ == "__main__":
     all_shortcuts_paras_that_is_necessary_in_query = get_all_shortcuts_paras_that_is_necessary_in_query(
         list(final_detailed_records.values()), all_api2paraname2paratype)
 
-    generated_success_queries_path = os.path.join(SHORTCUT_DATA, "tmp", "generated_success_queries.json")
+    generated_success_queries_path = os.path.join(SHORTCUT_DATA, "generated_success_queries.json")
     with open(generated_success_queries_path, "r") as f:
         generated_success_queries = json.load(f)
     print(f"Number of queries generated：{len(generated_success_queries)}")
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     `all_shortcuts_paras_that_is_necessary_in_query`, and `generated_success_queries`.
     """
     already_significant_shortcuts = []
-    already_significant_shortcuts_path = os.path.join(SHORTCUT_DATA, "tmp", f"{model_name}_check_intersection_of_query_and_para_necessary.json")
+    already_significant_shortcuts_path = os.path.join(SHORTCUT_DATA, f"{model_name}_check_intersection_of_query_and_para_necessary.json")
     if os.path.exists(already_significant_shortcuts_path):
         with open(already_significant_shortcuts_path, "r") as f:
             already_significant_shortcuts = [json.loads(line) for line in f.readlines()]
@@ -251,20 +251,18 @@ if __name__ == "__main__":
 
                         cost_path = os.path.join(
                             SHORTCUT_DATA, 
-                            "tmp", 
                             f"cost_{model_name}_check_intersection_of_query_and_para_necessary.json")
-                        with open(cost_path, "w") as f:
-                            json.dump({
-                                "input_token_count": input_token_count, 
-                                "output_token_count": output_token_count, 
-                                "input_cost": input_cost, 
-                                "output_cost": output_cost, 
-                                "total_cost": total_cost
-                                }, f, indent=4, ensure_ascii=False)
+                        # with open(cost_path, "w") as f:
+                        #     json.dump({
+                        #         "input_token_count": input_token_count, 
+                        #         "output_token_count": output_token_count, 
+                        #         "input_cost": input_cost, 
+                        #         "output_cost": output_cost, 
+                        #         "total_cost": total_cost
+                        #         }, f, indent=4, ensure_ascii=False)
                         
                         res_path = os.path.join(
                             SHORTCUT_DATA, 
-                            "tmp", 
                             f"{model_name}_check_intersection_of_query_and_para_necessary.json")
                         with open(res_path, "a") as f:
                             write_str = ""
@@ -316,21 +314,19 @@ if __name__ == "__main__":
             if cnt % 20 == 0:
                 print(f"Processed {cnt} results.")
                 cost_path = os.path.join(
-                    SHORTCUT_DATA, 
-                    "tmp", 
+                    SHORTCUT_DATA,
                     f"cost_{model_name}_check_intersection_of_query_and_para_necessary.json")
-                with open(cost_path, "w") as f:
-                    json.dump({
-                        "input_token_count": input_token_count, 
-                        "output_token_count": output_token_count, 
-                        "input_cost": input_cost, 
-                        "output_cost": output_cost, 
-                        "total_cost": total_cost
-                        }, f, indent=4, ensure_ascii=False)
+                # with open(cost_path, "w") as f:
+                #     json.dump({
+                #         "input_token_count": input_token_count, 
+                #         "output_token_count": output_token_count, 
+                #         "input_cost": input_cost, 
+                #         "output_cost": output_cost, 
+                #         "total_cost": total_cost
+                #         }, f, indent=4, ensure_ascii=False)
                 
                 res_path = os.path.join(
-                    SHORTCUT_DATA,  
-                    "tmp", 
+                    SHORTCUT_DATA,
                     f"{model_name}_check_intersection_of_query_and_para_necessary.json")
                 with open(res_path, "a") as f:
                     write_str = ""
@@ -344,22 +340,20 @@ if __name__ == "__main__":
     if not pre_compute_cost:
 
         cost_path = os.path.join(
-            SHORTCUT_DATA, 
-            "tmp", 
+            SHORTCUT_DATA,
             f"cost_{model_name}_check_intersection_of_query_and_para_necessary.json")
         
-        with open(cost_path, "w") as f:
-            json.dump({
-                "input_token_count": input_token_count, 
-                "output_token_count": output_token_count, 
-                "input_cost": input_cost, 
-                "output_cost": output_cost, 
-                "total_cost": total_cost
-                }, f, indent=4, ensure_ascii=False)
+        # with open(cost_path, "w") as f:
+        #     json.dump({
+        #         "input_token_count": input_token_count, 
+        #         "output_token_count": output_token_count, 
+        #         "input_cost": input_cost, 
+        #         "output_cost": output_cost, 
+        #         "total_cost": total_cost
+        #         }, f, indent=4, ensure_ascii=False)
             
         res_path = os.path.join(
-            SHORTCUT_DATA, 
-            "tmp", 
+            SHORTCUT_DATA,
             f"{model_name}_check_intersection_of_query_and_para_necessary.json")
         
         with open(res_path, "a") as f:
@@ -371,3 +365,19 @@ if __name__ == "__main__":
     else:
         # Pre-computed token cnt: 22095963, cost 11.0479815
         print(f"Pre-computed token cnt: {input_pre_cal_count}, cost {input_pre_cal_count / 1000000 * input_price_every_million}, number of paras {input_para_sum}, input_action_num {input_action_num}, input_shortcut_num {input_shortcut_num}")
+
+    def jsonl_to_json(jsonl_file_path, json_file_path):
+        result_dict = {}
+        
+        with open(jsonl_file_path, 'r', encoding='utf-8') as jsonl_file:
+            for line in jsonl_file:
+                record = json.loads(line)
+                url = record.pop('URL')
+                result_dict[url] = record
+        
+        with open(json_file_path, 'w', encoding='utf-8') as json_file:
+            json.dump(result_dict, json_file, ensure_ascii=False, indent=4)
+
+    src_path = os.path.join(SHORTCUT_DATA, f"{model_name}_check_intersection_of_query_and_para_necessary.json")
+    dst_path = os.path.join(SHORTCUT_DATA, f"json-{model_name}_check_intersection_of_query_and_para_necessary.json")
+    jsonl_to_json(src_path, dst_path)
