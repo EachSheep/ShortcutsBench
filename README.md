@@ -35,9 +35,9 @@ Shortcuts are workflows🔄 created by developers in the Shortcuts app using a u
   3. A cleaned version of the dataset from (2), excluding shortcuts with inaccessible APIs, described in `1_final_detailed_records_filter_apis.json` within `deves_dataset/dataset_src/README.md`.
 - [x] [ShortcutsBench Paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
 - [x] APIs involved in the shortcuts: Includes API metadata (function description, name, parameter names, parameter types, default values, return value names, etc.) and the app itself 📱. For detailed information, refer to the description in `deves_dataset/dataset_src_valid_apis/README.md`.
+- [x] Experimental code and logs.
 - [ ] Explanation of shortcut fields.
 - [ ] Explanation of API fields.
-- [ ] Experimental code and logs.
 - [ ] [ShortcutsBench Paper Appendix](), []()
 
 **How can this project help you?**
