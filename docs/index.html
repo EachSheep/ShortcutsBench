@@ -216,7 +216,9 @@
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-six-fifths">
-          <h2 class="title is-3">Advantages Over Existing Benchmarks</h2>
+          <h2 class="title is-3"><img id="painting_icon" width="3%" src="https://mmevalpro.github.io/"><span
+              style="color: #9d32d7;">Advantages</span>
+          </h2>
           <div class="content has-text-justified">
             <p>
               To our knowledge, ShortcutsBench is the first large-scale agent benchmark based on real APIs, considering
@@ -236,6 +238,78 @@
         </div>
       </div>
       <!--/ Abstract. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Evaluation Setup. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+          <h2 class="title is-3"><span style="color: #9d32d7;">Evaluation Setup</span></h2>
+          <div class="content has-text-justified">
+            <h3 class="title is-4">Model</h3>
+            <p>
+              Referencing existing work, we selected and tested <strong>9 most advanced LLMs</strong> to construct
+              API-based agents.
+              These models include <strong>4 closed-sourced LLMs</strong> like <code>Gemini-1.5-Pro</code>,
+              <code>Gemini-1.5-Flash</code>,
+              <code>GPT-3.5-turbo</code>, and <code>ChatGLM-4-Air</code>, and <strong>5 open-source LLMs</strong> like
+              <code>LLaMA-3-70B</code>, <code>QWen-2-70B</code>, <code>QWen-2-57B</code>, <code>Deepseek-2-Chat</code>,
+              and
+              <code>Deepseek-2-coder</code>. These models were chosen based on their performance compared to
+              <code>GPT-4</code> and
+              <code>GPT-3.5-turbo</code>. We did not evaluate smaller LLMs as they cannot handle advanced tasks
+              effectively.
+            </p>
+            <h3 class="title is-4">Prompt Template</h3>
+            <p>
+              Following existing work, we slightly modified the <strong>ReACT</strong> templates to construct the
+              API-based agents.
+              The same prompt templates were used for all research questions to ensure consistency. These agents are
+              designed to
+              correctly select APIs, fill in parameters, and request necessary information when needed.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Evaluation Setup. -->
+
+      <!-- Result Analysis. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+          <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis</span></h2>
+          <div class="content has-text-justified">
+            <div class="content has-text-centered">
+              <img src="./static/images/experiments1_res.pdf"
+                alt="The API selection accuracy on queries with different complexity levels.">
+              <figcaption>The API selection accuracy on queries with different complexity levels.</figcaption>
+            </div>
+            <div class="content has-text-centered">
+              <img src="./static/images/experiments1_models_boxplot.pdf"
+                alt="The API selection accuracy difference of each LLM across 8 task types.">
+              <figcaption>The API selection accuracy difference of each LLM across 8 task types.</figcaption>
+            </div>
+            <div class="content has-text-centered">
+              <img src="./static/images/experiments1_categories_res.pdf"
+                alt="The API selection accuracy of each task type on 9 API-based agents.">
+              <figcaption>The API selection accuracy of each task type on 9 API-based agents.</figcaption>
+            </div>
+            <p><strong>Key Findings:</strong></p>
+            <ul>
+              <li><strong>Open-source LLMs perform comparably to closed-source models on lower-difficulty tasks</strong>
+                but still lag on higher-difficulty tasks.</li>
+              <li><strong>LLM-based agents perform poorly on tasks requiring multi-step reasoning</strong>, even
+                advanced models struggle with high-difficulty tasks.</li>
+              <li><strong>Significant performance variations across different types of tasks</strong> for agents built
+                with the same LLM.</li>
+              <li><strong>Better performance on daily life tasks</strong> like Lifestyle & Social, but poorer on
+                professional tasks like Development & API.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/ Result Analysis. -->
     </div>
   </section>
 
