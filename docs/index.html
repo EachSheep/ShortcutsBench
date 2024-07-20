@@ -216,8 +216,9 @@
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-six-fifths">
-          <h2 class="title is-3"><img id="painting_icon" width="3%" src="https://mmevalpro.github.io/"><span
-              style="color: #9d32d7;">Advantages</span>
+          <h2 class="title is-3">
+            <img id="painting_icon" width="3%">
+            <span style="color:#9d32d7;">Advantages</span>
           </h2>
           <div class="content has-text-justified">
             <p>
@@ -245,105 +246,83 @@
     <div class="container is-max-desktop">
       <!-- Evaluation Setup. -->
       <div class="columns is-centered has-text-centered">
-        <div class="column is-six-fifths">
-          <h2 class="title is-3"><span style="color: #9d32d7;">Evaluation Setup</span></h2>
+        <div class="column is-12">
+          <h2 class="title is-3" style="color: #9d32d7;">Evaluation Setup</h2>
           <div class="content has-text-justified">
             <h3 class="title is-4">Model</h3>
             <p>
-              Referencing existing work, we selected and tested <strong>9 most advanced LLMs</strong> to construct
-              API-based agents.
-              These models include <strong>4 closed-sourced LLMs</strong> like <code>Gemini-1.5-Pro</code>,
-              <code>Gemini-1.5-Flash</code>,
-              <code>GPT-3.5-turbo</code>, and <code>ChatGLM-4-Air</code>, and <strong>5 open-source LLMs</strong> like
-              <code>LLaMA-3-70B</code>, <code>QWen-2-70B</code>, <code>QWen-2-57B</code>, <code>Deepseek-2-Chat</code>,
-              and
-              <code>Deepseek-2-coder</code>. These models were chosen based on their performance compared to
-              <code>GPT-4</code> and
-              <code>GPT-3.5-turbo</code>. We did not evaluate smaller LLMs as they cannot handle advanced tasks
-              effectively.
+              Referencing existing work, we selected and tested <strong>9 most advanced LLMs</strong>...
             </p>
             <h3 class="title is-4">Prompt Template</h3>
             <p>
-              Following existing work, we slightly modified the <strong>ReACT</strong> templates to construct the
-              API-based agents.
-              The same prompt templates were used for all research questions to ensure consistency. These agents are
-              designed to
-              correctly select APIs, fill in parameters, and request necessary information when needed.
+              Following existing work, we slightly modified the <strong>ReACT</strong> templates...
             </p>
           </div>
         </div>
       </div>
-      <!--/ Evaluation Setup. -->
-
       <!-- Result Analysis. -->
       <div class="columns is-centered has-text-centered">
-        <div class="column is-six-fifths">
-          <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis: API Selection</span></h2>
+        <div class="column is-12">
+          <h2 class="title is-3" style="color: #9d32d7;">Result Analysis: API Selection</h2>
           <div class="content has-text-justified">
-            <div class="content has-text-centered">
-              <img src="./static/images/experiments1_res.png"
-                alt="The API selection accuracy on queries with different complexity levels.">
-              <figcaption>The API selection accuracy on queries with different complexity levels.</figcaption>
-            </div>
-            <div class="content has-text-centered">
-              <img src="./static/images/experiments1_models_boxplot.png"
-                alt="The API selection accuracy difference of each LLM across 8 task types.">
-              <figcaption>The API selection accuracy difference of each LLM across 8 task types.</figcaption>
+            <div class="columns is-vcentered">
+              <!-- Place images side by side -->
+              <div class="column is-half">
+                <img src="./static/images/experiments1_res.png"
+                  alt="The API selection accuracy on queries with different complexity levels." style="width: 100%;">
+                <figcaption>The API selection accuracy on queries with different complexity levels.</figcaption>
+              </div>
+              <div class="column is-half">
+                <img src="./static/images/experiments1_models_boxplot.png"
+                  alt="The API selection accuracy difference of each LLM across 8 task types." style="width: 100%;">
+                <figcaption>The API selection accuracy difference of each LLM across 8 task types.</figcaption>
+              </div>
             </div>
             <div class="content has-text-centered">
               <img src="./static/images/experiments1_categories_res.png"
-                alt="The API selection accuracy of each task type on 9 API-based agents.">
+                alt="The API selection accuracy of each task type on 9 API-based agents." style="width: 100%;">
               <figcaption>The API selection accuracy of each task type on 9 API-based agents.</figcaption>
             </div>
             <p><strong>Key Findings:</strong></p>
             <ul>
-              <li><strong>Open-source LLMs perform comparably to closed-source models on lower-difficulty tasks</strong>
-                but still lag on higher-difficulty tasks.</li>
-              <li><strong>LLM-based agents perform poorly on tasks requiring multi-step reasoning</strong>, even
-                advanced models struggle with high-difficulty tasks.</li>
-              <li><strong>Significant performance variations across different types of tasks</strong> for agents built
-                with the same LLM.</li>
-              <li><strong>Better performance on daily life tasks</strong> like Lifestyle & Social, but poorer on
-                professional tasks like Development & API.</li>
+              <li><strong>Open-source LLMs perform comparably to closed-source models on lower-difficulty
+                  tasks</strong>...</li>
+              <li><strong>LLM-based agents perform poorly on tasks requiring multi-step reasoning</strong>...</li>
+              <li><strong>Significant performance variations across different types of tasks</strong>...</li>
+              <li><strong>Better performance on daily life tasks</strong>...</li>
             </ul>
           </div>
         </div>
       </div>
-      <!--/ Result Analysis. -->
     </div>
   </section>
 
   <div class="columns is-centered has-text-centered">
-    <div class="column is-six-fifths">
-      <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis: API Parameter Value Filling</span></h2>
+    <div class="column is-12">
+      <h2 class="title is-3" style="color: #9d32d7;">Result Analysis: API Parameter Value Filling</span></h2>
       <div class="content has-text-justified">
         <div class="content has-text-centered">
           <figure>
             <img src="./static/images/experiments_combined_heatmaps.png"
-              alt="Accuracy of primitive data types and enum data types (upper) and outputs from previous actions (lower).">
+              alt="Accuracy of primitive data types and enum data types (upper) and outputs from previous actions (lower)."
+              style="width: 100%;">
             <figcaption>Accuracy of primitive data types & enum data types (upper) and outputs from previous actions
               (lower).</figcaption>
           </figure>
           <figure>
             <img src="./static/images/experiments2_return_para_error.png"
-              alt="The error rates for action parameter value filling.">
+              alt="The error rates for action parameter value filling." style="width: 100%;">
             <figcaption>The error rates for action parameter value filling.</figcaption>
           </figure>
         </div>
         <p><strong>Key Findings:</strong></p>
         <ul>
           <li><strong>Increased task difficulty has a much smaller impact on the accuracy of parameter filling</strong>
-            for the most intelligent LLMs like Gemini-1.5-Pro, especially when using outputs from previous actions. This
-            indicates that the greatest limitation lies in the reasoning and planning capabilities required for API
-            selection.</li>
+            for the most intelligent LLMs like Gemini-1.5-Pro...</li>
           <li><strong>API parameter filling remains a bottleneck</strong> for cost-effective LLMs like GPT-3.5-turbo and
-            ChatGLM-4-Air, with performance decreasing significantly as task difficulty increases.</li>
-          <li><strong>Extracting relevant parameters from the user's query</strong> and filling them according to the
-            query and API description is more challenging than using the outputs of previous actions. The accuracy drop
-            ranges from 2.55% (GPT-3.5-turbo) to 15.39% (Deepseek-2-Chat).</li>
-          <li><strong>Errors for cost-effective LLMs</strong> like GPT-3.5-turbo and ChatGLM-4-Air mainly stem from
-            incorrect output formats and wrong API selections. Powerful LLMs like Gemini-1.5-Pro rarely make format
-            errors, whereas cost-effective models frequently make mistakes in both output format and API selection.</li>
+            ChatGLM-4-Air...</li>
+          <li><strong>Extracting relevant parameters from the user's query</strong>...</li>
+          <li><strong>Errors for cost-effective LLMs</strong>...</li>
         </ul>
       </div>
     </div>
@@ -354,12 +333,13 @@
       <!-- Result Analysis. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-six-fifths">
-          <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis: Recognition of Need for Input</span></h2>
+          <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis: Recognition of Need for Input</span>
+          </h2>
           <div class="content has-text-justified">
             <p><strong>Key Findings:</strong></p>
             <ul>
               <li><strong>All agents perform poorly</strong> at recognizing necessary system and user inputs. Overall
-                accuracy ranges between <strong>30.55\%</strong> (GPT-3.5-turbo) and <strong>55.18\%</strong>
+                accuracy ranges between <strong>30.55%</strong> (GPT-3.5-turbo) and <strong>55.18%</strong>
                 (Deepspeed-2-coder). Larger LLMs like Deepspeed-2-chat (236B) demonstrate better
                 recognition accuracy.</li>
             </ul>
