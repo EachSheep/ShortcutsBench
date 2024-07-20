@@ -25,71 +25,63 @@
 
 **What are Shortcuts?**
 
-Shortcuts are workflows🔄 created by developers in the Shortcuts app using a user-friendly graphical interface🖼️. According to [Apple](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios), they are "a quick way to get one or more tasks done with your apps."📱✨
+Shortcuts are workflows built by developers in the Shortcuts app using a user-friendly graphical interface 🖼️ with the provided basic actions. [Apple](https://support.apple.com/en-us/guide/shortcuts/welcome/ios) describes them as "a quick way to get one or more tasks done with your apps." 📱
 
-**Project Task List (Continuously Updating)📋**
+**Project Task List (Continuously Updated) 📋**
 
-- [x] [Shortcuts Dataset](https://github.com/hiyoungshen/ShortcutsBench): Includes metadata (title, description, source, etc.), iCloud links, and source files for shortcuts. The dataset has three versions: 
-  1. A bilingual dataset for regular users, with metadata indicated by `users_dataset/${website name}/${category name}/README.md` and source data as described in [Obtain the Shortcut Dataset](#obtain-the-shortcut-dataset), allowing users to find suitable shortcuts for their needs; 
-  2. For convenience, all shortcuts from version (1) are compiled into a single file, `1_final_detailed_records_remove_repeat.json`, available for download as described in `deves_dataset/dataset_src/README.md`; 
-  3. A cleaned version of the dataset from (2), excluding shortcuts with inaccessible APIs, described in `1_final_detailed_records_filter_apis.json` within `deves_dataset/dataset_src/README.md`.
-- [x] [ShortcutsBench Paper](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
-- [x] APIs involved in the shortcuts: Includes API metadata (function description, name, parameter names, parameter types, default values, return value names, etc.) and the app itself 📱. For detailed information, refer to the description in `deves_dataset/dataset_src_valid_apis/README.md`.
-- [x] Experimental code and logs.
-- [ ] Explanation of shortcut fields.
-- [ ] Explanation of API fields.
-- [ ] [ShortcutsBench Paper Appendix](), []()
+- [x] [ShortcutsBench Paper Main Text](https://arxiv.org/pdf/2407.00132)
+- [ ] [ShortcutsBench Paper Appendix (Coming Soon)]()
+- [x] Scripts for Data Acquisition, Data Cleaning and Processing, Experiment Code, and Experiment Results
+- [ ] Explanation of Fields in Shortcut Files
+- [ ] Explanation of Fields in API Information
+- [x] We provide shortcuts with bilingual explanations for regular users: listed in `users_dataset/${website name}/${category name}/README.md` (English) or `users_dataset/${website name}/${category name}/README_ZH.md` (Chinese). Regular users can find suitable shortcuts for their work or life in our repository, which they can import into the Shortcuts app on Apple devices. Each shortcut includes:
+    1. The iCloud link for the shortcut
+    2. A description of the shortcut's functionality
+    3. The source of the shortcut
 
-**How can this project help you?**
+* **For Shortcut Researchers**: `ShortcutsBench` provides: (1) Shortcuts (i.e., sequences of actions in `golden`); (2) Queries (i.e., tasks assigned to the agent); (3) APIs (i.e., tools available to the agent). For details on obtaining and generating the files provided below, see [`deves_dataset/dataset_src/README.md` (English)](deves_dataset/dataset_src/README.md) or [Chinese](deves_dataset/dataset_src/README_ZH.md), [`deves_dataset/dataset_src_valid_apis/README.md` (English)](deves_dataset/dataset_src_valid_apis/README.md) or [Chinese](deves_dataset/dataset_src_valid_apis/README_ZH.md), and [`experiments/README.md` (English)](experiments/README.md) or [Chinese](experiments/README_ZH.md)
+    - [x] Shortcuts
+        - [x] Raw Shortcut Dataset, i.e., the file `1_final_detailed_records_remove_repeat.json`, can be downloaded as described in [`deves_dataset/dataset_src/README.md`](deves_dataset/dataset_src/README.md) (English) or [`deves_dataset/dataset_src/README_ZH.md`](deves_dataset/dataset_src/README_ZH.md) (Chinese), or directly from [Google Drive](https://drive.google.com/file/d/1oijSStXYGcmv6-THYVb6j0oCIfto_bVh/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1VJMDcWv3diRzecQisA80bQ?pwd=4wv1) (password: `shortcutsbench`).
 
-At [Apple's WWDC'24](https://developer.apple.com/wwdc24/), many AI features were introduced to Apple devices🤖. We're very interested in how Apple integrates large language models, such as ChatGPT, with devices to provide a smarter user experience📱💡. In this process, shortcuts will certainly play a crucial role!🚀
+            The APIs involved in the shortcuts in this file may not have corresponding API definition files.
 
-* As a Shortcuts user📱:
-  * You can find your favorite shortcuts in this dataset📱.
-  * You can integrate more shortcuts into your Apple devices to have Siri handle complex tasks🗣️.
-  * ......
+        - [x] Filtered Shortcut Dataset, i.e., the file `1_final_detailed_records_filter_apis.json`, can be downloaded as described in [`deves_dataset/dataset_src/README.md`](deves_dataset/dataset_src/README.md) (English) or [`deves_dataset/dataset_src/README_ZH.md`](deves_dataset/dataset_src/README_ZH.md) (Chinese), or directly from [Google Drive](https://drive.google.com/file/d/12DJ7kWe8oRgVgdLyfr1VItETyCrpO-7O/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/12cAPTPsdzE4DBSESXCOAoA?pwd=j0p8) (password: `shortcutsbench`).
 
-* As a Shortcuts enthusiast💡:
-  * You can use the vast number of shortcut links (and corresponding source files) in this dataset to study how to write shortcuts and customize your workflows💡.
-  * You can contribute more shortcuts to this project📤.
-  * ......
+            The APIs involved in the shortcuts in this file all have corresponding API definition files. This file is a cleaned version of `1_final_detailed_records_remove_repeat.json`. If a shortcut contains APIs without definition files, the shortcut is removed.
 
-* As a researcher🔬:
-  * Study the construction of automated workflows: Shortcuts are essentially workflows composed of a series of API calls (actions) provided by Apple and third-party apps🔍.
-  * Study low-code programming: Shortcuts include code features such as branching, looping, and variable assignment while having a user-friendly graphical interface🖥️.
-  * Study API-based agents: Allow large language models to autonomously decide if, when, and how to use APIs based on user queries (tasks)🔧.
-  * Study how to fine-tune large language models with shortcuts to closely integrate language models with phones, computers, and smartwatches, realizing the vision of an "LLM-based operating system"📈.
-  * ......
- 
-**🌟Advantages of ShortcutsBench Compared to Existing API-Based Agent Datasets🌟**
+        - [x] Shortcuts Dataset `<=30`, i.e., the file `1_final_detailed_records_filter_apis_leq_30.json`, can be downloaded as described in [`experiments/README.md`](deves_dataset/dataset_src/README.md) (English) or [`experiments/README_ZH.md`](deves_dataset/dataset_src/README_ZH.md) (Chinese), or directly from [Google Drive](https://drive.google.com/file/d/1Xw8PI9FH_ud6_S5gR-xpneFDZsCoQHQM/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1NiKxy1KL9dNgIYq7aOZ8sA?pwd=sx6u) (password: `shortcutsbench`).
 
-SHORTCUTSBENCH has a great advantage in the realness, richness, and complexity of APIs, queries, and corresponding action sequences, the validity of action sequences, accurate parameter value filling, the awareness for asking information from the system or the users, and the overall scale.
+            Considering the context length limitation of language models, we only evaluated shortcuts with lengths `<=30` in the [ShortcutsBench paper](https://arxiv.org/pdf/2407.00132).
 
-To our best known, SHORTCUTSBENCH is the first large-scale real API-based agent benchmark considering APIs, queries, and corresponding action sequences. SHORTCUTSBENCH provides rich real APIs, queries with various difficulties and task types, high-quality human-annotated action sequences by shortcuts developers, along queries from real user demands. Moreover, it also provides precise values for parameter filling, including primitive data types, enum types, and the use of output from previous actions for parameter values, as well as evaluations of the agent’s awareness in requesting necessary information from the system or user. Furthermore, the scale of APIs, queries, and the corresponding action sequences in SHORTCUTSBENCH is comparable or even better to benchmarks and datasets created by LLM or modified by existing datasets. The overall comparison between SHORTCUTSBENCH and existing benchmarks / datasets is listed below.
-![Example Image](./assets/Comparison.png)
+    - [x] Queries. The generated queries are shown in `generated_success_queries.json`, which can be obtained from [Google Drive](https://drive.google.com/file/d/1XzGYIUE0vXTiERJm2yVLZ90knb4uchQ2/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1RIRmJyc5y1hhnyMZBsAqUQ?pwd=y0er) (password: `shortcutsbench`).
 
-**If you find this project helpful, please give us a star⭐️! Thank you for your support!🙏**
+        The queries are generated based on `1_final_detailed_records_filter_apis_leq_30.json`.
 
-**Keywords**: Shortcuts, Apple, WWDC'24, Siri, iOS, macOS, watchOS, Workflow, API Call, Low-Code Programming, Intelligent Agent, Large Language Model
+    - [x] APIs. The obtained APIs are shown in `4_api_json_filter.json`, which can be obtained from [Google Drive](https://drive.google.com/file/d/1ZFk6IybvUq8BY8uF06ckqMii-dVV5-lF/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1uEYXnTbFz7Nvaunvv8F6_w?pwd=zpft) (password: `shortcutsbench`).
 
-## What can Shortcuts do for you?
+        `4_api_json_filter.json` has been manually deduplicated, but a few duplicates remain. The raw unprocessed files extracted directly from the app are in `4_api_json.json`, which can be obtained from [Google Drive](https://drive.google.com/file/d/1clvUZ8MOcziy9rCg5ugj5V9O0kg7-iCK/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1uM3gJPBr_JRPw9SaZVzXSg?pwd=ghsl) (password: `shortcutsbench`).
 
-Shortcuts can help you complete various complex tasks with one click! For example:
+## How can this project help you?
+
+The [Apple Developer Conference WWDC'24](https://developer.apple.com/wwdc24/) introduced a lot of AI features on Apple devices 🤖. We are very interested in how Apple combines large language models like ChatGPT with devices to provide users with a smarter experience 💡. In this process, shortcuts will play a significant role! 🚀
+
+### As a Shortcut User and Enthusiast 📱
+
+You can find your favorite shortcuts in this dataset 📱 to help you complete various complex tasks with one click! For example:
 
 * 🏡 **Daily Life** 🤹
-  * [Find Nearby Wine Shops](https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e)
-  * [Holiday Reminder](https://www.icloud.com/shortcuts/5b3607d300e84e3d99889c7fb0258b92)
+  * [Holiday Reminders](https://www.icloud.com/shortcuts/5b3607d300e84e3d99889c7fb0258b92)
   * [Sign in to Baidu Tieba](https://www.icloud.com/shortcuts/084dc19b51904a8a98e9135159fd2a61)
   * ......
 
-* 🛍️ **Shoppers** 🛒
+* 🛍️ **Shopping Enthusiasts** 🛒
   * [Buy PUBG Mobile UC](https://www.icloud.com/shortcuts/7234c2d743004377b4c74ea01d160648)
-  * [Copy Taobao Command](https://www.icloud.com/shortcuts/e8dabf3b52eb412f9bdfeb6ce163cec3)
+  * [Copy Taobao Password](https://www.icloud.com/shortcuts/e8dabf3b52eb412f9bdfeb6ce163cec3)
   * ......
 
 * 🧑‍🎓 **Students** 🧮
   * [Calculator](https://www.icloud.com/shortcuts/477e692d2646448fb6364539b0fcb608)
-  * [Relaxation](https://www.icloud.com/shortcuts/5d1f7e70a3f24493be92be2ed427c070)
+  * [Relax Your Mind](https://www.icloud.com/shortcuts/5d1f7e70a3f24493be92be2ed427c070)
   * ......
 
 * ⌨️ **Writers** 🔣
@@ -103,63 +95,74 @@ Shortcuts can help you complete various complex tasks with one click! For exampl
 
 * .....
 
+### As a Researcher 🔬
+* Research on building automated workflows: Shortcuts are essentially workflows composed of a series of API calls (actions) provided by Apple and third-party apps 🔍.
+* Research on low-code programming: Shortcuts include features like branches, loops, and variable assignments, while having a user-friendly graphical interface 🖥️.
+* Research on API-based agents: Enabling large language models to autonomously decide whether, when, and how to use APIs based on user queries (tasks) 🔧.
+* Research on fine-tuning large language models using shortcuts to closely integrate language models with phones, computers, and smartwatches, achieving the vision of an "operating system based on large language models" 📈.
+* ......
 
-**Want more?✨**
+## 🌟**Advantages of ShortcutsBench Over Existing API-Based Agent Datasets**🌟
 
-Check out the shortcuts we collected in this project [📂](#user-guide-for-shortcuts-users📱).
+SHORTCUTSBENCH has significant advantages in terms of the authenticity, richness, and complexity of APIs, the validity of queries and corresponding action sequences, the accurate filling of parameter values, the awareness of obtaining information from the system or users, and the overall scale.
 
-## User Guide for Shortcuts Users📱
+To our knowledge, SHORTCUTSBENCH is the first large-scale agent benchmark based on real APIs, considering APIs, queries, and corresponding action sequences. SHORTCUTSBENCH provides a rich set of real APIs, queries of varying difficulty and task types, high-quality human-annotated action sequences (provided by shortcut developers), and queries from real user needs. Additionally, it offers precise parameter value filling, including raw data types, enumeration types, and using outputs from previous actions as parameter values, and evaluates the agent's awareness of requesting necessary information from the system or users. Moreover, the scale of APIs, queries, and corresponding action sequences in SHORTCUTSBENCH rivals or even surpasses benchmarks and datasets created by LLMs or modified from existing datasets. A comprehensive comparison between SHORTCUTSBENCH and existing benchmarks/datasets is shown in the table below.
 
-**Search for the Shortcuts You Want🔍**
+![Example Image](./assets/Comparison.png)
 
-Wondering where our shortcuts are? How to search for the shortcuts you need in this project? Follow these steps:
+**If you find this project helpful, please give us a Star ⭐️! Thank you for your support! 🙏**
 
-1. In this repository, `users_dataset/${website name}/${category name}/README.md` files record the metadata of all shortcuts in that category, including name, description, iCloud download link, etc. Each `README.md` file is structured as follows:
-    ```markdown
-    ### Name: Wine Shops # Shortcut name
-    - URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # Shortcut iCloud link
-    - Source: https://shortcutsgallery.com # Shortcut source store
-    - Description: Look for Wine shop near by you # Shortcut function description
-    ```
-2. Use `Ctrl+F` to search directly in the browser based on shortcut name keywords🔎.
+**Keywords**: Shortcuts, Apple, WWDC'24, Siri, iOS, macOS, watchOS, Workflow, API Calls, Low-Code Programming, Agent, Large Language Model
 
-You can also visit [Shortcut Collection Sites](#data-sources-and-links-) to search for the shortcuts you want🌐.
+## User Guide for Shortcuts (For Users) 📱
 
-**How to Import the Shortcuts You Found📥**
+### Search for the Shortcut You Want 🔍
 
-On an Apple device, clicking the iCloud link in the URL will automatically open and import the shortcut into your Shortcuts app📲.
+In this repository, the `users_dataset/${website name}/${category name}/README.md` file records the metadata of all shortcuts in the category, including name, description, iCloud download link, etc. Each `README.md` file follows this structure:
 
-## User Guide for Developers and Researchers📚
+```markdown
+### Name: Wine Shops # Shortcut Name
+- URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # iCloud Link
+- Source: https://shortcutsgallery.com # Source
+- Description: Look for Wine shops near you # Description
+```
 
-### Obtain the Shortcut Dataset
+Use the shortcut `Ctrl + F` to search by keyword in the shortcut name directly in your browser 🔎. You can also visit [Shortcut Collection Sites](#data-sources-and-links-🌐) to search for the shortcuts you want 🌐.
 
-You can download shortcuts one by one from the iCloud links in the [User Guide](#user-guide-for-shortcuts-users) or get the complete data from the following links:
+### Import the Found Shortcut 📥
 
-- [Baidu Netdisk](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)
+On your Apple device, click the iCloud link in the URL, and the shortcut will automatically open and be imported into your Shortcuts app 📲.
+
+### Download Shortcut Source Files
+
+Besides downloading shortcuts one by one using the iCloud links, you can directly get the complete data from the following links:
+
+- [Baidu Cloud](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)
 - [Google Drive](https://drive.google.com/drive/folders/171d_iiyBpQSfC-nLFpFDBq2P0Y7Tqw_m?usp=sharing)
 
-### Data Sources and Links 🌐
+#### Data Sources and Links 🌐
 
-| Data Source | Metadata Location | Cloud Drive Link |
-| :-------: | :----: | :----: |
-| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | [Location in our Repo](users_dataset/matthewcassinelli.com_sirishortcuts_library_free) | [Google Cloud](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1Wru9TC_1MPqX26Ua6IzPQQ?pwd=3zwl) |
-| [Routinehub](https://routinehub.co) | [Location in our Repo](users_dataset/routinehub.co) | [Google Cloud](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1WFZw-G_w9QZQDyAdcYe-Yg?pwd=lp6d) |
-| [MacStories](https://www.macstories.net/shortcuts) | [Location in our Repo](users_dataset/www.macstories.net_shortcuts) | [Google Cloud](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1qfeCKUtTnO4gihSydfbYlg?pwd=u9p2) |
-| [ShareShortcuts](https://shareshortcuts.com) | [Location in our Repo](users_dataset/shareshortcuts.com) | [Google Cloud](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/13M6PSPXhSMwAhDuRLlqbIw?pwd=j7gn) |
-| [ShortcutsGallery](https://shortcutsgallery.com) | [Location in our Repo](users_dataset/shortcutsgallery.com) | [Google Cloud](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1knXrn_OwPqUxaDvqSZQ1ag?pwd=ux9x) |
-| [iSpazio](https://shortcuts.ispazio.net) | [Location in our Repo](users_dataset/shortcuts.ispazio.net) | [Google Cloud](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1l2IIrcpK7WTYuT3Ec57SxA?pwd=0l0u) |
-| [Jiejingku](https://jiejingku.net) | [Location in our Repo](users_dataset/jiejingku.net) | [Google Cloud](https://drive.google.com/drive/folders/15gcsYfBx51YTCoYnphyEUjuGhjRVp4dK?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1n0pxGttbsCttDZkVkOZiag?pwd=0yzg) |
-| [Sspai](https://shortcuts.sspai.com) | [Location in our Repo](users_dataset/shortcuts.sspai.com) | [Google Cloud](https://drive.google.com/drive/folders/13FdtNltK9yRnSsV5Lc751RDMZ2n6vPMJ?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1M2tR9lOFr-6rIeKoB7T8PQ?pwd=22fn) |
-| [Jiejing.Fun](https://jiejing.fun) | [Location in our Repo](users_dataset/jiejing.fun) | [Google Cloud](https://drive.google.com/drive/folders/1Zf0-ZkXnP8O8UqPGHWByfkBi6OjD6gdI?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/16oSRINZK-gyy38x51QO7dQ?pwd=2fj4) |
-| [kejicut](https://www.kejicut.com) | [Location in our Repo](users_dataset/www.kejicut.com) | [Google Cloud](https://drive.google.com/drive/folders/1_CJg_vCZ17m3D2pW11Itjeko572yl3F5?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
-| [rcuts](https://www.rcuts.com) | [Location in our Repo](users_dataset/www.rcuts.com) | [Google Cloud](https://drive.google.com/drive/folders/1ko3exifKczLMOOakFPWwuFrv221kXUMg?usp=drive_link) \| [Baidu Netdisk](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
+| Data Source | Metadata Location | Cloud Link |
+| :---------: | :---------------: | :--------: |
+| [Matthewcassinelli](https://matthewcassinelli.com/sirishortcuts/library/free) | [Location in this repository](users_dataset/matthewcassinelli.com_sirishortcuts_library_free) | [Google Drive Link](https://drive.google.com/drive/folders/1Dq9A44qP5s6-HOducpg-pGRbsyCGRNsW?usp=drive_link) \| [Baidu Cloud Link](https://pan.baidu.com/s/1Wru9TC_1MPqX26Ua6IzPQQ?pwd=3zwl) |
+| [Routinehub](https://routinehub.co) | [Location in this repository](users_dataset/routinehub.co) | [Google Drive Link](https://drive.google.com/drive/folders/1IEhry0vnK48-GGF39kEMgQDtoSObR979?usp=drive_link) \| [Baidu Cloud Link](https://pan.baidu.com/s/1WFZw-G_w9QZQDyAdcYe-Yg?pwd=lp6d) |
+| [MacStories](https://www.macstories.net/shortcuts) | [Location in this repository](users_dataset/www.macstories.net_shortcuts) | [Google Drive Link](https://drive.google.com/drive/folders/11z32E2_mphNcrcz0jg2RZ0Tit6zxxJOy?usp=drive_link) \| [Baidu Cloud Link](https://pan.baidu.com/s/1qfeCKUtTnO4gihSydfbYlg?pwd=u9p2) |
+| [ShareShortcuts](https://shareshortcuts.com) | [Location in this repository](users_dataset/shareshortcuts.com) | [Google Drive Link](https://drive.google.com/drive/folders/197zOSqDcTlZp242NK38G1ShFs8Mi6qff?usp=drive_link) \| [Baidu Cloud Link](https://pan.baidu.com/s/13M6PSPXhSMwAhDuRLlqbIw?pwd=j7gn) |
+| [ShortcutsGallery](https://shortcutsgallery.com) | [Location in this repository](users_dataset/shortcutsgallery.com) | [Google Drive Link](https://drive.google.com/drive/folders/1ieovTT-QOZIpub8BW8I7MicM9KcwJDwB?usp=drive_link) \| [Baidu Cloud Link](https://pan.baidu.com/s/1knXrn_OwPqUxaDvqSZQ1ag?pwd=ux9x) |
+| [iSpazio](https://shortcuts.ispazio.net) | [Location in this repository](users_dataset/shortcuts.ispazio.net) | [Google Drive Link](https://drive.google.com/drive/folders/1lPmyxYE1UtKsOPNJU5b0zc6B7wyK-bns?usp=drive_link) \| [Baidu Cloud Link](https://pan.baidu.com/s/1l2IIrcpK7WTYuT3Ec57SxA?pwd=0l0u) |
+| [Jiejingku](https://jiejingku.net) | [Location in this repository](users_dataset/jiejingku.net) | [Google Drive Link](https://pan.baidu.com/s/1WdgWmGkRfevTyit4i14DOg?pwd=ud3d) \| [Baidu Cloud Link](https://pan.baidu.com/s/1n0pxGttbsCttDZkVkOZiag?pwd=0yzg) |
+| [SSPai](https://shortcuts.sspai.com) | [Location in this repository](users_dataset/shortcuts.sspai.com) | [Google Drive Link](https://pan.baidu.com/s/1BQcGi12fhtxOLD8gpt135A?pwd=tjqi) \| [Baidu Cloud Link](https://pan.baidu.com/s/1M2tR9lOFr-6rIeKoB7T8PQ?pwd=22fn) |
+| [Jiejing.fun](https://jiejing.fun) | [Location in this repository](users_dataset/jiejing.fun) | [Google Drive Link](https://pan.baidu.com/s/1Hdco7WtgN0kEVfqcxJi3qQ?pwd=5732) \| [Baidu Cloud Link](https://pan.baidu.com/s/16oSRINZK-gyy38x51QO7dQ?pwd=2fj4) |
+| [Kejicut](https://www.kejicut.com) | [Location in this repository](users_dataset/www.kejicut.com) | [Google Drive Link](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p) \| [Baidu Cloud Link](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
+| [RCuts](https://www.rcuts.com) | [Location in this repository](users_dataset/www.rcuts.com) | [Google Drive Link](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0) \| [Baidu Cloud Link](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
 
-**Source File Structure of Shortcuts**
+#### Introduction to Shortcut Source Files
 
-The source data of shortcuts in the cloud disk is organized in the following directory structure:
+The shortcut source data in the cloud drive is organized in the following directory structure:
+
 ```
 users_dataset/
-├── matthewcassinelli.com_sirishortcuts_library_free # Website name
+├── matthewcassinelli.com_sirishortcuts_library_free # Website Name
 │   ├── file1
 │   ├── file2
 │   └── file3
@@ -167,41 +170,119 @@ users_dataset/
 or
 
 users_dataset/
-├── jiejingku.net # Website name
-│   ├── category1 # Category 
+├── jiejingku.net # Website Name
+│   ├── category1 # Category
 │   │   ├── file1 # Each specific shortcut
 │   │   └── file2
 │   ├── category2
 │   │   └── file3
 ```
 
-Each file represents a shortcut. The file name is generated from the shortcut name after simple processing, with the following code:
+Each file represents a shortcut. The file name is generated by simply processing the shortcut name, using the following code:
+
 ```python
 file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
 ```
 
-The shortcut source files we provide are in `JSON` format. Shortcuts exported from Apple devices are either `iCloud` links (shared as links) or encrypted shortcut files (with the `.shortcut` suffix).
+The shortcut source files we provide are in `JSON` format, whereas shortcuts exported from Apple devices are in the form of iCloud links (shared as links) or encrypted shortcut files with the `.shortcut` extension.
 
-If you wish to import a shortcut source file into the Shortcuts app, please follow these steps on `macOS`:
-* Convert the `JSON` file format to `PLIST` file format 📑.
-* Sign the `PLIST` file 🔏.
+To import a shortcut source file into the Shortcuts app on `macOS`, follow these steps:
+* Convert the `JSON` file format to `PLIST` format 📑:
+    ```python
+    import xml.etree.ElementTree as ET
+    
+    def parse_element(element):
+      """
+      Recursively parse XML elements and return dictionaries and lists.
+      """
+      if element.tag == 'dict':
+          return {element[i].text: parse_element(element[i+1]) for i in range(0, len(element), 2)}
+      elif element.tag == 'array':
+          return [parse_element(child) for child in element]
+      elif element.tag == 'true':
+          return True
+      elif element.tag == 'false':
+          return False 
+      elif element.tag == 'integer':
+          return int(element.text)
+      elif element.tag == 'string':
+          return element.text
+      elif element.tag == 'real':
+          return float(element.text)
+      else:
+          raise ValueError("Unsupported tag: " + element.tag)
+    
+    tree = ET.parse(file_path)
+    root_element = tree.getroot()
+    parsed_data = parse_element(root_element[0])
+    data = parsed_data
+
+    save_path = "./"
+    with open(save_path, 'w') as f:
+        json.dump(data, f, indent=4)
+    ```
+* Sign the `PLIST` file 🔏 using `shortcuts sign --mode anyone --input $input_file --output $output_file`, replacing `$input_file` and `$output_file` with the actual file paths.
 * Import the signed file into the Shortcuts app 📲.
+
+## ShortcutsBench Dataset Construction Guide 📚
+
+![Data Acquisition Process](./assets/DatasetAcquisition.drawio.png)
+
+We detail the construction process of ShortcutsBench in the main text of our paper. For more details, please refer to our [paper](https://arxiv.org/pdf/2407.00132). Below are some additional details.
+
+How to use shortcuts? How to share shortcuts? How to view the source files of shortcuts?
+
+1. Import shortcuts into the Shortcuts app.
+
+   You can import shortcuts into the Shortcuts app on Apple devices by clicking the iCloud link and using the shortcut as a regular user.
+
+2. Share shortcuts.
+   * You can share the shortcut as an iCloud link using the `Share` option in the Shortcuts app on `macOS` or `iOS`.
+   * You can share the shortcut as a source file using the `Share` option in the Shortcuts app on `macOS`, resulting in a shortcut file with the `.shortcut` extension. Note: The shared source file is encrypted by Apple and cannot be directly parsed using the `plist` package in Python.
+
+3. Decrypt single or multiple shortcuts.
+   If you want to decrypt a specific shortcut, you can use the following shortcuts to decrypt other shortcuts. The decrypted files will be in `plist` format.
+   * [Get Plist - Parse a single shortcut to a plist file](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
+   * [Get Plist Loop - Parse all shortcuts in the Shortcuts app to plist files and save them](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
+
+   To make it easier to read, you can choose to convert the `plist` files to `json` format. The shortcut source files we provide are all in `json` format.
+
+4. How to acquire shortcut source files on a large scale?
+
+   Instead of using `Get Plist` and `Get Plist Loop` to parse shortcuts, we follow these two steps for quicker and more efficient mass acquisition of shortcut source files:
+   1. Obtain iCloud links in the format [https://www.icloud.com/shortcuts/${unique_id}](https://www.icloud.com/shortcuts/8fa07dea82cf413c81732dca5f15323f).
+   2. Request partial metadata of the shortcut from [https://www.icloud.com/shortcuts/api/records/${unique_id}](https://www.icloud.com/shortcuts/89149640e212408694f69d031c7fa272), including the shortcut name and download link for the source file.
+   3. Use the download link `cur_dict["fields"]["shortcut"]["value"]["downloadURL"]` obtained in the previous step to request the source file of the shortcut. Note: The download link expires quickly, so you need to use it promptly.
+
+   The directly downloaded source file is in `plist` format. You can choose to convert the `plist` format to `json` format.
+
+   The following code (simplified) demonstrates the entire process, with the final `response_json` being the `json` format shortcut source file:
+   ```python
+   response = requests.get(f"https://www.icloud.com/shortcuts/api/records/{unique_id}")
+
+   cur_dict = response.json()
+   downloadURL = cur_dict["fields"]["shortcut"]["value"]["downloadURL"]
+   new_response = requests.get(downloadURL)
+   # Convert using the plist package to json and store in response_json
+   response_json = biplist.readPlistFromString(new_response.content)
+   ```
 
 ## License Statement 📜
 
-All code and datasets in this project are licensed under the `Apache License 2.0`. This means you are free to use, copy, modify, and distribute the contents of this project, but must comply with the following conditions:
+All code and datasets in this project are licensed under the `Apache License 2.0`. This means you are free to use, copy, modify, and distribute the content of this project, but must comply with the following conditions:
 
-- **Copyright Notice**: The original copyright notice and license statement must be retained in all copies of the project.
-- **State Changes**: If you modify the code, you must indicate the changes made in any modified files.
-- **Trademark Use**: This license does not grant the right to use trademarks, service marks, or trade names of the project.
+- **Copyright Notice**: The original copyright notice and license statement must be included in all copies of the project.
+- **State Changes**: If you modify the code, you must indicate the changes in any modified files.
+- **Trademark Use**: This license does not grant the right to use project trademarks, service marks, or trade names.
 
-For the full license text, see [LICENSE](./LICENSE).
+For the full text of the license, please see [LICENSE](./LICENSE).
 
-Additionally, you must comply with the license agreements of the data sources from each shortcut sharing site.
+Additionally, you must comply with the license agreements of the shortcut sharing sites that provided the data sources for this project.
 
 # Citation
 
-If you find this work useful, please consider citing our work:
+If you find this project helpful, please consider citing our work:
+
 ```latex
 @misc{shen2024shortcutsbenchlargescalerealworldbenchmark,
       title={ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents}, 

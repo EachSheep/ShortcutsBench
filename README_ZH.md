@@ -26,61 +26,50 @@
 
 **快捷指令（Shortcuts）是什么？**
 
-快捷指令是由开发者在快捷指令App中，通过用户友好的图形化界面🖼️，利用提供的基本动作构建的工作流🔄。[苹果官方](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios)称其为“一种可让你使用 App 完成一个或多个任务的快捷方式。”📱✨
+快捷指令是由开发者在快捷指令App中，通过用户友好的图形化界面🖼️，利用提供的基本动作构建的工作流🔄。[苹果官方](https://support.apple.com/zh-cn/guide/shortcuts/welcome/ios)称其为“一种可让你使用 App 完成一个或多个任务的快捷方式。”📱
 
 **此项目任务清单（持续更新中）📋**
 
-- [x] [快捷指令数据集](https://github.com/hiyoungshen/ShortcutsBench)：包含快捷指令元数据（标题、简介、来源等）、iCloud链接、快捷指令源文件。快捷指令数据集有三个版本：
-  1. 为方便普通用户使用构建的双语数据集，即`users_dataset/${website name}/${category name}/README.md`指示的快捷指令元数据和[获取快捷指令数据集](#获取快捷指令数据集)所指示的快捷指令源数据，普通用户可依据自己的需求寻找合适的快捷指令使用；
-  2. 为了方便下载，我们将（1）所述的所有快捷指令统一在一个文件中，即文件`1_final_detailed_records_remove_repeat.json`，可以按照`deves_dataset/dataset_src/README.md`的描述下载；
-  3. 把（2）所述数据集清洗后的快捷指令数据，即`deves_dataset/dataset_src/README.md`所描述的`1_final_detailed_records_filter_apis.json`，我们清洗了快捷指令中包含我们没有获取到的API的快捷指令。
-- [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132), [https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)
-- [x] 快捷指令所涉及的API：包括API元数据（功能描述、名称、参数名称、参数类型、参数默认值、返回值名称等）和App本身📱，详细信息可参考`deves_dataset/dataset_src_valid_apis/README.md`的介绍。
-- [x] 实验代码和日志。
-- [ ] 快捷指令的字段解释。
-- [ ] API的字段解释。
-- [ ] [ShortcutsBench论文附录](), []()
+- [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132)
+- [ ] [ShortcutsBench论文附录（待更新）]()
+- [x] 数据获取过程的脚本、数据清洗和处理的脚本、实验代码、实验结果
+- [ ] 快捷指令文件的字段解释
+- [ ] API信息的字段解释
+- [x] 我们为普通用户提供含有双语解释的快捷指令数据：即`users_dataset/${website name}/${category name}/README.md`（英文）或`users_dataset/${website name}/${category name}/README_ZH.md`（中文）中列出的快捷指令。一般快捷指令用户可以在我们的仓库中找到适合其工作或生活的快捷指令，导入苹果设备上的快捷指令App使用即可。每条快捷指令包括：
+    1. 快捷指令的iCloud链接
+    2. 快捷指令的功能描述
+    3. 该快捷指令的来源
 
+* **对于快捷指令的研究者**：`ShortcutsBench`提供：（1）快捷指令（即`golden`的动作序列）；（2）查询（即安排给智能体的任务）；（3）APIs（即智能体可以使用的工具）。以下提供的所有文件的获取和生成过程，请参见[`deves_dataset/dataset_src/README.md`（英文）](deves_dataset/dataset_src/README.md)或[（中文）](deves_dataset/dataset_src/README_ZH.md)、[`deves_dataset/dataset_src_valid_apis/README.md`（英文）](deves_dataset/dataset_src_valid_apis/README.md)或[中文](deves_dataset/dataset_src_valid_apis/README_ZH.md)、和[`experiments/README.md`（英文）](experiments/README.md)或[中文](experiments/README_ZH.md)
+    - [x] 快捷指令
+        - [x] 快捷指令数据集未清洗版，即文件`1_final_detailed_records_remove_repeat.json`，可以依据[`deves_dataset/dataset_src/README.md`](deves_dataset/dataset_src/README.md)（英文）或[`deves_dataset/dataset_src/README_ZH.md`](deves_dataset/dataset_src/README_ZH.md)（中文）的描述进行下载，也可以直接从[Google云盘](https://drive.google.com/file/d/1oijSStXYGcmv6-THYVb6j0oCIfto_bVh/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1VJMDcWv3diRzecQisA80bQ?pwd=4wv1)获取，解压密码为`shortcutsbench`
 
-**该项目对您有什么帮助？**
+            该文件中快捷指令涉及到的API不一定有相关的API定义文件
 
-[苹果开发者大会 WWDC'24](https://developer.apple.com/wwdc24/)在苹果设备上引入了大量AI功能🤖。我们非常关注苹果如何将以ChatGPT为代表的大语言模型与设备结合，为用户带来更智能的体验📱💡。在这个过程中，快捷指令一定会发挥重要作用！🚀
+        - [x] 快捷指令数据集，即文件`1_final_detailed_records_filter_apis.json`，可以依据[`deves_dataset/dataset_src/README.md`](deves_dataset/dataset_src/README.md)（英文）或[`deves_dataset/dataset_src/README_ZH.md`]（中文）的描述进行下载，也可以直接从[Google云盘](https://drive.google.com/file/d/12DJ7kWe8oRgVgdLyfr1VItETyCrpO-7O/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/12cAPTPsdzE4DBSESXCOAoA?pwd=j0p8)获取，解压密码为`shortcutsbench`
 
-* 作为快捷指令用户📱：
-  * 您可以在此数据集中找到您最心仪的快捷指令📱。
-  * 您可以通过在苹果设备上引入更多快捷指令，让Siri完成复杂任务🗣️。
-  * ......
+            该文件中快捷指令涉及到的API均有相关的API定义文件。该文件为对`1_final_detailed_records_remove_repeat.json`清洗得到。如果一个快捷指令包含没有API定义文件的API，则该快捷指令被移除
 
-* 作为快捷指令爱好者💡：
-  * 您可以使用该数据集中的海量快捷指令链接（以及对应的源文件）研究如何编写快捷指令，定制您自己的工作流💡。
-  * 您可以为此项目贡献更多的快捷指令📤。
-  * ......
+        - [x] 快捷指令数据集`<=30`版，即文件`1_final_detailed_records_filter_apis_leq_30.json`，可以依据[`experiments/README.md`](deves_dataset/dataset_src/README.md)（英文）或[`experiments/README_ZH.md`]（中文）的描述进行下载，也可以直接从[Google云盘](https://drive.google.com/file/d/1Xw8PI9FH_ud6_S5gR-xpneFDZsCoQHQM/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1NiKxy1KL9dNgIYq7aOZ8sA?pwd=sx6u)获取，解压密码为`shortcutsbench`
 
-* 作为研究者🔬：
-  * 研究自动化工作流的构建：快捷指令本质上是由一系列API调用（动作）构成的工作流，这些API由苹果和第三方App提供🔍。
-  * 研究低代码编程：快捷指令包含分支、循环、变量赋值等代码特征，同时拥有用户友好的图形化界面🖥️。
-  * 研究基于API的智能体：让大语言模型根据用户查询（任务）自主决定是否、何时以及如何使用API🔧。
-  * 研究利用快捷指令微调大语言模型，促进大语言模型与手机、电脑、智能手表的紧密结合，实现“基于大语言模型的操作系统”的愿景📈。
-  * ......
+            考虑到语言模型上下文长度的限制，在[ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132)中，我们仅评测了长度`<=30`的快捷指令
+    - [x] 查询。我们生成的查询如`generated_success_queries.json`所示，该文件可从[Google云盘](https://drive.google.com/file/d/1XzGYIUE0vXTiERJm2yVLZ90knb4uchQ2/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1RIRmJyc5y1hhnyMZBsAqUQ?pwd=y0er)获取，解压密码为`shortcutsbench`
 
-🌟**ShortcutsBench对比现有基于API的智能体数据集的优势**🌟
+        查询是依据`1_final_detailed_records_filter_apis_leq_30.json`生成的
 
-SHORTCUTSBENCH 在 API 的真实性、丰富性和复杂性，查询和相应动作序列的有效性，参数值的准确填充，从系统或用户获取信息的意识，以及整体规模方面具有显著优势。
+    - [x] APIs。我们获取到的API如`4_api_json_filter.json`所示，该文件可从[Google云盘](https://drive.google.com/file/d/1ZFk6IybvUq8BY8uF06ckqMii-dVV5-lF/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1uEYXnTbFz7Nvaunvv8F6_w?pwd=zpft)获取，解压密码为`shortcutsbench`
 
-据我们所知，SHORTCUTSBENCH 是首个基于真实 API 的大规模智能体基准，考虑了 API、查询及相应的动作序列。SHORTCUTSBENCH 提供了丰富的真实 API、不同难度和任务类型的查询、高质量的人类注释动作序列（由快捷方式开发者提供），以及来自真实用户需求的查询。此外，它还提供了精确的参数值填充，包括原始数据类型、枚举类型以及使用之前动作的输出作为参数值，并评估智能体在请求系统或用户必要信息方面的意识。再者，SHORTCUTSBENCH 中 API、查询及相应动作序列的规模可与由 LLM 创建或现有数据集修改的基准和数据集相媲美甚至更优。SHORTCUTSBENCH 与现有基准/数据集的总体对比见下表。
+        `4_api_json_filter.json`经过我们手动的去重，但依旧存在少量重复文件。直接从App中提取出的未经过处理的文件详见`4_api_json.json`，该文件可从[Google云盘](https://drive.google.com/file/d/1clvUZ8MOcziy9rCg5ugj5V9O0kg7-iCK/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1uM3gJPBr_JRPw9SaZVzXSg?pwd=ghsl)获取，解压密码为`shortcutsbench`
 
-![Example Image](./assets/Comparison.png)
+## 该项目对您有什么帮助？
 
-**如果这个项目对您有帮助，请给我们一个Star吧⭐️！感谢支持！🙏**
+[苹果开发者大会 WWDC'24](https://developer.apple.com/wwdc24/)在苹果设备上引入了大量AI功能🤖。我们非常关注苹果如何将以ChatGPT为代表的大语言模型与设备结合，为用户带来更智能的体验💡。在这个过程中，快捷指令一定会发挥重要作用！🚀
 
-**关键词**：快捷指令, 苹果, WWDC'24, Siri, iOS, macOS, watchOS, 工作流, API调用, 低代码编程, 智能体, 大语言模型
+### 作为快捷指令用户和爱好者📱
 
-## 快捷指令可以帮你做什么？
-
-快捷指令可以一键帮你完成各种复杂任务！例如：
+您可以在此数据集中找到您最心仪的快捷指令📱，一键帮你完成各种复杂任务！例如：
 
 * 🏡 **日常生活** 🤹
-  * [一键寻找附近酒馆](https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e)
   * [节日提醒](https://www.icloud.com/shortcuts/5b3607d300e84e3d99889c7fb0258b92)
   * [百度贴吧签到](https://www.icloud.com/shortcuts/084dc19b51904a8a98e9135159fd2a61)
   * ......
@@ -106,45 +95,47 @@ SHORTCUTSBENCH 在 API 的真实性、丰富性和复杂性，查询和相应动
 
 * .....
 
+### 作为研究者🔬
+* 研究自动化工作流的构建：快捷指令本质上是由一系列API调用（动作）构成的工作流，这些API由苹果和第三方App提供🔍
+* 研究低代码编程：快捷指令包含分支、循环、变量赋值等代码特征，同时拥有用户友好的图形化界面🖥️
+* 研究基于API的智能体：让大语言模型根据用户查询（任务）自主决定是否、何时以及如何使用API🔧
+* 研究利用快捷指令微调大语言模型，促进大语言模型与手机、电脑、智能手表的紧密结合，实现“基于大语言模型的操作系统”的愿景📈
+* ......
 
-**想要更多？✨**
+## 🌟**ShortcutsBench对比现有基于API的智能体数据集的优势**🌟
 
-请查看我们在此项目中收集的快捷指令[📂](#快捷指令使用指南面向用户📱)。
+SHORTCUTSBENCH 在 API 的真实性、丰富性和复杂性，查询和相应动作序列的有效性，参数值的准确填充，从系统或用户获取信息的意识，以及整体规模方面具有显著优势。
+
+据我们所知，SHORTCUTSBENCH 是首个基于真实 API 的大规模智能体基准，考虑了 API、查询及相应的动作序列。SHORTCUTSBENCH 提供了丰富的真实 API、不同难度和任务类型的查询、高质量的人类注释动作序列（由快捷方式开发者提供），以及来自真实用户需求的查询。此外，它还提供了精确的参数值填充，包括原始数据类型、枚举类型以及使用之前动作的输出作为参数值，并评估智能体在请求系统或用户必要信息方面的意识。再者，SHORTCUTSBENCH 中 API、查询及相应动作序列的规模可与由 LLM 创建或现有数据集修改的基准和数据集相媲美甚至更优。SHORTCUTSBENCH 与现有基准/数据集的总体对比见下表。
+
+![Example Image](./assets/Comparison.png)
+
+**如果这个项目对您有帮助，请给我们一个Star吧⭐️！感谢支持！🙏**
+
+**关键词**：快捷指令, 苹果, WWDC'24, Siri, iOS, macOS, watchOS, 工作流, API调用, 低代码编程, 智能体, 大语言模型
 
 ## 快捷指令使用指南（面向用户）📱
 
-**搜索您想要的快捷指令🔍**
+### 搜索您想要的快捷指令🔍
 
-想知道我们的快捷指令在哪里？如何在本项目中搜索到您需要的快捷指令？请按照以下步骤操作：
+在本仓库中，`users_dataset/${website name}/${category name}/README.md`文件用于记录该类别的所有快捷指令的元信息，包括名称、描述、iCloud下载链接等。每一个`README.md`文件的结构如下：
 
-1. 在本仓库中，`users_dataset/${website name}/${category name}/README.md`文件用于记录该类别的所有快捷指令的元信息，包括名称、描述、iCloud下载链接等。每一个`README.md`文件的结构如下：
-    ```markdown
-    ### Name: Wine Shops # 快捷指令名称
-    - URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # 快捷指令iCloud链接
-    - Source: https://shortcutsgallery.com # 快捷指令来源商店
-    - Description: Look for Wine shop near by you # 快捷指令功能描述
-    ```
-2. 使用快捷键`Ctrl+F`，根据快捷指令的名称关键词直接在浏览器中进行检索🔎。
+```markdown
+### Name: Wine Shops # 快捷指令名称
+- URL: https://www.icloud.com/shortcuts/78ffd18288fd4da286bfd570993ea46e # 快捷指令iCloud链接
+- Source: https://shortcutsgallery.com # 快捷指令来源商店
+- Description: Look for Wine shop near by you # 快捷指令功能描述
+```
 
-您也可以访问[快捷指令搜集站](#数据集使用指南面向快捷指令开发者和研究者📚)搜索您想要的快捷指令🌐。
+使用快捷键`Ctrl + F`，根据快捷指令的名称关键词直接在浏览器中进行检索🔎。您也可以访问[快捷指令搜集站](#数据源与链接-🌐)搜索您想要的快捷指令🌐。
 
-**如何导入搜索到的快捷指令📥**
+### 导入搜索到的快捷指令📥
 
 在苹果设备上，点击URL中的iCloud链接后，快捷指令将会自动打开并导入到您的快捷指令App中📲。
 
-## 数据集使用指南（面向快捷指令开发者和研究者）📚
+### 下载快捷指令源文件
 
-### ShortcutsBench
-
-ShortcutsBench包括：
-
-1. 查询。
-2. 动作序列（即快捷指令源文件）。
-3. APIs。
-
-#### 获取快捷指令数据集
-
-您可以根据[快捷指令使用指南](#快捷指令使用指南面向用户📱)中的iCloud链接逐一下载快捷指令，或直接从以下链接获取完整数据：
+除了使用iCloud链接逐一下载快捷指令，您也直接从以下链接获取完整数据：
 
 - [百度网盘](https://pan.baidu.com/s/1qVX03DjSfBXXXW5W96jtqQ?pwd=33s2)
 - [Google云盘](https://drive.google.com/drive/folders/171d_iiyBpQSfC-nLFpFDBq2P0Y7Tqw_m?usp=sharing)
@@ -165,8 +156,7 @@ ShortcutsBench包括：
 | [柯基捷径库](https://www.kejicut.com) | [ 在本仓库的位置](users_dataset/www.kejicut.com) | [Google云盘链接](https://pan.baidu.com/s/1SBlhUB3H6VPm5mwW0fHHyw?pwd=0q7p) \| [百度网盘链接](https://pan.baidu.com/s/1kQwvwj5tQorJeYZ22w3iUw?pwd=8eah) |
 | [iOS快捷指令库](https://www.rcuts.com) | [ 在本仓库的位置](users_dataset/www.rcuts.com) | [Google云盘链接](https://pan.baidu.com/s/1UZLcXjmAVCLwZKiK4638Ug?pwd=8vv0) \| [百度网盘链接](https://pan.baidu.com/s/1h8frW1928kfW38pnjJorGA?pwd=1c28) |
 
-
-**快捷指令源文件简介**
+#### 快捷指令源文件简介
 
 网盘中的快捷指令源数据以以下目录结构组织：
 ```
@@ -196,13 +186,46 @@ file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
 
 若您希望将某个快捷指令源文件导入快捷指令App，请在`macOS`上进行以下操作：
 * 将`JSON`文件格式转换为`PLIST`文件格式📑。
-* 对该`PLIST`文件进行签名🔏。
+    ```python
+    import xml.etree.ElementTree as ET
+    
+    def parse_element(element):
+      """
+      递归解析XML元素，返回字典和列表。
+      """
+      if element.tag == 'dict':
+          return {element[i].text: parse_element(element[i+1]) for i in range(0, len(element), 2)}
+      elif element.tag == 'array':
+          return [parse_element(child) for child in element]
+      elif element.tag == 'true':
+          return True
+      elif element.tag == 'false':
+          return False 
+      elif element.tag == 'integer':
+          return int(element.text)
+      elif element.tag == 'string':
+          return element.text
+      elif element.tag == 'real':
+          return float(element.text)
+      else:
+          raise ValueError("Unsupported tag: " + element.tag)
+    
+    tree = ET.parse(file_path)
+    root_element = tree.getroot()
+    parsed_data = parse_element(root_element[0])
+    data = parsed_data
+
+    save_path = "./"
+    with open(save_path, 'w') as f:
+        json.dump(data, f, indent=4)
+    ```
+* 对该`PLIST`文件进行签名🔏，即`shortcuts sign --mode anyone --input $input_file --output $output_file`，`$input_file`和`$output_file`换成实际的文件路径。
 * 将签名后的文件导入快捷指令App📲。
 
-**ShortcutsBench详细构建指南**
+## ShortcutsBench数据集构建指南📚
 
 ![数据获取流程](./assets/DatasetAcquisition.drawio.png)
-我们在论文正文中详细阐述了ShortcutsBench的构建流程，详情请参见我们的论文[https://arxiv.org/pdf/2407.00132](https://arxiv.org/pdf/2407.00132)，以下补充一些细节。
+我们在论文正文中详细阐述了ShortcutsBench的构建流程，详情请参见我们的[论文](https://arxiv.org/pdf/2407.00132)，以下补充一些细节。
 
 如何使用快捷指令？如何分享快捷指令？如何查看快捷指令的源文件？
 
@@ -217,7 +240,7 @@ file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
 3. 解密单个或多个快捷指令。
    如希望对某个快捷指令进行解密，可以使用如下快捷指令对别的快捷指令进行解密，解密后的文件为`plist`格式的文件。
    * [Get Plist，解析单个shortcut为plist格式的文件](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
-   * [Get Plist Loop，解析快捷指令App中的所有shortcut为plist格式的文件并保存](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
+   * [Get Plist Loop，解析快捷指令App中的所有shortcut为plist格式的文件并保存](https://www.icloud.com/shortcuts/89149640e212408694f69d031c7fa272)
 
    为了方便阅读，您可以选择将该`plist`格式的文件转化为`json`格式的文件，我们提供的shortcut源文件均为`json`格式。
 
@@ -229,7 +252,6 @@ file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
    3. 从上一步骤中获得的数据`cur_dict`中（可转化为`json`格式），拿到快捷指令源文件的下载链接`cur_dict["fields"]["shortcut"]["value"]["downloadURL"]`，再次请求该下载链接下载快捷指令的源文件。注意：该下载链接会很快过期，您需要尽快使用该链接。
 
    直接下载得到的源文件为`plist`文件格式，你可以选择将`plist`格式的文件专户为`json`格式的文件。
-
 
    以下代码（已简化）展示了上述所有过程，最终的`response_json`即为`json`格式的快捷指令源文件:
    ```python
