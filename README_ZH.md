@@ -4,9 +4,11 @@
 
 <div align="center">
 
-![Dialogues](https://img.shields.io/badge/Dataset\_Size-1.8G-red?style=flat-square)
-![Dialogues](https://img.shields.io/badge/Shortcuts\_Num-15508-red?style=flat-square)
-
+![Dialogues](https://img.shields.io/badge/App\_Num-88-red?style=flat-square)
+![Dialogues](https://img.shields.io/badge/API\_Num-1414-red?style=flat-square)
+![Dialogues](https://img.shields.io/badge/Shortcuts\_Num-7628-red?style=flat-square)
+![Dialogues](https://img.shields.io/badge/Avg\_APIs-7.86-red?style=flat-square)
+![Dialogues](https://img.shields.io/badge/Avg\_Actions-21.46-red?style=flat-square)
 
 </div>
 
