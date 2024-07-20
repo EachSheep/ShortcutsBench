@@ -42,7 +42,7 @@
 
 <body>
 
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
@@ -80,7 +80,7 @@
       </div>
 
     </div>
-  </nav>
+  </nav> -->
 
 
   <section class="hero">
@@ -127,14 +127,14 @@
             <div class="column has-text-centered">
               <div class="publication-links">
                 <!-- PDF Link. -->
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="https://arxiv.org/pdf/2407.00132" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
                     <span>Paper</span>
                   </a>
-                </span>
+                </span> -->
                 <span class="link-block">
                   <a href="https://arxiv.org/pdf/2407.00132" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -144,14 +144,14 @@
                   </a>
                 </span>
                 <!-- Video Link. -->
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="https://example.com" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-youtube"></i>
                     </span>
                     <span>Video</span>
                   </a>
-                </span>
+                </span> -->
                 <!-- Code Link. -->
                 <span class="link-block">
                   <a href="https://github.com/EachSheep/ShortcutsBench"
@@ -268,12 +268,12 @@
             </p>
             <p>
               However, their ability to handle multi-dimensional difficulty levels, diverse task types, and real-world
-              demands through APIs remains unknown. In this paper, we introduce SHORTCUTSBENCH, a large-scale benchmark
+              demands through APIs remains unknown. In this paper, we introduce ShortcutsBench, a large-scale benchmark
               for the comprehensive evaluation of API-based agents in solving tasks with varying levels of difficulty,
               diverse task types, and real-world demands.
             </p>
             <p>
-              SHORTCUTSBENCH includes a wealth of real APIs from Apple Inc.’s operating systems, refined user queries
+              ShortcutsBench includes a wealth of real APIs from Apple Inc.’s operating systems, refined user queries
               from shortcuts, human-annotated high-quality action sequences from shortcut developers, and accurate
               parameter filling values about primitive parameter types, enum parameter types, outputs from previous
               actions, and parameters that need to request necessary information from the system or user. Our extensive
@@ -310,12 +310,24 @@
       <!-- Concurrent Work. -->
       <div class="columns is-centered">
         <div class="column is-full-width">
-          <h2 class="title is-3">Related Links</h2>
+          <h2 class="title is-3">Advantages of ShortcutsBench Over Existing API-Based Agent Datasets</h2>
 
           <div class="content has-text-justified">
             <p>
-              For more details, please refer to our paper, dataset and code, which are all available on the top of the page.
+              To our knowledge, ShortcutsBench is the first large-scale agent benchmark based on real APIs, considering
+              APIs, queries, and corresponding action sequences. ShortcutsBench provides a rich set of real APIs,
+              queries of varying difficulty and task types, high-quality human-annotated action sequences (provided by
+              shortcut developers), and queries from real user needs. Additionally, it offers precise parameter value
+              filling, including raw data types, enumeration types, and using outputs from previous actions as parameter
+              values, and evaluates the agent's awareness of requesting necessary information from the system or users.
+              Moreover, the scale of APIs, queries, and corresponding action sequences in ShortcutsBench rivals or even
+              surpasses benchmarks and datasets created by LLMs or modified from existing datasets. A comprehensive
+              comparison between ShortcutsBench and existing benchmarks/datasets is shown in the table below.
             </p>
+          </div>
+          <!-- 插入图片 -->
+          <div class="content has-text-centered">
+            <img src="./static/images/advantages.png" alt="Advantages of ShortcutsBench">
           </div>
         </div>
       </div>
