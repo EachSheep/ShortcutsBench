@@ -29,6 +29,8 @@ Shortcuts are workflows built by developers in the Shortcuts app using a user-fr
 
 **Project Task List (Continuously Updated) 📋**
 
+All data, data acquisition processes, data generated during cleaning, cleaning scripts, experiment scripts, results, and related files can be found in the following documents: [`deves_dataset/dataset_src/README.md` (English)](deves_dataset/dataset_src/README.md) or [Chinese](deves_dataset/dataset_src/README_ZH.md), [`deves_dataset/dataset_src_valid_apis/README.md` (English)](deves_dataset/dataset_src_valid_apis/README.md) or [Chinese](deves_dataset/dataset_src_valid_apis/README_ZH.md), and [`experiments/README.md` (English)](experiments/README.md) or [Chinese](experiments/README_ZH.md).
+
 - [x] [ShortcutsBench Paper Main Text](https://arxiv.org/pdf/2407.00132)
 - [ ] [ShortcutsBench Paper Appendix (Coming Soon)]()
 - [x] Scripts for Data Acquisition, Data Cleaning and Processing, Experiment Code, and Experiment Results
@@ -39,7 +41,7 @@ Shortcuts are workflows built by developers in the Shortcuts app using a user-fr
     2. A description of the shortcut's functionality
     3. The source of the shortcut
 
-* **For Shortcut Researchers**: `ShortcutsBench` provides: (1) Shortcuts (i.e., sequences of actions in `golden`); (2) Queries (i.e., tasks assigned to the agent); (3) APIs (i.e., tools available to the agent). For details on obtaining and generating the files provided below, see [`deves_dataset/dataset_src/README.md` (English)](deves_dataset/dataset_src/README.md) or [Chinese](deves_dataset/dataset_src/README_ZH.md), [`deves_dataset/dataset_src_valid_apis/README.md` (English)](deves_dataset/dataset_src_valid_apis/README.md) or [Chinese](deves_dataset/dataset_src_valid_apis/README_ZH.md), and [`experiments/README.md` (English)](experiments/README.md) or [Chinese](experiments/README_ZH.md)
+* **For Shortcut Researchers**: `ShortcutsBench` provides: (1) Shortcuts (i.e., sequences of actions in `golden`); (2) Queries (i.e., tasks assigned to the agent); (3) APIs (i.e., tools available to the agent).
     - [x] Shortcuts
         - [x] Raw Shortcut Dataset, i.e., the file `1_final_detailed_records_remove_repeat.json`, can be downloaded as described in [`deves_dataset/dataset_src/README.md`](deves_dataset/dataset_src/README.md) (English) or [`deves_dataset/dataset_src/README_ZH.md`](deves_dataset/dataset_src/README_ZH.md) (Chinese), or directly from [Google Drive](https://drive.google.com/file/d/1oijSStXYGcmv6-THYVb6j0oCIfto_bVh/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1VJMDcWv3diRzecQisA80bQ?pwd=4wv1) (password: `shortcutsbench`).
 

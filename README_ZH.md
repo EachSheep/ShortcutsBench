@@ -30,6 +30,8 @@
 
 **此项目任务清单（持续更新中）📋**
 
+所有的数据、数据获取过程、清洗数据时产生的数据、清洗脚本、实验脚本、结果等所有文件，请参见[`deves_dataset/dataset_src/README.md`（英文）](deves_dataset/dataset_src/README.md)或[（中文）](deves_dataset/dataset_src/README_ZH.md)、[`deves_dataset/dataset_src_valid_apis/README.md`（英文）](deves_dataset/dataset_src_valid_apis/README.md)或[中文](deves_dataset/dataset_src_valid_apis/README_ZH.md)、和[`experiments/README.md`（英文）](experiments/README.md)或[中文](experiments/README_ZH.md)
+
 - [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132)
 - [ ] [ShortcutsBench论文附录（待更新）]()
 - [x] 数据获取过程的脚本、数据清洗和处理的脚本、实验代码、实验结果
@@ -40,7 +42,7 @@
     2. 快捷指令的功能描述
     3. 该快捷指令的来源
 
-* **对于快捷指令的研究者**：`ShortcutsBench`提供：（1）快捷指令（即`golden`的动作序列）；（2）查询（即安排给智能体的任务）；（3）APIs（即智能体可以使用的工具）。以下提供的所有文件的获取和生成过程，请参见[`deves_dataset/dataset_src/README.md`（英文）](deves_dataset/dataset_src/README.md)或[（中文）](deves_dataset/dataset_src/README_ZH.md)、[`deves_dataset/dataset_src_valid_apis/README.md`（英文）](deves_dataset/dataset_src_valid_apis/README.md)或[中文](deves_dataset/dataset_src_valid_apis/README_ZH.md)、和[`experiments/README.md`（英文）](experiments/README.md)或[中文](experiments/README_ZH.md)
+* **对于快捷指令的研究者**：`ShortcutsBench`提供：（1）快捷指令（即`golden`的动作序列）；（2）查询（即安排给智能体的任务）；（3）APIs（即智能体可以使用的工具）。
     - [x] 快捷指令
         - [x] 快捷指令数据集未清洗版，即文件`1_final_detailed_records_remove_repeat.json`，可以依据[`deves_dataset/dataset_src/README.md`](deves_dataset/dataset_src/README.md)（英文）或[`deves_dataset/dataset_src/README_ZH.md`](deves_dataset/dataset_src/README_ZH.md)（中文）的描述进行下载，也可以直接从[Google云盘](https://drive.google.com/file/d/1oijSStXYGcmv6-THYVb6j0oCIfto_bVh/view?usp=sharing)或[百度网盘](https://pan.baidu.com/s/1VJMDcWv3diRzecQisA80bQ?pwd=4wv1)获取，解压密码为`shortcutsbench`
 
