@@ -115,8 +115,11 @@
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Institute for Artificial Intelligence, Peking University,</span>
+            <span class="author-block"><sup>2</sup>School of Computer Science, Peking University,</span>
+            <span class="author-block"><sup>3</sup>School of Software & Microelectronics, Peking University,</span>
+            <span class="author-block"><sup>4</sup>School of Electronics Engineering and Computer Science, Peking University,</span>
+            <span class="author-block"><sup>5</sup>Beijing University of Posts and Telecommunications</span>
           </div>
 
           <div class="column has-text-centered">
@@ -186,9 +189,8 @@
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="dnerf">ShortcutsBench</span> has significant advantages in terms of the authenticity, richness, and complexity of APIs, the validity of queries and corresponding action sequences, the accurate filling of parameter values, the awareness of obtaining information from the system or users, and the overall scale.
+        To our knowledge, ShortcutsBench is the first large-scale agent benchmark based on real APIs, considering APIs, queries, and corresponding action sequences. ShortcutsBench provides a rich set of real APIs, queries of varying difficulty and task types, high-quality human-annotated action sequences (provided by shortcut developers), and queries from real user needs. Additionally, it offers precise parameter value filling, including raw data types, enumeration types, and using outputs from previous actions as parameter values, and evaluates the agent's awareness of requesting necessary information from the system or users. Moreover, the scale of APIs, queries, and corresponding action sequences in ShortcutsBench rivals or even surpasses benchmarks and datasets created by LLMs or modified from existing datasets. 
       </h2>
     </div>
   </div>
@@ -261,31 +263,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Recent advancements in integrating large language models (LLMs) with application programming interfaces (APIs) have gained significant interest in both academia and industry. These API-based agents, leveraging the strong autonomy and planning capabilities of LLMs, can efficiently solve problems requiring multistep actions.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            However, their ability to handle multi-dimensional difficulty levels, diverse task types, and real-world demands through APIs remains unknown. In this paper, we introduce SHORTCUTSBENCH, a large-scale benchmark for the comprehensive evaluation of API-based agents in solving tasks with varying levels of difficulty, diverse task types, and real-world demands.
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            SHORTCUTSBENCH includes a wealth of real APIs from Apple Inc.’s operating systems, refined user queries from shortcuts, human-annotated high-quality action sequences from shortcut developers, and accurate parameter filling values about primitive parameter types, enum parameter types, outputs from previous actions, and parameters that need to request necessary information from the system or user. Our extensive evaluation of agents built with 5 leading open-source (size >= 57B) and 4 closed source LLMs (e.g. Gemini-1.5-Pro and GPT-3.5) reveals significant limitations in handling complex queries related to API selection, parameter filling, and requesting necessary information from systems and users. These findings highlight the challenges that API-based agents face in effectively fulfilling real and complex user queries. All datasets, code, and experimental results will be available at https://github.com/eachsheep/shortcutsbench.
           </p>
         </div>
       </div>
@@ -293,7 +277,7 @@
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -301,7 +285,7 @@
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
   </div>
 </section>
