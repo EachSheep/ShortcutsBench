@@ -298,35 +298,37 @@
   </section>
 
   <section class="section">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-12">
-        <h2 class="title is-3" style="color: #9d32d7;">Result Analysis: API Parameter Value Filling</span></h2>
-        <div class="content has-text-justified">
-          <div class="content has-text-centered">
-            <figure>
-              <img src="./static/images/experiments_combined_heatmaps.png"
-                alt="Accuracy of primitive data types and enum data types (upper) and outputs from previous actions (lower)."
-                style="width: 100%;">
-              <figcaption>Accuracy of primitive data types & enum data types (upper) and outputs from previous actions
-                (lower).</figcaption>
-            </figure>
-            <figure>
-              <img src="./static/images/experiments2_return_para_error.png"
-                alt="The error rates for action parameter value filling." style="width: 100%;">
-              <figcaption>The error rates for action parameter value filling.</figcaption>
-            </figure>
+    <div class="container is-max-desktop">
+      <!-- Result Analysis: API Parameter Value Filling -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-12">
+          <h2 class="title is-3" style="color: #9d32d7;">Result Analysis: API Parameter Value Filling</h2>
+          <div class="content has-text-justified">
+            <div class="columns is-vcentered">
+              <!-- Place images side by side -->
+              <div class="column is-half">
+                <img src="./static/images/experiments_combined_heatmaps.png"
+                  alt="Accuracy of primitive data types and enum data types (upper) and outputs from previous actions (lower)."
+                  style="width: 100%;">
+                <figcaption>Accuracy of primitive data types & enum data types (upper) and outputs from previous actions
+                  (lower).</figcaption>
+              </div>
+              <div class="column is-half">
+                <img src="./static/images/experiments2_return_para_error.png"
+                  alt="The error rates for action parameter value filling." style="width: 100%;">
+                <figcaption>The error rates for action parameter value filling.</figcaption>
+              </div>
+            </div>
+            <p><strong>Key Findings:</strong></p>
+            <ul>
+              <li><strong>Increased task difficulty has a much smaller impact on the accuracy of parameter
+                  filling</strong> for the most intelligent LLMs like Gemini-1.5-Pro...</li>
+              <li><strong>API parameter filling remains a bottleneck</strong> for cost-effective LLMs like GPT-3.5-turbo
+                and ChatGLM-4-Air...</li>
+              <li><strong>Extracting relevant parameters from the user's query</strong>...</li>
+              <li><strong>Errors for cost-effective LLMs</strong>...</li>
+            </ul>
           </div>
-          <p><strong>Key Findings:</strong></p>
-          <ul>
-            <li><strong>Increased task difficulty has a much smaller impact on the accuracy of parameter
-                filling</strong>
-              for the most intelligent LLMs like Gemini-1.5-Pro...</li>
-            <li><strong>API parameter filling remains a bottleneck</strong> for cost-effective LLMs like GPT-3.5-turbo
-              and
-              ChatGLM-4-Air...</li>
-            <li><strong>Extracting relevant parameters from the user's query</strong>...</li>
-            <li><strong>Errors for cost-effective LLMs</strong>...</li>
-          </ul>
         </div>
       </div>
     </div>
