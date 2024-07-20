@@ -278,20 +278,20 @@
       <!-- Result Analysis. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-six-fifths">
-          <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis</span></h2>
+          <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis: API Selection</span></h2>
           <div class="content has-text-justified">
             <div class="content has-text-centered">
-              <img src="./static/images/experiments1_res.pdf"
+              <img src="./static/images/experiments1_res.png"
                 alt="The API selection accuracy on queries with different complexity levels.">
               <figcaption>The API selection accuracy on queries with different complexity levels.</figcaption>
             </div>
             <div class="content has-text-centered">
-              <img src="./static/images/experiments1_models_boxplot.pdf"
+              <img src="./static/images/experiments1_models_boxplot.png"
                 alt="The API selection accuracy difference of each LLM across 8 task types.">
               <figcaption>The API selection accuracy difference of each LLM across 8 task types.</figcaption>
             </div>
             <div class="content has-text-centered">
-              <img src="./static/images/experiments1_categories_res.pdf"
+              <img src="./static/images/experiments1_categories_res.png"
                 alt="The API selection accuracy of each task type on 9 API-based agents.">
               <figcaption>The API selection accuracy of each task type on 9 API-based agents.</figcaption>
             </div>
@@ -306,6 +306,143 @@
               <li><strong>Better performance on daily life tasks</strong> like Lifestyle & Social, but poorer on
                 professional tasks like Development & API.</li>
             </ul>
+          </div>
+        </div>
+      </div>
+      <!--/ Result Analysis. -->
+    </div>
+  </section>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-six-fifths">
+      <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis: API Parameter Value Filling</span></h2>
+      <div class="content has-text-justified">
+        <div class="content has-text-centered">
+          <figure>
+            <img src="./static/images/experiments_combined_heatmaps.png"
+              alt="Accuracy of primitive data types and enum data types (upper) and outputs from previous actions (lower).">
+            <figcaption>Accuracy of primitive data types & enum data types (upper) and outputs from previous actions
+              (lower).</figcaption>
+          </figure>
+          <figure>
+            <img src="./static/images/experiments2_return_para_error.png"
+              alt="The error rates for action parameter value filling.">
+            <figcaption>The error rates for action parameter value filling.</figcaption>
+          </figure>
+        </div>
+        <p><strong>Key Findings:</strong></p>
+        <ul>
+          <li><strong>Increased task difficulty has a much smaller impact on the accuracy of parameter filling</strong>
+            for the most intelligent LLMs like Gemini-1.5-Pro, especially when using outputs from previous actions. This
+            indicates that the greatest limitation lies in the reasoning and planning capabilities required for API
+            selection.</li>
+          <li><strong>API parameter filling remains a bottleneck</strong> for cost-effective LLMs like GPT-3.5-turbo and
+            ChatGLM-4-Air, with performance decreasing significantly as task difficulty increases.</li>
+          <li><strong>Extracting relevant parameters from the user's query</strong> and filling them according to the
+            query and API description is more challenging than using the outputs of previous actions. The accuracy drop
+            ranges from 2.55% (GPT-3.5-turbo) to 15.39% (Deepseek-2-Chat).</li>
+          <li><strong>Errors for cost-effective LLMs</strong> like GPT-3.5-turbo and ChatGLM-4-Air mainly stem from
+            incorrect output formats and wrong API selections. Powerful LLMs like Gemini-1.5-Pro rarely make format
+            errors, whereas cost-effective models frequently make mistakes in both output format and API selection.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Result Analysis. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+          <h2 class="title is-3"><span style="color: #9d32d7;">Result Analysis: Recognition of Need for Input</span></h2>
+          <div class="content has-text-justified">
+            <p><strong>Key Findings:</strong></p>
+            <ul>
+              <li><strong>All agents perform poorly</strong> at recognizing necessary system and user inputs. Overall
+                accuracy ranges between <strong>30.55\%</strong> (GPT-3.5-turbo) and <strong>55.18\%</strong>
+                (Deepspeed-2-coder). Larger LLMs like Deepspeed-2-chat (236B) demonstrate better
+                recognition accuracy.</li>
+            </ul>
+            <table class="table is-striped is-fullwidth">
+              <caption><strong>Accuracy of recognition of the need for input from the system or the user</strong>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Levels</th>
+                  <th>Gemini 1.5-Pro</th>
+                  <th>QWen 2-72B</th>
+                  <th>Deeps. 2-chat</th>
+                  <th>Deeps. 2-coder</th>
+                  <th>LLaMA 3-70B</th>
+                  <th>Gemini 1.5-Flash</th>
+                  <th>QWen 2-57B</th>
+                  <th>GPT 3.5-turbo</th>
+                  <th>ChatGLM 4-Air</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>(0, 1]</td>
+                  <td>33.33%</td>
+                  <td>37.78%</td>
+                  <td>64.29%</td>
+                  <td>62.71%</td>
+                  <td>47.62%</td>
+                  <td>62.79%</td>
+                  <td>22.22%</td>
+                  <td>28.89%</td>
+                  <td>47.62%</td>
+                </tr>
+                <tr>
+                  <td>(1, 5]</td>
+                  <td>45.95%</td>
+                  <td>50.40%</td>
+                  <td>55.50%</td>
+                  <td>60.08%</td>
+                  <td>44.08%</td>
+                  <td>53.99%</td>
+                  <td>37.24%</td>
+                  <td>37.70%</td>
+                  <td>48.06%</td>
+                </tr>
+                <tr>
+                  <td>(5, 15]</td>
+                  <td>51.85%</td>
+                  <td>36.42%</td>
+                  <td>40.76%</td>
+                  <td>49.44%</td>
+                  <td>35.71%</td>
+                  <td>40.65%</td>
+                  <td>28.37%</td>
+                  <td>20.33%</td>
+                  <td>48.42%</td>
+                </tr>
+                <tr>
+                  <td>(15, 30]</td>
+                  <td>46.67%</td>
+                  <td>25.00%</td>
+                  <td>27.59%</td>
+                  <td>43.14%</td>
+                  <td>22.22%</td>
+                  <td>44.64%</td>
+                  <td>8.11%</td>
+                  <td>17.14%</td>
+                  <td>48.89%</td>
+                </tr>
+                <tr>
+                  <td><strong>Overall</strong></td>
+                  <td><strong>46.59%</strong></td>
+                  <td><strong>41.97%</strong></td>
+                  <td><strong>47.90%</strong></td>
+                  <td><strong>55.18%</strong></td>
+                  <td><strong>49.89%</strong></td>
+                  <td><strong>40.71%</strong></td>
+                  <td><strong>30.74%</strong></td>
+                  <td><strong>30.55%</strong></td>
+                  <td><strong>48.28%</strong></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
