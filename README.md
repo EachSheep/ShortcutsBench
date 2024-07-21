@@ -248,15 +248,15 @@ How to use shortcuts? How to share shortcuts? How to view the source files of sh
 3. Decrypt single or multiple shortcuts.
    If you want to decrypt a specific shortcut, you can use the following shortcuts to decrypt other shortcuts. The decrypted files will be in `plist` format.
    * [Get Plist - Parse a single shortcut to a plist file](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
-   * [Get Plist Loop - Parse all shortcuts in the Shortcuts app to plist files and save them](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
+   * [Get Plist Loop - Parse all shortcuts in the Shortcuts app to plist files and save them](https://www.icloud.com/shortcuts/8fa07dea82cf413c81732dca5f15323f)
 
    To make it easier to read, you can choose to convert the `plist` files to `json` format. The shortcut source files we provide are all in `json` format.
 
 4. How to acquire shortcut source files on a large scale?
 
    Instead of using `Get Plist` and `Get Plist Loop` to parse shortcuts, we follow these two steps for quicker and more efficient mass acquisition of shortcut source files:
-   1. Obtain iCloud links in the format [https://www.icloud.com/shortcuts/${unique_id}](https://www.icloud.com/shortcuts/8fa07dea82cf413c81732dca5f15323f).
-   2. Request partial metadata of the shortcut from [https://www.icloud.com/shortcuts/api/records/${unique_id}](https://www.icloud.com/shortcuts/89149640e212408694f69d031c7fa272), including the shortcut name and download link for the source file.
+   1. Obtain iCloud links in the format `https://www.icloud.com/shortcuts/${unique_id}`.
+   2. Request partial metadata of the shortcut from `https://www.icloud.com/shortcuts/api/records/${unique_id}`, including the shortcut name and download link for the source file.
    3. Use the download link `cur_dict["fields"]["shortcut"]["value"]["downloadURL"]` obtained in the previous step to request the source file of the shortcut. Note: The download link expires quickly, so you need to use it promptly.
 
    The directly downloaded source file is in `plist` format. You can choose to convert the `plist` format to `json` format.

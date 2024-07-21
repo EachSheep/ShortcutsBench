@@ -244,15 +244,15 @@ file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
 3. 解密单个或多个快捷指令。
    如希望对某个快捷指令进行解密，可以使用如下快捷指令对别的快捷指令进行解密，解密后的文件为`plist`格式的文件。
    * [Get Plist，解析单个shortcut为plist格式的文件](https://www.icloud.com/shortcuts/b04412850b9f4f74ad16f2f15ef09a3f)
-   * [Get Plist Loop，解析快捷指令App中的所有shortcut为plist格式的文件并保存](https://www.icloud.com/shortcuts/89149640e212408694f69d031c7fa272)
+   * [Get Plist Loop，解析快捷指令App中的所有shortcut为plist格式的文件并保存](https://www.icloud.com/shortcuts/8fa07dea82cf413c81732dca5f15323f)
 
    为了方便阅读，您可以选择将该`plist`格式的文件转化为`json`格式的文件，我们提供的shortcut源文件均为`json`格式。
 
 4. 如何大规模的获取快捷指令源头文件？
 
    相比使用`Get Plist`和`Get Plist Loop`从快捷指令中解析出快捷指令，为了更快捷高效的大量获取快捷指令的源文件，我们遵循了以下两个步骤：
-   1. 获取形如[https://www.icloud.com/shortcuts/${unique_id}](https://www.icloud.com/shortcuts/8fa07dea82cf413c81732dca5f15323f)的iCloud链接。
-   2. 从[https://www.icloud.com/shortcuts/api/records/${unique_id}](https://www.icloud.com/shortcuts/api/records/8fa07dea82cf413c81732dca5f15323f)中请求快捷指令的部分元信息，该元信息包括快捷指令的名称和快捷指令源文件的下载链接。
+   1. 获取形如`https://www.icloud.com/shortcuts/${unique_id}`。
+   2. 从`https://www.icloud.com/shortcuts/api/records/${unique_id}`。
    3. 从上一步骤中获得的数据`cur_dict`中（可转化为`json`格式），拿到快捷指令源文件的下载链接`cur_dict["fields"]["shortcut"]["value"]["downloadURL"]`，再次请求该下载链接下载快捷指令的源文件。注意：该下载链接会很快过期，您需要尽快使用该链接。
 
    直接下载得到的源文件为`plist`文件格式，你可以选择将`plist`格式的文件专户为`json`格式的文件。
