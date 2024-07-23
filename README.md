@@ -35,7 +35,7 @@ Shortcuts are workflows built by developers in the Shortcuts app using a user-fr
 All data, data acquisition processes, data generated during cleaning, cleaning scripts, experiment scripts, results, and related files can be found in the following documents: [`deves_dataset/dataset_src/README.md` (English)](deves_dataset/dataset_src/README.md) or [Chinese](deves_dataset/dataset_src/README_ZH.md), [`deves_dataset/dataset_src_valid_apis/README.md` (English)](deves_dataset/dataset_src_valid_apis/README.md) or [Chinese](deves_dataset/dataset_src_valid_apis/README_ZH.md), and [`experiments/README.md` (English)](experiments/README.md) or [Chinese](experiments/README_ZH.md).
 
 - [x] [ShortcutsBench Paper Main Text](https://arxiv.org/pdf/2407.00132)
-- [ ] [ShortcutsBench Paper Appendix (Coming Soon)]()
+- [x] [ShortcutsBench Paper Appendix](https://arxiv.org/pdf/2407.00132)
 - [x] Scripts for Data Acquisition, Data Cleaning and Processing, Experiment Code, and Experiment Results
 - [ ] Explanation of Fields in Shortcut Files
 - [ ] Explanation of Fields in API Information

@@ -35,7 +35,7 @@
 所有的数据、数据获取过程、清洗数据时产生的数据、清洗脚本、实验脚本、结果等所有文件，请参见[`deves_dataset/dataset_src/README.md`（英文）](deves_dataset/dataset_src/README.md)或[（中文）](deves_dataset/dataset_src/README_ZH.md)、[`deves_dataset/dataset_src_valid_apis/README.md`（英文）](deves_dataset/dataset_src_valid_apis/README.md)或[中文](deves_dataset/dataset_src_valid_apis/README_ZH.md)、和[`experiments/README.md`（英文）](experiments/README.md)或[中文](experiments/README_ZH.md)
 
 - [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132)
-- [ ] [ShortcutsBench论文附录（待更新）]()
+- [x] [ShortcutsBench论文附录](https://arxiv.org/pdf/2407.00132)
 - [x] 数据获取过程的脚本、数据清洗和处理的脚本、实验代码、实验结果
 - [ ] 快捷指令文件的字段解释
 - [ ] API信息的字段解释

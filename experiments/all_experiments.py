@@ -24,15 +24,16 @@ from all_experiments_prompt import SYSTEM_PROMPT_TEMPLATE, USER_PROMPT_TEMPLATE
 
 SHORTCUT_DATA = os.getenv("SHORTCUT_DATA")
 
-# MODEL_NAME = 'gemini-1.5-pro'
-# MODEL_NAME = 'qwen2-72b-instruct' # ✔ $5, $10 / 1M tokens
-# MODEL_NAME = 'deepseek-chat'  # ✔ $0.14, $0.28 / 1M tokens
-# MODEL_NAME = 'deepseek-coder' # ✔ $0.14, $0.28 / 1M tokens
-# MODEL_NAME = 'meta-llama/Llama-3-70b-chat-hf' # 
-# MODEL_NAME = 'gemini-1.5-flash'
-# MODEL_NAME = 'qwen2-57b-a14b-instruct' # ✔ $3.5, $7 / 1M tokens
-# MODEL_NAME = "gpt-3.5-turbo" # ✔ $0.50, $1.50 / 1M tokens
-# MODEL_NAME = 'GLM-4-Air' # ✔ $1 / 1M tokens
+# MODEL_NAME = 'gemini-1.5-pro' # $3.5 / 1M, $10.5 / 1M
+# MODEL_NAME = 'qwen2-72b-instruct' # 5 / 1M, 10 / 1M => exchange_rate : 7.1151 => 0.70 / 1M, 1.40 / 1M 
+# MODEL_NAME = 'deepseek-chat'  # $0.14 / 1M, $0.28 / 1M
+# MODEL_NAME = 'deepseek-coder' # $0.14 / 1M, $0.28 / 1M
+# MODEL_NAME = 'meta-llama/Llama-3-70b-chat-hf' # $1.17 / 1M, $1.17 / 1M
+# MODEL_NAME = 'gemini-1.5-flash' # $0.35 / 1M, $1.05 / 1M
+# MODEL_NAME = 'qwen2-57b-a14b-instruct' # 3.5 / 1M, 7 / 1M  => exchange_rate : 7.1151 => 0.49 / 1M, 0.98 / 1M 
+# MODEL_NAME = "gpt-3.5-turbo" # $0.50 / 1M, $1.50 / 1M
+# MODEL_NAME = 'GLM-4-Air' # 1 / 1M, 1 / 1M => exchange_rate : 7.1151 => 0.14 / 1M, 0.14 / 1M 
+# https://aimlapi.com/comparisons/llama-3-vs-chatgpt-3-5-comparison
 
 ignore_in_judge_WFWorkflowActionIdentifier_list = [  # Actions not included in the evaluation results
     "is.workflow.actions.conditional",
