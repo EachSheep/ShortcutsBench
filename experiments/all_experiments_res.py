@@ -295,7 +295,7 @@ if __name__ =="__main__":
         df = pd.DataFrame(cur_data)
 
         # Define rainbow colors for each model
-        rainbow_colors = ['#CCE0FF', '#99C2FF', '#66A3FF', '#3385FF', '#0066FF', '#0052CC', '#003D99', '#002966', '#001433', '#000000']
+        rainbow_colors = ['#d6efb3', '#b2e1b6', '#7ecdbb', '#52bcc2', '#31a5c2', '#1e8abd', '#2165ab', '#24459c', '#1c2d81', '#081d58']
 
         bar_width = 0.8
         # df.plot(x='Model', kind='bar', stacked=False, ax=cur_ax, color='#A5DF87', width=bar_width, legend=False)
@@ -360,7 +360,7 @@ if __name__ =="__main__":
         'GPT\n3.5-turbo',
         'ChatGLM\n4-Air',
     ]
-    rainbow_colors = ['#CCE0FF', '#99C2FF', '#66A3FF', '#3385FF', '#0066FF', '#0052CC', '#003D99', '#002966', '#001433', '#000000']
+    rainbow_colors = ['#d6efb3', '#b2e1b6', '#7ecdbb', '#52bcc2', '#31a5c2', '#1e8abd', '#2165ab', '#24459c', '#1c2d81', '#081d58']
 
     for model in models:
         model_data = []
@@ -567,5 +567,5 @@ if __name__ =="__main__":
     ax.legend(title='', bbox_to_anchor=(0.5, 1.1), loc='center', ncol=5, fontsize=18)
     ax.grid(axis='y', linestyle='--', linewidth=0.7)
     plt.tight_layout()
-    save_path = os.path.join(SHORTCUT_DATA, "experiment_detailed_res.pdf")
-    plt.savefig(save_path)
+    # save_path = os.path.join(SHORTCUT_DATA, "experiment_detailed_res.pdf")
+    # plt.savefig(save_path)
