@@ -1162,13 +1162,10 @@ if __name__ == "__main__":
 
     if args.model_name:
         MODEL_NAME = args.model_name
-    else:
-        raise NotImplementedError
 
     use_openai_style = False  # Use OpenAI's style
     use_google_style = False  # Use Google's style
     use_dashscope_style = False  # Use DashScope's style
-    call_num = 0
 
     if MODEL_NAME in [
         "gemini-1.5-pro",
@@ -1892,8 +1889,6 @@ if __name__ == "__main__":
                                     {"role": "user", "content": user_prompt}
                                 ]
                             )
-
-                            call_num += 1
 
                             cur_input_token_count += completion["usage"]["input_tokens"]
                             cur_output_token_count += completion["usage"]["output_tokens"]
