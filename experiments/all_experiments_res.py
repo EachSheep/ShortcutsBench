@@ -10,7 +10,7 @@ from generate_shortcut_desc import get_all_shortcuts_paras_that_is_necessary_in_
 
 from all_experiments import get_all_api_info
 
-from all_experiments import evaluate_experiment1
+from all_experiments import evaluate_experiment
 from all_experiments import evaluate_experiment2_basic_para
 from all_experiments import evaluate_experiment2_return_para
 from all_experiments import evaluate_experiment3
@@ -132,7 +132,7 @@ if __name__ =="__main__":
             correct_num_every_len_level4, all_num_every_len_level4, \
                 correct_num_api_num, all_num_api_num, \
                     hall_numerator, percentage_numerator, percentage_denominator = \
-            evaluate_experiment1(already_processed_shortcuts_list, print_or_not = False)
+            evaluate_experiment(already_processed_shortcuts_list, print_or_not = False)
         experiments1_res.append([f"{cur_correct_num / cur_all_num * 100:.2f}" if cur_all_num else "inf" for cur_correct_num, cur_all_num in zip(correct_num_list, all_num_list)])
         experiments1_res[-1].append(f"{correct_num / all_num * 100:.2f}")
         experiments1_categories_res.append([f"{cur_correct_num / cur_all_num * 100:.2f}" if cur_all_num else "inf" for cur_correct_num, cur_all_num in zip(categories_correct_num, categorys_all_num)])

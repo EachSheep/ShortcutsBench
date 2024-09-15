@@ -282,13 +282,14 @@ file_name = re.sub(r'[^a-zA-Z0-9]', '_', name)
 
 如果您觉得有用，请考虑引用我们的工作：
 ```latex
-@misc{shen2024shortcutsbenchlargescalerealworldbenchmark,
-      title={ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents}, 
-      author={Haiyang Shen and Yue Li and Desong Meng and Dongqi Cai and Sheng Qi and Li Zhang and Mengwei Xu and Yun Ma},
-      year={2024},
-      eprint={2407.00132},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE},
-      url={https://arxiv.org/abs/2407.00132}, 
+@misc{
+    shen2024shortcutsbenchlargescalerealworldbenchmark,
+    title={ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents}, 
+    author={Haiyang Shen and Yue Li and Desong Meng and Dongqi Cai and Sheng Qi and Li Zhang and Mengwei Xu and Yun Ma},
+    year={2024},
+    eprint={2407.00132},
+    archivePrefix={arXiv},
+    primaryClass={cs.SE},
+    url={https://arxiv.org/abs/2407.00132}, 
 }
 ```

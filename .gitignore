@@ -16,8 +16,10 @@ experiment_res_deepseek-chat.jsonl
 experiment_res_deepseek-coder.jsonl
 experiment_res_gemini-1.5-flash.jsonl
 experiment_res_gemini-1.5-pro.jsonl
+experiment_res_gemini-1.5-pro.bak.jsonl
 experiment_res_GLM-4-Air.jsonl
 experiment_res_gpt-3.5-turbo.jsonl
+experiment_res_gpt-4o-mini.jsonl
 experiment_res_meta-llama_Llama-3-70b-chat-hf.jsonl
 experiment_res_qwen2-57b-a14b-instruct.jsonl
 experiment_res_qwen2-72b-instruct.jsonl

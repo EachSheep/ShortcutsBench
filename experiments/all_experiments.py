@@ -32,6 +32,7 @@ SHORTCUT_DATA = os.getenv("SHORTCUT_DATA")
 # MODEL_NAME = 'gemini-1.5-flash' # $0.35 / 1M, $1.05 / 1M
 # MODEL_NAME = 'qwen2-57b-a14b-instruct' # 3.5 / 1M, 7 / 1M  => exchange_rate : 7.1151 => 0.49 / 1M, 0.98 / 1M 
 # MODEL_NAME = "gpt-3.5-turbo" # $0.50 / 1M, $1.50 / 1M
+# MODEL_NAME = "gpt-4o-mini" # $0.15 / 1M, $0.60 / 1M
 # MODEL_NAME = 'GLM-4-Air' # 1 / 1M, 1 / 1M => exchange_rate : 7.1151 => 0.14 / 1M, 0.14 / 1M 
 # https://aimlapi.com/comparisons/llama-3-vs-chatgpt-3-5-comparison
 
@@ -303,7 +304,7 @@ categorie2num_dict = {
     "Home & Smart Devices": 7
 }
 
-def evaluate_experiment1(shortcuts_list, print_or_not = True):
+def evaluate_experiment(shortcuts_list, print_or_not = True):
     """Evaluation of Question 1 focuses solely on whether the correct API was selected, without considering the parameters.
 
     Each element is a dictionary：{
@@ -1187,12 +1188,18 @@ if __name__ == "__main__":
 
     elif MODEL_NAME in [
         "gpt-3.5-turbo",
+        "gpt-4o-mini",
     ]:
         OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
         client = openai.OpenAI()
         create_completion_client = client.chat.completions.create
-        # gpt-3.5-turbo-0125 Input: $0.50 / 1M tokens, Output: $1.50 / 1M tokens
-        input_price_every_million, output_price_every_million = 0.5, 1.5
+
+        if MODEL_NAME == "gpt-3.5-turbo":
+            input_price_every_million, output_price_every_million = 0.5, 1.5
+        elif MODEL_NAME == "gpt-4o-mini":
+            input_price_every_million, output_price_every_million = 0.15, 0.6
+        else:
+            raise Exception("MODEL_NAME error")
         use_openai_style = True
 
     elif MODEL_NAME in [  # Alibaba Cloud Llama3-8b-Instruct
@@ -1472,7 +1479,7 @@ if __name__ == "__main__":
     with open(generated_success_queries_path, "r") as f:
         generated_success_queries = json.load(f)
     if not args.evaluate_instead_of_generate:
-        logger.info(f"已经生成的 query 的个数：{len(generated_success_queries)}")
+        logger.info(f"Number of generated queries: {len(generated_success_queries)}")
     # Retrieve all shortcuts.
     final_detailed_records_path = os.path.join(
         SHORTCUT_DATA, "1_final_detailed_records_filter_apis_leq_30.json")
@@ -1504,7 +1511,8 @@ if __name__ == "__main__":
     path_model_name = MODEL_NAME.replace("/", "_")
     res_path = os.path.join(SHORTCUT_DATA, 
                             # Path to store the final agent-generated results
-                            "tmp", f"experiment1_res_{path_model_name}.jsonl")
+                            f"experiment_res_{path_model_name}.jsonl")
+    print("res_path:", res_path)
     already_processed_shortcuts_list = []  # Final saved experimental results
     if os.path.exists(res_path):
         with open(res_path, "r") as f:
@@ -1520,7 +1528,7 @@ if __name__ == "__main__":
 
     if args.evaluate_instead_of_generate:
         already_processed_shortcuts_list
-        evaluate_experiment1(already_processed_shortcuts_list)
+        evaluate_experiment(already_processed_shortcuts_list)
 
         evaluate_experiment2_basic_para(
             already_processed_shortcuts_list, all_shortcuts_paras_that_is_necessary_in_query, check_intersection_of_query_and_para_necessary)
@@ -1777,7 +1785,7 @@ if __name__ == "__main__":
                                 print(f"Processed {cnt} results.")
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 cost_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment1_cost_{path_model_name}.jsonl")
+                                    SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
                                 # with open(cost_path, "a") as f:
                                 #     write_str = json.dumps({
                                 #         "input_token_count": input_token_count,
@@ -1790,7 +1798,7 @@ if __name__ == "__main__":
 
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 res_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment1_res_{path_model_name}.jsonl")
+                                    SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
                                 # with open(res_path, "a") as f:
                                 #     write_str = ""
                                 #     for res in new_shortcuts_list:
@@ -1854,7 +1862,7 @@ if __name__ == "__main__":
 
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 cost_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment1_cost_{path_model_name}.jsonl")
+                                    SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
                                 # with open(cost_path, "a") as f:
                                 #     write_str = json.dumps({
                                 #         "input_token_count": input_token_count,
@@ -1867,7 +1875,7 @@ if __name__ == "__main__":
 
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 res_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment1_res_{path_model_name}.jsonl")
+                                    SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
                                 # with open(res_path, "a") as f:
                                 #     write_str = ""
                                 #     for res in new_shortcuts_list:
@@ -1956,7 +1964,7 @@ if __name__ == "__main__":
 
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 cost_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment1_cost_{path_model_name}.jsonl")
+                                    SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
                                 # with open(cost_path, "a") as f:
                                 #     write_str = json.dumps({
                                 #         "input_token_count": input_token_count,
@@ -1969,7 +1977,7 @@ if __name__ == "__main__":
 
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 res_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment1_res_{path_model_name}.jsonl")
+                                    SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
                                 # with open(res_path, "a") as f:
                                 #     write_str = ""
                                 #     for res in new_shortcuts_list:
@@ -2050,7 +2058,7 @@ if __name__ == "__main__":
                 logger.info(f"Saving {cnt} results.")
                 path_model_name = MODEL_NAME.replace("/", "_")
                 cost_path = os.path.join(
-                    SHORTCUT_DATA, f"experiment1_cost_{path_model_name}.jsonl")
+                    SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
                 # with open(cost_path, "a") as f:
                 #     write_str = json.dumps({
                 #         "input_token_count": input_token_count,
@@ -2063,7 +2071,7 @@ if __name__ == "__main__":
 
                 path_model_name = MODEL_NAME.replace("/", "_")
                 res_path = os.path.join(
-                    SHORTCUT_DATA, f"experiment1_res_{path_model_name}.jsonl")
+                    SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
                 # with open(res_path, "a") as f:
                 #     write_str = ""
                 #     for res in new_shortcuts_list:
@@ -2079,7 +2087,7 @@ if __name__ == "__main__":
             
             path_model_name = MODEL_NAME.replace("/", "_")
             cost_path = os.path.join(
-                SHORTCUT_DATA, f"experiment1_cost_{path_model_name}.jsonl")
+                SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
 
             # with open(cost_path, "a") as f:
             #     write_str = json.dumps({
@@ -2093,7 +2101,7 @@ if __name__ == "__main__":
 
             path_model_name = MODEL_NAME.replace("/", "_")
             res_path = os.path.join(
-                SHORTCUT_DATA, f"experiment1_res_{path_model_name}.jsonl")
+                SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
             # with open(res_path, "a") as f:
             #     write_str = ""
             #     for res in new_shortcuts_list:
