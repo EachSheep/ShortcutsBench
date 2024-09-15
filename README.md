@@ -37,8 +37,6 @@ All data, data acquisition processes, data generated during cleaning, cleaning s
 - [x] [ShortcutsBench Paper Main Text](https://arxiv.org/pdf/2407.00132)
 - [x] [ShortcutsBench Paper Appendix](https://arxiv.org/pdf/2407.00132)
 - [x] Scripts for Data Acquisition, Data Cleaning and Processing, Experiment Code, and Experiment Results
-- [ ] Explanation of Fields in Shortcut Files
-- [ ] Explanation of Fields in API Information
 - [x] We provide shortcuts with bilingual explanations for regular users: listed in `users_dataset/${website name}/${category name}/README.md` (English) or `users_dataset/${website name}/${category name}/README_ZH.md` (Chinese). Regular users can find suitable shortcuts for their work or life in our repository, which they can import into the Shortcuts app on Apple devices. Each shortcut includes:
     1. The iCloud link for the shortcut
     2. A description of the shortcut's functionality

@@ -37,8 +37,6 @@
 - [x] [ShortcutsBench论文正文](https://arxiv.org/pdf/2407.00132)
 - [x] [ShortcutsBench论文附录](https://arxiv.org/pdf/2407.00132)
 - [x] 数据获取过程的脚本、数据清洗和处理的脚本、实验代码、实验结果
-- [ ] 快捷指令文件的字段解释
-- [ ] API信息的字段解释
 - [x] 我们为普通用户提供含有双语解释的快捷指令数据：即`users_dataset/${website name}/${category name}/README.md`（英文）或`users_dataset/${website name}/${category name}/README_ZH.md`（中文）中列出的快捷指令。一般快捷指令用户可以在我们的仓库中找到适合其工作或生活的快捷指令，导入苹果设备上的快捷指令App使用即可。每条快捷指令包括：
     1. 快捷指令的iCloud链接
     2. 快捷指令的功能描述
