@@ -1786,25 +1786,25 @@ if __name__ == "__main__":
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 cost_path = os.path.join(
                                     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                                # with open(cost_path, "a") as f:
-                                #     write_str = json.dumps({
-                                #         "input_token_count": input_token_count,
-                                #         "output_token_count": output_token_count,
-                                #         "input_cost": input_cost,
-                                #         "output_cost": output_cost,
-                                #         "total_cost": total_cost
-                                #     }, ensure_ascii=False) + "\n"
-                                #     f.write(write_str)
+                                with open(cost_path, "a") as f:
+                                    write_str = json.dumps({
+                                        "input_token_count": input_token_count,
+                                        "output_token_count": output_token_count,
+                                        "input_cost": input_cost,
+                                        "output_cost": output_cost,
+                                        "total_cost": total_cost
+                                    }, ensure_ascii=False) + "\n"
+                                    f.write(write_str)
 
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 res_path = os.path.join(
                                     SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-                                # with open(res_path, "a") as f:
-                                #     write_str = ""
-                                #     for res in new_shortcuts_list:
-                                #         write_str += json.dumps(res,
-                                #                                 ensure_ascii=False) + "\n"
-                                #     f.write(write_str)
+                                with open(res_path, "a") as f:
+                                    write_str = ""
+                                    for res in new_shortcuts_list:
+                                        write_str += json.dumps(res,
+                                                                ensure_ascii=False) + "\n"
+                                    f.write(write_str)
 
                                 new_shortcuts_list = []
 
@@ -1863,25 +1863,25 @@ if __name__ == "__main__":
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 cost_path = os.path.join(
                                     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                                # with open(cost_path, "a") as f:
-                                #     write_str = json.dumps({
-                                #         "input_token_count": input_token_count,
-                                #         "output_token_count": output_token_count,
-                                #         "input_cost": input_cost,
-                                #         "output_cost": output_cost,
-                                #         "total_cost": total_cost
-                                #     }, ensure_ascii=False) + "\n"
-                                #     f.write(write_str)
+                                with open(cost_path, "a") as f:
+                                    write_str = json.dumps({
+                                        "input_token_count": input_token_count,
+                                        "output_token_count": output_token_count,
+                                        "input_cost": input_cost,
+                                        "output_cost": output_cost,
+                                        "total_cost": total_cost
+                                    }, ensure_ascii=False) + "\n"
+                                    f.write(write_str)
 
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 res_path = os.path.join(
                                     SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-                                # with open(res_path, "a") as f:
-                                #     write_str = ""
-                                #     for res in new_shortcuts_list:
-                                #         write_str += json.dumps(res,
-                                #                                 ensure_ascii=False) + "\n"
-                                #     f.write(write_str)
+                                with open(res_path, "a") as f:
+                                    write_str = ""
+                                    for res in new_shortcuts_list:
+                                        write_str += json.dumps(res,
+                                                                ensure_ascii=False) + "\n"
+                                    f.write(write_str)
 
                                 new_shortcuts_list = []
 
@@ -1965,25 +1965,25 @@ if __name__ == "__main__":
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 cost_path = os.path.join(
                                     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                                # with open(cost_path, "a") as f:
-                                #     write_str = json.dumps({
-                                #         "input_token_count": input_token_count,
-                                #         "output_token_count": output_token_count,
-                                #         "input_cost": input_cost,
-                                #         "output_cost": output_cost,
-                                #         "total_cost": total_cost
-                                #     }, ensure_ascii=False) + "\n"
-                                #     f.write(write_str)
+                                with open(cost_path, "a") as f:
+                                    write_str = json.dumps({
+                                        "input_token_count": input_token_count,
+                                        "output_token_count": output_token_count,
+                                        "input_cost": input_cost,
+                                        "output_cost": output_cost,
+                                        "total_cost": total_cost
+                                    }, ensure_ascii=False) + "\n"
+                                    f.write(write_str)
 
                                 path_model_name = MODEL_NAME.replace("/", "_")
                                 res_path = os.path.join(
                                     SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-                                # with open(res_path, "a") as f:
-                                #     write_str = ""
-                                #     for res in new_shortcuts_list:
-                                #         write_str += json.dumps(res,
-                                #                                 ensure_ascii=False) + "\n"
-                                #     f.write(write_str)
+                                with open(res_path, "a") as f:
+                                    write_str = ""
+                                    for res in new_shortcuts_list:
+                                        write_str += json.dumps(res,
+                                                                ensure_ascii=False) + "\n"
+                                    f.write(write_str)
 
                                 new_shortcuts_list = []
 
@@ -2059,24 +2059,24 @@ if __name__ == "__main__":
                 path_model_name = MODEL_NAME.replace("/", "_")
                 cost_path = os.path.join(
                     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                # with open(cost_path, "a") as f:
-                #     write_str = json.dumps({
-                #         "input_token_count": input_token_count,
-                #         "output_token_count": output_token_count,
-                #         "input_cost": input_cost,
-                #         "output_cost": output_cost,
-                #         "total_cost": total_cost
-                #     }, ensure_ascii=False) + "\n"
-                #     f.write(write_str)
+                with open(cost_path, "a") as f:
+                    write_str = json.dumps({
+                        "input_token_count": input_token_count,
+                        "output_token_count": output_token_count,
+                        "input_cost": input_cost,
+                        "output_cost": output_cost,
+                        "total_cost": total_cost
+                    }, ensure_ascii=False) + "\n"
+                    f.write(write_str)
 
                 path_model_name = MODEL_NAME.replace("/", "_")
                 res_path = os.path.join(
                     SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-                # with open(res_path, "a") as f:
-                #     write_str = ""
-                #     for res in new_shortcuts_list:
-                #         write_str += json.dumps(res, ensure_ascii=False) + "\n"
-                #     f.write(write_str)
+                with open(res_path, "a") as f:
+                    write_str = ""
+                    for res in new_shortcuts_list:
+                        write_str += json.dumps(res, ensure_ascii=False) + "\n"
+                    f.write(write_str)
 
                 new_shortcuts_list = []
                 logger.info(f"Saved {cnt} results.")
@@ -2089,21 +2089,21 @@ if __name__ == "__main__":
             cost_path = os.path.join(
                 SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
 
-            # with open(cost_path, "a") as f:
-            #     write_str = json.dumps({
-            #         "input_token_count": input_token_count,
-            #         "output_token_count": output_token_count,
-            #         "input_cost": input_cost,
-            #         "output_cost": output_cost,
-            #         "total_cost": total_cost
-            #     }, ensure_ascii=False) + "\n"
-            #     f.write(write_str)
+            with open(cost_path, "a") as f:
+                write_str = json.dumps({
+                    "input_token_count": input_token_count,
+                    "output_token_count": output_token_count,
+                    "input_cost": input_cost,
+                    "output_cost": output_cost,
+                    "total_cost": total_cost
+                }, ensure_ascii=False) + "\n"
+                f.write(write_str)
 
             path_model_name = MODEL_NAME.replace("/", "_")
             res_path = os.path.join(
                 SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-            # with open(res_path, "a") as f:
-            #     write_str = ""
-            #     for res in new_shortcuts_list:
-            #         write_str += json.dumps(res, ensure_ascii=False) + "\n"
-            #     f.write(write_str)
+            with open(res_path, "a") as f:
+                write_str = ""
+                for res in new_shortcuts_list:
+                    write_str += json.dumps(res, ensure_ascii=False) + "\n"
+                f.write(write_str)
