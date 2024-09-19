@@ -1153,8 +1153,6 @@ def evaluate_experiment3(shortcuts_list, print_or_not = True):
 if __name__ == "__main__":
 
     argparser = argparse.ArgumentParser()
-    argparser.add_argument("--evaluate_instead_of_generate",
-                        action="store_true")  # Calculate the evaluation metrics for the existing results, rather than generating new results.
     argparser.add_argument("--model_name", type=str,
                         default=None)  # Model name
     argparser.add_argument("--sample_num", type=int,
@@ -1450,26 +1448,24 @@ if __name__ == "__main__":
 
     input_token_count, output_token_count = 0, 0
 
-    if not args.evaluate_instead_of_generate:
+    logger = logging.getLogger('my_logger')
+    logger.setLevel(logging.INFO)
+    if not os.path.exists('log'):
+        os.makedirs('log')
+    file_handler = logging.FileHandler(
+        f'log/experiment_{time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())}.log')
+    file_handler.setLevel(logging.INFO)
+    file_formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
+    file_handler.setFormatter(file_formatter)
+    logger.addHandler(file_handler)
+    stream_handler = logging.StreamHandler()
+    stream_handler.setLevel(logging.INFO)
+    stream_formatter = logging.Formatter(
+        '%(asctime)s:%(levelname)s:%(message)s')
+    stream_handler.setFormatter(stream_formatter)
+    logger.addHandler(stream_handler)
 
-        logger = logging.getLogger('my_logger')
-        logger.setLevel(logging.INFO)
-        if not os.path.exists('log'):
-            os.makedirs('log')
-        file_handler = logging.FileHandler(
-            f'log/6_experiment_{time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())}.log')
-        file_handler.setLevel(logging.INFO)
-        file_formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
-        file_handler.setFormatter(file_formatter)
-        logger.addHandler(file_handler)
-        stream_handler = logging.StreamHandler()
-        stream_handler.setLevel(logging.INFO)
-        stream_formatter = logging.Formatter(
-            '%(asctime)s:%(levelname)s:%(message)s')
-        stream_handler.setFormatter(stream_formatter)
-        logger.addHandler(stream_handler)
-
-        logger.info(f"MODEL_NAME: {MODEL_NAME}")
+    logger.info(f"MODEL_NAME: {MODEL_NAME}")
 
     all_api2info, all_api2paraname2paratype = get_all_api_info()
 
@@ -1478,8 +1474,7 @@ if __name__ == "__main__":
         SHORTCUT_DATA, "generated_success_queries.json")
     with open(generated_success_queries_path, "r") as f:
         generated_success_queries = json.load(f)
-    if not args.evaluate_instead_of_generate:
-        logger.info(f"Number of generated queries: {len(generated_success_queries)}")
+    logger.info(f"Number of generated queries: {len(generated_success_queries)}")
     # Retrieve all shortcuts.
     final_detailed_records_path = os.path.join(
         SHORTCUT_DATA, "1_final_detailed_records_filter_apis_leq_30.json")
@@ -1494,8 +1489,7 @@ if __name__ == "__main__":
         new_final_detailed_records[URL] = cur_detailed_record
     final_detailed_records = new_final_detailed_records
     del new_final_detailed_records
-    if not args.evaluate_instead_of_generate:
-        logger.info(f"There are a total of {len(final_detailed_records)} shortcuts.")
+    logger.info(f"There are a total of {len(final_detailed_records)} shortcuts.")
 
     """"Mapping from shortcuts to action positions to parameter names"""
     all_shortcuts_paras_that_is_necessary_in_query = get_all_shortcuts_paras_that_is_necessary_in_query(
@@ -1504,15 +1498,13 @@ if __name__ == "__main__":
         SHORTCUT_DATA, "json-gpt-3.5-turbo_check_intersection_of_query_and_para_necessary.json")
     with open(check_intersection_of_query_and_para_necessary_path, "r") as f:
         check_intersection_of_query_and_para_necessary = json.load(f)
-    if not args.evaluate_instead_of_generate:
-        logger.info(f"Number of necessary parameters, including `String` type: {len(all_shortcuts_paras_that_is_necessary_in_query)}. Number of shortcuts excluding `String`: {len(check_intersection_of_query_and_para_necessary)}.")
+    logger.info(f"Number of necessary parameters, including `String` type: {len(all_shortcuts_paras_that_is_necessary_in_query)}. Number of shortcuts excluding `String`: {len(check_intersection_of_query_and_para_necessary)}.")
 
     # Slashes (/) in `MODEL_NAME` will be replaced with underscores (_).
     path_model_name = MODEL_NAME.replace("/", "_")
     res_path = os.path.join(SHORTCUT_DATA, 
                             # Path to store the final agent-generated results
                             f"experiment_res_{path_model_name}.jsonl")
-    print("res_path:", res_path)
     already_processed_shortcuts_list = []  # Final saved experimental results
     if os.path.exists(res_path):
         with open(res_path, "r") as f:
@@ -1526,569 +1518,519 @@ if __name__ == "__main__":
         num_tokens = len(encoding.encode(string))
         return num_tokens
 
-    if args.evaluate_instead_of_generate:
-        already_processed_shortcuts_list
-        evaluate_experiment(already_processed_shortcuts_list)
+    del already_processed_shortcuts_list
 
-        evaluate_experiment2_basic_para(
-            already_processed_shortcuts_list, all_shortcuts_paras_that_is_necessary_in_query, check_intersection_of_query_and_para_necessary)
+    to_be_processed_num = len(
+        final_detailed_records) - len(already_processed_shortcuts_set)
+    logger.info(f"Number of processed shortcuts: {len(already_processed_shortcuts_set)}. Number of remaining shortcuts: {to_be_processed_num}")
 
-        evaluate_experiment2_return_para(already_processed_shortcuts_list)
+    # Randomly shuffle `generated_success_queries`.
+    generated_success_queries = dict(
+        random.sample(list(generated_success_queries.items()), len(generated_success_queries)))
 
-        evaluate_experiment3(already_processed_shortcuts_list)
-    else:
+    if args.sample_num:
+        sampled_queries = dict(random.sample(list(generated_success_queries.items()), args.sample_num))
+        logger.info(f"Sampled {args.sample_num} shortcuts.")
+    
 
-        del already_processed_shortcuts_list
+    new_shortcuts_list = []  # Store the new experimental results.
+    logger.info("Begin processing new shortcuts.")
+    cnt = 0  # Number of new shortcuts processed this times
+    for URL, cur_query_dict in generated_success_queries.items():
 
-        to_be_processed_num = len(
-            final_detailed_records) - len(already_processed_shortcuts_set)
-        logger.info(f"Number of processed shortcuts: {len(already_processed_shortcuts_set)}. Number of remaining shortcuts: {to_be_processed_num}")
-        
-        # # Randomly select 200 entries from `generated_success_queries` to create a new dictionary, `random_200_success_queries`.
-        # random_200_success_queries = {}
-        # random_200_success_queries_URLs = random.sample(
-        #     list(generated_success_queries.keys()), args.sample_num)
-        # for URL in random_200_success_queries_URLs:
-        #     random_200_success_queries[URL] = generated_success_queries[URL]
+        if URL in already_processed_shortcuts_set:  # Shortcuts that have already been processed will not be reprocessed.
+            continue
 
-        # Randomly shuffle `generated_success_queries`.
-        generated_success_queries = dict(
-            random.sample(list(generated_success_queries.items()), len(generated_success_queries)))
+        logger.info(f"Processing {URL}, {
+                    cnt}/{to_be_processed_num}= {cnt / to_be_processed_num * 100:.2f}")
 
-        if args.sample_num:
-            sampled_queries = dict(random.sample(list(generated_success_queries.items()), args.sample_num))
-            logger.info(f"Sampled {args.sample_num} shortcuts.")
-        
+        GeneratedQuery = cur_query_dict["GeneratedQuery"]
+        shortcut_name = GeneratedQuery["shortcut_name"]
+        shortcut_description = GeneratedQuery["shortcut_description"]
+        query = GeneratedQuery["query"]
+        logger.info(f"The current query is: {query}")
 
-        new_shortcuts_list = []  # Store the new experimental results.
-        logger.info("Begin processing new shortcuts.")
-        cnt = 0  # Number of new shortcuts processed this times
-        # for URL, cur_query_dict in random_200_success_queries.items():
-        for URL, cur_query_dict in generated_success_queries.items():
+        if URL not in final_detailed_records:
+            continue
 
-            if URL in already_processed_shortcuts_set:  # Shortcuts that have already been processed will not be reprocessed.
+        cur_detailed_record = final_detailed_records[URL]  # Retrieve detailed information for the current shortcut.
+        shortcut = cur_detailed_record["shortcut"]
+        WFWorkflowActions = shortcut["WFWorkflowActions"]
+
+        unique_identifies = []  # Retrieve all `WFWorkflowActionIdentifier` for the current shortcut.
+        for action in WFWorkflowActions:
+            WFWorkflowActionIdentifier = action["WFWorkflowActionIdentifier"]
+            if WFWorkflowActionIdentifier in filter_WFWorkflowActionIdentifier_list:
+                continue
+            if WFWorkflowActionIdentifier in ignore_in_judge_WFWorkflowActionIdentifier_list:
+                continue
+            unique_identifies.append(WFWorkflowActionIdentifier)
+        unique_identifies = list(set(unique_identifies))
+        random_multiple = random.randint(3, 5)  # Sample 3 to 5 times the number of APIs.
+        extra_API_names = sample_more_APIs(all_api2info, max(min(len(
+            unique_identifies) * random_multiple, 20 - len(unique_identifies)), 0), exclude_APIs=unique_identifies)
+        input_API_names = unique_identifies + extra_API_names
+        # input_API_names = random.shuffle(input_API_names)
+        # input_API_names = sorted(input_API_names)
+        input_API_descs = {}
+        for API_name in input_API_names:
+            if API_name in all_api2info:
+                input_API_descs[API_name] = all_api2info[API_name]
+            else:
+                input_API_descs[API_name] = "No description available."
+        input_API_descs = dict(
+            sorted(input_API_descs.items(), key=lambda item: item[0]))
+
+        agent_instance = APIBasedAgent(input_API_descs)
+
+        log_query = query  # One query per shortcut.
+        log_api_descs = input_API_descs  # Each shortcut has multiple available APIs, represented as a dictionary mapping API names to API descriptions.
+        log_api_names = input_API_names  # Each shortcut has multiple available APIs, represented as a list of API names.
+        aseqs = WFWorkflowActions
+        identifier2return_value = get_identifier2return_value(
+            aseqs, all_api2paraname2paratype)
+        tmp_aseqs = []  # Each shortcut has multiple actions, corresponding one-to-one with the standard answers. This list does not include actions from `filter_WFWorkflowActionIdentifier_list`.
+        bseqs = []  # Each shortcut has multiple actions, corresponding one-to-one with the standard answers. This list includes actions from `filter_WFWorkflowActionIdentifier_list` and should be stored.
+        system_prompt = SYSTEM_PROMPT_TEMPLATE.format(
+            all_api_descs=agent_instance.all_api_descs,
+            all_api_names=agent_instance.all_api_names,
+        )
+
+        cur_input_token_count, cur_output_token_count = 0, 0
+        cur_input_cost, cur_output_cost, cur_total_cost = 0, 0, 0
+
+        context_length_exceeded_error = False
+        for aseq in aseqs:
+
+            WFWorkflowActionIdentifier = copy.deepcopy(
+                aseq["WFWorkflowActionIdentifier"])
+            # Modifications to `WFWorkflowActionParameters` will alter the original `aseqs`, potentially causing errors in the `calc_WFWorkflowActions_len(aseqs)` calculation.
+            WFWorkflowActionParameters = copy.deepcopy(
+                aseq["WFWorkflowActionParameters"])
+
+            # For third-party apps, the fields `ShowWhenRun` and `OpenWhenRun` may appear.
+            WFWorkflowActionParameters.pop("ShowWhenRun", None)
+            WFWorkflowActionParameters.pop("OpenWhenRun", None)
+            # For third-party apps, the `AppIntentDescriptor` field may appear.
+            WFWorkflowActionParameters.pop("AppIntentDescriptor", None)
+
+            remove_wf_serialization_types(
+                WFWorkflowActionParameters)  # Remove the `WFSerializationType` field.
+            # Remove the `WFCoercionVariableAggrandizement`, `WFDateFormatVariableAggrandizement`, and `WFUnitVariableAggrandizement` fields from `Aggrandizements`.
+            count_and_clean_aggrandizements(WFWorkflowActionParameters)
+            # Replace `￼` in `attachmentsByRange` and sort.
+            replace_and_sort_attachments(WFWorkflowActionParameters)
+
+            # If `CustomOutputName` does not exist, use `DefaultOutputName` if available.
+            if "UUID" in WFWorkflowActionParameters:
+                UUID = WFWorkflowActionParameters["UUID"]
+                if UUID in identifier2return_value:
+                    if "CustomOutputName" not in WFWorkflowActionParameters:
+                        if UUID in identifier2return_value:
+                            WFWorkflowActionParameters["CustomOutputName"] = identifier2return_value[UUID]
+
+            if "CustomOutputName" in WFWorkflowActionParameters:
+                WFWorkflowActionParameters["OutputName"] = WFWorkflowActionParameters["CustomOutputName"]
+                WFWorkflowActionParameters.pop("CustomOutputName")
+
+            if WFWorkflowActionIdentifier in filter_WFWorkflowActionIdentifier_list:
+                bseqs.append({"state": "copy_from_true",
+                                "aseq": aseq})  # Copy directly from the correct answer.
                 continue
 
-            logger.info(f"Processing {URL}, {
-                        cnt}/{to_be_processed_num}= {cnt / to_be_processed_num * 100:.2f}")
+            if WFWorkflowActionIdentifier in ignore_in_judge_WFWorkflowActionIdentifier_list:  # These actions do not require the agent to predict.
 
-            GeneratedQuery = cur_query_dict["GeneratedQuery"]
-            shortcut_name = GeneratedQuery["shortcut_name"]
-            shortcut_description = GeneratedQuery["shortcut_description"]
-            query = GeneratedQuery["query"]
-            logger.info(f"The current query is: {query}")
-
-            if URL not in final_detailed_records:
-                continue
-
-            cur_detailed_record = final_detailed_records[URL]  # Retrieve detailed information for the current shortcut.
-            shortcut = cur_detailed_record["shortcut"]
-            WFWorkflowActions = shortcut["WFWorkflowActions"]
-
-            unique_identifies = []  # Retrieve all `WFWorkflowActionIdentifier` for the current shortcut.
-            for action in WFWorkflowActions:
-                WFWorkflowActionIdentifier = action["WFWorkflowActionIdentifier"]
-                if WFWorkflowActionIdentifier in filter_WFWorkflowActionIdentifier_list:
-                    continue
-                if WFWorkflowActionIdentifier in ignore_in_judge_WFWorkflowActionIdentifier_list:
-                    continue
-                unique_identifies.append(WFWorkflowActionIdentifier)
-            unique_identifies = list(set(unique_identifies))
-            random_multiple = random.randint(3, 5)  # Sample 3 to 5 times the number of APIs.
-            extra_API_names = sample_more_APIs(all_api2info, max(min(len(
-                unique_identifies) * random_multiple, 20 - len(unique_identifies)), 0), exclude_APIs=unique_identifies)
-            input_API_names = unique_identifies + extra_API_names
-            # input_API_names = random.shuffle(input_API_names)
-            # input_API_names = sorted(input_API_names)
-            input_API_descs = {}
-            for API_name in input_API_names:
-                if API_name in all_api2info:
-                    input_API_descs[API_name] = all_api2info[API_name]
+                if WFWorkflowActionIdentifier == "is.workflow.actions.conditional":  # Modify the `if` branches so they are understandable by the agent.
+                    # Modify `WFControlFlowMode`
+                    if WFWorkflowActionParameters["WFControlFlowMode"] == 0:
+                        WFWorkflowActionParameters["WFControlFlowMode"] = "If Begin"
+                    elif WFWorkflowActionParameters["WFControlFlowMode"] == 1:
+                        WFWorkflowActionParameters["WFControlFlowMode"] = "Else"
+                    elif WFWorkflowActionParameters["WFControlFlowMode"] == 2:
+                        WFWorkflowActionParameters["WFControlFlowMode"] = "End If"
+                    else:
+                        raise ValueError(f"WFControlFlowMode {
+                                            WFWorkflowActionParameters['WFControlFlowMode']} is not supported.")
+                    # Modify `WFCondition`
+                    if "WFCondition" in WFWorkflowActionParameters:
+                        condition_value = str(
+                            WFWorkflowActionParameters["WFCondition"])
+                        WFWorkflowActionParameters["WFCondition"] = branch_num_2_nlp_desc.get(
+                            condition_value, str(condition_value))
+                    tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
+                                        "WFWorkflowActionParameters": WFWorkflowActionParameters})
+                elif WFWorkflowActionIdentifier == "is.workflow.actions.choosefrommenu":  # Modify the `Case` statements so they are understandable by the agent.
+                    # Adjust `WFControlFlowMode`.
+                    if WFWorkflowActionParameters["WFControlFlowMode"] == 0:
+                        WFWorkflowActionParameters["WFControlFlowMode"] = "Case Begin"
+                    elif WFWorkflowActionParameters["WFControlFlowMode"] == 1:
+                        WFWorkflowActionParameters["WFControlFlowMode"] = "Case"
+                    elif WFWorkflowActionParameters["WFControlFlowMode"] == 2:
+                        WFWorkflowActionParameters["WFControlFlowMode"] = "End Case"
+                    else:
+                        raise ValueError(f"WFControlFlowMode {
+                                            WFWorkflowActionParameters['WFControlFlowMode']} is not supported.")
+                    tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
+                                        "WFWorkflowActionParameters": WFWorkflowActionParameters})
                 else:
-                    input_API_descs[API_name] = "No description available."
-            input_API_descs = dict(
-                sorted(input_API_descs.items(), key=lambda item: item[0]))
+                    tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
+                                        "WFWorkflowActionParameters": WFWorkflowActionParameters})
 
-            agent_instance = APIBasedAgent(input_API_descs)
+                bseqs.append({"state": "copy_from_true",
+                                "aseq": aseq})  # Copy directly from the correct answer.
 
-            log_query = query  # One query per shortcut.
-            log_api_descs = input_API_descs  # Each shortcut has multiple available APIs, represented as a dictionary mapping API names to API descriptions.
-            log_api_names = input_API_names  # Each shortcut has multiple available APIs, represented as a list of API names.
-            aseqs = WFWorkflowActions
-            identifier2return_value = get_identifier2return_value(
-                aseqs, all_api2paraname2paratype)
-            tmp_aseqs = []  # Each shortcut has multiple actions, corresponding one-to-one with the standard answers. This list does not include actions from `filter_WFWorkflowActionIdentifier_list`.
-            bseqs = []  # Each shortcut has multiple actions, corresponding one-to-one with the standard answers. This list includes actions from `filter_WFWorkflowActionIdentifier_list` and should be stored.
-            system_prompt = SYSTEM_PROMPT_TEMPLATE.format(
-                all_api_descs=agent_instance.all_api_descs,
-                all_api_names=agent_instance.all_api_names,
+                continue
+
+            agent_instance.set_history_actions(tmp_aseqs)  # Set historical actions
+            user_prompt = USER_PROMPT_TEMPLATE.format(
+                query=query,
+                history_actions=agent_instance.get_history_action_str(),
             )
 
-            cur_input_token_count, cur_output_token_count = 0, 0
-            cur_input_cost, cur_output_cost, cur_total_cost = 0, 0, 0
+            try_times = 6
+            save_try_times = 5
+            cur_try_time = 0
 
-            context_length_exceeded_error = False
-            for aseq in aseqs:
+            while cur_try_time < try_times:
+                if use_openai_style:
+                    try:
+                        completion = create_completion_client(
+                            model=MODEL_NAME,
+                            messages=[
+                                {"role": "system", "content": system_prompt},
+                                {"role": "user", "content": user_prompt}
+                            ]
+                        )
 
-                WFWorkflowActionIdentifier = copy.deepcopy(
-                    aseq["WFWorkflowActionIdentifier"])
-                # Modifications to `WFWorkflowActionParameters` will alter the original `aseqs`, potentially causing errors in the `calc_WFWorkflowActions_len(aseqs)` calculation.
-                WFWorkflowActionParameters = copy.deepcopy(
-                    aseq["WFWorkflowActionParameters"])
+                        cur_input_token_count += completion.usage.prompt_tokens
+                        cur_output_token_count += completion.usage.completion_tokens
+                        cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
+                        cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
+                        cur_total_cost = cur_input_cost + cur_output_cost
 
-                # For third-party apps, the fields `ShowWhenRun` and `OpenWhenRun` may appear.
-                WFWorkflowActionParameters.pop("ShowWhenRun", None)
-                WFWorkflowActionParameters.pop("OpenWhenRun", None)
-                # For third-party apps, the `AppIntentDescriptor` field may appear.
-                WFWorkflowActionParameters.pop("AppIntentDescriptor", None)
+                        input_token_count += completion.usage.prompt_tokens
+                        output_token_count += completion.usage.completion_tokens
+                        input_cost = input_token_count / 1000000 * input_price_every_million
+                        output_cost = output_token_count / 1000000 * output_price_every_million
+                        total_cost = input_cost + output_cost
 
-                remove_wf_serialization_types(
-                    WFWorkflowActionParameters)  # Remove the `WFSerializationType` field.
-                # Remove the `WFCoercionVariableAggrandizement`, `WFDateFormatVariableAggrandizement`, and `WFUnitVariableAggrandizement` fields from `Aggrandizements`.
-                count_and_clean_aggrandizements(WFWorkflowActionParameters)
-                # Replace `￼` in `attachmentsByRange` and sort.
-                replace_and_sort_attachments(WFWorkflowActionParameters)
+                        break
 
-                # If `CustomOutputName` does not exist, use `DefaultOutputName` if available.
-                if "UUID" in WFWorkflowActionParameters:
-                    UUID = WFWorkflowActionParameters["UUID"]
-                    if UUID in identifier2return_value:
-                        if "CustomOutputName" not in WFWorkflowActionParameters:
-                            if UUID in identifier2return_value:
-                                WFWorkflowActionParameters["CustomOutputName"] = identifier2return_value[UUID]
+                    except Exception as e:
+                        print(
+                            f"Fail! Generation Error! generating action for {URL}")
+                        print(e)
 
-                if "CustomOutputName" in WFWorkflowActionParameters:
-                    WFWorkflowActionParameters["OutputName"] = WFWorkflowActionParameters["CustomOutputName"]
-                    WFWorkflowActionParameters.pop("CustomOutputName")
+                        # If `context_length_exceeded` appears in `str(e)`.
+                        if "context_length_exceeded" in str(e):  # chatgpt
+                            context_length_exceeded_error = True
+                            break
+                        elif "maximum context length is" in str(e):  # deepseek
+                            context_length_exceeded_error = True
+                            break
+                        elif "Range of input length should be" in str(e):
+                            context_length_exceeded_error = True
+                            break
+                        elif "Input validation error" in str(e):
+                            context_length_exceeded_error = True
+                            break
+                        elif 'Content Exists Risk' in str(e): # deepseek
+                            context_length_exceeded_error = True
+                            break
+                        elif "Sorry! We've encountered an issue with repetitive patterns in your prompt" in str(e): # openai
+                            context_length_exceeded_error = True
+                            break
+                        elif "encode character" in str(e): # openai
+                            context_length_exceeded_error = True
+                            break
+                        elif "Expected a string with maximum length" in str(e):
+                            context_length_exceeded_error = True
+                            break
+                        elif "The system detects that the input or generated content may contain unsafe or sensitive material." in str(e): # GLM-4-Air
+                            context_length_exceeded_error = True
+                            break
+                        cur_try_time += 1
+                        time.sleep(1)
 
-                if WFWorkflowActionIdentifier in filter_WFWorkflowActionIdentifier_list:
-                    bseqs.append({"state": "copy_from_true",
-                                 "aseq": aseq})  # Copy directly from the correct answer.
-                    continue
+                        if cur_try_time == save_try_times:
+                            # Save the current result.
+                            print(f"Processed {cnt} results.")
+                            path_model_name = MODEL_NAME.replace("/", "_")
+                            cost_path = os.path.join(
+                                SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+                            with open(cost_path, "a") as f:
+                                write_str = json.dumps({
+                                    "input_token_count": input_token_count,
+                                    "output_token_count": output_token_count,
+                                    "input_cost": input_cost,
+                                    "output_cost": output_cost,
+                                    "total_cost": total_cost
+                                }, ensure_ascii=False) + "\n"
+                                f.write(write_str)
 
-                if WFWorkflowActionIdentifier in ignore_in_judge_WFWorkflowActionIdentifier_list:  # These actions do not require the agent to predict.
+                            path_model_name = MODEL_NAME.replace("/", "_")
+                            res_path = os.path.join(
+                                SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
+                            with open(res_path, "a") as f:
+                                write_str = ""
+                                for res in new_shortcuts_list:
+                                    write_str += json.dumps(res,
+                                                            ensure_ascii=False) + "\n"
+                                f.write(write_str)
 
-                    if WFWorkflowActionIdentifier == "is.workflow.actions.conditional":  # Modify the `if` branches so they are understandable by the agent.
-                        # Modify `WFControlFlowMode`
-                        if WFWorkflowActionParameters["WFControlFlowMode"] == 0:
-                            WFWorkflowActionParameters["WFControlFlowMode"] = "If Begin"
-                        elif WFWorkflowActionParameters["WFControlFlowMode"] == 1:
-                            WFWorkflowActionParameters["WFControlFlowMode"] = "Else"
-                        elif WFWorkflowActionParameters["WFControlFlowMode"] == 2:
-                            WFWorkflowActionParameters["WFControlFlowMode"] = "End If"
-                        else:
-                            raise ValueError(f"WFControlFlowMode {
-                                             WFWorkflowActionParameters['WFControlFlowMode']} is not supported.")
-                        # Modify `WFCondition`
-                        if "WFCondition" in WFWorkflowActionParameters:
-                            condition_value = str(
-                                WFWorkflowActionParameters["WFCondition"])
-                            WFWorkflowActionParameters["WFCondition"] = branch_num_2_nlp_desc.get(
-                                condition_value, str(condition_value))
-                        tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
-                                         "WFWorkflowActionParameters": WFWorkflowActionParameters})
-                    elif WFWorkflowActionIdentifier == "is.workflow.actions.choosefrommenu":  # Modify the `Case` statements so they are understandable by the agent.
-                        # Adjust `WFControlFlowMode`.
-                        if WFWorkflowActionParameters["WFControlFlowMode"] == 0:
-                            WFWorkflowActionParameters["WFControlFlowMode"] = "Case Begin"
-                        elif WFWorkflowActionParameters["WFControlFlowMode"] == 1:
-                            WFWorkflowActionParameters["WFControlFlowMode"] = "Case"
-                        elif WFWorkflowActionParameters["WFControlFlowMode"] == 2:
-                            WFWorkflowActionParameters["WFControlFlowMode"] = "End Case"
-                        else:
-                            raise ValueError(f"WFControlFlowMode {
-                                             WFWorkflowActionParameters['WFControlFlowMode']} is not supported.")
-                        tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
-                                         "WFWorkflowActionParameters": WFWorkflowActionParameters})
-                    else:
-                        tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
-                                         "WFWorkflowActionParameters": WFWorkflowActionParameters})
+                            new_shortcuts_list = []
 
-                    bseqs.append({"state": "copy_from_true",
-                                 "aseq": aseq})  # Copy directly from the correct answer.
+                        if cur_try_time >= try_times:
+                            raise e
+                        
+                elif use_google_style:
+                    try:
+                        chat = model.start_chat(history=[])
+                        completion = chat.send_message("System: " + system_prompt + "\nUser: " + user_prompt)
 
-                    continue
+                        cur_input_token_count += completion.usage_metadata.prompt_token_count
+                        cur_output_token_count += completion.usage_metadata.candidates_token_count
+                        cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
+                        cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
+                        cur_total_cost = cur_input_cost + cur_output_cost
 
-                agent_instance.set_history_actions(tmp_aseqs)  # Set historical actions
-                user_prompt = USER_PROMPT_TEMPLATE.format(
-                    query=query,
-                    history_actions=agent_instance.get_history_action_str(),
-                )
+                        input_token_count += completion.usage_metadata.prompt_token_count
+                        output_token_count += completion.usage_metadata.candidates_token_count
+                        input_cost = input_token_count / 1000000 * input_price_every_million
+                        output_cost = output_token_count / 1000000 * output_price_every_million
+                        total_cost = input_cost + output_cost
 
-                try_times = 6
-                save_try_times = 5
-                cur_try_time = 0
+                        break
 
-                while cur_try_time < try_times:
-                    if use_openai_style:
-                        try:
-                            completion = create_completion_client(
-                                model=MODEL_NAME,
-                                messages=[
-                                    {"role": "system", "content": system_prompt},
-                                    {"role": "user", "content": user_prompt}
-                                ]
-                            )
+                    except Exception as e:
+                        print(
+                            f"Fail! Generation Error! generating action for {URL}")
+                        print(e)
 
-                            cur_input_token_count += completion.usage.prompt_tokens
-                            cur_output_token_count += completion.usage.completion_tokens
-                            cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
-                            cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
-                            cur_total_cost = cur_input_cost + cur_output_cost
-
-                            input_token_count += completion.usage.prompt_tokens
-                            output_token_count += completion.usage.completion_tokens
-                            input_cost = input_token_count / 1000000 * input_price_every_million
-                            output_cost = output_token_count / 1000000 * output_price_every_million
-                            total_cost = input_cost + output_cost
-
+                        # If `context_length_exceeded` appears in `str(e)`.
+                        if "context_length_exceeded" in str(e):
+                            context_length_exceeded_error = True
+                            break
+                        if "HARM_CATEGORY_HARASSMENT" in str(e):
+                            context_length_exceeded_error = True
+                            break
+                        if "HARM_CATEGORY_SEXUALLY_EXPLICIT" in str(e):
+                            context_length_exceeded_error = True
+                            break
+                        if "HARM_CATEGORY_DANGEROUS_CONTENT" in str(e):
+                            context_length_exceeded_error = True
+                            break
+                        if "HARM_CATEGORY_HATE_SPEECH" in str(e):
+                            context_length_exceeded_error = True
                             break
 
-                        except Exception as e:
-                            print(
-                                f"Fail! Generation Error! generating action for {URL}")
-                            print(e)
+                        cur_try_time += 1
+                        time.sleep(1)
 
-                            # If `context_length_exceeded` appears in `str(e)`.
-                            if "context_length_exceeded" in str(e):  # chatgpt
-                                context_length_exceeded_error = True
-                                break
-                            elif "maximum context length is" in str(e):  # deepseek
-                                context_length_exceeded_error = True
-                                break
-                            elif "Range of input length should be" in str(e):
-                                context_length_exceeded_error = True
-                                break
-                            elif "Input validation error" in str(e):
-                                context_length_exceeded_error = True
-                                break
-                            elif 'Content Exists Risk' in str(e): # deepseek
-                                context_length_exceeded_error = True
-                                break
-                            elif "Sorry! We've encountered an issue with repetitive patterns in your prompt" in str(e): # openai
-                                context_length_exceeded_error = True
-                                break
-                            elif "encode character" in str(e): # openai
-                                context_length_exceeded_error = True
-                                break
-                            elif "Expected a string with maximum length" in str(e):
-                                context_length_exceeded_error = True
-                                break
-                            elif "The system detects that the input or generated content may contain unsafe or sensitive material." in str(e): # GLM-4-Air
-                                context_length_exceeded_error = True
-                                break
-                            cur_try_time += 1
-                            time.sleep(1)
+                        if cur_try_time == save_try_times:
+                            # Save the current results.
 
-                            if cur_try_time == save_try_times:
-                                # Save the current result.
-                                print(f"Processed {cnt} results.")
-                                path_model_name = MODEL_NAME.replace("/", "_")
-                                cost_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                                with open(cost_path, "a") as f:
-                                    write_str = json.dumps({
-                                        "input_token_count": input_token_count,
-                                        "output_token_count": output_token_count,
-                                        "input_cost": input_cost,
-                                        "output_cost": output_cost,
-                                        "total_cost": total_cost
-                                    }, ensure_ascii=False) + "\n"
-                                    f.write(write_str)
+                            print(f"Processed {cnt} results.")
 
-                                path_model_name = MODEL_NAME.replace("/", "_")
-                                res_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-                                with open(res_path, "a") as f:
-                                    write_str = ""
-                                    for res in new_shortcuts_list:
-                                        write_str += json.dumps(res,
-                                                                ensure_ascii=False) + "\n"
-                                    f.write(write_str)
+                            path_model_name = MODEL_NAME.replace("/", "_")
+                            cost_path = os.path.join(
+                                SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+                            with open(cost_path, "a") as f:
+                                write_str = json.dumps({
+                                    "input_token_count": input_token_count,
+                                    "output_token_count": output_token_count,
+                                    "input_cost": input_cost,
+                                    "output_cost": output_cost,
+                                    "total_cost": total_cost
+                                }, ensure_ascii=False) + "\n"
+                                f.write(write_str)
 
-                                new_shortcuts_list = []
+                            path_model_name = MODEL_NAME.replace("/", "_")
+                            res_path = os.path.join(
+                                SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
+                            with open(res_path, "a") as f:
+                                write_str = ""
+                                for res in new_shortcuts_list:
+                                    write_str += json.dumps(res,
+                                                            ensure_ascii=False) + "\n"
+                                f.write(write_str)
 
-                            if cur_try_time >= try_times:
-                                raise e
-                            
-                    elif use_google_style:
-                        try:
-                            chat = model.start_chat(history=[])
-                            completion = chat.send_message("System: " + system_prompt + "\nUser: " + user_prompt)
+                            new_shortcuts_list = []
 
-                            cur_input_token_count += completion.usage_metadata.prompt_token_count
-                            cur_output_token_count += completion.usage_metadata.candidates_token_count
-                            cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
-                            cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
-                            cur_total_cost = cur_input_cost + cur_output_cost
+                        if cur_try_time >= try_times:
+                            raise e
 
-                            input_token_count += completion.usage_metadata.prompt_token_count
-                            output_token_count += completion.usage_metadata.candidates_token_count
-                            input_cost = input_token_count / 1000000 * input_price_every_million
-                            output_cost = output_token_count / 1000000 * output_price_every_million
-                            total_cost = input_cost + output_cost
+                elif use_dashscope_style:
+                    try:
+                        completion = create_completion_client(
+                            model=MODEL_NAME,
+                            messages=[
+                                {"role": "system", "content": system_prompt},
+                                {"role": "user", "content": user_prompt}
+                            ]
+                        )
 
+                        cur_input_token_count += completion["usage"]["input_tokens"]
+                        cur_output_token_count += completion["usage"]["output_tokens"]
+                        cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
+                        cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
+                        cur_total_cost = cur_input_cost + cur_output_cost
+
+                        input_token_count += completion["usage"]["input_tokens"]
+                        output_token_count += completion["usage"]["output_tokens"]
+                        input_cost = input_token_count / 1000000 * input_price_every_million
+                        output_cost = output_token_count / 1000000 * output_price_every_million
+                        total_cost = input_cost + output_cost
+
+                        break
+
+                    except Exception as e:
+                        # If you encounter a `'NoneType' object is not subscriptable` error.
+                        if isinstance(e, TypeError):
+                            message = completion["message"]
+                            if 'Allocated quota exceeded, please increase your quota limit.' in message:
+                                print(
+                                    "Allocated quota exceeded, please increase your quota limit.")
+                                time.sleep(15)
+                                continue  # Do not count as an error; continue trying.
+                            elif 'Access denied.' in message:
+                                print("AccessDenied")
+                                time.sleep(15)
+                                continue
+                            elif "Free allocated quota exceeded." in message:
+                                print("Free allocated quota exceeded.")
+                                cur_try_time += 10
+                            elif "Range of input length should be" in str(message):
+                                context_length_exceeded_error = True
+                                break
+                            elif "Output data may contain inappropriate content" in str(message):
+                                context_length_exceeded_error = True
+                                break
+                            elif "Request timed out, please try again later" in message:
+                                print("Request timed out, please try again later")
+                                time.sleep(15)
+                            elif "SSLError" in message:
+                                print("SSLError")
+                                time.sleep(15)
+                            else:
+                                print("completion:", json.dumps(
+                                    completion, indent=4, ensure_ascii=False))
+                                print(e)
+                        
+                        print(
+                            f"Fail! Generation Error! generating action for {URL}")
+                        print(e)
+
+                        # If `context_length_exceeded` appears in `str(e)`.
+                        if "context_length_exceeded" in str(e):
+                            context_length_exceeded_error = True
                             break
 
-                        except Exception as e:
-                            print(
-                                f"Fail! Generation Error! generating action for {URL}")
-                            print(e)
+                        cur_try_time += 1
+                        time.sleep(1)
 
-                            # If `context_length_exceeded` appears in `str(e)`.
-                            if "context_length_exceeded" in str(e):
-                                context_length_exceeded_error = True
-                                break
-                            if "HARM_CATEGORY_HARASSMENT" in str(e):
-                                context_length_exceeded_error = True
-                                break
-                            if "HARM_CATEGORY_SEXUALLY_EXPLICIT" in str(e):
-                                context_length_exceeded_error = True
-                                break
-                            if "HARM_CATEGORY_DANGEROUS_CONTENT" in str(e):
-                                context_length_exceeded_error = True
-                                break
-                            if "HARM_CATEGORY_HATE_SPEECH" in str(e):
-                                context_length_exceeded_error = True
-                                break
+                        if cur_try_time == save_try_times:
+                            # Save the current results.
 
-                            cur_try_time += 1
-                            time.sleep(1)
+                            print(f"Processed {cnt} results.")
 
-                            if cur_try_time == save_try_times:
-                                # Save the current results.
+                            path_model_name = MODEL_NAME.replace("/", "_")
+                            cost_path = os.path.join(
+                                SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+                            with open(cost_path, "a") as f:
+                                write_str = json.dumps({
+                                    "input_token_count": input_token_count,
+                                    "output_token_count": output_token_count,
+                                    "input_cost": input_cost,
+                                    "output_cost": output_cost,
+                                    "total_cost": total_cost
+                                }, ensure_ascii=False) + "\n"
+                                f.write(write_str)
 
-                                print(f"Processed {cnt} results.")
+                            path_model_name = MODEL_NAME.replace("/", "_")
+                            res_path = os.path.join(
+                                SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
+                            with open(res_path, "a") as f:
+                                write_str = ""
+                                for res in new_shortcuts_list:
+                                    write_str += json.dumps(res,
+                                                            ensure_ascii=False) + "\n"
+                                f.write(write_str)
 
-                                path_model_name = MODEL_NAME.replace("/", "_")
-                                cost_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                                with open(cost_path, "a") as f:
-                                    write_str = json.dumps({
-                                        "input_token_count": input_token_count,
-                                        "output_token_count": output_token_count,
-                                        "input_cost": input_cost,
-                                        "output_cost": output_cost,
-                                        "total_cost": total_cost
-                                    }, ensure_ascii=False) + "\n"
-                                    f.write(write_str)
+                            new_shortcuts_list = []
 
-                                path_model_name = MODEL_NAME.replace("/", "_")
-                                res_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-                                with open(res_path, "a") as f:
-                                    write_str = ""
-                                    for res in new_shortcuts_list:
-                                        write_str += json.dumps(res,
-                                                                ensure_ascii=False) + "\n"
-                                    f.write(write_str)
+                        if cur_try_time >= try_times:
+                            raise e
+                else:
+                    raise ValueError("No style is used.")
 
-                                new_shortcuts_list = []
+            if context_length_exceeded_error:
+                break
 
-                            if cur_try_time >= try_times:
-                                raise e
+            generated_content = None
+            try:
+                if use_openai_style:
+                    generated_content = completion.choices[0].message.content
+                    generated_content = match_brackets(generated_content)
+                elif use_google_style:
+                    generated_content = list(completion)[0].text
+                    generated_content = match_brackets(generated_content)
+                elif use_dashscope_style:
+                    generated_content = completion["output"]["text"]
+                    generated_content = match_brackets(generated_content)
+                else:
+                    raise ValueError("No style is used.")
+                generated_content = json.loads(generated_content)
+            except Exception as e:
+                print(f"Fail! Parse Error! generating action for {URL}")
+                print(e)
 
-                    elif use_dashscope_style:
-                        try:
-                            completion = create_completion_client(
-                                model=MODEL_NAME,
-                                messages=[
-                                    {"role": "system", "content": system_prompt},
-                                    {"role": "user", "content": user_prompt}
-                                ]
-                            )
-
-                            cur_input_token_count += completion["usage"]["input_tokens"]
-                            cur_output_token_count += completion["usage"]["output_tokens"]
-                            cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
-                            cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
-                            cur_total_cost = cur_input_cost + cur_output_cost
-
-                            input_token_count += completion["usage"]["input_tokens"]
-                            output_token_count += completion["usage"]["output_tokens"]
-                            input_cost = input_token_count / 1000000 * input_price_every_million
-                            output_cost = output_token_count / 1000000 * output_price_every_million
-                            total_cost = input_cost + output_cost
-
-                            break
-
-                        except Exception as e:
-                            # If you encounter a `'NoneType' object is not subscriptable` error.
-                            if isinstance(e, TypeError):
-                                message = completion["message"]
-                                if 'Allocated quota exceeded, please increase your quota limit.' in message:
-                                    print(
-                                        "Allocated quota exceeded, please increase your quota limit.")
-                                    time.sleep(15)
-                                    continue  # Do not count as an error; continue trying.
-                                elif 'Access denied.' in message:
-                                    print("AccessDenied")
-                                    time.sleep(15)
-                                    continue
-                                elif "Free allocated quota exceeded." in message:
-                                    print("Free allocated quota exceeded.")
-                                    cur_try_time += 10
-                                elif "Range of input length should be" in str(message):
-                                    context_length_exceeded_error = True
-                                    break
-                                elif "Output data may contain inappropriate content" in str(message):
-                                    context_length_exceeded_error = True
-                                    break
-                                elif "Request timed out, please try again later" in message:
-                                    print("Request timed out, please try again later")
-                                    time.sleep(15)
-                                elif "SSLError" in message:
-                                    print("SSLError")
-                                    time.sleep(15)
-                                else:
-                                    print("completion:", json.dumps(
-                                        completion, indent=4, ensure_ascii=False))
-                                    print(e)
-                            
-                            print(
-                                f"Fail! Generation Error! generating action for {URL}")
-                            print(e)
-
-                            # If `context_length_exceeded` appears in `str(e)`.
-                            if "context_length_exceeded" in str(e):
-                                context_length_exceeded_error = True
-                                break
-
-                            cur_try_time += 1
-                            time.sleep(1)
-
-                            if cur_try_time == save_try_times:
-                                # Save the current results.
-
-                                print(f"Processed {cnt} results.")
-
-                                path_model_name = MODEL_NAME.replace("/", "_")
-                                cost_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                                with open(cost_path, "a") as f:
-                                    write_str = json.dumps({
-                                        "input_token_count": input_token_count,
-                                        "output_token_count": output_token_count,
-                                        "input_cost": input_cost,
-                                        "output_cost": output_cost,
-                                        "total_cost": total_cost
-                                    }, ensure_ascii=False) + "\n"
-                                    f.write(write_str)
-
-                                path_model_name = MODEL_NAME.replace("/", "_")
-                                res_path = os.path.join(
-                                    SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-                                with open(res_path, "a") as f:
-                                    write_str = ""
-                                    for res in new_shortcuts_list:
-                                        write_str += json.dumps(res,
-                                                                ensure_ascii=False) + "\n"
-                                    f.write(write_str)
-
-                                new_shortcuts_list = []
-
-                            if cur_try_time >= try_times:
-                                raise e
-                    else:
-                        raise ValueError("No style is used.")
-
-                if context_length_exceeded_error:
-                    break
-
-                generated_content = None
-                try:
-                    if use_openai_style:
-                        generated_content = completion.choices[0].message.content
-                        generated_content = match_brackets(generated_content)
-                    elif use_google_style:
-                        generated_content = list(completion)[0].text
-                        generated_content = match_brackets(generated_content)
-                    elif use_dashscope_style:
-                        generated_content = completion["output"]["text"]
-                        generated_content = match_brackets(generated_content)
-                    else:
-                        raise ValueError("No style is used.")
-                    generated_content = json.loads(generated_content)
-                except Exception as e:
-                    print(f"Fail! Parse Error! generating action for {URL}")
-                    print(e)
-
-                    bseqs.append(
-                        {"state": "json_error", "aseq": generated_content})
-                    tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
-                                     "WFWorkflowActionParameters": WFWorkflowActionParameters})  # Prepare for the next prediction.
-                    print(f"Token count: {input_token_count}, {output_token_count}, Input Cost {
-                          input_cost}, {output_cost}, Total Cost {total_cost}")
-                    time.sleep(0.5)
-                    continue
-
-                bseqs.append({"state": "generated_by_agent",
-                             "aseq": generated_content})
+                bseqs.append(
+                    {"state": "json_error", "aseq": generated_content})
                 tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
-                                 "WFWorkflowActionParameters": WFWorkflowActionParameters})  # Prepare for the next prediction.
-
-                logger.info(f"Token count: {input_token_count}, {output_token_count}, Input Cost {
-                            input_cost}, {output_cost}, Total Cost {total_cost}")
-
+                                    "WFWorkflowActionParameters": WFWorkflowActionParameters})  # Prepare for the next prediction.
+                print(f"Token count: {input_token_count}, {output_token_count}, Input Cost {
+                        input_cost}, {output_cost}, Total Cost {total_cost}")
                 time.sleep(0.5)
+                continue
 
-            if len(aseqs) != len(bseqs):
-                res_aseqs = aseqs[:len(bseqs)]
-            else:
-                res_aseqs = aseqs
+            bseqs.append({"state": "generated_by_agent",
+                            "aseq": generated_content})
+            tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
+                                "WFWorkflowActionParameters": WFWorkflowActionParameters})  # Prepare for the next prediction.
 
-            new_shortcuts_list.append({
-                "URL": URL,
-                "query": log_query,
-                "api_names": log_api_names,
-                "api_descs": log_api_descs,
-                "aseqs": res_aseqs,
-                "bseqs": bseqs,
-                "cur_input_token_count": cur_input_token_count,
-                "cur_output_token_count": cur_output_token_count,
-                "cur_input_cost": cur_input_cost,
-                "cur_output_cost": cur_output_cost,
-                "cur_total_cost": cur_total_cost
-            })
+            logger.info(f"Token count: {input_token_count}, {output_token_count}, Input Cost {
+                        input_cost}, {output_cost}, Total Cost {total_cost}")
 
-            cnt += 1
-            logger.info(f"Processed {cnt} results.")
-            if cnt % 10 == 0:  # Save every 10 entries.
+            time.sleep(0.5)
 
-                logger.info(f"Saving {cnt} results.")
-                path_model_name = MODEL_NAME.replace("/", "_")
-                cost_path = os.path.join(
-                    SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                with open(cost_path, "a") as f:
-                    write_str = json.dumps({
-                        "input_token_count": input_token_count,
-                        "output_token_count": output_token_count,
-                        "input_cost": input_cost,
-                        "output_cost": output_cost,
-                        "total_cost": total_cost
-                    }, ensure_ascii=False) + "\n"
-                    f.write(write_str)
+        if len(aseqs) != len(bseqs):
+            res_aseqs = aseqs[:len(bseqs)]
+        else:
+            res_aseqs = aseqs
 
-                path_model_name = MODEL_NAME.replace("/", "_")
-                res_path = os.path.join(
-                    SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
-                with open(res_path, "a") as f:
-                    write_str = ""
-                    for res in new_shortcuts_list:
-                        write_str += json.dumps(res, ensure_ascii=False) + "\n"
-                    f.write(write_str)
+        new_shortcuts_list.append({
+            "URL": URL,
+            "query": log_query,
+            "api_names": log_api_names,
+            "api_descs": log_api_descs,
+            "aseqs": res_aseqs,
+            "bseqs": bseqs,
+            "cur_input_token_count": cur_input_token_count,
+            "cur_output_token_count": cur_output_token_count,
+            "cur_input_cost": cur_input_cost,
+            "cur_output_cost": cur_output_cost,
+            "cur_total_cost": cur_total_cost
+        })
 
-                new_shortcuts_list = []
-                logger.info(f"Saved {cnt} results.")
+        cnt += 1
+        logger.info(f"Processed {cnt} results.")
+        if cnt % 10 == 0:  # Save every 10 entries.
 
-        logger.info(f"Finish processing {cnt} results.")
-
-        if new_shortcuts_list:
-            
+            logger.info(f"Saving {cnt} results.")
             path_model_name = MODEL_NAME.replace("/", "_")
             cost_path = os.path.join(
                 SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-
             with open(cost_path, "a") as f:
                 write_str = json.dumps({
                     "input_token_count": input_token_count,
@@ -2107,3 +2049,33 @@ if __name__ == "__main__":
                 for res in new_shortcuts_list:
                     write_str += json.dumps(res, ensure_ascii=False) + "\n"
                 f.write(write_str)
+
+            new_shortcuts_list = []
+            logger.info(f"Saved {cnt} results.")
+
+    logger.info(f"Finish processing {cnt} results.")
+
+    if new_shortcuts_list:
+        
+        path_model_name = MODEL_NAME.replace("/", "_")
+        cost_path = os.path.join(
+            SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+
+        with open(cost_path, "a") as f:
+            write_str = json.dumps({
+                "input_token_count": input_token_count,
+                "output_token_count": output_token_count,
+                "input_cost": input_cost,
+                "output_cost": output_cost,
+                "total_cost": total_cost
+            }, ensure_ascii=False) + "\n"
+            f.write(write_str)
+
+        path_model_name = MODEL_NAME.replace("/", "_")
+        res_path = os.path.join(
+            SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
+        with open(res_path, "a") as f:
+            write_str = ""
+            for res in new_shortcuts_list:
+                write_str += json.dumps(res, ensure_ascii=False) + "\n"
+            f.write(write_str)
