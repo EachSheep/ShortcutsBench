@@ -25,6 +25,7 @@ model_names = [
     'meta-llama/Llama-3-70b-chat-hf',
     'gemini-1.5-flash',
     'qwen2-57b-a14b-instruct',
+    "gpt-4o-mini",
     "gpt-3.5-turbo",
     'GLM-4-Air',
 ]
@@ -38,6 +39,7 @@ modelname2price = {
     'meta-llama/Llama-3-70b-chat-hf': [0., 0.],
     'gemini-1.5-flash': [0.35, 1.05],
     'qwen2-57b-a14b-instruct': [3.5/exchange_rate, 7/exchange_rate],
+    "gpt-4o-mini": [0.15, 0.6],
     "gpt-3.5-turbo": [0.5, 1.5],
     'GLM-4-Air': [1/exchange_rate, 1/exchange_rate],
 }
@@ -233,6 +235,7 @@ if __name__ =="__main__":
             'LLaMA\n3-70B', 
             'Gemini\n1.5-Flash',
             'QWen\n2-57B',
+            'GPT\n4o-mini',
             'GPT\n3.5-turbo',
             'ChatGLM\n4-Air',
         ],
@@ -256,7 +259,7 @@ if __name__ =="__main__":
     ax.tick_params(axis='x', labelsize=18) # Adjusting tick label font sizes
     ax.tick_params(axis='y', labelsize=18, rotation=45)
     ax.xaxis.set_tick_params(rotation=45) # Rotate y-axis tick labels
-    ax.legend(title='', bbox_to_anchor=(0.5, 1.1), loc='center', ncol=5, fontsize=18)
+    ax.legend(title='', bbox_to_anchor=(0.5, 0.99), loc='center', ncol=5, fontsize=18)
     ax.grid(axis='y', linestyle='--', linewidth=0.7)
     plt.tight_layout()
 
@@ -272,7 +275,7 @@ if __name__ =="__main__":
 
     # Create a bar chart for each category.
     df = pd.DataFrame(experiments1_res_data)
-    fig, axs = plt.subplots(2, 4, figsize=(24, 10))
+    fig, axs = plt.subplots(2, 4, figsize=(24, 8))
     bar_labels, bar_handles = [], []
     for i, category in enumerate(categories.values()):
         cur_row = i // 4
@@ -287,6 +290,7 @@ if __name__ =="__main__":
                 'LLaMA\n3-70B',
                 'Gemini\n1.5-Flash',
                 'QWen\n2-57B',
+                'GPT\n4o-mini',
                 'GPT\n3.5-turbo',
                 'ChatGLM\n4-Air',
             ],
@@ -337,8 +341,8 @@ if __name__ =="__main__":
     # Add a unified legend.
     handles, labels = cur_ax.get_legend_handles_labels()
     bar_labels = ['Gemini-1.5-Pro', 'QWen-2-72B', 'Deepseek-2-chat', 'Deepseek-2-coder', 
-                  'LLaMA-3-70B', 'Gemini-1.5-Flash', 'QWen-2-57B', 'GPT-3.5', 'ChatGLM-4-Air']
-    fig.legend(handles=[bar[0] for bar in bar_handles], labels=bar_labels, loc='upper center', ncol=9, fontsize=18, bbox_to_anchor=(0.5, 0.999), columnspacing=0.5)
+                  'LLaMA-3-70B', 'Gemini-1.5-Flash', 'QWen-2-57B', 'GPT-4o-mini', 'GPT-3.5', 'ChatGLM-4-Air']
+    fig.legend(handles=[bar[0] for bar in bar_handles], labels=bar_labels, loc='upper center', ncol=10, fontsize=16, bbox_to_anchor=(0.5, 0.999), columnspacing=0.5)
     
     plt.tight_layout(rect=[0.01, 0.01, 0.98, 0.93])
     save_path = os.path.join(SHORTCUT_DATA, "experiment_categories_res.pdf")
@@ -357,6 +361,7 @@ if __name__ =="__main__":
         'LLaMA\n3-70B',
         'Gemini\n1.5-Flash',
         'QWen\n2-57B',
+        'GPT\n4o-mini',
         'GPT\n3.5-turbo',
         'ChatGLM\n4-Air',
     ]
@@ -408,10 +413,10 @@ if __name__ =="__main__":
     print("Model with minimum difference:", models[np.argmin(diffs)])
 
     ax.set_xticks(range(1, len(models) + 1))
-    ax.set_xticklabels(models, rotation=45, ha='center', fontsize=14)
+    ax.set_xticklabels(models, rotation=45, ha='center', fontsize=16)
     ax.tick_params(axis='y', labelsize=18)
     ax.set_ylim(0, 100)
-    ax.set_ylabel('API Selection Accuracy (%)', fontsize=16)
+    ax.set_ylabel('API Selection Accuracy (%)', fontsize=20)
     # ax.set_title('Box Plot of API Selection Accuracy by Model', fontsize=22)
     ax.grid(axis='y', linestyle='--', linewidth=0.7)
 
@@ -433,6 +438,7 @@ if __name__ =="__main__":
         'LLaMA\n3-70B',
         'Gemini\n1.5-Flash',
         'QWen\n2-57B',
+        'GPT\n4o-mini',
         'GPT\n3.5-turbo',
         'ChatGLM\n4-Air',
     ]
@@ -446,7 +452,7 @@ if __name__ =="__main__":
     vmin = min(experiments2_basic_para_res.min(), experiments2_ret_val_res.min())
     vmax = max(experiments2_basic_para_res.min(), experiments2_ret_val_res.max())
     # Plotting the heatmap for experiments2_basic_para_res
-    fig, axs = plt.subplots(2, 1, figsize=(24, 10))
+    fig, axs = plt.subplots(2, 1, figsize=(24, 8))
 
     sns.heatmap(experiments2_basic_para_res, annot=True, fmt=".2f", cmap="YlGnBu", cbar=False, cbar_kws={'label': ''}, ax=axs[0], 
                 annot_kws={"size": 28}, vmin=vmin, vmax=vmax)
@@ -466,7 +472,7 @@ if __name__ =="__main__":
     # ax.set_title("Experiments Ret Val Res Heatmap", fontsize=30)
     # axs[1].set_xlabel("Different API-based agents", fontsize=28)
     axs[1].set_xlabel("")
-    axs[1].set_ylabel("Prev. Actions Fill", fontsize=28)
+    axs[1].set_ylabel("Prev. Actions Fill", fontsize=24)
     axs[1].tick_params(axis='both', which='major', labelsize=26)
     axs[1].set_yticklabels(['(1,5]', '(5,15]', '(15,30]', 'Overall'], fontsize=26, rotation=45)
     axs[1].set_xticklabels(models, fontsize=30)
@@ -493,6 +499,7 @@ if __name__ =="__main__":
             'LLaMA\n3-70B',
             'Gemini\n1.5-Flash',
             'QWen\n2-57B',
+            'GPT\n4o-mini',
             'GPT\n3.5-turbo',
             'ChatGLM\n4-Air',
         ],
@@ -501,18 +508,18 @@ if __name__ =="__main__":
         'Choose Error': [float(cur_val) for cur_val in return_para_chooseerror_accs]
     }
     df = pd.DataFrame(num_api_nums)
-    fig, ax = plt.subplots(figsize=(12, 4)) # Plotting the bar chart
+    fig, ax = plt.subplots(figsize=(12, 3)) # Plotting the bar chart
     bar_width = 0.8
     df.plot(x='Model', kind='bar', stacked=False, ax=ax, color=['#A5DF87', '#19a39f', '#4BA5E2'], width=bar_width)
     df = pd.DataFrame(num_api_nums)
     # ax.set_xlabel('Different API-based Agents', fontsize=20)
     ax.set_xlabel('')
-    ax.set_ylabel('Error Rate (%)', fontsize=20)
+    ax.set_ylabel('Error Rate (%)', fontsize=16)
     ax.set_ylim(0, 20)
     ax.tick_params(axis='x', labelsize=18) # Adjusting tick label font sizes
     ax.tick_params(axis='y', labelsize=18)
     ax.xaxis.set_tick_params(rotation=25) # Rotate y-axis tick labels
-    ax.legend(title='', bbox_to_anchor=(0.5, 1.1), loc='center', ncol=5, fontsize=18)
+    ax.legend(title='', bbox_to_anchor=(0.5, 0.99), loc='center', ncol=5, fontsize=18)
     ax.grid(axis='y', linestyle='--', linewidth=0.7)
     plt.tight_layout()
     save_path = os.path.join(SHORTCUT_DATA, "experiment_return_para_error.pdf")
@@ -544,6 +551,7 @@ if __name__ =="__main__":
             'LLaMA\n3-70B',
             'Gemini\n1.5-Flash',
             'QWen\n2-57B',
+            'GPT\n4o-mini',
             'GPT\n3.5-turbo',
             'ChatGLM\n4-Air'
         ],

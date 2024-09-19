@@ -90,11 +90,14 @@ This code generates the following files, representing the results:
 - `experiment_res_gemini-1.5-flash.jsonl`
 - `experiment_res_gemini-1.5-pro.jsonl`
 - `experiment_res_GLM-4-Air.jsonl`
+- `experiment_res_gpt-4o-mini.jsonl` (new added)
 - `experiment_res_gpt-3.5-turbo.jsonl`
 - `experiment_res_meta-llama_Llama-3-70b-chat-hf.jsonl`
 - `experiment_res_qwen2-57b-a14b-instruct.jsonl`
 - `experiment_res_qwen2-72b-instruct.jsonl`
 
 These files can be downloaded from [Google Drive](https://drive.google.com/file/d/1jnJj5DhMy7Pat7TeVpA1USZWBmyjIWUo/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1zahYXa96dN6ZfPHlakAyIw?pwd=uwqh), with the extraction password `shortcutsbench`.
+
+The newly added files can be downloaded from [Google Drive](https://drive.google.com/file/d/1lTHRgibCLclQm-XoMLLtPabHfPBMzOZs/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1RZdi24JEoGIcWSYbRWB2xA?pwd=up79), with `shortcutsbench` as the extraction password.
 
 We then use [`all_experiments_res.py`](./all_experiments_res.py) for plotting and analysis.

@@ -90,6 +90,7 @@ ShortcutsBench包括三个部分：
 - `experiment_res_gemini-1.5-flash.jsonl`
 - `experiment_res_gemini-1.5-pro.jsonl`
 - `experiment_res_GLM-4-Air.jsonl`
+- `experiment_res_gpt-4o-mini.jsonl` (新添加)
 - `experiment_res_gpt-3.5-turbo.jsonl`
 - `experiment_res_meta-llama_Llama-3-70b-chat-hf.jsonl`
 - `experiment_res_qwen2-57b-a14b-instruct.jsonl`
@@ -97,5 +98,7 @@ ShortcutsBench包括三个部分：
 文件，这些文件即为结果。
 
 这些文件可以从[Google云盘](https://drive.google.com/file/d/1jnJj5DhMy7Pat7TeVpA1USZWBmyjIWUo/view?usp=sharing)或者[百度网盘](https://pan.baidu.com/s/1zahYXa96dN6ZfPHlakAyIw?pwd=uwqh)下载，解压密码为`shortcutsbench`。
+
+新添加的文件可以从[Google云盘](https://drive.google.com/file/d/1lTHRgibCLclQm-XoMLLtPabHfPBMzOZs/view?usp=sharing)或者[百度网盘](https://pan.baidu.com/s/1RZdi24JEoGIcWSYbRWB2xA?pwd=up79)下载，解压密码为`shortcutsbench`。
 
 随后我们使用[`all_experiments_res.py`](./all_experiments_res.py)进行绘图和分析。
