@@ -14,10 +14,6 @@ import argparse
 
 from other_prompt import SYSTEM_PROMPT_TEMPLATE, USER_PROMPT_TEMPLATE
 
-SHORTCUTSBENCH_OTHER_DATA = os.getenv("SHORTCUTSBENCH_OTHER_DATA")
-
-# args.model_name = "gpt-4o-mini" # $0.15 / 1M, $0.60 / 1M
-
 def match_brackets(text):
     # Match the outermost curly braces and their contents.
     pattern = r"\{.*\}"
@@ -91,8 +87,19 @@ if __name__ == "__main__":
 
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--model_name", type=str, default=None)  # Model name
+    argparser.add_argument("--dataset_name", type=str, default=None)  # dataset name
     argparser.add_argument("--sample_num", type=int, default=0)
     args = argparser.parse_args()
+    
+    # SHORTCUTSBENCH_OTHER_DATA = os.getenv("SHORTCUTSBENCH_OTHER_DATA")
+    if args.dataset_name == "metatool":
+        SHORTCUTSBENCH_OTHER_DATA = os.getenv("SHORTCUTSBENCH_METATOOL_OTHER_DATA")
+    elif args.dataset_name == "toolbench":
+        SHORTCUTSBENCH_OTHER_DATA = os.getenv("SHORTCUTSBENCH_TOOLBENCH_OTHER_DATA")
+    elif args.dataset_name == "toolllm":
+        SHORTCUTSBENCH_OTHER_DATA = os.getenv("SHORTCUTSBENCH_TOOLLLM_OTHER_DATA")
+    else:
+        raise ValueError("args.dataset_name error")
 
     use_openai_style = False  # Use OpenAI's style
 
@@ -159,7 +166,7 @@ if __name__ == "__main__":
     generated_success_queries = dict(random.sample(list(generated_success_queries.items()), len(generated_success_queries)))
 
     if args.sample_num:
-        sampled_queries = dict(random.sample(list(generated_success_queries.items()), args.sample_num))
+        generated_success_queries = dict(random.sample(list(generated_success_queries.items()), args.sample_num))
         logger.info(f"Sampled {args.sample_num} shortcuts.")
     
     all_api2info_path = os.path.join(SHORTCUTSBENCH_OTHER_DATA, "all_api2info.json")
@@ -213,6 +220,8 @@ if __name__ == "__main__":
             all_api_descs=agent_instance.all_api_descs,
             all_api_names=agent_instance.all_api_names,
         )
+        # print("system_prompt:", system_prompt)
+        # input()
 
         context_length_exceeded_error = False
         for aseq in aseqs:
@@ -226,6 +235,8 @@ if __name__ == "__main__":
                 query=query,
                 history_actions=agent_instance.get_history_action_str(),
             )
+            # print("user_prompt:", user_prompt)
+            # input()
 
             try_times = 6
             save_try_times = 5
