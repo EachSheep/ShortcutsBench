@@ -115,7 +115,22 @@ if __name__ == "__main__":
         else:
             raise Exception("args.model_name error")
         use_openai_style = True
+    elif args.model_name in [
+        "llama3.1:8b-instruct-fp16",
+        "qwen2:7b-instruct-fp16",
+        "qwen2:1.5b-instruct-fp16",
+        "qwen2:0.5b-instruct-fp16",
+    ]:
+        OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL")
+        OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
+        client = openai.OpenAI(
+            base_url = OLLAMA_BASE_URL,
+            api_key=OLLAMA_API_KEY, # required, but unused
+        )
+        create_completion_client = client.chat.completions.create
 
+        input_price_every_million, output_price_every_million = 0., 0.
+        use_openai_style = True
     else:
         raise NotImplementedError
 

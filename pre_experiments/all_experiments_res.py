@@ -7,6 +7,7 @@ argparser = argparse.ArgumentParser()
 argparser.add_argument("--model_name", type=str, default=None)  # Model name
 argparser.add_argument("--dataset_name", type=str, default=None)  # Dataset name
 argparser.add_argument("--sample_num", type=int, default=0)  # Sample number (if needed)
+argparser.add_argument("--delete_json_error", action="store_true", default=False)
 args = argparser.parse_args()
 
 # Set the path for the correct dataset based on the dataset_name
@@ -29,6 +30,8 @@ total_count = 0
 correct_count = 0
 mismatches = []  # To store information about mismatched queries
 
+None_num = 0
+
 # Open and read the JSONL file
 with open(res_path, 'r', encoding='utf-8') as f:
     for line in f:
@@ -36,7 +39,12 @@ with open(res_path, 'r', encoding='utf-8') as f:
         
         # Extract api_name from aseqs and bseqs
         aseq_api_name = data['aseqs'][0]['api_name'] if 'aseqs' in data and data['aseqs'] else None
-        bseq_api_name = data['bseqs'][0]['aseq']['api_name'] if 'bseqs' in data and data['bseqs'] else None
+        try:
+            bseq_api_name = data['bseqs'][0]['aseq']['api_name'] if 'bseqs' in data and data['bseqs'] else None
+        except:
+            bseq_api_name = None
+            None_num += 1
+            continue
         
         # Compare the api_name from aseq and bseq
         if aseq_api_name == bseq_api_name:
@@ -66,4 +74,4 @@ else:
     print("All queries matched successfully!")
 
 # Print accuracy result
-print(f"Accuracy: {accuracy:.4f}")
+print(f"Accuracy: {accuracy:.4f}, None_num: {None_num}")
