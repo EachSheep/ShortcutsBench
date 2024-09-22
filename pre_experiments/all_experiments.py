@@ -116,10 +116,16 @@ if __name__ == "__main__":
             raise Exception("args.model_name error")
         use_openai_style = True
     elif args.model_name in [
-        "llama3.1:8b-instruct-fp16",
-        "qwen2:7b-instruct-fp16",
-        "qwen2:1.5b-instruct-fp16",
         "qwen2:0.5b-instruct-fp16",
+        "qwen2:1.5b-instruct-fp16",
+        "qwen2:7b-instruct-fp16",
+        "qwen2.5:0.5b-instruct-fp16",
+        "qwen2.5:1.5b-instruct-fp16",
+        "qwen2.5:3b-instruct-fp16",
+        "qwen2.5:7b-instruct-fp16",
+        "gemma2:2b-instruct-fp16",
+        "gemma2:9b-instruct-fp16",
+        "llama3.1:8b-instruct-fp16",
     ]:
         OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL")
         OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")

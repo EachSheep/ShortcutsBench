@@ -7,7 +7,7 @@ unset https_proxy
 ARGS=("$@")
 
 # Define the base command
-CMD="python all_experiments.py --model_name llama3.1:8b-instruct-fp16"
+CMD="python all_experiments.py --model_name qwen2:1.5b-instruct-fp16"
 
 # Check if --sample_num parameter is provided
 for ((i=0; i < ${#ARGS[@]}; i++)); do
