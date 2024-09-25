@@ -125,6 +125,7 @@ if __name__ == "__main__":
         "qwen2.5:7b-instruct-fp16",
         "gemma2:2b-instruct-fp16",
         "gemma2:9b-instruct-fp16",
+        "llama3:8b-instruct-fp16",
         "llama3.1:8b-instruct-fp16",
     ]:
         OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL")
