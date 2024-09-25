@@ -287,10 +287,9 @@ Additionally, you must comply with the license agreements of the shortcut sharin
 If you find this project helpful, please consider citing our work:
 
 ```latex
-@misc{
-    
-    shen2024shortcutsbenchlargescalerealworldbenchmark,
 
+@misc{
+    shen2024shortcutsbenchlargescalerealworldbenchmark,
     title={ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents}, 
     author={Haiyang Shen and Yue Li and Desong Meng and Dongqi Cai and Sheng Qi and Li Zhang and Mengwei Xu and Yun Ma},
     year={2024},
