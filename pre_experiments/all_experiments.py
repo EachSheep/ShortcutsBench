@@ -127,6 +127,7 @@ if __name__ == "__main__":
         "gemma2:9b-instruct-fp16",
         "llama3:8b-instruct-fp16",
         "llama3.1:8b-instruct-fp16",
+        "llama3.2:3b-instruct-fp16"
     ]:
         OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL")
         OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
@@ -257,9 +258,7 @@ if __name__ == "__main__":
                 query=query,
                 history_actions=agent_instance.get_history_action_str(),
             )
-            # print("user_prompt:", user_prompt)
-            # input()
-
+            
             try_times = 6
             save_try_times = 5
             cur_try_time = 0
