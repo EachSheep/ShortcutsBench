@@ -35,12 +35,12 @@ def generate_json_files(sample_size):
     # Sample 'sample_size' number of queries (if less, repeat to reach the required size)
     sampled_data = combined_data * (sample_size // len(combined_data)) + combined_data[:sample_size % len(combined_data)]
 
-    # Generate the 'generated_success_queries.json' structure
-    generated_success_queries = {}
+    # Generate the 'pre_generated_success_queries.json' structure
+    pre_generated_success_queries = {}
 
     for query, tools in sampled_data:
         unique_id = str(uuid.uuid4())  # Generate unique id for each query
-        generated_success_queries[unique_id] = {
+        pre_generated_success_queries[unique_id] = {
             "query": query,
             "action_seqs": [
                 {
@@ -51,21 +51,20 @@ def generate_json_files(sample_size):
             ]
         }
 
-    # Create all_api2info.json based on plugin_des.json
+    # Create pre_all_api2info.json based on plugin_des.json
     with open('plugin_des.json', 'r') as f:
         plugin_des = json.load(f)
 
-    # Generate the 'all_api2info.json' structure
-    all_api2info = {api: description for api, description in plugin_des.items()}
+    # Generate the 'pre_all_api2info.json' structure
+    pre_all_api2info = {api: description for api, description in plugin_des.items()}
 
     # Saving both JSONs to files
-    with open("generated_success_queries.json", "w") as f:
-        json.dump(generated_success_queries, f, indent=4)
+    with open("pre_generated_success_queries.json", "w") as f:
+        json.dump(pre_generated_success_queries, f, indent=4)
+ 
+        json.dump(pre_all_api2info, f, indent=4)
 
-    with open("all_api2info.json", "w") as f:
-        json.dump(all_api2info, f, indent=4)
-
-    print("Generated files are ready for download as 'generated_success_queries.json' and 'all_api2info.json'.")
+    print("Generated files are ready for download as 'pre_generated_success_queries.json' and 'pre_all_api2info.json'.")
 
 if __name__ == "__main__":
     # Argument parsing for command-line sample size input

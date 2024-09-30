@@ -26,7 +26,7 @@ else:
 # Prepare the result path for the experiment file
 path_model_name = args.model_name.replace("/", "_")
 res_path = os.path.join(SHORTCUTSBENCH_OTHER_DATA, 
-                        f"experiment_res_{path_model_name}.jsonl")
+                        f"pre_experiment_res_{path_model_name}.jsonl")
 
 # Variables for tracking accuracy
 total_count = 0

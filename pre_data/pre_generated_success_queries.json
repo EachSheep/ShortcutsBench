@@ -1,0 +1,22 @@
+{
+    "URL1": {
+        "query": "This is query.",
+        "action_seqs": [
+            {
+                "api_name": "api_name_1",
+                "api_action": "api_action_1",
+                "api_reaction": "api_reaction_1"
+            }
+        ]
+    },
+    "URL2": {
+        "query": "This is query.",
+        "action_seqs": [
+            {
+                "api_name": "api_name_2",
+                "api_action": "api_action_2",
+                "api_reaction": "api_reaction_2"
+            }
+        ]
+    }
+}

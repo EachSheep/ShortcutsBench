@@ -71,13 +71,13 @@ def traverse_and_truncate(data):
         data = truncate_string(data)
     return data
 
-def sample_more_APIs(all_api2info, number, exclude_APIs=[]):
+def sample_more_APIs(pre_all_api2info, number, exclude_APIs=[]):
     """Randomly select `number` APIs from all available APIs.
     """
     if number <= 0:
         return []
 
-    all_APIs = list(all_api2info.keys())
+    all_APIs = list(pre_all_api2info.keys())
     # Compute the difference set.
     all_APIs = list(set(all_APIs) - set(exclude_APIs))
     sampled_APIs = random.sample(all_APIs, number)
@@ -162,17 +162,17 @@ if __name__ == "__main__":
     logger.info(f"args.model_name: {args.model_name}")
 
     # Get the query.
-    generated_success_queries_path = os.path.join(
-        SHORTCUTSBENCH_OTHER_DATA, "generated_success_queries.json")
-    with open(generated_success_queries_path, "r") as f:
-        generated_success_queries = json.load(f)
-    logger.info(f"Number of queries: {len(generated_success_queries)}")
+    pre_generated_success_queries_path = os.path.join(
+        SHORTCUTSBENCH_OTHER_DATA, "pre_generated_success_queries.json")
+    with open(pre_generated_success_queries_path, "r") as f:
+        pre_generated_success_queries = json.load(f)
+    logger.info(f"Number of queries: {len(pre_generated_success_queries)}")
 
     # Slashes (/) in `args.model_name` will be replaced with underscores (_).
     path_model_name = args.model_name.replace("/", "_")
     res_path = os.path.join(SHORTCUTSBENCH_OTHER_DATA, 
                             # Path to store the final agent-generated results
-                            f"experiment_res_{path_model_name}.jsonl")
+                            f"pre_experiment_res_{path_model_name}.jsonl")
     already_processed_queries_list = []  # Final saved experimental results
     if os.path.exists(res_path):
         with open(res_path, "r") as f:
@@ -182,25 +182,25 @@ if __name__ == "__main__":
         [res["URL"] for res in already_processed_queries_list])  # Processed queries will not be reprocessed.
     del already_processed_queries_list
 
-    to_be_processed_num = len(generated_success_queries) - len(already_processed_set)
+    to_be_processed_num = len(pre_generated_success_queries) - len(already_processed_set)
     logger.info(f"Number of processed queries: {len(already_processed_set)}. Number of remaining queries: {to_be_processed_num}")
     
-    # Randomly shuffle `generated_success_queries`.
-    generated_success_queries = dict(random.sample(list(generated_success_queries.items()), len(generated_success_queries)))
+    # Randomly shuffle `pre_generated_success_queries`.
+    pre_generated_success_queries = dict(random.sample(list(pre_generated_success_queries.items()), len(pre_generated_success_queries)))
 
     if args.sample_num:
-        generated_success_queries = dict(random.sample(list(generated_success_queries.items()), args.sample_num))
+        pre_generated_success_queries = dict(random.sample(list(pre_generated_success_queries.items()), args.sample_num))
         logger.info(f"Sampled {args.sample_num} shortcuts.")
     
-    all_api2info_path = os.path.join(SHORTCUTSBENCH_OTHER_DATA, "all_api2info.json")
-    with open(all_api2info_path, "r") as f:
-        all_api2info = json.load(f)
+    pre_all_api2info_path = os.path.join(SHORTCUTSBENCH_OTHER_DATA, "pre_all_api2info.json")
+    with open(pre_all_api2info_path, "r") as f:
+        pre_all_api2info = json.load(f)
 
     new_res_list = []  # Store the new experimental results.
     logger.info("Begin processing new shortcuts.")
     cnt = 0  # Number of new shortcuts processed this times
     # for URL, cur_query_dict in random_200_success_queries.items():
-    for URL, cur_query_dict in generated_success_queries.items():
+    for URL, cur_query_dict in pre_generated_success_queries.items():
 
         if URL in already_processed_set:  # Queries that have already been processed will not be reprocessed.
             continue
@@ -217,15 +217,15 @@ if __name__ == "__main__":
             unique_identifies.append(api_name)
         unique_identifies = list(set(unique_identifies)) # Retrieve all `cur_identifier` for the current query.
         random_multiple = random.randint(3, 5)  # Sample 3 to 5 times the number of APIs.
-        extra_API_names = sample_more_APIs(all_api2info, max(min(len(
+        extra_API_names = sample_more_APIs(pre_all_api2info, max(min(len(
             unique_identifies) * random_multiple, 20 - len(unique_identifies)), 0), exclude_APIs=unique_identifies)
         input_API_names = unique_identifies + extra_API_names
         # input_API_names = random.shuffle(input_API_names)
         # input_API_names = sorted(input_API_names)
         input_API_descs = {}
         for API_name in input_API_names:
-            if API_name in all_api2info:
-                input_API_descs[API_name] = all_api2info[API_name]
+            if API_name in pre_all_api2info:
+                input_API_descs[API_name] = pre_all_api2info[API_name]
             else:
                 input_API_descs[API_name] = "No description available."
         input_API_descs = dict(
@@ -306,7 +306,7 @@ if __name__ == "__main__":
                             print(f"Processed {cnt} results.")
                             path_model_name = args.model_name.replace("/", "_")
                             res_path = os.path.join(
-                                SHORTCUTSBENCH_OTHER_DATA, f"experiment_res_{path_model_name}.jsonl")
+                                SHORTCUTSBENCH_OTHER_DATA, f"pre_experiment_res_{path_model_name}.jsonl")
                             with open(res_path, "a") as f:
                                 write_str = ""
                                 for res in new_res_list:
@@ -377,7 +377,7 @@ if __name__ == "__main__":
             logger.info(f"Saving {cnt} results.")
             path_model_name = args.model_name.replace("/", "_")
             res_path = os.path.join(
-                SHORTCUTSBENCH_OTHER_DATA, f"experiment_res_{path_model_name}.jsonl")
+                SHORTCUTSBENCH_OTHER_DATA, f"pre_experiment_res_{path_model_name}.jsonl")
             with open(res_path, "a") as f:
                 write_str = ""
                 for res in new_res_list:
@@ -397,7 +397,7 @@ if __name__ == "__main__":
 
         path_model_name = args.model_name.replace("/", "_")
         res_path = os.path.join(
-            SHORTCUTSBENCH_OTHER_DATA, f"experiment_res_{path_model_name}.jsonl")
+            SHORTCUTSBENCH_OTHER_DATA, f"pre_experiment_res_{path_model_name}.jsonl")
         with open(res_path, "a") as f:
             write_str = ""
             for res in new_res_list:
