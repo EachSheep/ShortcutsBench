@@ -6,6 +6,7 @@
 
 import json
 import os
+from collections.abc import Iterable
 import random
 import time
 import re
@@ -363,14 +364,16 @@ def evaluate_experiment(shortcuts_list, print_or_not = True):
             aseq_res_list[-1]["all_api_names"] = all_api_names
             aseq_res_list[-1]["true_api_names"] = true_api_names
 
-            if bseq["state"] == "json_error" or bseq["state"] == "generated_by_agent" and "WFWorkflowActionIdentifier" not in bseq["aseq"]:
+            if bseq["state"] == "json_error" or ((bseq["state"] == "generated_by_agent" or bseq["state"] == "corrected_by_model") and (isinstance(bseq["aseq"], Iterable) and "WFWorkflowActionIdentifier" not in bseq["aseq"])):
                 bseq_res_list.append(
                     {"URL": URL, "WFWorkflowActionIdentifier": None, "len_aseq": aseq_len})
                 continue
-
-            WFWorkflowActionIdentifier_pred = bseq["aseq"]["WFWorkflowActionIdentifier"]
+            if isinstance(bseq["aseq"], Iterable):
+                WFWorkflowActionIdentifier_pred = bseq["aseq"]["WFWorkflowActionIdentifier"]
+            else:
+                WFWorkflowActionIdentifier_pred = None
             bseq_res_list.append(
-                {"URL": URL, "WFWorkflowActionIdentifier": WFWorkflowActionIdentifier_pred, "len_aseq": aseq_len})
+            {"URL": URL, "WFWorkflowActionIdentifier": WFWorkflowActionIdentifier_pred, "len_aseq": aseq_len})
 
     # Calculate the overall accuracy of `aseq_res_list` and `bseq_res_list`, as well as the accuracy within each of the four interval ranges.
     correct_num, all_num = 0, 0
@@ -642,7 +645,7 @@ def evaluate_experiment2_basic_para(
                     "len_aseq": aseq_len
                 })
                 continue
-            elif bseq["state"] == "generated_by_agent" and ("WFWorkflowActionIdentifier" not in bseq["aseq"] or "WFWorkflowActionParameters" not in bseq["aseq"]):
+            elif (bseq["state"] == "generated_by_agent" or bseq["state"] == "corrected_by_model") and (isinstance(bseq["aseq"], Iterable) and ("WFWorkflowActionIdentifier" not in bseq["aseq"] or "WFWorkflowActionParameters" not in bseq["aseq"])):
                 if "WFWorkflowActionIdentifier" not in bseq["aseq"] and "WFWorkflowActionParameters" not in bseq["aseq"]:
                     bseq_res_list.append({
                         "URL": URL,
@@ -668,9 +671,13 @@ def evaluate_experiment2_basic_para(
                         "len_aseq": aseq_len
                     })
                 continue
-
-            WFWorkflowActionIdentifier_pred = bseq["aseq"]["WFWorkflowActionIdentifier"]
-            WFWorkflowActionParameters_pred = bseq["aseq"]["WFWorkflowActionParameters"]
+            
+            if isinstance(bseq["aseq"], Iterable):
+                WFWorkflowActionIdentifier_pred = bseq["aseq"]["WFWorkflowActionIdentifier"]
+                WFWorkflowActionParameters_pred = bseq["aseq"]["WFWorkflowActionParameters"]
+            else:
+                WFWorkflowActionIdentifier_pred = None
+                WFWorkflowActionParameters_pred = None
             bseq_res_list.append({
                 "URL": URL,
                 "pos": pos,
@@ -884,7 +891,7 @@ def evaluate_experiment2_return_para(
                     "len_aseq": aseq_len
                 })
                 continue
-            elif bseq["state"] == "generated_by_agent" and ("WFWorkflowActionIdentifier" not in bseq["aseq"] or "WFWorkflowActionParameters" not in bseq["aseq"]):
+            elif (bseq["state"] == "generated_by_agent" or bseq["state"] == "corrected_by_model") and (isinstance(bseq["aseq"], Iterable) and ("WFWorkflowActionIdentifier" not in bseq["aseq"] or "WFWorkflowActionParameters" not in bseq["aseq"])):
                 if "WFWorkflowActionIdentifier" not in bseq["aseq"] and "WFWorkflowActionParameters" not in bseq["aseq"]:
                     bseq_res_list.append({
                         "URL": URL,
@@ -907,9 +914,13 @@ def evaluate_experiment2_return_para(
                         "len_aseq": aseq_len
                     })
                 continue
-
-            WFWorkflowActionIdentifier_pred = bseq["aseq"]["WFWorkflowActionIdentifier"]
-            WFWorkflowActionParameters_pred = bseq["aseq"]["WFWorkflowActionParameters"]
+            
+            if isinstance(bseq["aseq"], Iterable):
+                WFWorkflowActionIdentifier_pred = bseq["aseq"]["WFWorkflowActionIdentifier"]
+                WFWorkflowActionParameters_pred = bseq["aseq"]["WFWorkflowActionParameters"]
+            else:
+                WFWorkflowActionIdentifier_pred = None
+                WFWorkflowActionParameters_pred = None
             bseq_res_list.append({
                 "URL": URL,
                 "WFWorkflowActionIdentifier": WFWorkflowActionIdentifier_pred,
@@ -1037,7 +1048,7 @@ def evaluate_experiment3(shortcuts_list, print_or_not = True):
                     "len_aseq": aseq_len
                 })
                 continue
-            elif bseq["state"] == "generated_by_agent" and ("WFWorkflowActionIdentifier" not in bseq["aseq"] or "WFWorkflowActionParameters" not in bseq["aseq"]):
+            elif (bseq["state"] == "generated_by_agent" or bseq["state"] == "corrected_by_model") and (isinstance(bseq["aseq"], Iterable) and ("WFWorkflowActionIdentifier" not in bseq["aseq"] or "WFWorkflowActionParameters" not in bseq["aseq"])):
                 if "WFWorkflowActionIdentifier" not in bseq["aseq"] and "WFWorkflowActionParameters" not in bseq["aseq"]:
                     bseq_res_list.append({
                         "URL": URL,
@@ -1060,9 +1071,13 @@ def evaluate_experiment3(shortcuts_list, print_or_not = True):
                         "len_aseq": aseq_len
                     })
                 continue
-
-            WFWorkflowActionIdentifier_pred = bseq["aseq"]["WFWorkflowActionIdentifier"]
-            WFWorkflowActionParameters_pred = bseq["aseq"]["WFWorkflowActionParameters"]
+            
+            if isinstance(bseq["aseq"], Iterable):
+                WFWorkflowActionIdentifier_pred = bseq["aseq"]["WFWorkflowActionIdentifier"]
+                WFWorkflowActionParameters_pred = bseq["aseq"]["WFWorkflowActionParameters"]
+            else:
+                WFWorkflowActionIdentifier_pred = None
+                WFWorkflowActionParameters_pred = None
             bseq_res_list.append({
                 "URL": URL,
                 "WFWorkflowActionIdentifier": WFWorkflowActionIdentifier_pred,
@@ -1440,7 +1455,45 @@ if __name__ == "__main__":
 
         if MODEL_NAME == 'GLM-4-Air':
             input_price_every_million, output_price_every_million = 1, 1
-
+    elif MODEL_NAME in [
+        'THUDM/agentlm-7b',
+        'THUDM/agentlm-13b',
+        'THUDM/agentlm-70b',
+        'Salesforce/xLAM-7b-r',
+        'Salesforce/xLAM-8x7b-r',
+        'lemur-70b-chat-v1',
+        'meta-llama/Llama-2-7b-hf',
+        'meta-llama/Llama-3.1-8b',
+        'meta-llama/Llama-2-13b-hf',
+        'meta-llama/Llama-2-13b-chat-hf',
+        'meta-llama/Llama-2-70b-hf',
+        'mistralai/Mistral-7B-v0.1',
+        'mistralai/Mixtral-8x7B-v0.1'
+    ]:
+        client = openai.OpenAI(
+            base_url="http://localhost:8080/v1"
+        )
+        create_completion_client = client.chat.completions.create
+        use_openai_style = True
+    elif MODEL_NAME in [
+        'mistralai/Mistral-7B-instruct-v0.1',
+    ]:
+        client = openai.OpenAI(
+            base_url="http://localhost:8081/v1"
+        )
+        create_completion_client = client.chat.completions.create
+        use_openai_style = True
+    elif MODEL_NAME in [
+        'open-mistral-7b',
+        'open-mixtral-8x7b'
+    ]:
+        MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
+        client = openai.OpenAI(
+            api_key=MISTRAL_API_KEY,
+            base_url="https://api.mistral.ai/v1"
+        )
+        create_completion_client = client.chat.completions.create
+        use_openai_style = True
     else:
         raise NotImplementedError
 
@@ -1702,17 +1755,17 @@ if __name__ == "__main__":
                             ]
                         )
 
-                        cur_input_token_count += completion.usage.prompt_tokens
-                        cur_output_token_count += completion.usage.completion_tokens
-                        cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
-                        cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
-                        cur_total_cost = cur_input_cost + cur_output_cost
+                        # cur_input_token_count += completion.usage.prompt_tokens
+                        # cur_output_token_count += completion.usage.completion_tokens
+                        # cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
+                        # cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
+                        # cur_total_cost = cur_input_cost + cur_output_cost
 
-                        input_token_count += completion.usage.prompt_tokens
-                        output_token_count += completion.usage.completion_tokens
-                        input_cost = input_token_count / 1000000 * input_price_every_million
-                        output_cost = output_token_count / 1000000 * output_price_every_million
-                        total_cost = input_cost + output_cost
+                        # input_token_count += completion.usage.prompt_tokens
+                        # output_token_count += completion.usage.completion_tokens
+                        # input_cost = input_token_count / 1000000 * input_price_every_million
+                        # output_cost = output_token_count / 1000000 * output_price_every_million
+                        # total_cost = input_cost + output_cost
 
                         break
 
@@ -1755,18 +1808,18 @@ if __name__ == "__main__":
                         if cur_try_time == save_try_times:
                             # Save the current result.
                             print(f"Processed {cnt} results.")
-                            path_model_name = MODEL_NAME.replace("/", "_")
-                            cost_path = os.path.join(
-                                SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                            with open(cost_path, "a") as f:
-                                write_str = json.dumps({
-                                    "input_token_count": input_token_count,
-                                    "output_token_count": output_token_count,
-                                    "input_cost": input_cost,
-                                    "output_cost": output_cost,
-                                    "total_cost": total_cost
-                                }, ensure_ascii=False) + "\n"
-                                f.write(write_str)
+                            # path_model_name = MODEL_NAME.replace("/", "_")
+                            # cost_path = os.path.join(
+                            #     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+                            # with open(cost_path, "a") as f:
+                            #     write_str = json.dumps({
+                            #         "input_token_count": input_token_count,
+                            #         "output_token_count": output_token_count,
+                            #         # "input_cost": input_cost,
+                            #         # "output_cost": output_cost,
+                            #         # "total_cost": total_cost
+                            #     }, ensure_ascii=False) + "\n"
+                            #     f.write(write_str)
 
                             path_model_name = MODEL_NAME.replace("/", "_")
                             res_path = os.path.join(
@@ -1788,17 +1841,17 @@ if __name__ == "__main__":
                         chat = model.start_chat(history=[])
                         completion = chat.send_message("System: " + system_prompt + "\nUser: " + user_prompt)
 
-                        cur_input_token_count += completion.usage_metadata.prompt_token_count
-                        cur_output_token_count += completion.usage_metadata.candidates_token_count
-                        cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
-                        cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
-                        cur_total_cost = cur_input_cost + cur_output_cost
+                        # cur_input_token_count += completion.usage_metadata.prompt_token_count
+                        # cur_output_token_count += completion.usage_metadata.candidates_token_count
+                        # cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
+                        # cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
+                        # cur_total_cost = cur_input_cost + cur_output_cost
 
                         input_token_count += completion.usage_metadata.prompt_token_count
                         output_token_count += completion.usage_metadata.candidates_token_count
-                        input_cost = input_token_count / 1000000 * input_price_every_million
-                        output_cost = output_token_count / 1000000 * output_price_every_million
-                        total_cost = input_cost + output_cost
+                        # input_cost = input_token_count / 1000000 * input_price_every_million
+                        # output_cost = output_token_count / 1000000 * output_price_every_million
+                        # total_cost = input_cost + output_cost
 
                         break
 
@@ -1832,18 +1885,18 @@ if __name__ == "__main__":
 
                             print(f"Processed {cnt} results.")
 
-                            path_model_name = MODEL_NAME.replace("/", "_")
-                            cost_path = os.path.join(
-                                SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                            with open(cost_path, "a") as f:
-                                write_str = json.dumps({
-                                    "input_token_count": input_token_count,
-                                    "output_token_count": output_token_count,
-                                    "input_cost": input_cost,
-                                    "output_cost": output_cost,
-                                    "total_cost": total_cost
-                                }, ensure_ascii=False) + "\n"
-                                f.write(write_str)
+                            # path_model_name = MODEL_NAME.replace("/", "_")
+                            # cost_path = os.path.join(
+                            #     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+                            # with open(cost_path, "a") as f:
+                            #     write_str = json.dumps({
+                            #         "input_token_count": input_token_count,
+                            #         "output_token_count": output_token_count,
+                            #         # "input_cost": input_cost,
+                            #         # "output_cost": output_cost,
+                            #         # "total_cost": total_cost
+                            #     }, ensure_ascii=False) + "\n"
+                            #     f.write(write_str)
 
                             path_model_name = MODEL_NAME.replace("/", "_")
                             res_path = os.path.join(
@@ -1870,17 +1923,17 @@ if __name__ == "__main__":
                             ]
                         )
 
-                        cur_input_token_count += completion["usage"]["input_tokens"]
-                        cur_output_token_count += completion["usage"]["output_tokens"]
-                        cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
-                        cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
-                        cur_total_cost = cur_input_cost + cur_output_cost
+                        # cur_input_token_count += completion["usage"]["input_tokens"]
+                        # cur_output_token_count += completion["usage"]["output_tokens"]
+                        # cur_input_cost = cur_input_token_count / 1000000 * input_price_every_million
+                        # cur_output_cost = cur_output_token_count / 1000000 * output_price_every_million
+                        # cur_total_cost = cur_input_cost + cur_output_cost
 
-                        input_token_count += completion["usage"]["input_tokens"]
-                        output_token_count += completion["usage"]["output_tokens"]
-                        input_cost = input_token_count / 1000000 * input_price_every_million
-                        output_cost = output_token_count / 1000000 * output_price_every_million
-                        total_cost = input_cost + output_cost
+                        # input_token_count += completion["usage"]["input_tokens"]
+                        # output_token_count += completion["usage"]["output_tokens"]
+                        # input_cost = input_token_count / 1000000 * input_price_every_million
+                        # output_cost = output_token_count / 1000000 * output_price_every_million
+                        # total_cost = input_cost + output_cost
 
                         break
 
@@ -1934,18 +1987,18 @@ if __name__ == "__main__":
 
                             print(f"Processed {cnt} results.")
 
-                            path_model_name = MODEL_NAME.replace("/", "_")
-                            cost_path = os.path.join(
-                                SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-                            with open(cost_path, "a") as f:
-                                write_str = json.dumps({
-                                    "input_token_count": input_token_count,
-                                    "output_token_count": output_token_count,
-                                    "input_cost": input_cost,
-                                    "output_cost": output_cost,
-                                    "total_cost": total_cost
-                                }, ensure_ascii=False) + "\n"
-                                f.write(write_str)
+                            # path_model_name = MODEL_NAME.replace("/", "_")
+                            # cost_path = os.path.join(
+                            #     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+                            # with open(cost_path, "a") as f:
+                            #     write_str = json.dumps({
+                            #         # "input_token_count": input_token_count,
+                            #         # "output_token_count": output_token_count,
+                            #         # "input_cost": input_cost,
+                            #         # "output_cost": output_cost,
+                            #         # "total_cost": total_cost
+                            #     }, ensure_ascii=False) + "\n"
+                            #     f.write(write_str)
 
                             path_model_name = MODEL_NAME.replace("/", "_")
                             res_path = os.path.join(
@@ -1971,7 +2024,17 @@ if __name__ == "__main__":
             try:
                 if use_openai_style:
                     generated_content = completion.choices[0].message.content
+                    # print("-" * 100)
+                    # print("-" * 100)
+                    # print("generated_content:")
+                    # print(generated_content)
+                    # print("-" * 100)
                     generated_content = match_brackets(generated_content)
+                    # print("generated_content_match_brackets:")
+                    # print(generated_content)
+                    # print("-" * 100)
+                    # print("-" * 100)
+                    # input()
                 elif use_google_style:
                     generated_content = list(completion)[0].text
                     generated_content = match_brackets(generated_content)
@@ -1989,8 +2052,8 @@ if __name__ == "__main__":
                     {"state": "json_error", "aseq": generated_content})
                 tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
                                     "WFWorkflowActionParameters": WFWorkflowActionParameters})  # Prepare for the next prediction.
-                print(f"Token count: {input_token_count}, {output_token_count}, Input Cost {
-                        input_cost}, {output_cost}, Total Cost {total_cost}")
+                # print(f"Token count: {input_token_count}, {output_token_count}, Input Cost {
+                #         input_cost}, {output_cost}, Total Cost {total_cost}")
                 time.sleep(0.5)
                 continue
 
@@ -1999,8 +2062,8 @@ if __name__ == "__main__":
             tmp_aseqs.append({"WFWorkflowActionIdentifier": WFWorkflowActionIdentifier,
                                 "WFWorkflowActionParameters": WFWorkflowActionParameters})  # Prepare for the next prediction.
 
-            logger.info(f"Token count: {input_token_count}, {output_token_count}, Input Cost {
-                        input_cost}, {output_cost}, Total Cost {total_cost}")
+            # logger.info(f"Token count: {input_token_count}, {output_token_count}, Input Cost {
+            #             input_cost}, {output_cost}, Total Cost {total_cost}")
 
             time.sleep(0.5)
 
@@ -2027,19 +2090,19 @@ if __name__ == "__main__":
         logger.info(f"Processed {cnt} results.")
         if cnt % 10 == 0:  # Save every 10 entries.
 
-            logger.info(f"Saving {cnt} results.")
-            path_model_name = MODEL_NAME.replace("/", "_")
-            cost_path = os.path.join(
-                SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
-            with open(cost_path, "a") as f:
-                write_str = json.dumps({
-                    "input_token_count": input_token_count,
-                    "output_token_count": output_token_count,
-                    "input_cost": input_cost,
-                    "output_cost": output_cost,
-                    "total_cost": total_cost
-                }, ensure_ascii=False) + "\n"
-                f.write(write_str)
+            # logger.info(f"Saving {cnt} results.")
+            # path_model_name = MODEL_NAME.replace("/", "_")
+            # cost_path = os.path.join(
+            #     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+            # with open(cost_path, "a") as f:
+            #     write_str = json.dumps({
+            #         # "input_token_count": input_token_count,
+            #         # "output_token_count": output_token_count,
+            #         # "input_cost": input_cost,
+            #         # "output_cost": output_cost,
+            #         # "total_cost": total_cost
+            #     }, ensure_ascii=False) + "\n"
+            #     f.write(write_str)
 
             path_model_name = MODEL_NAME.replace("/", "_")
             res_path = os.path.join(
@@ -2057,19 +2120,19 @@ if __name__ == "__main__":
 
     if new_shortcuts_list:
         
-        path_model_name = MODEL_NAME.replace("/", "_")
-        cost_path = os.path.join(
-            SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
+        # path_model_name = MODEL_NAME.replace("/", "_")
+        # cost_path = os.path.join(
+        #     SHORTCUT_DATA, f"experiment_cost_{path_model_name}.jsonl")
 
-        with open(cost_path, "a") as f:
-            write_str = json.dumps({
-                "input_token_count": input_token_count,
-                "output_token_count": output_token_count,
-                "input_cost": input_cost,
-                "output_cost": output_cost,
-                "total_cost": total_cost
-            }, ensure_ascii=False) + "\n"
-            f.write(write_str)
+        # with open(cost_path, "a") as f:
+        #     write_str = json.dumps({
+        #         # "input_token_count": input_token_count,
+        #         # "output_token_count": output_token_count,
+        #         # "input_cost": input_cost,
+        #         # "output_cost": output_cost,
+        #         # "total_cost": total_cost
+        #     }, ensure_ascii=False) + "\n"
+        #     f.write(write_str)
 
         path_model_name = MODEL_NAME.replace("/", "_")
         res_path = os.path.join(

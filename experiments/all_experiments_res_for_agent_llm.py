@@ -15,60 +15,26 @@ from all_experiments import evaluate_experiment2_basic_para
 from all_experiments import evaluate_experiment2_return_para
 from all_experiments import evaluate_experiment3
 
+SHORTCUT_DATA_FOR_AGENT_LLM = os.getenv("SHORTCUT_DATA_FOR_AGENT_LLM")
 SHORTCUT_DATA = os.getenv("SHORTCUT_DATA")
 
 model_names = [
-    'gemini-1.5-pro',
-    'qwen2-72b-instruct',
-    'deepseek-chat',
-    'deepseek-coder',
-    'meta-llama/Llama-3-70b-chat-hf',
-    'gemini-1.5-flash',
-    'qwen2-57b-a14b-instruct',
-    "gpt-4o-mini",
-    "gpt-3.5-turbo",
-    'GLM-4-Air',
+    'THUDM_agentlm-7b',
+    'THUDM_agentlm-13b',
+    'THUDM_agentlm-70b',
+    'Salesforce_xLAM-7b-r',
+    'Salesforce_xLAM-8x7b-r',
+    'lemur-70b-chat-v1',
 ]
 
-API_selection_titles = [
-    'Gemini-1.5-Pro',
-    'QWen-2-72B',
-    'Deepseek-2-chat',
-    'Deepseek-2-coder', 
-    'LLaMA-3-70B',
-    'Gemini-1.5-Flash',
-    'QWen-2-57B',
-    'GPT-4o-mini',
-    'GPT-3.5',
-    'ChatGLM-4-Air'
-    ]
-
 model_titles = [
-        'Gemini\n1.5-Pro', 
-        'QWen\n2-72B', 
-        'Deepseek\n2-chat', 
-        'Deepseek\n2-coder', 
-        'LLaMA\n3-70B',
-        'Gemini\n1.5-Flash',
-        'QWen\n2-57B',
-        'GPT\n4o-mini',
-        'GPT\n3.5-turbo',
-        'ChatGLM\n4-Air',
-    ]
-
-exchange_rate = 7.1151
-modelname2price = {
-    'gemini-1.5-pro': [3.5, 10.5],
-    'qwen2-72b-instruct': [5/exchange_rate, 10/exchange_rate],
-    'deepseek-chat': [0.14, 0.28],
-    'deepseek-coder': [0.14, 0.28],
-    'meta-llama/Llama-3-70b-chat-hf': [0., 0.],
-    'gemini-1.5-flash': [0.35, 1.05],
-    'qwen2-57b-a14b-instruct': [3.5/exchange_rate, 7/exchange_rate],
-    "gpt-4o-mini": [0.15, 0.6],
-    "gpt-3.5-turbo": [0.5, 1.5],
-    'GLM-4-Air': [1/exchange_rate, 1/exchange_rate],
-}
+    'agentlm-7b',
+    'agentlm-13b',
+    'agentlm-70b',
+    'xLAM-7b-r',
+    'xLAM-8x7b-r',
+    'lemur-70b-chat-v1',
+]
 
 categories = {
     1: "Productivity & Utilities",
@@ -80,6 +46,21 @@ categories = {
     7: "Development & API",
     8: "Home & Smart Devices"
 }
+
+def transpose(matrix):
+    """
+    Transpose a 2D list (matrix).
+    
+    Args:
+        matrix (list of list): The 2D list to transpose.
+
+    Returns:
+        list of list: Transposed 2D list.
+    """
+    if not matrix or not matrix[0]:
+        return []  # Handle empty input
+
+    return [list(row) for row in zip(*matrix)]
 
 if __name__ =="__main__":
 
@@ -119,6 +100,7 @@ if __name__ =="__main__":
 
 
     experiments1_res, experiments2_basic_para_res, experiments2_ret_val_res, experiments3_res = [], [], [], []
+    # experiments1_res_str, experiments2_basic_para_res_str, experiments2_ret_val_res_str, experiments3_res_str = [], [], [], []
     experiments1_categories_res = []
     return_para_all_nums = []
 
@@ -140,7 +122,7 @@ if __name__ =="__main__":
         print(f"Processing model: {MODEL_NAME}")
         # In `MODEL_NAME`, slashes (/) will be replaced with underscores (_).
         path_model_name = MODEL_NAME.replace("/", "_")
-        res_path = os.path.join(SHORTCUT_DATA, f"experiment_res_{path_model_name}.jsonl")
+        res_path = os.path.join(SHORTCUT_DATA_FOR_AGENT_LLM, f"experiment_res_{path_model_name}.after_format.jsonl")
         already_processed_shortcuts_list = []  # Final saved experimental results
         if os.path.exists(res_path):
             with open(res_path, "r") as f:
@@ -163,6 +145,8 @@ if __name__ =="__main__":
             evaluate_experiment(already_processed_shortcuts_list, print_or_not = False)
         experiments1_res.append([f"{cur_correct_num / cur_all_num * 100:.2f}" if cur_all_num else "inf" for cur_correct_num, cur_all_num in zip(correct_num_list, all_num_list)])
         experiments1_res[-1].append(f"{correct_num / all_num * 100:.2f}")
+        # experiments1_res_str.append([f"{cur_correct_num} / {cur_all_num} = {cur_correct_num / cur_all_num * 100:.2f}" if cur_all_num else "inf" for cur_correct_num, cur_all_num in zip(correct_num_list, all_num_list)])
+        # experiments1_res_str.append(f"{correct_num} / {all_num} = {correct_num / all_num * 100:.2f}")
         experiments1_categories_res.append([f"{cur_correct_num / cur_all_num * 100:.2f}" if cur_all_num else "inf" for cur_correct_num, cur_all_num in zip(categories_correct_num, categorys_all_num)])
         
         final_correct_num_every_len_level2s.append(correct_num_every_len_level2)
@@ -219,6 +203,7 @@ if __name__ =="__main__":
         system_para_Ask_nums.append(system_para_Ask_num)
 
     experiments1_res = np.array(experiments1_res).T
+    # experiments1_res_str = transpose(experiments1_res_str)
     experiments1_categories_res = np.array(experiments1_categories_res).T
     experiments2_basic_para_res = np.array(experiments2_basic_para_res).T
     experiments2_ret_val_res = np.array(experiments2_ret_val_res).T
@@ -231,6 +216,9 @@ if __name__ =="__main__":
     print("experiments1_res:")
     print(experiments1_res)
     print()
+    # print("experiments1_res_str:")
+    # print(experiments1_res_str)
+    # print()
 
     # The average decrease from (0,1] to (1,5].
     avg_drop_ratio = (np.mean([float(cur_val) for cur_val in experiments1_res[1]]) - np.mean([float(cur_val) for cur_val in experiments1_res[0]])) / np.mean([float(cur_val) for cur_val in experiments1_res[0]])
@@ -278,15 +266,8 @@ if __name__ =="__main__":
     ax.grid(axis='y', linestyle='--', linewidth=0.7)
     plt.tight_layout()
 
-    # for i, model in enumerate(model_names):
-    #     price_in, price_out = modelname2price[model]
-    #     if price_in == 0 and price_out == 0:
-    #         ax.text(i, max(df.iloc[:, 1:].max()), f'(unk, unk)', ha='center', va='bottom', fontsize=14)
-    #     else:
-    #         ax.text(i, max(df.iloc[:, 1:].max()), f'(${price_in:.2f}, ${price_out:.2f})', ha='center', va='bottom', fontsize=14)
-
-    save_path = os.path.join(SHORTCUT_DATA, "experiment_res.pdf")
-    plt.savefig(save_path)
+    save_path = os.path.join(SHORTCUT_DATA_FOR_AGENT_LLM, "experiment_res.pdf")
+    # plt.savefig(save_path)
 
     # Create a bar chart for each category.
     df = pd.DataFrame(experiments1_res_data)
@@ -344,12 +325,12 @@ if __name__ =="__main__":
     fig.text(0, 0.5, 'API Selection Accuracy (%)', va='center', rotation='vertical', fontsize=24)
     # Add a unified legend.
     handles, labels = cur_ax.get_legend_handles_labels()
-    bar_labels = API_selection_titles
+    bar_labels = model_titles
     fig.legend(handles=[bar[0] for bar in bar_handles], labels=bar_labels, loc='upper center', ncol=10, fontsize=16, bbox_to_anchor=(0.5, 0.999), columnspacing=0.5)
     
     plt.tight_layout(rect=[0.01, 0.01, 0.98, 0.93])
-    save_path = os.path.join(SHORTCUT_DATA, "experiment_categories_res.pdf")
-    plt.savefig(save_path)
+    save_path = os.path.join(SHORTCUT_DATA_FOR_AGENT_LLM, "experiment_categories_res.pdf")
+    # plt.savefig(save_path)
 
     # Create a box plot.
     fig, ax = plt.subplots(figsize=(8, 5.5))
@@ -413,8 +394,8 @@ if __name__ =="__main__":
     ax.grid(axis='y', linestyle='--', linewidth=0.7)
 
     plt.tight_layout()
-    save_path = os.path.join(SHORTCUT_DATA, "experiment_models_boxplot.pdf")
-    plt.savefig(save_path)
+    save_path = os.path.join(SHORTCUT_DATA_FOR_AGENT_LLM, "experiment_models_boxplot.pdf")
+    # plt.savefig(save_path)
 
     print("experiments2_basic_para_res:")
     print(experiments2_basic_para_res)
@@ -465,8 +446,8 @@ if __name__ =="__main__":
 
     plt.tight_layout(rect=[0, 0, 0.92, 1])
     # plt.tight_layout(rect=[0, 0, 1.1, 1])
-    save_path = os.path.join(SHORTCUT_DATA, "experiment_combined_heatmaps.pdf")
-    plt.savefig(save_path)
+    save_path = os.path.join(SHORTCUT_DATA_FOR_AGENT_LLM, "experiment_combined_heatmaps.pdf")
+    # plt.savefig(save_path)
 
     # The x-axis represents the models, and the y-axis represents the error rates. 
     # There are three types of errors: unpredicted parameters, incorrectly formatted parameters, 
@@ -492,8 +473,8 @@ if __name__ =="__main__":
     ax.legend(title='', bbox_to_anchor=(0.5, 0.99), loc='center', ncol=5, fontsize=18)
     ax.grid(axis='y', linestyle='--', linewidth=0.7)
     plt.tight_layout()
-    save_path = os.path.join(SHORTCUT_DATA, "experiment_return_para_error.pdf")
-    plt.savefig(save_path)
+    save_path = os.path.join(SHORTCUT_DATA_FOR_AGENT_LLM, "experiment_return_para_error.pdf")
+    # plt.savefig(save_path)
 
     print("experiments3_res:")
     print(experiments3_res)
@@ -534,5 +515,5 @@ if __name__ =="__main__":
     ax.legend(title='', bbox_to_anchor=(0.5, 1.1), loc='center', ncol=5, fontsize=18)
     ax.grid(axis='y', linestyle='--', linewidth=0.7)
     plt.tight_layout()
-    # save_path = os.path.join(SHORTCUT_DATA, "experiment_detailed_res.pdf")
+    # save_path = os.path.join(SHORTCUT_DATA_FOR_AGENT_LLM, "experiment_detailed_res.pdf")
     # plt.savefig(save_path)

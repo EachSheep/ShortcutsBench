@@ -13,6 +13,34 @@ generated_success_queries.json
 generated_fail_queries.json
 useless
 
+data_for_agent_llm.zip
+data_for_agent_llm_origin.zip
+
+experiment_res_meta-llama_Llama-2-13b-chat-hf.after_format.jsonl
+experiment_res_mistralai_Mistral-7B-instruct-v0.1.after_format.jsonl
+experiment_res_meta-llama_Llama-2-13b-chat-hf.jsonl
+experiment_res_mistralai_Mistral-7B-instruct-v0.1.jsonl
+experiment_res_meta-llama_Llama-2-70b-chat-hf.after_format.jsonl
+experiment_res_mistralai_Mixtral-8x7B-Instruct-v0.1.after_format.jsonl
+experiment_res_meta-llama_Llama-2-70b-chat-hf.jsonl
+experiment_res_mistralai_Mixtral-8x7B-Instruct-v0.1.jsonl
+experiment_res_meta-llama_Llama-2-7b-chat-hf.after_format.jsonl
+experiment_res_meta-llama_Llama-2-7b-chat-hf.jsonl
+
+experiment_res_lemur-70b-chat-v1.after_format.jsonl
+experiment_res_THUDM_agentlm-13b.after_format.jsonl
+experiment_res_lemur-70b-chat-v1.jsonl
+experiment_res_THUDM_agentlm-13b.jsonl
+experiment_res_Salesforce_xLAM-7b-r.after_format.jsonl
+experiment_res_THUDM_agentlm-70b.after_format.jsonl
+experiment_res_Salesforce_xLAM-7b-r.jsonl
+experiment_res_THUDM_agentlm-70b.jsonl
+experiment_res_Salesforce_xLAM-8x7b-r.4k.after_format.jsonl
+experiment_res_THUDM_agentlm-7b.after_format.jsonl
+experiment_res_Salesforce_xLAM-8x7b-r.4k.jsonl
+experiment_res_THUDM_agentlm-7b.jsonl
+experiment_res_Salesforce_xLAM-8x7b-r.after_format.jsonl
+experiment_res_Salesforce_xLAM-8x7b-r.jsonl
 
 
 experiment_res_deepseek-chat.jsonl
