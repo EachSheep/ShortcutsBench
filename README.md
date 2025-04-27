@@ -299,3 +299,14 @@ If you find this project helpful, please consider citing our work:
     url={https://arxiv.org/abs/2407.00132}, 
 }
 ```
+
+```latex
+@inproceedings{
+shen2025shortcutsbench,
+title={ShortcutsBench: A Large-Scale Real-world Benchmark for {API}-based Agents},
+author={Haiyang SHEN and Yue Li and Desong Meng and Dongqi Cai and Sheng Qi and Li Zhang and Mengwei Xu and Yun Ma},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=kKILfPkhSz}
+}
+```
