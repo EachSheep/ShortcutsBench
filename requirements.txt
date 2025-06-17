@@ -89,7 +89,7 @@ ply
 portpicker==1.6.0
 prompt-toolkit
 proto-plus==1.23.0
-protobuf==4.25.3
+protobuf==4.25.8
 psutil
 ptyprocess
 pure-eval
@@ -110,13 +110,13 @@ pytz
 PyYAML==6.0.1
 pyzmq
 regex==2024.5.15
-requests==2.32.0
+requests==2.32.4
 rich==13.7.1
 rsa==4.9
 scipy
 seaborn
 selenium
-setuptools==70.0.0
+setuptools==78.1.1
 shapely==2.0.4
 shellingham==1.5.4
 simplejson==3.19.2
