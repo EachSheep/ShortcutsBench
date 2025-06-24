@@ -136,7 +136,7 @@ typer==0.12.3
 typing_extensions
 tzdata
 uritemplate==4.1.1
-urllib3==2.2.2
+urllib3==2.5.0
 wcwidth
 wheel==0.41.2
 yarl==1.9.4
